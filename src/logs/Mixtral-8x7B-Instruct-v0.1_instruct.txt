@@ -1,0 +1,1970 @@
+2025-05-20 22:20:45.786 | INFO     | __main__:<module>:352 - Starting processing for model: Mixtral-8x7B-Instruct-v0.1, mode: instruct
+2025-05-20 22:20:45.789 | INFO     | __main__:__init__:34 - Loaded ./data/Instruction_Set.json successfully
+2025-05-20 22:20:45.795 | INFO     | __main__:__init__:41 - Data frame read successfully
+2025-05-20 22:20:45.795 | INFO     | __main__:compile:150 - Processing 46 programs
+2025-05-20 22:20:45.795 | INFO     | __main__:compile:156 - Processing program 1/46: task_func_01
+2025-05-20 22:20:45.795 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.795 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.796 | INFO     | __main__:compile:190 - compiling task_func_01
+2025-05-20 22:20:45.817 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. SoccerMatchStatistics.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:113: error: syntax error, unexpected Word or Literal, expecting .
+  111 | 
+  112 | RENAME-FILES.
+  113 >     COPY TEMP-FILE TO OUTPUT-FILE.
+  114 | 
+  115 | STOP RUN.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:115: warning: line not terminated by a newline [-Wmissing-newline]
+  113 |     COPY TEMP-FILE TO OUTPUT-FILE.
+  114 | 
+  115 > STOP RUN.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl: in paragraph 'WRITE-NEW-TEAMS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:61: error: 'TEAM-NAME' cannot be subscripted
+   59 |     PERFORM VARYING IDX FROM 1 BY 1 UNTIL IDX > 10
+   60 |         IF WS-TAB-TEAM(IDX) <> SPACES
+   61 >             STRING TEAM-NAME(INPUT-REC) DELIMITED BY SIZE
+   62 |                   SPACES           DELIMITED BY SIZE
+   63 |                   GOALS-SCORED(INPUT-REC) DELIMITED BY SIZE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:63: error: 'GOALS-SCORED' cannot be subscripted
+   61 |             STRING TEAM-NAME(INPUT-REC) DELIMITED BY SIZE
+   62 |                   SPACES           DELIMITED BY SIZE
+   63 >                   GOALS-SCORED(INPUT-REC) DELIMITED BY SIZE
+   64 |                   PENALTIES(INPUT-REC) DELIMITED BY SIZE
+   65 |                   " "               DELIMITED BY SIZE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:64: error: 'PENALTIES' cannot be subscripted
+   62 |                   SPACES           DELIMITED BY SIZE
+   63 |                   GOALS-SCORED(INPUT-REC) DELIMITED BY SIZE
+   64 >                   PENALTIES(INPUT-REC) DELIMITED BY SIZE
+   65 |                   " "               DELIMITED BY SIZE
+   66 |                   WS-TAB-GOALS(IDX) DELIMITED BY SIZE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl: in paragraph 'ADD-GOALS-PENALTIES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:88: error: syntax error, unexpected END-IF
+   86 |             MOVE PENALTIES     TO WS-TAB-PENALTIES(IDX)
+   87 |         END-IF
+   88 >     END-IF
+   89 |     ADD GOALS-SCORED    TO TOTAL-GOALS
+   90 |     ADD PENALTIES       TO TOTAL-PENALTIES
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl: in paragraph 'UPDATE-TEMP-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:99: error: 'TEAM-NAME' cannot be subscripted
+   97 |     PERFORM VARYING IDX FROM 1 BY 1 UNTIL IDX > 10
+   98 |         IF WS-TAB-TEAM(IDX) <> SPACES
+   99 >             STRING TEAM-NAME(INPUT-REC) DELIMITED BY SIZE
+  100 |                   SPACES           DELIMITED BY SIZE
+  101 |                   GOALS-SCORED(INPUT-REC) DELIMITED BY SIZE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:101: error: 'GOALS-SCORED' cannot be subscripted
+   99 |             STRING TEAM-NAME(INPUT-REC) DELIMITED BY SIZE
+  100 |                   SPACES           DELIMITED BY SIZE
+  101 >                   GOALS-SCORED(INPUT-REC) DELIMITED BY SIZE
+  102 |                   PENALTIES(INPUT-REC) DELIMITED BY SIZE
+  103 |                     INTO TEMP-REC
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:102: error: 'PENALTIES' cannot be subscripted
+  100 |                   SPACES           DELIMITED BY SIZE
+  101 |                   GOALS-SCORED(INPUT-REC) DELIMITED BY SIZE
+  102 >                   PENALTIES(INPUT-REC) DELIMITED BY SIZE
+  103 |                     INTO TEMP-REC
+  104 |             WRITE TEMP-REC
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl: in paragraph 'DISPLAY-TOTALS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl:112: error: 'RENAME-FILES' is not defined
+  110 |     DISPLAY "Total Penalties: " TOTAL-PENALTIES
+  111 | 
+  112 > RENAME-FILES.
+  113 |     COPY TEMP-FILE TO OUTPUT-FILE.
+  114 | 
+
+2025-05-20 22:20:45.818 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:45.818 | ERROR    | __main__:compile:227 - Compilation failed for task_func_01
+2025-05-20 22:20:45.818 | INFO     | __main__:compile:156 - Processing program 2/46: task_func_02
+2025-05-20 22:20:45.818 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.818 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.818 | INFO     | __main__:compile:190 - compiling task_func_02
+2025-05-20 22:20:45.839 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. FileExtensionChecker.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl:68: warning: line not terminated by a newline [-Wmissing-newline]
+   66 |     MOVE FILENAME TO OUTPUT-FILENAME.
+   67 |     WRITE OUTPUT-REC.
+   68 >     ADD 1 TO FILECOUNT.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl: in paragraph 'PROCESS-FILE-REC':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl:48: error: condition-name not allowed here: 'END-OF-FILE'
+   46 | PROCESS-FILE-REC.
+   47 |     READ INFILE
+   48 >         AT END MOVE 'Y' TO END-OF-FILE
+   49 |         NOT AT END PERFORM CHECK-FILE-EXT.
+   50 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl: in paragraph 'CHECK-FILE-EXT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl:62: error: 'OTHERWISE' is not defined
+   60 |         WHEN FILENAME (1 : 5) = ".DOCX"
+   61 |             PERFORM WRITE-TO-OUTPUT
+   62 >         WHEN OTHERWISE
+   63 |             CONTINUE.
+   64 | 
+
+2025-05-20 22:20:45.839 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:45.839 | ERROR    | __main__:compile:227 - Compilation failed for task_func_02
+2025-05-20 22:20:45.839 | INFO     | __main__:compile:156 - Processing program 3/46: task_func_03
+2025-05-20 22:20:45.839 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.839 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.840 | INFO     | __main__:compile:190 - compiling task_func_03
+2025-05-20 22:20:45.860 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_03/task_func_03.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc03.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_03/task_func_03.cbl:10: error: missing file description for FILE OUTFILE1
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT OUTFILE1 ASSIGN TO "task_func03_out1"
+   11 |         ORGANIZATION IS LINE SEQUENTIAL.
+   12 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_03/task_func_03.cbl:13: error: missing file description for FILE OUTFILE2
+   11 |         ORGANIZATION IS LINE SEQUENTIAL.
+   12 | 
+   13 >     SELECT OUTFILE2 ASSIGN TO "task_func03_out2"
+   14 |         ORGANIZATION IS LINE SEQUENTIAL.
+   15 | 
+
+2025-05-20 22:20:45.860 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:45.860 | ERROR    | __main__:compile:227 - Compilation failed for task_func_03
+2025-05-20 22:20:45.861 | INFO     | __main__:compile:156 - Processing program 4/46: task_func_04
+2025-05-20 22:20:45.861 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.861 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.861 | INFO     | __main__:compile:190 - compiling task_func_04
+2025-05-20 22:20:45.882 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_04/task_func_04.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. FileProcessor.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_04/task_func_04.cbl:90: warning: line not terminated by a newline [-Wmissing-newline]
+   88 |           ERROR-FILE.
+   89 | 
+   90 >     STOP RUN.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_04/task_func_04.cbl:35: error: syntax error, unexpected ., expecting VALUE or VALUES
+   33 | 01 INVALID-FILENAME-SWITCH PIC X VALUE 'N'.
+   34 | 01 VALID-EXTENSION PIC X(3) VALUE 'TXT'.
+   35 >    88 VALID-TXT-FILE.
+   36 | 01 VALID-EXTENSION-2 PIC X(3) VALUE 'CSV'.
+   37 |    88 VALID-CSV-FILE.
+
+2025-05-20 22:20:45.882 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:45.882 | ERROR    | __main__:compile:227 - Compilation failed for task_func_04
+2025-05-20 22:20:45.883 | INFO     | __main__:compile:156 - Processing program 5/46: task_func_05
+2025-05-20 22:20:45.883 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.883 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.883 | INFO     | __main__:compile:190 - compiling task_func_05
+2025-05-20 22:20:45.903 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. File-Processing.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl:22: warning: line not terminated by a newline [-Wmissing-newline]
+   20 | FD  OUTPUT-FILE.
+   21 | 01  OUTPUT-REC.
+   22 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl:21: error: PICTURE clause required for 'OUTPUT-REC'
+   19 | 
+   20 | FD  OUTPUT-FILE.
+   21 > 01  OUTPUT-REC.
+   22 |    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl:22: error: PROCEDURE DIVISION header missing
+   20 | FD  OUTPUT-FILE.
+   21 | 01  OUTPUT-REC.
+   22 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl:22: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:45.904 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:45.904 | ERROR    | __main__:compile:227 - Compilation failed for task_func_05
+2025-05-20 22:20:45.904 | INFO     | __main__:compile:156 - Processing program 6/46: task_func_07
+2025-05-20 22:20:45.904 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.904 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.904 | INFO     | __main__:compile:190 - compiling task_func_07
+2025-05-20 22:20:45.925 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskAssignment.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl:32: warning: line not terminated by a newline [-Wmissing-newline]
+   30 |    05 FILLER PIC X VALUE " - ".
+   31 |    05 ASSIGNED-EMPLOYEE PIC X(30).
+   32 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl:30: warning: value size exceeds data size [-Wothers]
+   28 | 01 TASK-ASSIGNMENT-REC.
+   29 |    05 TASK-NAME PIC X(30).
+   30 >    05 FILLER PIC X VALUE " - ".
+   31 |    05 ASSIGNED-EMPLOYEE PIC X(30).
+   32 |    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl:30: note: value size is 2 [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl:32: error: PROCEDURE DIVISION header missing
+   30 |    05 FILLER PIC X VALUE " - ".
+   31 |    05 ASSIGNED-EMPLOYEE PIC X(30).
+   32 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl:32: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:45.925 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:45.925 | ERROR    | __main__:compile:227 - Compilation failed for task_func_07
+2025-05-20 22:20:45.925 | INFO     | __main__:compile:156 - Processing program 7/46: task_func_08
+2025-05-20 22:20:45.925 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.926 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.926 | INFO     | __main__:compile:190 - compiling task_func_08
+2025-05-20 22:20:45.946 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. FilenameConverter.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl:57: warning: line not terminated by a newline [-Wmissing-newline]
+   55 |             FROM CONVERTED-FILENAME
+   56 |         ADD 1 TO CONVERSION-COUNT
+   57 >     END-IF.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl: in paragraph 'CONVERT-FILENAME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl:49: error: length of 'FILENAME' out of bounds: 3
+   47 | 
+   48 | CONVERT-FILENAME.
+   49 >     IF FILENAME (254:3) = ".TXT" OR
+   50 |        FILENAME (254:4) = ".DOCX" OR
+   51 |        FILENAME (254:4) = ".XLSX"
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl:50: error: length of 'FILENAME' out of bounds: 4
+   48 | CONVERT-FILENAME.
+   49 |     IF FILENAME (254:3) = ".TXT" OR
+   50 >        FILENAME (254:4) = ".DOCX" OR
+   51 |        FILENAME (254:4) = ".XLSX"
+   52 |         MOVE FILENAME (1:251) TO CONVERTED-FILENAME
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl:51: error: length of 'FILENAME' out of bounds: 4
+   49 |     IF FILENAME (254:3) = ".TXT" OR
+   50 |        FILENAME (254:4) = ".DOCX" OR
+   51 >        FILENAME (254:4) = ".XLSX"
+   52 |         MOVE FILENAME (1:251) TO CONVERTED-FILENAME
+   53 |             CONCATENATE ".csv" INTO CONVERTED-FILENAME (252:4)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl:53: warning: 'CONCATENATE' is not defined [-Wignored-error]
+   51 |        FILENAME (254:4) = ".XLSX"
+   52 |         MOVE FILENAME (1:251) TO CONVERTED-FILENAME
+   53 >             CONCATENATE ".csv" INTO CONVERTED-FILENAME (252:4)
+   54 |         WRITE OUTPUT-REC
+   55 |             FROM CONVERTED-FILENAME
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl:53: error: syntax error, unexpected INTO
+
+2025-05-20 22:20:45.947 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:45.947 | ERROR    | __main__:compile:227 - Compilation failed for task_func_08
+2025-05-20 22:20:45.947 | INFO     | __main__:compile:156 - Processing program 8/46: task_func_09
+2025-05-20 22:20:45.947 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.947 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.947 | INFO     | __main__:compile:190 - compiling task_func_09
+2025-05-20 22:20:45.968 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_09/task_func_09.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. StatisticsCalculator.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_09/task_func_09.cbl:25: warning: line not terminated by a newline [-Wmissing-newline]
+   23 |    05 O-MAX PIC 9(5)V99 VALUE ZEROS.
+   24 |    05 FILLER PIC X VALUE ",".
+   25 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_09/task_func_09.cbl:25: error: PROCEDURE DIVISION header missing
+   23 |    05 O-MAX PIC 9(5)V99 VALUE ZEROS.
+   24 |    05 FILLER PIC X VALUE ",".
+   25 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_09/task_func_09.cbl:25: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:45.968 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:45.968 | ERROR    | __main__:compile:227 - Compilation failed for task_func_09
+2025-05-20 22:20:45.968 | INFO     | __main__:compile:156 - Processing program 9/46: task_func_10
+2025-05-20 22:20:45.968 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.968 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.969 | INFO     | __main__:compile:190 - compiling task_func_10
+2025-05-20 22:20:45.991 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. PopulationValidator.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:91: warning: line not terminated by a newline [-Wmissing-newline]
+   89 | 
+   90 | CLOSE-FILES.
+   91 > CLOSE INPUT, OUTPUT.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:5: error: CONFIGURATION SECTION header missing
+    3 | 
+    4 | ENVIRONMENT DIVISION.
+    5 > INPUT-FILE-OPEN-PARAGRAPH.
+    6 | OPEN INPUT "input.txt".
+    7 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:5: error: SPECIAL-NAMES header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:5: error: invalid system-name 'INPUT-FILE-OPEN-PARAGRAPH'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:5: error: syntax error, unexpected ., expecting CRT or Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:6: error: syntax error, unexpected OPEN
+    4 | ENVIRONMENT DIVISION.
+    5 | INPUT-FILE-OPEN-PARAGRAPH.
+    6 > OPEN INPUT "input.txt".
+    7 | 
+    8 | OUTPUT-FILE-OPEN-PARAGRAPH.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:8: error: invalid system-name 'OUTPUT-FILE-OPEN-PARAGRAPH'
+    6 | OPEN INPUT "input.txt".
+    7 | 
+    8 > OUTPUT-FILE-OPEN-PARAGRAPH.
+    9 | OPEN OUTPUT "output.txt".
+   10 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:9: error: syntax error, unexpected OPEN
+    7 | 
+    8 | OUTPUT-FILE-OPEN-PARAGRAPH.
+    9 > OPEN OUTPUT "output.txt".
+   10 | 
+   11 | WRITE-HEADER-PARAGRAPH.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:11: error: invalid system-name 'WRITE-HEADER-PARAGRAPH'
+    9 | OPEN OUTPUT "output.txt".
+   10 | 
+   11 > WRITE-HEADER-PARAGRAPH.
+   12 | WRITE FORMAT "Country Name: Population" TO output-file.
+   13 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:12: error: syntax error, unexpected WRITE
+   10 | 
+   11 | WRITE-HEADER-PARAGRAPH.
+   12 > WRITE FORMAT "Country Name: Population" TO output-file.
+   13 | 
+   14 | PROCESS-RECORDS-PARAGRAPH.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:12: error: invalid system-name 'output-file'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:14: error: invalid system-name 'PROCESS-RECORDS-PARAGRAPH'
+   12 | WRITE FORMAT "Country Name: Population" TO output-file.
+   13 | 
+   14 > PROCESS-RECORDS-PARAGRAPH.
+   15 | PERFORM UNTIL END-OF-FILE.
+   16 |    READ INPUT INTO country-name, population.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:14: error: syntax error, unexpected ., expecting CRT or Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:15: error: syntax error, unexpected PERFORM
+   13 | 
+   14 | PROCESS-RECORDS-PARAGRAPH.
+   15 > PERFORM UNTIL END-OF-FILE.
+   16 |    READ INPUT INTO country-name, population.
+   17 |    IF END-OF-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:15: error: invalid system-name 'END-OF-FILE'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:16: error: syntax error, unexpected READ
+   14 | PROCESS-RECORDS-PARAGRAPH.
+   15 | PERFORM UNTIL END-OF-FILE.
+   16 >    READ INPUT INTO country-name, population.
+   17 |    IF END-OF-FILE
+   18 |       PERFORM CLOSE-FILES-PARAGRAPH
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:16: error: invalid system-name 'country-name'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:17: error: PROCEDURE DIVISION header missing
+   15 | PERFORM UNTIL END-OF-FILE.
+   16 |    READ INPUT INTO country-name, population.
+   17 >    IF END-OF-FILE
+   18 |       PERFORM CLOSE-FILES-PARAGRAPH
+   19 |       STOP RUN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:17: error: 'END-OF-FILE' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:20: error: syntax error, unexpected END-IF
+   18 |       PERFORM CLOSE-FILES-PARAGRAPH
+   19 |       STOP RUN.
+   20 >    END-IF.
+   21 | 
+   22 |    PERFORM VALIDATE-COUNTRY-PARAGRAPH WITH country-name, population.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:22: error: syntax error, unexpected Identifier, expecting TEST
+   20 |    END-IF.
+   21 | 
+   22 >    PERFORM VALIDATE-COUNTRY-PARAGRAPH WITH country-name, population.
+   23 | END-PERFORM.
+   24 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:23: error: syntax error, unexpected END-PERFORM
+   21 | 
+   22 |    PERFORM VALIDATE-COUNTRY-PARAGRAPH WITH country-name, population.
+   23 > END-PERFORM.
+   24 | 
+   25 | CLOSE-FILES-PARAGRAPH.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl: in paragraph 'CLOSE-FILES-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:26: error: syntax error, unexpected INPUT, expecting WINDOW or Identifier
+   24 | 
+   25 | CLOSE-FILES-PARAGRAPH.
+   26 > CLOSE INPUT, OUTPUT.
+   27 | 
+   28 | DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:28: error: syntax error, unexpected DATA
+   26 | CLOSE INPUT, OUTPUT.
+   27 | 
+   28 > DATA DIVISION.
+   29 | FILE SECTION.
+   30 | FD  input.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:29: error: syntax error, unexpected FILE
+   27 | 
+   28 | DATA DIVISION.
+   29 > FILE SECTION.
+   30 | FD  input.
+   31 | 01 country-name PIC X(50).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:30: error: syntax error, unexpected FD
+   28 | DATA DIVISION.
+   29 | FILE SECTION.
+   30 > FD  input.
+   31 | 01 country-name PIC X(50).
+   32 | 01 population       PIC 9(15)V99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:31: error: syntax error, unexpected Identifier, expecting SECTION or .
+   29 | FILE SECTION.
+   30 | FD  input.
+   31 > 01 country-name PIC X(50).
+   32 | 01 population       PIC 9(15)V99.
+   33 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:31: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:32: error: syntax error, unexpected Identifier, expecting SECTION or .
+   30 | FD  input.
+   31 | 01 country-name PIC X(50).
+   32 > 01 population       PIC 9(15)V99.
+   33 | 
+   34 | FD  output.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:32: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:34: error: syntax error, unexpected FD
+   32 | 01 population       PIC 9(15)V99.
+   33 | 
+   34 > FD  output.
+   35 | 01 output-record.
+   36 |    05 FILLER PIC X(50) VALUE "Country Name: Population".
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:35: error: syntax error, unexpected Identifier, expecting SECTION or .
+   33 | 
+   34 | FD  output.
+   35 > 01 output-record.
+   36 |    05 FILLER PIC X(50) VALUE "Country Name: Population".
+   37 |    05 FILLER PIC X(50).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:35: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:36: error: syntax error, unexpected FILLER, expecting SECTION or .
+   34 | FD  output.
+   35 | 01 output-record.
+   36 >    05 FILLER PIC X(50) VALUE "Country Name: Population".
+   37 |    05 FILLER PIC X(50).
+   38 |    05 FILLER PIC 9(15)V99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:36: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:37: error: syntax error, unexpected FILLER, expecting SECTION or .
+   35 | 01 output-record.
+   36 |    05 FILLER PIC X(50) VALUE "Country Name: Population".
+   37 >    05 FILLER PIC X(50).
+   38 |    05 FILLER PIC 9(15)V99.
+   39 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:37: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:38: error: syntax error, unexpected FILLER, expecting SECTION or .
+   36 |    05 FILLER PIC X(50) VALUE "Country Name: Population".
+   37 |    05 FILLER PIC X(50).
+   38 >    05 FILLER PIC 9(15)V99.
+   39 | 
+   40 | WORKING-STORAGE SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:38: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:40: error: syntax error, unexpected WORKING-STORAGE
+   38 |    05 FILLER PIC 9(15)V99.
+   39 | 
+   40 > WORKING-STORAGE SECTION.
+   41 | 01 END-OF-FILE         PIC X VALUE "N".
+   42 | 01 valid-countries.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:41: error: syntax error, unexpected Identifier, expecting SECTION or .
+   39 | 
+   40 | WORKING-STORAGE SECTION.
+   41 > 01 END-OF-FILE         PIC X VALUE "N".
+   42 | 01 valid-countries.
+   43 |    88 VALID-COUNTRY VALUE 'Y'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:41: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:42: error: syntax error, unexpected Identifier, expecting SECTION or .
+   40 | WORKING-STORAGE SECTION.
+   41 | 01 END-OF-FILE         PIC X VALUE "N".
+   42 > 01 valid-countries.
+   43 |    88 VALID-COUNTRY VALUE 'Y'.
+   44 |    88 INVALID-COUNTRY VALUE 'N'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:42: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:43: error: syntax error, unexpected Identifier, expecting SECTION or .
+   41 | 01 END-OF-FILE         PIC X VALUE "N".
+   42 | 01 valid-countries.
+   43 >    88 VALID-COUNTRY VALUE 'Y'.
+   44 |    88 INVALID-COUNTRY VALUE 'N'.
+   45 |    05 FILLER PIC X(50) OCCURS 100 TIMES VALUE SPACES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:43: note: unknown statement '88'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:44: error: syntax error, unexpected Identifier, expecting SECTION or .
+   42 | 01 valid-countries.
+   43 |    88 VALID-COUNTRY VALUE 'Y'.
+   44 >    88 INVALID-COUNTRY VALUE 'N'.
+   45 |    05 FILLER PIC X(50) OCCURS 100 TIMES VALUE SPACES.
+   46 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:44: note: unknown statement '88'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:45: error: syntax error, unexpected FILLER, expecting SECTION or .
+   43 |    88 VALID-COUNTRY VALUE 'Y'.
+   44 |    88 INVALID-COUNTRY VALUE 'N'.
+   45 >    05 FILLER PIC X(50) OCCURS 100 TIMES VALUE SPACES.
+   46 | 
+   47 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:45: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:47: error: syntax error, unexpected PROCEDURE
+   45 |    05 FILLER PIC X(50) OCCURS 100 TIMES VALUE SPACES.
+   46 | 
+   47 > PROCEDURE DIVISION.
+   48 | INPUT-FILE-OPEN-PARAGRAPH.
+   49 | PERFORM OPEN-INPUT.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl: in section 'VALIDATE-COUNTRY-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl: in paragraph 'VALIDATE-COUNTRY':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:65: error: 'VALID-COUNTRY' is not defined
+   63 | VALIDATE-COUNTRY-PARAGRAPH SECTION.
+   64 | VALIDATE-COUNTRY.
+   65 >    SET VALID-COUNTRY TO FALSE.
+   66 |    SEARCH valid-countries
+   67 |       AT END MOVE "Invalid Country" TO country-name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:66: error: 'valid-countries' is not defined
+   64 | VALIDATE-COUNTRY.
+   65 |    SET VALID-COUNTRY TO FALSE.
+   66 >    SEARCH valid-countries
+   67 |       AT END MOVE "Invalid Country" TO country-name
+   68 |       WHEN country-name = valid-countries PIC X(50)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:67: error: 'country-name' is not defined
+   65 |    SET VALID-COUNTRY TO FALSE.
+   66 |    SEARCH valid-countries
+   67 >       AT END MOVE "Invalid Country" TO country-name
+   68 |       WHEN country-name = valid-countries PIC X(50)
+   69 |          SET VALID-COUNTRY TO TRUE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:68: error: syntax error, unexpected PICTURE
+   66 |    SEARCH valid-countries
+   67 |       AT END MOVE "Invalid Country" TO country-name
+   68 >       WHEN country-name = valid-countries PIC X(50)
+   69 |          SET VALID-COUNTRY TO TRUE.
+   70 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:71: error: 'population' is not defined
+   69 |          SET VALID-COUNTRY TO TRUE.
+   70 | 
+   71 >    IF valid-countries(1:LENGTH OF population) > 0 AND VALID-COUNTRY
+   72 |       WRITE output-record FROM country-name, population.
+   73 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:72: error: 'output-record' is not defined
+   70 | 
+   71 |    IF valid-countries(1:LENGTH OF population) > 0 AND VALID-COUNTRY
+   72 >       WRITE output-record FROM country-name, population.
+   73 | 
+   74 |    END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:72: error: syntax error, unexpected Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:74: error: syntax error, unexpected END-IF
+   72 |       WRITE output-record FROM country-name, population.
+   73 | 
+   74 >    END-IF.
+   75 | 
+   76 | OPEN-INPUT.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl: in paragraph 'OPEN-INPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:77: error: syntax error, unexpected Literal, expecting Identifier
+   75 | 
+   76 | OPEN-INPUT.
+   77 > OPEN INPUT "input.txt".
+   78 | 
+   79 | OPEN-OUTPUT.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl: in paragraph 'OPEN-OUTPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:80: error: syntax error, unexpected Literal, expecting Identifier
+   78 | 
+   79 | OPEN-OUTPUT.
+   80 > OPEN OUTPUT "output.txt".
+   81 | 
+   82 | WRITE-HEADER.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl: in paragraph 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:86: error: syntax error, unexpected INPUT, expecting Identifier
+   84 | 
+   85 | PROCESS-RECORD.
+   86 > READ input
+   87 |    AT END MOVE "Y" TO END-OF-FILE
+   88 |    NOT AT END PERFORM VALIDATE-COUNTRY.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:88: error: syntax error, unexpected NOT AT END
+   86 | READ input
+   87 |    AT END MOVE "Y" TO END-OF-FILE
+   88 >    NOT AT END PERFORM VALIDATE-COUNTRY.
+   89 | 
+   90 | CLOSE-FILES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl: in paragraph 'CLOSE-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:91: error: syntax error, unexpected INPUT, expecting WINDOW or Identifier
+   89 | 
+   90 | CLOSE-FILES.
+   91 > CLOSE INPUT, OUTPUT.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:18: error: 'CLOSE-FILES-PARAGRAPH' is ambiguous; needs qualification
+   16 |    READ INPUT INTO country-name, population.
+   17 |    IF END-OF-FILE
+   18 >       PERFORM CLOSE-FILES-PARAGRAPH
+   19 |       STOP RUN.
+   20 |    END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:25: note: 'CLOSE-FILES-PARAGRAPH IN MAIN SECTION' defined here
+   23 | END-PERFORM.
+   24 | 
+   25 > CLOSE-FILES-PARAGRAPH.
+   26 | CLOSE INPUT, OUTPUT.
+   27 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl:60: note: 'CLOSE-FILES-PARAGRAPH IN MAIN SECTION' defined here
+   58 | PERFORM PROCESS-RECORD.
+   59 | 
+   60 > CLOSE-FILES-PARAGRAPH.
+   61 | PERFORM CLOSE-FILES.
+   62 | 
+
+2025-05-20 22:20:45.991 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:45.991 | ERROR    | __main__:compile:227 - Compilation failed for task_func_10
+2025-05-20 22:20:45.992 | INFO     | __main__:compile:156 - Processing program 10/46: task_func_11
+2025-05-20 22:20:45.992 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:45.992 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:45.992 | INFO     | __main__:compile:190 - compiling task_func_11
+2025-05-20 22:20:46.012 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_11/task_func_11.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. FileAnalysis.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_11/task_func_11.cbl:26: warning: line not terminated by a newline [-Wmissing-newline]
+   24 | 01  ANALYSIS-RESULTS.
+   25 |    05 FILENAME-OUT    PIC X(255).
+   26 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_11/task_func_11.cbl:26: error: PROCEDURE DIVISION header missing
+   24 | 01  ANALYSIS-RESULTS.
+   25 |    05 FILENAME-OUT    PIC X(255).
+   26 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_11/task_func_11.cbl:26: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:46.012 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.012 | ERROR    | __main__:compile:227 - Compilation failed for task_func_11
+2025-05-20 22:20:46.013 | INFO     | __main__:compile:156 - Processing program 11/46: task_func_12
+2025-05-20 22:20:46.013 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.013 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.013 | INFO     | __main__:compile:190 - compiling task_func_12
+2025-05-20 22:20:46.033 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. PatientBillingSummary.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl:23: warning: line not terminated by a newline [-Wmissing-newline]
+   21 |    05 FILLER PIC X VALUE SPACE.
+   22 |    05 PATIENT-AGE PIC 99.
+   23 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl:10: error: missing file description for FILE SORT-FILE
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT SORT-FILE ASSIGN TO "sort.txt"
+   11 |         ORGANIZATION IS LINE SEQUENTIAL.
+   12 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl:13: error: missing file description for FILE OUTPUT-FILE
+   11 |         ORGANIZATION IS LINE SEQUENTIAL.
+   12 | 
+   13 >     SELECT OUTPUT-FILE ASSIGN TO "output.txt"
+   14 |         ORGANIZATION IS LINE SEQUENTIAL.
+   15 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl:23: error: PROCEDURE DIVISION header missing
+   21 |    05 FILLER PIC X VALUE SPACE.
+   22 |    05 PATIENT-AGE PIC 99.
+   23 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl:23: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:46.034 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.034 | ERROR    | __main__:compile:227 - Compilation failed for task_func_12
+2025-05-20 22:20:46.034 | INFO     | __main__:compile:156 - Processing program 12/46: task_func_13
+2025-05-20 22:20:46.034 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.034 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.034 | INFO     | __main__:compile:190 - compiling task_func_13
+2025-05-20 22:20:46.055 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_13/task_func_13.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. Customer_Name_Sort.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_13/task_func_13.cbl:88: warning: line not terminated by a newline [-Wmissing-newline]
+   86 |     DISPLAY "Total Records Read: " TOTAL-CNT
+   87 |     DISPLAY "Invalid Name Records: " INVALID-CNT
+   88 >     DISPLAY "Processing Complete.".<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_13/task_func_13.cbl: in paragraph 'VALIDATE-NAME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_13/task_func_13.cbl:63: error: FUNCTION 'ALL' unknown
+   61 | 
+   62 | VALIDATE-NAME.
+   63 >     IF FUNCTION ALL NUMERIC(CUSTOMER-NAME) > 0
+   64 |         ADD 1 TO INVALID-CNT
+   65 |     ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_13/task_func_13.cbl:63: error: invalid expression: unfinished expression
+
+2025-05-20 22:20:46.055 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.055 | ERROR    | __main__:compile:227 - Compilation failed for task_func_13
+2025-05-20 22:20:46.056 | INFO     | __main__:compile:156 - Processing program 13/46: task_func_14
+2025-05-20 22:20:46.056 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.056 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.056 | INFO     | __main__:compile:190 - compiling task_func_14
+2025-05-20 22:20:46.077 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc14.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl:39: warning: line not terminated by a newline [-Wmissing-newline]
+   37 |    05 WS-SORTED-DATE    PIC X(10).
+   38 |    05 FILLER            PIC X VALUE ",".
+   39 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl:29: error: invalid VALUE clause
+   27 | WORKING-STORAGE SECTION.
+   28 | 01  WS-DATE            PIC X(10).
+   29 > 01  WS-CURRENT-DATE    PIC 9(8) VALUE SPACES.
+   30 | 01  WS-FILE-STATUS     PIC XX VALUE SPACES.
+   31 | 01  WS-EOF             PIC X VALUE "N".
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl:33: error: PICTURE clause required for 'WS-SORTED-RECORDS'
+   31 | 01  WS-EOF             PIC X VALUE "N".
+   32 | 01  WS-ERROR-OCCURRED  PIC X VALUE "N".
+   33 > 01  WS-SORTED-RECORDS.
+   34 |    88 EOF-REACHED       VALUE "Y".
+   35 |    88 NO-MORE-RECORDS  VALUE "Y".
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl:39: error: PROCEDURE DIVISION header missing
+   37 |    05 WS-SORTED-DATE    PIC X(10).
+   38 |    05 FILLER            PIC X VALUE ",".
+   39 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl:39: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:46.077 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.077 | ERROR    | __main__:compile:227 - Compilation failed for task_func_14
+2025-05-20 22:20:46.077 | INFO     | __main__:compile:156 - Processing program 14/46: task_func_15
+2025-05-20 22:20:46.077 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.077 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.078 | INFO     | __main__:compile:190 - compiling task_func_15
+2025-05-20 22:20:46.101 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. AnimalFoodCombinations.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:94: warning: line not terminated by a newline [-Wmissing-newline]
+   92 |                         "Food: " FOOD-ENTRY(FOOD-INDEX) "|" INTO COMBINAT..
+   93 |         END-PERFORM
+   94 >     END-PERFORM.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:31: error: syntax error, unexpected Literal
+   29 | 01 MAX-ENTRIES PIC 99 VALUE 10.
+   30 | 01 INPUT-ANIMAL-TABLE.
+   31 >    05 REPEATING 10 TIMES INDEXED BY ANIMAL-INDEX.
+   32 |       10 ANIMAL-ENTRY PIC X(20).
+   33 | 01 INPUT-FOOD-TABLE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:34: error: syntax error, unexpected Literal
+   32 |       10 ANIMAL-ENTRY PIC X(20).
+   33 | 01 INPUT-FOOD-TABLE.
+   34 >    05 REPEATING 10 TIMES INDEXED BY FOOD-INDEX.
+   35 |       10 FOOD-ENTRY PIC X(20).
+   36 | 01 COMBINATION-LINE PIC X(30).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl: in paragraph 'ADD-ANIMAL-TO-TABLE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:72: error: 'ANIMAL-INDEX' is not defined
+   70 |     IF ANIMAL-COUNTER < MAX-ENTRIES
+   71 |         ADD 1 TO ANIMAL-COUNTER
+   72 >         MOVE ANIMAL-DATA TO ANIMAL-ENTRY(ANIMAL-INDEX)
+   73 |     ELSE
+   74 |         DISPLAY "Error: Too many animals in the input file. Stopping the..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:72: error: 'ANIMAL-ENTRY' cannot be subscripted
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl: in paragraph 'ADD-FOOD-TO-TABLE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:81: error: 'FOOD-INDEX' is not defined
+   79 |     IF FOOD-COUNTER < MAX-ENTRIES
+   80 |         ADD 1 TO FOOD-COUNTER
+   81 >         MOVE FOOD-DATA TO FOOD-ENTRY(FOOD-INDEX)
+   82 |     ELSE
+   83 |         DISPLAY "Error: Too many foods in the input file. Stopping the pr..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:81: error: 'FOOD-ENTRY' cannot be subscripted
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl: in paragraph 'GENERATE-NEXT-COMBINATION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:91: error: 'CONCATENATE' is not defined
+   89 |     PERFORM VARYING ANIMAL-INDEX FROM 1 BY 1 UNTIL ANIMAL-INDEX > ANIMAL-..
+   90 |         PERFORM VARYING FOOD-INDEX FROM 1 BY 1 UNTIL FOOD-INDEX > FOOD-CO..
+   91 >             CONCATENATE "Animal: " ANIMAL-ENTRY(ANIMAL-INDEX) " | "
+   92 |                         "Food: " FOOD-ENTRY(FOOD-INDEX) "|" INTO COMBINAT..
+   93 |         END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:91: error: 'ANIMAL-ENTRY' cannot be subscripted
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:92: error: 'FOOD-ENTRY' cannot be subscripted
+   90 |         PERFORM VARYING FOOD-INDEX FROM 1 BY 1 UNTIL FOOD-INDEX > FOOD-CO..
+   91 |             CONCATENATE "Animal: " ANIMAL-ENTRY(ANIMAL-INDEX) " | "
+   92 >                         "Food: " FOOD-ENTRY(FOOD-INDEX) "|" INTO COMBINAT..
+   93 |         END-PERFORM
+   94 |     END-PERFORM.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:90: error: invalid expression: unfinished expression
+   88 |     MOVE SPACES TO COMBINATION-LINE
+   89 |     PERFORM VARYING ANIMAL-INDEX FROM 1 BY 1 UNTIL ANIMAL-INDEX > ANIMAL-..
+   90 >         PERFORM VARYING FOOD-INDEX FROM 1 BY 1 UNTIL FOOD-INDEX > FOOD-CO..
+   91 |             CONCATENATE "Animal: " ANIMAL-ENTRY(ANIMAL-INDEX) " | "
+   92 |                         "Food: " FOOD-ENTRY(FOOD-INDEX) "|" INTO COMBINAT..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:92: error: syntax error, unexpected INTO
+   90 |         PERFORM VARYING FOOD-INDEX FROM 1 BY 1 UNTIL FOOD-INDEX > FOOD-CO..
+   91 |             CONCATENATE "Animal: " ANIMAL-ENTRY(ANIMAL-INDEX) " | "
+   92 >                         "Food: " FOOD-ENTRY(FOOD-INDEX) "|" INTO COMBINAT..
+   93 |         END-PERFORM
+   94 |     END-PERFORM.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl:89: error: PERFORM statement not terminated by END-PERFORM
+   87 | GENERATE-NEXT-COMBINATION.
+   88 |     MOVE SPACES TO COMBINATION-LINE
+   89 >     PERFORM VARYING ANIMAL-INDEX FROM 1 BY 1 UNTIL ANIMAL-INDEX > ANIMAL-..
+   90 |         PERFORM VARYING FOOD-INDEX FROM 1 BY 1 UNTIL FOOD-INDEX > FOOD-CO..
+   91 |             CONCATENATE "Animal: " ANIMAL-ENTRY(ANIMAL-INDEX) " | "
+
+2025-05-20 22:20:46.101 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.101 | ERROR    | __main__:compile:227 - Compilation failed for task_func_15
+2025-05-20 22:20:46.102 | INFO     | __main__:compile:156 - Processing program 15/46: task_func_16
+2025-05-20 22:20:46.102 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.102 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.102 | INFO     | __main__:compile:190 - compiling task_func_16
+2025-05-20 22:20:46.124 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc16.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl:103: warning: line not terminated by a newline [-Wmissing-newline]
+  101 |     CONVERTING TIMESTAMP-DIFFERENCE TO INPUT-REC.
+  102 | 
+  103 >     MOVE NEXT-TIMESTAMP TO CURRENT-TIMESTAMP.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl: in section 'CALCULATE-AVERAGE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl:79: error: syntax error, unexpected CONVERTING
+   77 |     MOVE TOTAL-TIME-DIFFERENCE TO AVERAGE-DIFF
+   78 |     DIVIDE NUMBER-OF-TIMESTAMPS BY 1 GIVING AVERAGE-DIFF
+   79 >     CONVERTING AVERAGE-DIFF TO INPUT-REC.
+   80 | 
+   81 | WRITE-OUTPUT SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl: in section 'PARSE-TIMESTAMP':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl:90: error: 'CONVERT' is not defined
+   88 |     UNSTRING TIME-STAMP DELIMITED BY ":"
+   89 |         INTO WS-HOUR, WS-MINUTE, WS-SECOND
+   90 >     CONVERT TIME-STAMP TO BINARY SIGN IS TRAILING
+   91 |         USING YEAR VALUE WS-YEAR
+   92 |               MONTH VALUE WS-MONTH
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl:90: error: syntax error, unexpected TO
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl: in section 'COMPUTE-TIME-DIFFERENCE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl:99: error: 'TIMESTAMP-DIFFERENCE' is not defined
+   97 | 
+   98 | COMPUTE-TIME-DIFFERENCE SECTION.
+   99 >     SUBTRACT CURRENT-TIMESTAMP FROM NEXT-TIMESTAMP GIVING TIMESTAMP-DIFFE..
+  100 |     COMPUTE TOTAL-TIME-DIFFERENCE = TOTAL-TIME-DIFFERENCE + TIMESTAMP-DIF..
+  101 |     CONVERTING TIMESTAMP-DIFFERENCE TO INPUT-REC.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl:101: error: syntax error, unexpected CONVERTING
+   99 |     SUBTRACT CURRENT-TIMESTAMP FROM NEXT-TIMESTAMP GIVING TIMESTAMP-DIFFE..
+  100 |     COMPUTE TOTAL-TIME-DIFFERENCE = TOTAL-TIME-DIFFERENCE + TIMESTAMP-DIF..
+  101 >     CONVERTING TIMESTAMP-DIFFERENCE TO INPUT-REC.
+  102 | 
+  103 |     MOVE NEXT-TIMESTAMP TO CURRENT-TIMESTAMP.<EOF>
+
+2025-05-20 22:20:46.124 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.124 | ERROR    | __main__:compile:227 - Compilation failed for task_func_16
+2025-05-20 22:20:46.125 | INFO     | __main__:compile:156 - Processing program 16/46: task_func_17
+2025-05-20 22:20:46.125 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.125 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.125 | INFO     | __main__:compile:190 - compiling task_func_17
+2025-05-20 22:20:46.146 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_17/task_func_17.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. PhoneNumberFormatter.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_17/task_func_17.cbl:17: error: syntax error, unexpected ., expecting VALUE or VALUES
+   15 | FD  INPUT-FILE.
+   16 | 01  INPUT-REC.
+   17 >    88 END-OF-FILE.
+   18 |       10 INPUT-PHONE-NUMBER PIC X(10).
+   19 |       10 INPUT-OTHER-TEXT  PIC X(70).
+
+2025-05-20 22:20:46.146 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.146 | ERROR    | __main__:compile:227 - Compilation failed for task_func_17
+2025-05-20 22:20:46.146 | INFO     | __main__:compile:156 - Processing program 17/46: task_func_18
+2025-05-20 22:20:46.146 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.146 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.147 | INFO     | __main__:compile:190 - compiling task_func_18
+2025-05-20 22:20:46.167 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc18.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl:20: warning: line not terminated by a newline [-Wmissing-newline]
+   18 |    05 STREET-ADDRESS PIC X(30).
+   19 |    05 CITY PIC X(20).
+   20 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl:10: error: missing file description for FILE OUTPUT-FILE
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT OUTPUT-FILE ASSIGN TO "task_func18_out"
+   11 |         ORGANIZATION IS LINE SEQUENTIAL.
+   12 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl:20: error: PROCEDURE DIVISION header missing
+   18 |    05 STREET-ADDRESS PIC X(30).
+   19 |    05 CITY PIC X(20).
+   20 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl:20: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:46.167 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.167 | ERROR    | __main__:compile:227 - Compilation failed for task_func_18
+2025-05-20 22:20:46.168 | INFO     | __main__:compile:156 - Processing program 18/46: task_func_19
+2025-05-20 22:20:46.168 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.168 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.168 | INFO     | __main__:compile:190 - compiling task_func_19
+2025-05-20 22:20:46.190 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. M3_STATISTICS.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:102: warning: line not terminated by a newline [-Wmissing-newline]
+  100 | SQUARE-SUMMATIONS SECTION.
+  101 |     MULTIPLY SALARY-VALUE BY SALARY-VALUE GIVING SALARY-VALUE.
+  102 >     ADD SALARY-VALUE TO STD-DEVIATION.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:28: error: syntax error, unexpected INITIAL
+   26 | 01  SALARY-ARRAY.
+   27 |    05 FILLER PIC X VALUE "S".
+   28 >    05 SALARY-VALUE OCCURS 100 TIMES INDEXED BY I INITIAL 0 VALUE ZEROS.
+   29 | 
+   30 | 01  ARRAY-STATS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:28: error: PICTURE clause required for 'SALARY-VALUE'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:34: error: PROCEDURE DIVISION header missing
+   32 |    05 FILLER PIC X VALUE "M".
+   33 |    05 MEAN-SALARY PIC 9(6)V99 VALUE ZEROS.
+   34 >    55 FILLER PIC X VALUE "D".
+   35 |    05 MEDIAN-SALARY PIC 9(6)V99 VALUE ZEROS.
+   36 |    55 FILLER PIC X VALUE "SD".
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:34: error: syntax error, unexpected Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:35: error: syntax error, unexpected Identifier, expecting SECTION or .
+   33 |    05 MEAN-SALARY PIC 9(6)V99 VALUE ZEROS.
+   34 |    55 FILLER PIC X VALUE "D".
+   35 >    05 MEDIAN-SALARY PIC 9(6)V99 VALUE ZEROS.
+   36 |    55 FILLER PIC X VALUE "SD".
+   37 |    05 STD-DEVIATION PIC 9(6)V99 VALUE ZEROS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:35: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:36: error: syntax error, unexpected FILLER, expecting SECTION or .
+   34 |    55 FILLER PIC X VALUE "D".
+   35 |    05 MEDIAN-SALARY PIC 9(6)V99 VALUE ZEROS.
+   36 >    55 FILLER PIC X VALUE "SD".
+   37 |    05 STD-DEVIATION PIC 9(6)V99 VALUE ZEROS.
+   38 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:36: note: unknown statement '55'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:37: error: syntax error, unexpected Identifier, expecting SECTION or .
+   35 |    05 MEDIAN-SALARY PIC 9(6)V99 VALUE ZEROS.
+   36 |    55 FILLER PIC X VALUE "SD".
+   37 >    05 STD-DEVIATION PIC 9(6)V99 VALUE ZEROS.
+   38 | 
+   39 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:37: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:39: error: syntax error, unexpected PROCEDURE
+   37 |    05 STD-DEVIATION PIC 9(6)V99 VALUE ZEROS.
+   38 | 
+   39 > PROCEDURE DIVISION.
+   40 | OPEN-FILES SECTION.
+   41 | OPEN INPUT INPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl: in section 'READ-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:45: error: 'END-OF-FILE' is not defined
+   43 | 
+   44 | READ-FILE SECTION.
+   45 > PERFORM UNTIL END-OF-FILE
+   46 |     READ INPUT-FILE
+   47 |         AT END MOVE 'Y' TO END-OF-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl: in section 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:76: error: invalid MOVE statement
+   74 | PROCESS-RECORD SECTION.
+   75 |     ADD 1 TO ARRAY-SIZE.
+   76 >     MOVE EMPLOYEE-SALARY TO SALARY-VALUE(ARRAY-SIZE).
+   77 | 
+   78 | CALCULATE-MEAN SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl: in section 'CALCULATE-MEDIAN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:83: error: syntax error, unexpected Identifier
+   81 | 
+   82 | CALCULATE-MEDIAN SECTION.
+   83 >     IF ARRAY-SIZE IS ODD
+   84 |         MOVE SALARY-VALUE(ARRAY-SIZE/2 + 1) TO MEDIAN-SALARY
+   85 |     ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:84: error: 'MEDIAN-SALARY' is not defined
+   82 | CALCULATE-MEDIAN SECTION.
+   83 |     IF ARRAY-SIZE IS ODD
+   84 >         MOVE SALARY-VALUE(ARRAY-SIZE/2 + 1) TO MEDIAN-SALARY
+   85 |     ELSE
+   86 |         COMPUTE MEDIAN-SALARY = (SALARY-VALUE(ARRAY-SIZE/2) +
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:86: error: 'SALARY-VALUE ((ARRAY-SIZE /  2))' is not numeric
+   84 |         MOVE SALARY-VALUE(ARRAY-SIZE/2 + 1) TO MEDIAN-SALARY
+   85 |     ELSE
+   86 >         COMPUTE MEDIAN-SALARY = (SALARY-VALUE(ARRAY-SIZE/2) +
+   87 |             SALARY-VALUE(ARRAY-SIZE/2 + 1)) / 2.
+   88 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:87: error: 'SALARY-VALUE (((ARRAY-SIZE /  2) +  1))' is not numeric
+   85 |     ELSE
+   86 |         COMPUTE MEDIAN-SALARY = (SALARY-VALUE(ARRAY-SIZE/2) +
+   87 >             SALARY-VALUE(ARRAY-SIZE/2 + 1)) / 2.
+   88 | 
+   89 | CALCULATE-STD-DEV SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl: in section 'CALCULATE-STD-DEV':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:92: error: 'STD-DEVIATION' is not defined
+   90 |     PERFORM SUBTRACT-MEAN-FROM-SALARIES.
+   91 |     PERFORM SQUARE-SUMMATIONS.
+   92 >     DIVIDE STD-DEVIATION BY ARRAY-SIZE GIVING STD-DEVIATION.
+   93 | 
+   94 | ADD-SALARIES SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl: in section 'SUBTRACT-MEAN-FROM-SALARIES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:98: error: 'SALARY-VALUE' requires one subscript
+   96 | 
+   97 | SUBTRACT-MEAN-FROM-SALARIES SECTION.
+   98 >     SUBTRACT MEAN-SALARY FROM SALARY-VALUE GIVING SALARY-VALUE.
+   99 | 
+  100 | SQUARE-SUMMATIONS SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:98: error: 'SALARY-VALUE' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl: in section 'SQUARE-SUMMATIONS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:101: error: 'SALARY-VALUE' requires one subscript
+   99 | 
+  100 | SQUARE-SUMMATIONS SECTION.
+  101 >     MULTIPLY SALARY-VALUE BY SALARY-VALUE GIVING SALARY-VALUE.
+  102 |     ADD SALARY-VALUE TO STD-DEVIATION.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:101: error: 'SALARY-VALUE' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:101: error: 'SALARY-VALUE' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl:102: error: 'SALARY-VALUE' requires one subscript
+  100 | SQUARE-SUMMATIONS SECTION.
+  101 |     MULTIPLY SALARY-VALUE BY SALARY-VALUE GIVING SALARY-VALUE.
+  102 >     ADD SALARY-VALUE TO STD-DEVIATION.<EOF>
+
+2025-05-20 22:20:46.190 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.190 | ERROR    | __main__:compile:227 - Compilation failed for task_func_19
+2025-05-20 22:20:46.190 | INFO     | __main__:compile:156 - Processing program 19/46: task_func_20
+2025-05-20 22:20:46.190 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.190 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.191 | INFO     | __main__:compile:190 - compiling task_func_20
+2025-05-20 22:20:46.212 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. HomeLoanCalculator.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl:91: warning: line not terminated by a newline [-Wmissing-newline]
+   89 | 
+   90 | ADD-SPACES.
+   91 >     MOVE SPACES TO OUTPUT-REC.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl:26: error: invalid PICTURE character '#'
+   24 |    05 O-Customer-Name      PIC X(30).
+   25 |    05 Filler              PIC XX VALUE "::".
+   26 >    05 O-Loan-Amount       PIC #9.99.
+   27 | 
+   28 | WORKING-STORAGE SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl:38: error: syntax error, unexpected SPACE
+   36 |    05 Adjusted-Loan        PIC 9(12)V99 VALUE ZEROS.
+   37 | 
+   38 > 01  SPACES                PIC X(40) VALUE SPACES.
+   39 | 
+   40 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl: in section 'LOAN-CALCULATION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl:63: error: 'BETWEEN' is not defined
+   61 |     IF Customer-Age <= 30
+   62 |         SET WS-Age-Factor TO 100
+   63 >     ELSE IF Customer-Age BETWEEN 31 AND 40
+   64 |         SET WS-Age-Factor TO 120
+   65 |     ELSE IF Customer-Age BETWEEN 41 AND 50
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl:63: error: invalid conditional expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl:65: error: invalid conditional expression
+   63 |     ELSE IF Customer-Age BETWEEN 31 AND 40
+   64 |         SET WS-Age-Factor TO 120
+   65 >     ELSE IF Customer-Age BETWEEN 41 AND 50
+   66 |         SET WS-Age-Factor TO 110
+   67 |     ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl:73: error: invalid conditional expression
+   71 |     IF Credit-Score >= 750
+   72 |         SET WS-Credit-Factor TO 130
+   73 >     ELSE IF Credit-Score BETWEEN 700 AND 749
+   74 |         SET WS-Credit-Factor TO 120
+   75 |     ELSE IF Credit-Score BETWEEN 650 AND 699
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl:75: error: invalid conditional expression
+   73 |     ELSE IF Credit-Score BETWEEN 700 AND 749
+   74 |         SET WS-Credit-Factor TO 120
+   75 >     ELSE IF Credit-Score BETWEEN 650 AND 699
+   76 |         SET WS-Credit-Factor TO 110
+   77 |     END-IF
+
+2025-05-20 22:20:46.212 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.212 | ERROR    | __main__:compile:227 - Compilation failed for task_func_20
+2025-05-20 22:20:46.212 | INFO     | __main__:compile:156 - Processing program 20/46: task_func_21
+2025-05-20 22:20:46.212 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.213 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.213 | INFO     | __main__:compile:190 - compiling task_func_21
+2025-05-20 22:20:46.233 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_21/task_func_21.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. SALES_DATA_GENERATOR.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_21/task_func_21.cbl:92: warning: line not terminated by a newline [-Wmissing-newline]
+   90 |           OUTPUT-FILE.
+   91 | 
+   92 > STOP RUN.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_21/task_func_21.cbl:17: error: syntax error, unexpected ., expecting VALUE or VALUES
+   15 | FD  INPUT-FILE.
+   16 | 01  INPUT-REC.
+   17 >    88 END-OF-FILE.
+   18 |    05 EPOCH-TIMESTAMP PIC 9(15).
+   19 |    05 RANDOM-SEED       PIC 9(15).
+
+2025-05-20 22:20:46.234 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.234 | ERROR    | __main__:compile:227 - Compilation failed for task_func_21
+2025-05-20 22:20:46.234 | INFO     | __main__:compile:156 - Processing program 21/46: task_func_22
+2025-05-20 22:20:46.234 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.234 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.234 | INFO     | __main__:compile:190 - compiling task_func_22
+2025-05-20 22:20:46.255 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. StudentDataProcessing.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:94: warning: line not terminated by a newline [-Wmissing-newline]
+   92 |                                 WS-MAX-MARKS.
+   93 | WRITE OUTPUT-HEIGHT-RECORD FROM O-STUDENT-NAME
+   94 >                                  WS-MAX-HEIGHT.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl: in section 'VALIDATE-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:69: error: invalid expression: unfinished expression
+   67 | VALIDATE-RECORD SECTION.
+   68 | MOVE STUDENT-RECORD TO WS-INPUT-LINE.
+   69 > IF FUNCTION NUMVAL (STUDENT-MARKS) NOT VALID
+   70 |     DISPLAY "Invalid marks: " STUDENT-MARKS
+   71 | ELSE IF FUNCTION NUMVAL (STUDENT-HEIGHT) NOT VALID
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:69: error: syntax error, unexpected VALID
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:71: error: invalid expression: unfinished expression
+   69 | IF FUNCTION NUMVAL (STUDENT-MARKS) NOT VALID
+   70 |     DISPLAY "Invalid marks: " STUDENT-MARKS
+   71 > ELSE IF FUNCTION NUMVAL (STUDENT-HEIGHT) NOT VALID
+   72 |     DISPLAY "Invalid height: " STUDENT-HEIGHT
+   73 | ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:71: error: syntax error, unexpected VALID
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:74: error: 'O-STUDENT-NAME' is ambiguous; needs qualification
+   72 |     DISPLAY "Invalid height: " STUDENT-HEIGHT
+   73 | ELSE
+   74 >     MOVE STUDENT-NAME TO O-STUDENT-NAME
+   75 |     MOVE STUDENT-MARKS TO WS-CURRENT-MARKS
+   76 |     MOVE STUDENT-HEIGHT TO WS-CURRENT-HEIGHT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:26: note: 'O-STUDENT-NAME IN OUTPUT-MARKS-RECORD' defined here
+   24 | FD OUTPUT-MARKS-FILE.
+   25 | 01 OUTPUT-MARKS-RECORD.
+   26 >    05 O-STUDENT-NAME PIC X(30).
+   27 |    05 O-STUDENT-MARKS PIC 9(4).
+   28 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:31: note: 'O-STUDENT-NAME IN OUTPUT-HEIGHT-RECORD' defined here
+   29 | FD OUTPUT-HEIGHT-FILE.
+   30 | 01 OUTPUT-HEIGHT-RECORD.
+   31 >    05 O-STUDENT-NAME PIC X(30).
+   32 |    05 O-STUDENT-HEIGHT PIC 9(3).
+   33 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl: in section 'WRITE-OUTPUT-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:92: error: syntax error, unexpected Identifier
+   90 | WRITE-OUTPUT-FILES SECTION.
+   91 | WRITE OUTPUT-MARKS-RECORD FROM O-STUDENT-NAME
+   92 >                                 WS-MAX-MARKS.
+   93 | WRITE OUTPUT-HEIGHT-RECORD FROM O-STUDENT-NAME
+   94 |                                  WS-MAX-HEIGHT.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl:94: error: syntax error, unexpected Identifier
+   92 |                                 WS-MAX-MARKS.
+   93 | WRITE OUTPUT-HEIGHT-RECORD FROM O-STUDENT-NAME
+   94 >                                  WS-MAX-HEIGHT.<EOF>
+
+2025-05-20 22:20:46.256 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.256 | ERROR    | __main__:compile:227 - Compilation failed for task_func_22
+2025-05-20 22:20:46.256 | INFO     | __main__:compile:156 - Processing program 22/46: task_func_23
+2025-05-20 22:20:46.256 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.256 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.257 | INFO     | __main__:compile:190 - compiling task_func_23
+2025-05-20 22:20:46.277 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc23.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:61: warning: line not terminated by a newline [-Wmissing-newline]
+   59 | CONCATENATE "AMZN" "GOOGL" "MSFT" "FB" INTO WS-SPACE-FILLER (1:4).
+   60 | MOVE WS-SPACE-FILLER TO OUTPUT-REC (200:4).
+   61 > WRITE OUTPUT-REC.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:21: warning: value size exceeds data size [-Wothers]
+   19 | FD  OUTPUT-FILE.
+   20 | 01  OUTPUT-REC.
+   21 >    05 FILLER PIC X(10) VALUE "DATE,AMZN,GOOGL,MSFT,FB".
+   22 |    05 FILLER PIC X(199) OCCURS 5 TIMES.
+   23 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:21: note: value size is 23 [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:27: error: syntax error, unexpected Identifier
+   25 | 01  WS-SPACE-FILLER PIC X(199) VALUE SPACES.
+   26 | 01  WS-TOTAL-DAYS PIC 9(4) VALUE 0.
+   27 > 01  WS-CURRENT-DAY PIC 9(8) VALUE SYSDATE.
+   28 | 01  WS-DAY-COUNT   PIC 9(4) VALUE 0.
+   29 | 01  WS-RAND-PRICE  PIC 9(6)V99 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl: in section 'READ-INPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:37: error: 'END-OF-FILE' is not defined
+   35 | 
+   36 | READ-INPUT SECTION.
+   37 > PERFORM UNTIL END-OF-FILE
+   38 |     READ INPUT-FILE
+   39 |         AT END MOVE 'Y' TO END-OF-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl: in section 'PROCESS-INPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:54: error: 'COMPANY' is not defined
+   52 | SUBTRACT INPUT-DAYS FROM WS-TOTAL-DAYS GIVING WS-CURRENT-DAY.
+   53 | MOVE WS-CURRENT-DAY TO OUTPUT-REC (1:8).
+   54 > PERFORM VARYING COMPANY FROM 1 BY 1 UNTIL COMPANY > 4
+   55 |     COMPUTE WS-RAND-PRICE =
+   56 |         FUNCTION RANDOM(100000) * 100 + FUNCTION RANDOM(1000)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:54: error: PERFORM statement not terminated by END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:59: error: syntax error, unexpected Literal, expecting SECTION or .
+   57 |     MOVE WS-RAND-PRICE TO OUTPUT-REC (9 + ((COMPANY - 1) * 6):15).
+   58 | MOVE WS-SPACE-FILLER TO WS-SPACE-FILLER (6:).
+   59 > CONCATENATE "AMZN" "GOOGL" "MSFT" "FB" INTO WS-SPACE-FILLER (1:4).
+   60 | MOVE WS-SPACE-FILLER TO OUTPUT-REC (200:4).
+   61 | WRITE OUTPUT-REC.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl:59: note: unknown statement 'CONCATENATE'
+
+2025-05-20 22:20:46.278 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.278 | ERROR    | __main__:compile:227 - Compilation failed for task_func_23
+2025-05-20 22:20:46.278 | INFO     | __main__:compile:156 - Processing program 23/46: task_func_24
+2025-05-20 22:20:46.278 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.278 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.278 | INFO     | __main__:compile:190 - compiling task_func_24
+2025-05-20 22:20:46.299 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_24/task_func_24.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc24.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_24/task_func_24.cbl:126: warning: line not terminated by a newline [-Wmissing-newline]
+  124 |     END-IF.
+  125 | 
+  126 >     WRITE OUTPUT-REC.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_24/task_func_24.cbl:20: error: syntax error, unexpected ., expecting VALUE or VALUES
+   18 | FD  INPUT-FILE1.
+   19 | 01  INPUT-REC1.
+   20 >    88 END-OF-FILE1.
+   21 | 
+   22 | FD  INPUT-FILE2.
+
+2025-05-20 22:20:46.299 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.299 | ERROR    | __main__:compile:227 - Compilation failed for task_func_24
+2025-05-20 22:20:46.299 | INFO     | __main__:compile:156 - Processing program 24/46: task_func_25
+2025-05-20 22:20:46.299 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.299 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.300 | INFO     | __main__:compile:190 - compiling task_func_25
+2025-05-20 22:20:46.321 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc25.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl:99: warning: line not terminated by a newline [-Wmissing-newline]
+   97 |             AFTER ADVANCING 1 LINE
+   98 |         END-WRITE
+   99 >     END-IF.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl:38: error: syntax error, unexpected SUM
+   36 | 
+   37 | 01 COLUMN-STATS.
+   38 >    05 SUM PIC 99999V99 VALUE ZERO.
+   39 |    05 MEAN PIC 9999V99 VALUE ZERO.
+   40 |    05 MINIMUM PIC 9999V99 VALUE 999999.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl:40: warning: value size exceeds data size [-Wothers]
+   38 |    05 SUM PIC 99999V99 VALUE ZERO.
+   39 |    05 MEAN PIC 9999V99 VALUE ZERO.
+   40 >    05 MINIMUM PIC 9999V99 VALUE 999999.
+   41 |    05 MAXIMUM PIC 9999V99 VALUE ZERO.
+   42 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl: in paragraph 'OPEN-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl:58: error: FUNCTION 'Len' unknown
+   56 |          OUTPUT OUTPUT-FILE.
+   57 | 
+   58 >     IF FUNCTION Len(COLUMN-NAME-RECORD) < 1 OR FUNCTION Len(COLUMN-NAME-R..
+   59 |         SET INVALID-COLUMN-NAME TO TRUE
+   60 |     ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl:58: error: FUNCTION 'Len' unknown
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl: in paragraph 'PROCESS-EMPLOYEE-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl:88: error: syntax error, unexpected ON
+   86 |         AT END SET END-OF-FILE TO TRUE
+   87 |         NOT AT END PERFORM PROCESS-RECORD
+   88 >         ON END-OF-FILE MOVE "Y" TO END-OF-FILE-SWITCH
+   89 |     END-READ.
+   90 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl: in paragraph 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl:92: error: 'STATS' is not defined
+   90 | 
+   91 | PROCESS-RECORD.
+   92 >     COMPUTE STATS = STATS + EMPLOYEE-RECORD.
+   93 | 
+   94 | WRITE-STATS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl: in paragraph 'WRITE-STATS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl:95: error: invalid expression: boolean expected with logical operator
+   93 | 
+   94 | WRITE-STATS.
+   95 >     IF NOT ERROR-SWITCH
+   96 |         WRITE OUTPUT-RECORD FROM COLUMN-STATS
+   97 |             AFTER ADVANCING 1 LINE
+
+2025-05-20 22:20:46.321 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.321 | ERROR    | __main__:compile:227 - Compilation failed for task_func_25
+2025-05-20 22:20:46.321 | INFO     | __main__:compile:156 - Processing program 25/46: task_func_26
+2025-05-20 22:20:46.321 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.322 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.322 | INFO     | __main__:compile:190 - compiling task_func_26
+2025-05-20 22:20:46.343 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. SalesReport.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl:38: warning: line not terminated by a newline [-Wmissing-newline]
+   36 |    05 THIS-DEPT PIC 99.
+   37 |    05 THIS-SALES-PERSON PIC 9(5).
+   38 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl:26: warning: value size exceeds data size [-Wothers]
+   24 |    05 FILLER PIC X(48) VALUE "SALES REPORT".
+   25 |    05 OUTPUT-LINE-NUM PIC Z9.
+   26 >    05 FILLER PIC X(12) VALUE "Dept Salesperson Sales".
+   27 |    05 OUTPUT-SALES PIC $$$,$$9.99.
+   28 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl:26: note: value size is 22 [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl:38: error: PROCEDURE DIVISION header missing
+   36 |    05 THIS-DEPT PIC 99.
+   37 |    05 THIS-SALES-PERSON PIC 9(5).
+   38 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl:38: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:46.343 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.343 | ERROR    | __main__:compile:227 - Compilation failed for task_func_26
+2025-05-20 22:20:46.343 | INFO     | __main__:compile:156 - Processing program 26/46: task_func_27
+2025-05-20 22:20:46.343 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.344 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.344 | INFO     | __main__:compile:190 - compiling task_func_27
+2025-05-20 22:20:46.364 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. CompoundInterest.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl:21: warning: line not terminated by a newline [-Wmissing-newline]
+   19 |    05 PRINCIPAL PIC 9(7)V99.
+   20 |    05 INTEREST-RATE PIC 9(4)V99.
+   21 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl:10: error: missing file description for FILE OUTPUT-FILE
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT OUTPUT-FILE ASSIGN TO "task_func27_out"
+   11 |         ORGANIZATION IS LINE SEQUENTIAL.
+   12 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl:21: error: PROCEDURE DIVISION header missing
+   19 |    05 PRINCIPAL PIC 9(7)V99.
+   20 |    05 INTEREST-RATE PIC 9(4)V99.
+   21 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl:21: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:46.364 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.364 | ERROR    | __main__:compile:227 - Compilation failed for task_func_27
+2025-05-20 22:20:46.365 | INFO     | __main__:compile:156 - Processing program 27/46: task_func_28
+2025-05-20 22:20:46.365 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.365 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.365 | INFO     | __main__:compile:190 - compiling task_func_28
+2025-05-20 22:20:46.386 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc28.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl:10: warning: line not terminated by a newline [-Wmissing-newline]
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT OUTFILE ASSIGN TO "task_func2<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl:10: error: invalid literal: 'task_func2 ...'
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT OUTFILE ASSIGN TO "task_func2<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl:10: note: missing terminating " character
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl:10: error: syntax error, unexpected end of file, expecting SEQUENTIAL
+
+2025-05-20 22:20:46.386 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.386 | ERROR    | __main__:compile:227 - Compilation failed for task_func_28
+2025-05-20 22:20:46.386 | INFO     | __main__:compile:156 - Processing program 28/46: task_func_29
+2025-05-20 22:20:46.386 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.386 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.387 | INFO     | __main__:compile:190 - compiling task_func_29
+2025-05-20 22:20:46.408 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. DuplicateNameCounter.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl:78: warning: line not terminated by a newline [-Wmissing-newline]
+   76 | 
+   77 | NEXT-RECORD.
+   78 >     CONTINUE.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl:17: error: syntax error, unexpected ID
+   15 | FD  INPUT-FILE.
+   16 | 01  INPUT-REC.
+   17 >    05  ID        PIC X(03).
+   18 |    05  NAME      PIC X(30).
+   19 |    05  AGE       PIC 999 VALUE ZEROES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl: in paragraph 'READ-AND-PROCESS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl:39: error: 'END-OF-FILE' is not defined
+   37 | 
+   38 | READ-AND-PROCESS.
+   39 >     PERFORM UNTIL END-OF-FILE
+   40 |         READ INPUT-FILE
+   41 |           AT END MOVE 'Y' TO END-OF-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl: in paragraph 'ANALYZE-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl:54: error: 'SKIP' is not defined
+   52 | ANALYZE-RECORD.
+   53 |     IF AGE < 0
+   54 >         DISPLAY "Invalid age value: " AGE SKIP
+   55 |               "Skipping record."
+   56 |         GO TO NEXT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl:59: error: PERFORM statement not terminated by END-PERFORM
+   57 |     END-IF
+   58 | 
+   59 >     PERFORM VARYING IDX FROM 1 BY 1 UNTIL IDX > 100
+   60 |         IF TABLE-AGE(IDX) = AGE AND TABLE-NAME(IDX) = NAME
+   61 |             ADD 1 TO TABLE-DUP-CNT(IDX)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl:65: error: syntax error, unexpected END-IF
+   63 |             WRITE OUTPUT-REC
+   64 |             GO TO NEXT-RECORD
+   65 >         END-IF
+   66 |     END-PERFORM
+   67 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl:66: error: syntax error, unexpected END-PERFORM
+   64 |             GO TO NEXT-RECORD
+   65 |         END-IF
+   66 >     END-PERFORM
+   67 | 
+   68 |     SET IDX TO 1.
+
+2025-05-20 22:20:46.408 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.408 | ERROR    | __main__:compile:227 - Compilation failed for task_func_29
+2025-05-20 22:20:46.408 | INFO     | __main__:compile:156 - Processing program 29/46: task_func_30
+2025-05-20 22:20:46.409 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.409 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.409 | INFO     | __main__:compile:190 - compiling task_func_30
+2025-05-20 22:20:46.430 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_30/task_func_30.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. WordFrequencyCounter.
+    3 | AUTHOR. John Doe.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_30/task_func_30.cbl:30: warning: line not terminated by a newline [-Wmissing-newline]
+   28 |    05 WORD-TABLE-ENTRY OCCURS 100 TIMES INDEXED BY IDX.
+   29 |        10 WORD-ENTRY PIC X(50).
+   30 >        1<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_30/task_func_30.cbl:31: error: syntax error, unexpected end of file
+   29 |        10 WORD-ENTRY PIC X(50).
+   30 |        1<EOF>
+
+2025-05-20 22:20:46.431 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.431 | ERROR    | __main__:compile:227 - Compilation failed for task_func_30
+2025-05-20 22:20:46.431 | INFO     | __main__:compile:156 - Processing program 30/46: task_func_31
+2025-05-20 22:20:46.431 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.431 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.431 | INFO     | __main__:compile:190 - compiling task_func_31
+2025-05-20 22:20:46.453 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_31/task_func_31.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. Weather-Statistics.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_31/task_func_31.cbl:10: error: missing file description for FILE OUTPUT-FILE
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT OUTPUT-FILE ASSIGN TO "weather-output.txt"
+   11 |         ORGANIZATION IS LINE SEQUENTIAL.
+   12 | 
+
+2025-05-20 22:20:46.453 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.453 | ERROR    | __main__:compile:227 - Compilation failed for task_func_31
+2025-05-20 22:20:46.453 | INFO     | __main__:compile:156 - Processing program 31/46: task_func_32
+2025-05-20 22:20:46.453 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.453 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.454 | INFO     | __main__:compile:190 - compiling task_func_32
+2025-05-20 22:20:46.475 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. VehicleAverageSpeed.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:96: warning: line not terminated by a newline [-Wmissing-newline]
+   94 |         DISPLAY "Too many vehicle types, increase table size"
+   95 |         STOP RUN
+   96 >     END-IF.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:29: error: syntax error, unexpected -
+   27 | 01  WS-TOTAL-SPEED PIC 9(5)V99 VALUE ZEROES.
+   28 | 01  WS-SPEED-COUNT PIC 9(4) VALUE ZEROES.
+   29 > 01  WS-VEHICLE-TYPE- TABLE.
+   30 |    88 END-OF-TABLE VALUE HIGH-VALUES.
+   31 |    05 WS-VEHICLE-TYPE OCCURS 100 TIMES INDEXED BY VT-INDEX.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:30: error: literal type does not match numeric data type
+   28 | 01  WS-SPEED-COUNT PIC 9(4) VALUE ZEROES.
+   29 | 01  WS-VEHICLE-TYPE- TABLE.
+   30 >    88 END-OF-TABLE VALUE HIGH-VALUES.
+   31 |    05 WS-VEHICLE-TYPE OCCURS 100 TIMES INDEXED BY VT-INDEX.
+   32 |        10 WS-VTYPE PIC X(05).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:28: error: group item 'WS-SPEED-COUNT' cannot have PICTURE clause
+   26 | WORKING-STORAGE SECTION.
+   27 | 01  WS-TOTAL-SPEED PIC 9(5)V99 VALUE ZEROES.
+   28 > 01  WS-SPEED-COUNT PIC 9(4) VALUE ZEROES.
+   29 | 01  WS-VEHICLE-TYPE- TABLE.
+   30 |    88 END-OF-TABLE VALUE HIGH-VALUES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl: in paragraph 'READ-AND-PROCESS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:42: error: 'END-OF-FILE' is not defined
+   40 | 
+   41 | READ-AND-PROCESS.
+   42 >     PERFORM UNTIL END-OF-FILE
+   43 |         READ INPUT-FILE
+   44 |             AT END MOVE 'Y' TO END-OF-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl: in paragraph 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:60: error: field does not have a FALSE clause
+   58 | PROCESS-RECORD.
+   59 |     IF END-OF-TABLE
+   60 >         SET END-OF-TABLE TO FALSE
+   61 |         ADD 1 TO VT-INDEX
+   62 |         MOVE VEHICLE-TYPE TO WS-VEHICLE-TYPE(VT-INDEX).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl: in paragraph 'ADD-NEW-VEHICLE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:73: error: invalid SET statement
+   71 | 
+   72 | ADD-NEW-VEHICLE.
+   73 >     SET END-OF-TABLE TO TRUE
+   74 |     ADD 1 TO VT-INDEX
+   75 |     MOVE VEHICLE-TYPE TO WS-VEHICLE-TYPE(VT-INDEX)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl: in paragraph 'VEHICLE-LOOP':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:81: error: condition-name not allowed here: 'END-OF-TABLE'
+   79 | VEHICLE-LOOP.
+   80 |     PERFORM VEHICLE-LOOP-SUBUNTIL END-OF-TABLE
+   81 >     PERFORM WRITE-OUTPUT-RECORD
+   82 |     END-PERFORM.
+   83 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:81: error: syntax error, unexpected PERFORM, expecting TIMES
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:82: error: syntax error, unexpected END-PERFORM
+   80 |     PERFORM VEHICLE-LOOP-SUBUNTIL END-OF-TABLE
+   81 |     PERFORM WRITE-OUTPUT-RECORD
+   82 >     END-PERFORM.
+   83 | 
+   84 | VEHICLE-LOOP-SUB.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl:80: error: 'VEHICLE-LOOP-SUBUNTIL' is not defined
+   78 | 
+   79 | VEHICLE-LOOP.
+   80 >     PERFORM VEHICLE-LOOP-SUBUNTIL END-OF-TABLE
+   81 |     PERFORM WRITE-OUTPUT-RECORD
+   82 |     END-PERFORM.
+
+2025-05-20 22:20:46.475 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.475 | ERROR    | __main__:compile:227 - Compilation failed for task_func_32
+2025-05-20 22:20:46.476 | INFO     | __main__:compile:156 - Processing program 32/46: task_func_33
+2025-05-20 22:20:46.476 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.476 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.476 | INFO     | __main__:compile:190 - compiling task_func_33
+2025-05-20 22:20:46.583 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/task_func_33.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. WeatherMerger.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/task_func_33.cbl:61: warning: line not terminated by a newline [-Wmissing-newline]
+   59 | DISPLAY "Weather data merge completed successfully."
+   60 | 
+   61 > STOP RUN.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/task_func_33.cbl:30: warning: value size exceeds data size [-Wothers]
+   28 | FD WEATHER-MERGED-FILE.
+   29 | 01 WEATHER-MERGED-REC.
+   30 >    05 MERGED-HEADER PIC X(20) VALUE "TIMESTAMP - WEATHER CONDITION".
+   31 |    05 TIMESTAMP PIC X(10).
+   32 |    05 WEATHER-CONDITION PIC X(20).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/task_func_33.cbl:30: note: value size is 29 [-Wothers]
+
+2025-05-20 22:20:46.583 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:46.583 | SUCCESS  | __main__:compile:206 - task_func_33 is successfully compiled
+2025-05-20 22:20:46.589 | SUCCESS  | __main__:compile:216 - task_func_33 is successfully executed
+2025-05-20 22:20:46.589 | INFO     | __main__:compile:156 - Processing program 33/46: task_func_34
+2025-05-20 22:20:46.589 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.589 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.590 | INFO     | __main__:compile:190 - compiling task_func_34
+2025-05-20 22:20:46.610 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc34.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl:10: warning: line not terminated by a newline [-Wmissing-newline]
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT INPUT-CUSTOMER-FILE ASSIGN TO "task_func3<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl:10: error: invalid literal: 'task_func3 ...'
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT INPUT-CUSTOMER-FILE ASSIGN TO "task_func3<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl:10: note: missing terminating " character
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl:10: error: syntax error, unexpected end of file, expecting SEQUENTIAL
+
+2025-05-20 22:20:46.610 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.610 | ERROR    | __main__:compile:227 - Compilation failed for task_func_34
+2025-05-20 22:20:46.610 | INFO     | __main__:compile:156 - Processing program 34/46: task_func_35
+2025-05-20 22:20:46.611 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.611 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.611 | INFO     | __main__:compile:190 - compiling task_func_35
+2025-05-20 22:20:46.631 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. Task_Func35.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl:10: warning: line not terminated by a newline [-Wmissing-newline]
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT TRANSACTION-FILE ASSIGN TO "task_func3<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl:10: error: invalid literal: 'task_func3 ...'
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT TRANSACTION-FILE ASSIGN TO "task_func3<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl:10: note: missing terminating " character
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl:10: error: syntax error, unexpected end of file, expecting SEQUENTIAL
+
+2025-05-20 22:20:46.631 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.631 | ERROR    | __main__:compile:227 - Compilation failed for task_func_35
+2025-05-20 22:20:46.632 | INFO     | __main__:compile:156 - Processing program 35/46: task_func_36
+2025-05-20 22:20:46.632 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.632 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.632 | INFO     | __main__:compile:190 - compiling task_func_36
+2025-05-20 22:20:46.653 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. MeanAndMedian.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:81: warning: line not terminated by a newline [-Wmissing-newline]
+   79 |     ...
+   80 | 
+   81 > In this high-level description, we open the input and output files, read..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:30: error: syntax error, unexpected INDEX, expecting Identifier
+   28 | 01  NUMBER-COUNT PIC 99 VALUE 0.
+   29 | 01  ARRAY-OF-NUMBERS.
+   30 >    05 NUMBER-ARRAY OCCURS 100 TIMES INDEXED BY INDEX.
+   31 |        10 NUMBER-VALUE PIC 9(5).
+   32 | 01  SORTED-ARRAY.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:33: error: syntax error, unexpected INDEX, expecting Identifier
+   31 |        10 NUMBER-VALUE PIC 9(5).
+   32 | 01  SORTED-ARRAY.
+   33 >    05 SORTED-NUMBER-ARRAY OCCURS 100 TIMES INDEXED BY INDEX.
+   34 |        10 SORTED-NUMBER-VALUE PIC 9(5).
+   35 | 01  MEAN-AND-MEDIAN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl: in paragraph 'SORT-ARRAY':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:57: error: syntax error, unexpected Identifier
+   55 | SORT-ARRAY.
+   56 |     PERFORM VARIOUS-SORTING-ALGORITHM WITH TEST AFTER
+   57 >         UNTIL SORTED-ARRAY IS SORTED
+   58 |         PERFORM CALCULATE-MEDIAN
+   59 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:60: error: 'WRITE-OUTPUT-FILE' is not defined
+   58 |         PERFORM CALCULATE-MEDIAN
+   59 | 
+   60 > WRITE-OUTPUT-FILE.
+   61 |     WRITE OUTPUT-REC FROM MEAN-AND-MEDIAN
+   62 |         AFTER ADVANCING PAGE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:60: error: syntax error, unexpected ., expecting TIMES
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl: in paragraph 'ADD-TO-SUM-AND-COUNT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:73: error: 'NUMBER-ARRAY' cannot be subscripted
+   71 |     ADD INPUT-NUM TO SUM-OF-NUMBERS.
+   72 |     ADD 1 TO NUMBER-COUNT.
+   73 >     MOVE INPUT-NUM TO NUMBER-ARRAY (NUMBER-COUNT).
+   74 | 
+   75 | VARIOUS-SORTING-ALGORITHM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:75: warning: ignoring redundant . [-Wothers]
+   73 |     MOVE INPUT-NUM TO NUMBER-ARRAY (NUMBER-COUNT).
+   74 | 
+   75 > VARIOUS-SORTING-ALGORITHM.
+   76 |     ...
+   77 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl: in paragraph 'VARIOUS-SORTING-ALGORITHM':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:77: warning: ignoring redundant . [-Wothers]
+   75 | VARIOUS-SORTING-ALGORITHM.
+   76 |     ...
+   77 > 
+   78 | CALCULATE-MEDIAN.
+   79 |     ...
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl: in paragraph 'CALCULATE-MEDIAN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:79: error: syntax error, unexpected IN
+   77 | 
+   78 | CALCULATE-MEDIAN.
+   79 >     ...
+   80 | 
+   81 | In this high-level description, we open the input and output files, read..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:79: error: syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:79: error: 'the' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:79: error: 'the' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:79: error: syntax error, unexpected NUMBERS
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:79: error: 'calculations' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:79: error: syntax error, unexpected FOR, expecting TIMES
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:79: error: syntax error, unexpected ALSO, expecting SECTION or .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl:79: note: unknown statement 'we'
+
+2025-05-20 22:20:46.654 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.654 | ERROR    | __main__:compile:227 - Compilation failed for task_func_36
+2025-05-20 22:20:46.654 | INFO     | __main__:compile:156 - Processing program 36/46: task_func_37
+2025-05-20 22:20:46.654 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.654 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.654 | INFO     | __main__:compile:190 - compiling task_func_37
+2025-05-20 22:20:46.675 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_37/task_func_37.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc37.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_37/task_func_37.cbl:80: warning: line not terminated by a newline [-Wmissing-newline]
+   78 |         INTO SORTED-TABLE.
+   79 | 
+   80 > STOP RUN.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_37/task_func_37.cbl: in paragraph 'SORT-REPORT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_37/task_func_37.cbl:75: error: 'WS-TABLE' has no OCCURS clause
+   73 | 
+   74 | SORT-REPORT.
+   75 >     SORT WS-TABLE
+   76 |         ON ASCENDING DEPT-OUT
+   77 |         ON ASCENDING QTY-OUT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_37/task_func_37.cbl:78: error: syntax error, unexpected INTO
+   76 |         ON ASCENDING DEPT-OUT
+   77 |         ON ASCENDING QTY-OUT
+   78 >         INTO SORTED-TABLE.
+   79 | 
+   80 | STOP RUN.<EOF>
+
+2025-05-20 22:20:46.675 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.675 | ERROR    | __main__:compile:227 - Compilation failed for task_func_37
+2025-05-20 22:20:46.675 | INFO     | __main__:compile:156 - Processing program 37/46: task_func_38
+2025-05-20 22:20:46.676 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.676 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.676 | INFO     | __main__:compile:190 - compiling task_func_38
+2025-05-20 22:20:46.843 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. Task_Func38.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl:137: warning: line not terminated by a newline [-Wmissing-newline]
+  135 | 
+  136 | INCREMENT-DUP-COUNT SECTION.
+  137 > ADD 1 TO WS-TAB-COUNT (IDX).<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl: in section 'READ-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl:58: error: 'READ-FILE-1' is not defined
+   56 | READ-FILES SECTION.
+   57 | PERFORM UNTIL END-OF-FILE-SWITCH = 'Y'
+   58 >    READ-FILE-1.
+   59 |    PERFORM PROCESS-FILE-1
+   60 |      IF NOT END-OF-FILE-SWITCH
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl:57: error: invalid expression: unfinished expression
+   55 | 
+   56 | READ-FILES SECTION.
+   57 > PERFORM UNTIL END-OF-FILE-SWITCH = 'Y'
+   58 |    READ-FILE-1.
+   59 |    PERFORM PROCESS-FILE-1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl:58: warning: inline PERFORM without imperative statement used [-Wdialect]
+   56 | READ-FILES SECTION.
+   57 | PERFORM UNTIL END-OF-FILE-SWITCH = 'Y'
+   58 >    READ-FILE-1.
+   59 |    PERFORM PROCESS-FILE-1
+   60 |      IF NOT END-OF-FILE-SWITCH
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl:57: error: PERFORM statement not terminated by END-PERFORM
+   55 | 
+   56 | READ-FILES SECTION.
+   57 > PERFORM UNTIL END-OF-FILE-SWITCH = 'Y'
+   58 |    READ-FILE-1.
+   59 |    PERFORM PROCESS-FILE-1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl:61: error: 'READ-FILE-2' is not defined
+   59 |    PERFORM PROCESS-FILE-1
+   60 |      IF NOT END-OF-FILE-SWITCH
+   61 >        READ-FILE-2
+   62 |        PERFORM PROCESS-FILE-2
+   63 |      END-IF
+
+unknown (signal)
+
+cobc: aborting compile of /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl at line 62 (PROGRAM-ID: Task_Func38)
+cobc: Please report this!
+
+2025-05-20 22:20:46.843 | WARNING  | utils:cmd:36 - Return code: -11
+2025-05-20 22:20:46.843 | ERROR    | __main__:compile:227 - Compilation failed for task_func_38
+2025-05-20 22:20:46.843 | INFO     | __main__:compile:156 - Processing program 38/46: task_func_39
+2025-05-20 22:20:46.844 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.844 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.844 | INFO     | __main__:compile:190 - compiling task_func_39
+2025-05-20 22:20:46.865 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_39/task_func_39.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc39.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_39/task_func_39.cbl:29: warning: line not terminated by a newline [-Wmissing-newline]
+   27 | 01  ERROR-REC.
+   28 |    05 ERROR-NAME PIC X(20).
+   29 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_39/task_func_39.cbl:29: error: PROCEDURE DIVISION header missing
+   27 | 01  ERROR-REC.
+   28 |    05 ERROR-NAME PIC X(20).
+   29 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_39/task_func_39.cbl:29: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:46.865 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.865 | ERROR    | __main__:compile:227 - Compilation failed for task_func_39
+2025-05-20 22:20:46.865 | INFO     | __main__:compile:156 - Processing program 39/46: task_func_40
+2025-05-20 22:20:46.865 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.865 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.866 | INFO     | __main__:compile:190 - compiling task_func_40
+2025-05-20 22:20:46.887 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc40.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:49: warning: line not terminated by a newline [-Wmissing-newline]
+   47 |     IF WS-DD < 10
+   48 |         MOVE "0" TO WS-DD(1:1)
+   49 >     COMPUTE RAND-DATE = WS-YYYY * 10000 + WS-MM * 100 + WS-DD.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:23: error: syntax error, unexpected Identifier
+   21 | 01  END-DATE   PIC 9(8) VALUE 20201231.
+   22 | 01  RAND-DATE  PIC 9(8).
+   23 > 01  RAND-LIMIT PIC 9(4) VALUE (END-DATE - START-DATE + 1).
+   24 | 01  SEED-VALUE PIC 9(8) VALUE 12345678.
+   25 | 01  WS-DD      PIC 99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:23: warning: numeric value is expected [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl: in paragraph 'OPEN-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:34: error: syntax error, unexpected .
+   32 |     OPEN OUTPUT OUTPUT-FILE.
+   33 | 
+   34 > INITIALIZE.
+   35 |     PERFORM GET-RANDOM-DATE UNTIL RAND-DATE >= END-DATE
+   36 |         MOVE RAND-DATE TO OUTPUT-REC.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl: in paragraph 'GET-RANDOM-DATE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:41: error: 'PER' is not defined
+   39 | 
+   40 | GET-RANDOM-DATE.
+   41 >     COMPUTE RAND-DATE = START-DATE + FUNCTION NUMVAL(FUNCTION RANDOM(SEED..
+   42 |     MOVE FUNCTION NUMVAL(FUNCTION DATE-YEAR(RAND-DATE)) TO WS-YYYY
+   43 |     MOVE FUNCTION NUMVAL(FUNCTION DATE-MONTH(RAND-DATE)) TO WS-MM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:41: error: FUNCTION 'NUMVAL' has wrong number of arguments
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:42: error: FUNCTION 'DATE-YEAR' unknown
+   40 | GET-RANDOM-DATE.
+   41 |     COMPUTE RAND-DATE = START-DATE + FUNCTION NUMVAL(FUNCTION RANDOM(SEED..
+   42 >     MOVE FUNCTION NUMVAL(FUNCTION DATE-YEAR(RAND-DATE)) TO WS-YYYY
+   43 |     MOVE FUNCTION NUMVAL(FUNCTION DATE-MONTH(RAND-DATE)) TO WS-MM
+   44 |     MOVE FUNCTION NUMVAL(FUNCTION DATE-DAY(RAND-DATE)) TO WS-DD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:43: error: FUNCTION 'DATE-MONTH' unknown
+   41 |     COMPUTE RAND-DATE = START-DATE + FUNCTION NUMVAL(FUNCTION RANDOM(SEED..
+   42 |     MOVE FUNCTION NUMVAL(FUNCTION DATE-YEAR(RAND-DATE)) TO WS-YYYY
+   43 >     MOVE FUNCTION NUMVAL(FUNCTION DATE-MONTH(RAND-DATE)) TO WS-MM
+   44 |     MOVE FUNCTION NUMVAL(FUNCTION DATE-DAY(RAND-DATE)) TO WS-DD
+   45 |     IF WS-MM < 10
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl:44: error: FUNCTION 'DATE-DAY' unknown
+   42 |     MOVE FUNCTION NUMVAL(FUNCTION DATE-YEAR(RAND-DATE)) TO WS-YYYY
+   43 |     MOVE FUNCTION NUMVAL(FUNCTION DATE-MONTH(RAND-DATE)) TO WS-MM
+   44 >     MOVE FUNCTION NUMVAL(FUNCTION DATE-DAY(RAND-DATE)) TO WS-DD
+   45 |     IF WS-MM < 10
+   46 |         MOVE "0" TO WS-MM(1:1)
+
+2025-05-20 22:20:46.887 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:46.887 | ERROR    | __main__:compile:227 - Compilation failed for task_func_40
+2025-05-20 22:20:46.887 | INFO     | __main__:compile:156 - Processing program 40/46: task_func_43
+2025-05-20 22:20:46.887 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.887 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.888 | INFO     | __main__:compile:190 - compiling task_func_43
+2025-05-20 22:20:46.988 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_43/task_func_43.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. PrimeNumbers.
+    3 | 
+
+2025-05-20 22:20:46.988 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:46.988 | SUCCESS  | __main__:compile:206 - task_func_43 is successfully compiled
+2025-05-20 22:20:46.993 | WARNING  | utils:cmd:35 - Err: libcob: warning: implicit CLOSE of OUTPUT-FILE ('output.txt')
+libcob: warning: implicit CLOSE of INPUT-FILE ('input.txt')
+
+2025-05-20 22:20:46.993 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:46.994 | SUCCESS  | __main__:compile:216 - task_func_43 is successfully executed
+2025-05-20 22:20:46.994 | INFO     | __main__:compile:156 - Processing program 41/46: task_func_44
+2025-05-20 22:20:46.994 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:46.994 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:46.994 | INFO     | __main__:compile:190 - compiling task_func_44
+2025-05-20 22:20:47.015 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_44/task_func_44.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. AnalyzeArticle.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_44/task_func_44.cbl:35: warning: line not terminated by a newline [-Wmissing-newline]
+   33 | 01 TITLE-KEYWORDS.
+   34 |    05 KEYWORD-1 PIC X(20) VALUE "KEYWORD1".
+   35 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_44/task_func_44.cbl:35: error: PROCEDURE DIVISION header missing
+   33 | 01 TITLE-KEYWORDS.
+   34 |    05 KEYWORD-1 PIC X(20) VALUE "KEYWORD1".
+   35 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_44/task_func_44.cbl:35: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:47.015 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:47.015 | ERROR    | __main__:compile:227 - Compilation failed for task_func_44
+2025-05-20 22:20:47.015 | INFO     | __main__:compile:156 - Processing program 42/46: task_func_45
+2025-05-20 22:20:47.016 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:47.016 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:47.016 | INFO     | __main__:compile:190 - compiling task_func_45
+2025-05-20 22:20:47.036 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. WeatherReport.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl:10: warning: line not terminated by a newline [-Wmissing-newline]
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT OUTPUT-FILE ASSIGN TO "task_func4<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl:10: error: invalid literal: 'task_func4 ...'
+    8 |         ORGANIZATION IS LINE SEQUENTIAL.
+    9 | 
+   10 >     SELECT OUTPUT-FILE ASSIGN TO "task_func4<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl:10: note: missing terminating " character
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl:10: error: syntax error, unexpected end of file, expecting SEQUENTIAL
+
+2025-05-20 22:20:47.036 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:47.036 | ERROR    | __main__:compile:227 - Compilation failed for task_func_45
+2025-05-20 22:20:47.036 | INFO     | __main__:compile:156 - Processing program 43/46: task_func_47
+2025-05-20 22:20:47.036 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:47.036 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:47.037 | INFO     | __main__:compile:190 - compiling task_func_47
+2025-05-20 22:20:47.056 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_47/task_func_47.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc47.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_47/task_func_47.cbl:26: error: syntax error, unexpected INDEX, expecting Identifier
+   24 | 01  END-OF-FILE-SWITCH PIC X VALUE 'N'.
+   25 | 01  WS-TABLE.
+   26 >    05 WS-ENTRY PIC X(2) OCCURS 256 TIMES INDEXED BY INDEX.
+   27 |    10 WS-CHARACTER PIC X VALUE SPACE.
+   28 |    10 WS-REPLACEMENT PIC X VALUE SPACE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_47/task_func_47.cbl:26: error: group item 'WS-ENTRY' cannot have PICTURE clause
+
+2025-05-20 22:20:47.057 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:47.057 | ERROR    | __main__:compile:227 - Compilation failed for task_func_47
+2025-05-20 22:20:47.057 | INFO     | __main__:compile:156 - Processing program 44/46: task_func_48
+2025-05-20 22:20:47.057 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:47.057 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:47.057 | INFO     | __main__:compile:190 - compiling task_func_48
+2025-05-20 22:20:47.078 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. StudentGradesReport.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl:15: warning: line not terminated by a newline [-Wmissing-newline]
+   13 |    05 student-name PIC X(20).
+   14 |    05 FILLER PIC X VALUE " : ".
+   15 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl:14: warning: value size exceeds data size [-Wothers]
+   12 | 01 student-record.
+   13 |    05 student-name PIC X(20).
+   14 >    05 FILLER PIC X VALUE " : ".
+   15 |    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl:14: note: value size is 2 [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl:15: error: PROCEDURE DIVISION header missing
+   13 |    05 student-name PIC X(20).
+   14 |    05 FILLER PIC X VALUE " : ".
+   15 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl:15: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:47.078 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:47.078 | ERROR    | __main__:compile:227 - Compilation failed for task_func_48
+2025-05-20 22:20:47.078 | INFO     | __main__:compile:156 - Processing program 45/46: task_func_49
+2025-05-20 22:20:47.078 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:47.078 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:47.079 | INFO     | __main__:compile:190 - compiling task_func_49
+2025-05-20 22:20:47.099 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_49/task_func_49.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc49Inp.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_49/task_func_49.cbl:40: warning: line not terminated by a newline [-Wmissing-newline]
+   38 |    05 TOTAL-AGE    PIC 9(4)V99 VALUE ZEROS.
+   39 |    05 TOTAL-HEIGHT  PIC 9(4)V99 VALUE ZEROS.
+   40 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_49/task_func_49.cbl:40: error: PROCEDURE DIVISION header missing
+   38 |    05 TOTAL-AGE    PIC 9(4)V99 VALUE ZEROS.
+   39 |    05 TOTAL-HEIGHT  PIC 9(4)V99 VALUE ZEROS.
+   40 >    0<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_49/task_func_49.cbl:40: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:47.099 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:47.100 | ERROR    | __main__:compile:227 - Compilation failed for task_func_49
+2025-05-20 22:20:47.100 | INFO     | __main__:compile:156 - Processing program 46/46: task_func_55
+2025-05-20 22:20:47.100 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:47.100 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:47.100 | INFO     | __main__:compile:190 - compiling task_func_55
+2025-05-20 22:20:47.121 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:1: note: free format detected
+    1 >  IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. OutlierRemoval.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:81: warning: line not terminated by a newline [-Wmissing-newline]
+   79 |             WRITE OUTLIER-INDEX-REC
+   80 |         END-IF
+   81 >     END-IF.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:36: error: syntax error, unexpected COUNT
+   34 | 01 MEAN PIC 9(4)V99 VALUE ZEROS.
+   35 | 01 STANDARD-DEVIATION PIC 9(4)V99 VALUE ZEROS.
+   36 > 01 COUNT PIC 99 VALUE 0.
+   37 | 01 Z-SCORE PIC 9(4)V99.
+   38 | 01 THRESHOLD PIC 99 VALUE 3.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:39: error: 'FILLER' cannot have PICTURE clause
+   37 | 01 Z-SCORE PIC 9(4)V99.
+   38 | 01 THRESHOLD PIC 99 VALUE 3.
+   39 > 01 INDEX PIC 99.
+   40 | 
+   41 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl: in section 'READ-AND-PROCESS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:50: error: condition-name not allowed here: 'END-OF-FILE'
+   48 | PERFORM UNTIL END-OF-FILE
+   49 |     READ INFILE
+   50 >         AT END MOVE 'Y' TO END-OF-FILE
+   51 |         NOT AT END PERFORM CALCULATE-STATS
+   52 |     END-READ
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl: in section 'CALCULATE-STATS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:63: error: syntax error, unexpected COUNT
+   61 | 
+   62 | CALCULATE-STATS SECTION.
+   63 >     ADD 1 TO COUNT
+   64 |     COMPUTE MEAN = MEAN + INPUT-VALUE / COUNT
+   65 |     IF COUNT > 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:64: error: syntax error, unexpected COUNT
+   62 | CALCULATE-STATS SECTION.
+   63 |     ADD 1 TO COUNT
+   64 >     COMPUTE MEAN = MEAN + INPUT-VALUE / COUNT
+   65 |     IF COUNT > 1
+   66 |         COMPUTE STANDARD-DEVIATION =
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:65: error: syntax error, unexpected COUNT
+   63 |     ADD 1 TO COUNT
+   64 |     COMPUTE MEAN = MEAN + INPUT-VALUE / COUNT
+   65 >     IF COUNT > 1
+   66 |         COMPUTE STANDARD-DEVIATION =
+   67 |             SQRT((STANDARD-DEVIATION ** 2 * (COUNT - 1) +
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:67: error: syntax error, unexpected COUNT
+   65 |     IF COUNT > 1
+   66 |         COMPUTE STANDARD-DEVIATION =
+   67 >             SQRT((STANDARD-DEVIATION ** 2 * (COUNT - 1) +
+   68 |             (INPUT-VALUE ** 2)) / COUNT)
+   69 |     END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:65: error: IF without imperative statement
+   63 |     ADD 1 TO COUNT
+   64 |     COMPUTE MEAN = MEAN + INPUT-VALUE / COUNT
+   65 >     IF COUNT > 1
+   66 |         COMPUTE STANDARD-DEVIATION =
+   67 |             SQRT((STANDARD-DEVIATION ** 2 * (COUNT - 1) +
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl: in section 'WRITE-OUTPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl:78: error: syntax error, unexpected INDEX
+   76 |             WRITE OUTPUT-REC
+   77 |         ELSE
+   78 >             COMPUTE INDEX = (COUNT - 1)
+   79 |             WRITE OUTLIER-INDEX-REC
+   80 |         END-IF
+
+2025-05-20 22:20:47.122 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:47.122 | ERROR    | __main__:compile:227 - Compilation failed for task_func_55
+2025-05-20 22:20:47.123 | SUCCESS  | __main__:compile:268 - Compilation completed
+2025-05-20 22:20:47.123 | INFO     | __main__:compile:269 - Total programs compiled: 2 
+Total programs executed: 2 
+Total results matched: 0.0
+2025-05-20 22:20:47.123 | INFO     | __main__:compile:285 - final_results directory path: /home/projadmin/CobolEval/FrameWork/final_results/instruct
+2025-05-20 22:20:47.134 | INFO     | __main__:compile:290 - Results saved to final_results/instruct/Mixtral-8x7B-Instruct-v0.1_instruct_final_results.csv
+
+
+--- STDOUT OUTPUT ---
+
+Starting compilation for model: Mixtral-8x7B-Instruct-v0.1, mode: instruct
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/weather1.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/weather2.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_43/input.txt
+Finished processing model: Mixtral-8x7B-Instruct-v0.1, mode: instruct
+Results summary: 46 programs processed
+Compiled: 2 - Executed: 2 - Match: 0.0
+2025-05-20 22:20:47.135 | SUCCESS  | __main__:<module>:384 - Completed processing model: Mixtral-8x7B-Instruct-v0.1, mode: instruct
+2025-05-20 22:20:47.135 | INFO     | __main__:<module>:385 - All logs saved to /home/projadmin/CobolEval/FrameWork/logs/Mixtral-8x7B-Instruct-v0.1_instruct.txt

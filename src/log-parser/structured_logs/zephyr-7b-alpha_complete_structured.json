@@ -1,0 +1,4723 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.647 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_01/task_func_01.cbl",
+        "line": 433,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_01/task_func_01.cbl",
+        "line": 434,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.623",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.670 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_02/task_func_02.cbl",
+        "line": 209,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_02/task_func_02.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_02/task_func_02.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_02/task_func_02.cbl",
+        "line": 209,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_02/task_func_02.cbl",
+        "line": 209,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.648",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.693 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_03/task_func_03.cbl",
+        "line": 280,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_03/task_func_03.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.671",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.716 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_04/task_func_04.cbl",
+        "line": 118,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_04/task_func_04.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_04/task_func_04.cbl",
+        "line": 94,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_04/task_func_04.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_04/task_func_04.cbl",
+        "line": 118,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.694",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.741 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 325,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 125,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 147,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 169,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 191,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 213,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 235,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 257,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 279,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 301,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_05/task_func_05.cbl",
+        "line": 323,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.716",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.764 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 197,
+        "level": "error",
+        "message": "invalid indicator 'r' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 198,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 198,
+        "level": "error",
+        "message": "invalid indicator 's' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "syntax error, unexpected TABLE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "group item 'EMP-TABLE' cannot have PICTURE clause"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "syntax error, unexpected ERROR"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'REPORT-MESSAGE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'NOTIFY' cannot be used here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "FUNCTION 'SUBSTRING' unknown"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "'CURRENT-DATE' is not a numeric name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "FUNCTION 'SUBSTRING' unknown"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "'CURRENT-DATE' is not a numeric name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 199,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'READ-TASK-INFO' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "'READ-EMP-INFO' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "'ASSIGN-TASKS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_07/task_func_07.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "'WRITE-RESULTS' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.741",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.786 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_08/task_func_08.cbl",
+        "line": 183,
+        "level": "error",
+        "message": "invalid indicator 'r' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_08/task_func_08.cbl",
+        "line": 184,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_08/task_func_08.cbl",
+        "line": 184,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.764",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.811 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_09/task_func_09.cbl",
+        "line": 431,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_09/task_func_09.cbl",
+        "line": 432,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.787",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.834 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 98,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 247,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 95,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 105,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 105,
+        "level": "error",
+        "message": "1 cannot follow A or X"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 107,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 113,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 116,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_10/task_func_10.cbl",
+        "line": 117,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.811",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.857 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 177,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 177,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 85,
+        "level": "error",
+        "message": "syntax error, unexpected ("
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 104,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 104,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 104,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 108,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 108,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 149,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_11/task_func_11.cbl",
+        "line": 149,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.834",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.881 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_12/task_func_12.cbl",
+        "line": 346,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_12/task_func_12.cbl",
+        "line": 346,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_12/task_func_12.cbl",
+        "line": 346,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.858",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.904 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_13/task_func_13.cbl",
+        "line": 194,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_13/task_func_13.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_13/task_func_13.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_13/task_func_13.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_13/task_func_13.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.882",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:57.934 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 93,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 105,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 108,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 111,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 114,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 117,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 120,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 123,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 126,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 129,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 132,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 135,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 138,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 141,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 144,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 147,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 150,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 153,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 156,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 159,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 162,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 165,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 168,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 171,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 174,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 177,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 180,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 183,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 186,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 189,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 192,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 195,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 198,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 201,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 204,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 207,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 210,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 213,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 216,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 219,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 222,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 225,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 228,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 231,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 234,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 237,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 240,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 243,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 246,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 249,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 252,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 255,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 257,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 259,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 261,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 263,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 264,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 265,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 266,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 267,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 268,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 268,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 165,
+        "level": "error",
+        "message": "invalid literal: ' ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_14/task_func_14.cbl",
+        "line": 165,
+        "level": "note",
+        "message": "missing terminating ' character"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.905",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.008 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_15/task_func_15.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "'ERROR-MESSAGE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_15/task_func_15.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "'ERROR-MESSAGE' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_15/task_func_15.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'NOTIFY' cannot be used here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_15/task_func_15.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'NOTIFY' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_15/task_func_15.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected STATUS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_15/task_func_15.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "'STATUS-SWITCH' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_15/task_func_15.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "'END-OPEN' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_15/task_func_15.cbl",
+        "line": 80,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_15/task_func_15.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "'READ-ANIMAL-FILE' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:57.935",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.045 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 291,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 93,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 94,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 95,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 107,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 108,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 109,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 110,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 122,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 123,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 124,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 125,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 137,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 138,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 139,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 140,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 141,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 142,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 143,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 144,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 145,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 146,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 147,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 148,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 152,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 153,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 154,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 155,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 156,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 157,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 158,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 159,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 160,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 161,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 162,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 163,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 167,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 168,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 169,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 170,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 171,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 172,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 173,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 174,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 175,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 176,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 177,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 178,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 182,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 183,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 184,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 185,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 186,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 187,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 188,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 189,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 190,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 191,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 192,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 193,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 197,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 198,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 199,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 200,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 201,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 202,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 203,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 204,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 205,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 206,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 207,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 208,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 212,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 213,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 214,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 215,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 216,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 217,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 218,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 219,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 220,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 221,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 222,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 223,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 227,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 228,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 229,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 230,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 231,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 232,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 233,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 234,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 235,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 236,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 237,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 238,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 242,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 243,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 244,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 245,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 246,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 247,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 248,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 249,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 250,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 251,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 252,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 253,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 257,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 258,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 259,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 260,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 261,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 262,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 263,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 264,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 265,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 266,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_16/task_func_16.cbl",
+        "line": 267,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      }
+    ],
+    "return_code": 97,
+    "timestamp": "2025-05-20 22:20:58.009",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.069 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_17/task_func_17.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_17/task_func_17.cbl",
+        "line": 112,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_17/task_func_17.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "syntax error, unexpected CHARACTER"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_17/task_func_17.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_17/task_func_17.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "invalid literal: '. ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_17/task_func_17.cbl",
+        "line": 77,
+        "level": "note",
+        "message": "missing terminating ' character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_17/task_func_17.cbl",
+        "line": 77,
+        "level": "warning",
+        "message": "handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_17/task_func_17.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.046",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.095 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 202,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_18/task_func_18.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.070",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.122 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_19/task_func_19.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_19/task_func_19.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_19/task_func_19.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_19/task_func_19.cbl",
+        "line": 215,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_19/task_func_19.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_19/task_func_19.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "invalid literal: 'Standard Deviation: $ ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_19/task_func_19.cbl",
+        "line": 68,
+        "level": "note",
+        "message": "literal length exceeds 8191 characters"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_19/task_func_19.cbl",
+        "line": 68,
+        "level": "note",
+        "message": "missing terminating \" character"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.096",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.146 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_20/task_func_20.cbl",
+        "line": 101,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_20/task_func_20.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_20/task_func_20.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.122",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.169 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_21/task_func_21.cbl",
+        "line": 101,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_21/task_func_21.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "syntax error, unexpected ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_21/task_func_21.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "syntax error, unexpected ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_21/task_func_21.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "syntax error, unexpected ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_21/task_func_21.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_21/task_func_21.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_21/task_func_21.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "1 cannot follow A or X"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_21/task_func_21.cbl",
+        "line": 85,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_21/task_func_21.cbl",
+        "line": 85,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.146",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.196 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 273,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 94,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "1 cannot follow A or X"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 107,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_22/task_func_22.cbl",
+        "line": 111,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.170",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.220 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_23/task_func_23.cbl",
+        "line": 131,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_23/task_func_23.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.196",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.244 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_24/task_func_24.cbl",
+        "line": 276,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_24/task_func_24.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.220",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.268 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_25/task_func_25.cbl",
+        "line": 206,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_25/task_func_25.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "'COLUMN-DATA-LENGTH' is not a constant-name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_25/task_func_25.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_25/task_func_25.cbl",
+        "line": 94,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.245",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.293 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_26/task_func_26.cbl",
+        "line": 283,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_26/task_func_26.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.269",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.318 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 58,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "invalid indicator 'r' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "invalid indicator 'i' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 61,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "invalid indicator 'v' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected TABLE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "invalid literal: '-------------------------- ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_27/task_func_27.cbl",
+        "line": 57,
+        "level": "note",
+        "message": "missing terminating \" character"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.293",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.343 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_28/task_func_28.cbl",
+        "line": 444,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_28/task_func_28.cbl",
+        "line": 445,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.319",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.368 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_29/task_func_29.cbl",
+        "line": 354,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_29/task_func_29.cbl",
+        "line": 355,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.344",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.392 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_30/task_func_30.cbl",
+        "line": 160,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_30/task_func_30.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected TABLE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_30/task_func_30.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_30/task_func_30.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_30/task_func_30.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.369",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.416 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_31/task_func_31.cbl",
+        "line": 119,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_31/task_func_31.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_31/task_func_31.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.393",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.439 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_32/task_func_32.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.416",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.464 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 180,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "syntax error, unexpected ERROR"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 47,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 47,
+        "level": "note",
+        "message": "value size is 11 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 58,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 58,
+        "level": "note",
+        "message": "value size is 63 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 60,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 61,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 62,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 63,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 64,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 65,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 66,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 67,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 68,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 69,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 70,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 71,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 72,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 73,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 74,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 75,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 76,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 77,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 78,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 79,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_33/task_func_33.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.440",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.495 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 368,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 324,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 324,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 325,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 325,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 326,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 326,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 327,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 327,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 328,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 328,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 329,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 329,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 330,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 330,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 331,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 331,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 332,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 332,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 333,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 333,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 334,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 334,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 335,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 335,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 336,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 336,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 337,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 337,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 338,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 338,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 339,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 339,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 340,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 340,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 341,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 341,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 342,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 342,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 343,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 343,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 344,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 344,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 345,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 345,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 346,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 346,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 347,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 347,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 348,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 348,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 349,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 349,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 350,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 350,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 351,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 351,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 352,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 352,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 353,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 353,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 354,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 354,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 355,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 355,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 356,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 356,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 357,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 357,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 358,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 358,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 359,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 359,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 360,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 360,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 361,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 361,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 362,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 362,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 363,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 363,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 364,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 364,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 365,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 365,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 366,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 366,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 367,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 367,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 368,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_34/task_func_34.cbl",
+        "line": 368,
+        "level": "note",
+        "message": "unknown statement '001'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.465",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.523 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_35/task_func_35.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_35/task_func_35.cbl",
+        "line": 317,
+        "level": "error",
+        "message": "invalid indicator 'r' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_35/task_func_35.cbl",
+        "line": 318,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_35/task_func_35.cbl",
+        "line": 318,
+        "level": "error",
+        "message": "invalid indicator 'u' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_35/task_func_35.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "invalid literal: 'End of Account Master Upd ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_35/task_func_35.cbl",
+        "line": 53,
+        "level": "note",
+        "message": "literal length exceeds 8191 characters"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_35/task_func_35.cbl",
+        "line": 53,
+        "level": "note",
+        "message": "missing terminating \" character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_35/task_func_35.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.496",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.547 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_36/task_func_36.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_36/task_func_36.cbl",
+        "line": 80,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_36/task_func_36.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_36/task_func_36.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_36/task_func_36.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "invalid literal: 'N ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_36/task_func_36.cbl",
+        "line": 71,
+        "level": "note",
+        "message": "missing terminating ' character"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.523",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.573 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_37/task_func_37.cbl",
+        "line": 460,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_37/task_func_37.cbl",
+        "line": 460,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_37/task_func_37.cbl",
+        "line": 460,
+        "level": "error",
+        "message": "invalid PICTURE character '8'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_37/task_func_37.cbl",
+        "line": 461,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.547",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.601 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_38/task_func_38.cbl",
+        "line": 378,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_38/task_func_38.cbl",
+        "line": 379,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.574",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.631 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 355,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 326,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 326,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 327,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 327,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 328,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 328,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 329,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 329,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 330,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 330,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 331,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 331,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 332,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 332,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 333,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 333,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 334,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 334,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 335,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 335,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 336,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 336,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 337,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 337,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 338,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 338,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 339,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 339,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 340,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 340,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 341,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 341,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 342,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 342,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 343,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 343,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 344,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 344,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 345,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 345,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 346,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 346,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 347,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 347,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 348,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 348,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 349,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 349,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 350,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 350,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 351,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 351,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 352,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 352,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 353,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 353,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 354,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 354,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 355,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 355,
+        "level": "note",
+        "message": "unknown statement '001'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_39/task_func_39.cbl",
+        "line": 355,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.601",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.656 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 210,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected DAY"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 40,
+        "level": "warning",
+        "message": "handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "invalid PICTURE character '8'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_40/task_func_40.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.632",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.680 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 106,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 43,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "syntax error, unexpected DISPLAY, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "'END-OPEN' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "syntax error, unexpected DISPLAY, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "syntax error, unexpected SET, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "syntax error, unexpected SET, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "syntax error, unexpected END-READ"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "syntax error, unexpected SET, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 93,
+        "level": "error",
+        "message": "syntax error, unexpected END-WRITE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 98,
+        "level": "error",
+        "message": "syntax error, unexpected IF, expecting GIVING"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 98,
+        "level": "error",
+        "message": "'MODULO' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_43/task_func_43.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "syntax error, unexpected SET, expecting TO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.656",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.707 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 103,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 104,
+        "level": "error",
+        "message": "invalid indicator 't' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 105,
+        "level": "error",
+        "message": "invalid indicator 'r' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 106,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 106,
+        "level": "error",
+        "message": "invalid indicator 'u' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 45,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 45,
+        "level": "note",
+        "message": "value size is 4 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'LOG-FILE' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "'ARTICLE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "syntax error, unexpected ADD"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "'LOG-FILE' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "'LOG-FILE' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 94,
+        "level": "error",
+        "message": "'LOG-FILE' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "'LOG-FILE' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 98,
+        "level": "error",
+        "message": "'LOG-FILE' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "'LOG-FILE' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "'LOG-FILE' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "invalid literal: '---------------------------------- ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 103,
+        "level": "note",
+        "message": "missing terminating ' character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_44/task_func_44.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "syntax error, unexpected end of file, expecting TO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.681",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:58.708",
+    "execution": {
+      "task_id": "task_func_45",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:58.708"
+    }
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.848 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_47/task_func_47.cbl",
+        "line": 49,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_47/task_func_47.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_47/task_func_47.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.826",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.875 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_48/task_func_48.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_48/task_func_48.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_48/task_func_48.cbl",
+        "line": 328,
+        "level": "error",
+        "message": "invalid indicator 'r' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_48/task_func_48.cbl",
+        "line": 329,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_48/task_func_48.cbl",
+        "line": 329,
+        "level": "error",
+        "message": "invalid indicator 'u' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_48/task_func_48.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_48/task_func_48.cbl",
+        "line": 37,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_48/task_func_48.cbl",
+        "line": 37,
+        "level": "note",
+        "message": "value size is 102 [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.849",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.897 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_49/task_func_49.cbl",
+        "line": 110,
+        "level": "error",
+        "message": "invalid indicator 'r' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_49/task_func_49.cbl",
+        "line": 111,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_49/task_func_49.cbl",
+        "line": 111,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.875",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:58.922 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 144,
+        "level": "error",
+        "message": "invalid indicator 'r' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 145,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 145,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected STATUS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'ORIGINAL-FILE' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 94,
+        "level": "error",
+        "message": "syntax error, unexpected COMPUTE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "'OUTLIER-INDEX' is ambiguous; needs qualification"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 23,
+        "level": "note",
+        "message": "'OUTLIER-INDEX IN INDEX-RECORD' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 45,
+        "level": "note",
+        "message": "'OUTLIER-INDEX' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "syntax error, unexpected END-IF"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 104,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 105,
+        "level": "error",
+        "message": "'HEADER-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 108,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 109,
+        "level": "error",
+        "message": "'FOOTER-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 112,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 113,
+        "level": "error",
+        "message": "'INDEX-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 116,
+        "level": "error",
+        "message": "'CLEAN-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 120,
+        "level": "error",
+        "message": "'OUTLIER-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 123,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 124,
+        "level": "error",
+        "message": "'CURRENT-HEADER-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 127,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 128,
+        "level": "error",
+        "message": "'CURRENT-FOOTER-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 131,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 132,
+        "level": "error",
+        "message": "'CURRENT-INDEX-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 142,
+        "level": "error",
+        "message": "'CURRENT-MAX-ABSOLUTE-Z-S' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 143,
+        "level": "error",
+        "message": "'CURRENT-MAX-ABSOLU' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 146,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-alpha/complete/task_func_55/task_func_55.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "'CLOSE-FILES' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.898",
+    "execution": {}
+  }
+]

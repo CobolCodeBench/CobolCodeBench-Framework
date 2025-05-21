@@ -1,0 +1,1987 @@
+2025-05-20 22:20:27.472 | INFO     | __main__:<module>:352 - Starting processing for model: gpt-4o, mode: instruct
+2025-05-20 22:20:27.475 | INFO     | __main__:__init__:34 - Loaded ./data/Instruction_Set.json successfully
+2025-05-20 22:20:27.483 | INFO     | __main__:__init__:41 - Data frame read successfully
+2025-05-20 22:20:27.483 | INFO     | __main__:compile:150 - Processing 46 programs
+2025-05-20 22:20:27.483 | INFO     | __main__:compile:156 - Processing program 1/46: task_func_01
+2025-05-20 22:20:27.483 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.483 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.484 | INFO     | __main__:compile:190 - compiling task_func_01
+2025-05-20 22:20:27.506 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_01/task_func_01.cbl:12: error: continuation character expected
+   10 |                ORGANIZATION IS LINE SEQUENTIAL.
+   11 |            SELECT UPDATED-MATCH-DATA-FILE ASSIGN TO 'updated_match_data.p..
+   12 >                ORGANIZATION IS LINE SEQUENTIAL.
+   13 | 
+   14 |        DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_01/task_func_01.cbl:11: warning: handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]
+    9 |            SELECT TEMP-FILE ASSIGN TO 'temp.ps'
+   10 |                ORGANIZATION IS LINE SEQUENTIAL.
+   11 >            SELECT UPDATED-MATCH-DATA-FILE ASSIGN TO 'updated_match_data.p..
+   12 |                ORGANIZATION IS LINE SEQUENTIAL.
+   13 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_01/task_func_01.cbl:11: error: syntax error, unexpected Literal, expecting SEQUENTIAL
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_01/task_func_01.cbl:11: error: invalid literal: '. ...'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_01/task_func_01.cbl:11: note: missing terminating ' character
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_01/task_func_01.cbl:11: warning: handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]
+
+2025-05-20 22:20:27.506 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.506 | ERROR    | __main__:compile:227 - Compilation failed for task_func_01
+2025-05-20 22:20:27.507 | INFO     | __main__:compile:156 - Processing program 2/46: task_func_02
+2025-05-20 22:20:27.507 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.507 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.507 | INFO     | __main__:compile:190 - compiling task_func_02
+2025-05-20 22:20:27.529 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_02/task_func_02.cbl: in paragraph 'PROCESS-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_02/task_func_02.cbl:38: error: 'EOF-REACHED' is not defined
+   36 | 
+   37 |        PROCESS-FILES.
+   38 >            PERFORM UNTIL EOF-REACHED
+   39 |                READ INPUT-FILE INTO INPUT-RECORD
+   40 |                    AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_02/task_func_02.cbl: in paragraph 'CHECK-AND-WRITE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_02/task_func_02.cbl:49: error: 'WS-DELIMITER-INDEX' is not defined
+   47 |            UNSTRING FILENAME-IN DELIMITED BY "."
+   48 |                INTO WS-FILENAME-EXT
+   49 >                WITH POINTER WS-DELIMITER-INDEX
+   50 |            IF WS-FILENAME-EXT = "txt" OR WS-FILENAME-EXT = "doc" OR WS-FI..
+   51 |                THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_02/task_func_02.cbl:50: error: 'WS-F' is not defined
+   48 |                INTO WS-FILENAME-EXT
+   49 |                WITH POINTER WS-DELIMITER-INDEX
+   50 >            IF WS-FILENAME-EXT = "txt" OR WS-FILENAME-EXT = "doc" OR WS-FI..
+   51 |                THEN
+   52 |                    MOVE FILENAME-IN TO FILENAME-OUT
+
+2025-05-20 22:20:27.529 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.529 | ERROR    | __main__:compile:227 - Compilation failed for task_func_02
+2025-05-20 22:20:27.530 | INFO     | __main__:compile:156 - Processing program 3/46: task_func_03
+2025-05-20 22:20:27.530 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.530 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.530 | INFO     | __main__:compile:190 - compiling task_func_03
+2025-05-20 22:20:27.554 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl: in paragraph 'VALIDATE-INPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl:68: error: 'WS-ERROR-MESSA' is not defined
+   66 |                INTO WS-NUMBER1, WS-NUMBER2, WS-NUMBER3
+   67 |                ON OVERFLOW
+   68 >                    MOVE "ERROR: Invalid input format." TO WS-ERROR-MESSAG..
+   69 |                    EXIT PERFORM.
+   70 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl:69: error: EXIT PERFORM is only valid with inline PERFORM
+   67 |                ON OVERFLOW
+   68 |                    MOVE "ERROR: Invalid input format." TO WS-ERROR-MESSAG..
+   69 >                    EXIT PERFORM.
+   70 | 
+   71 |            IF WS-NUMBER1 = WS-NUMBER2 OR WS-NUMBER1 = WS-NUMBER3 OR
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl:74: error: EXIT PERFORM is only valid with inline PERFORM
+   72 |               WS-NUMBER2 = WS-NUMBER3
+   73 |                MOVE "ERROR: Numbers must be unique." TO WS-ERROR-MESSAGE
+   74 >                EXIT PERFORM.
+   75 | 
+   76 |            IF WS-NUMBER1 <= 0 OR WS-NUMBER2 <= 0 OR WS-NUMBER3 <= 0
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl:78: error: EXIT PERFORM is only valid with inline PERFORM
+   76 |            IF WS-NUMBER1 <= 0 OR WS-NUMBER2 <= 0 OR WS-NUMBER3 <= 0
+   77 |                MOVE "ERROR: Numbers must be positive." TO WS-ERROR-MESSAG..
+   78 >                EXIT PERFORM.
+   79 | 
+   80 |            MOVE "Y" TO WS-VALID-FLAG.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl:53: error: 'WRITE-FACTORIAL-SUM' is not defined
+   51 |            IF WS-VALID-FLAG = "Y"
+   52 |                PERFORM CALCULATE-FACTORIAL-SUM
+   53 >                PERFORM WRITE-FACTORIAL-SUM
+   54 |                PERFORM GENERATE-PERMUTATIONS
+   55 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl:54: error: 'GENERATE-PERMUTATIONS' is not defined
+   52 |                PERFORM CALCULATE-FACTORIAL-SUM
+   53 |                PERFORM WRITE-FACTORIAL-SUM
+   54 >                PERFORM GENERATE-PERMUTATIONS
+   55 |            ELSE
+   56 |                DISPLAY WS-ERROR-MESSAGE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl: in paragraph 'CALCULATE-FACTORIAL-SUM':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_03/task_func_03.cbl:83: error: 'CALCULATE-FACTORIAL' is not defined
+   81 | 
+   82 |        CALCULATE-FACTORIAL-SUM.
+   83 >            PERFORM CALCULATE-FACTORIAL VARYING WS-TEMP FROM 1 BY 1
+   84 |                UNTIL WS-TEMP > WS-NUMBER1
+   85 |                ADD WS-FACTORIAL-RESULT TO WS-FACTORIAL-SUM.
+
+2025-05-20 22:20:27.554 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.554 | ERROR    | __main__:compile:227 - Compilation failed for task_func_03
+2025-05-20 22:20:27.554 | INFO     | __main__:compile:156 - Processing program 4/46: task_func_04
+2025-05-20 22:20:27.555 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.555 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.555 | INFO     | __main__:compile:190 - compiling task_func_04
+2025-05-20 22:20:27.578 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_04/task_func_04.cbl: in paragraph 'CHECK-EXTENSION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_04/task_func_04.cbl:59: error: 'EXT' is not defined
+   57 |        CHECK-EXTENSION.
+   58 |            IF INPUT-FILENAME (LENGTH OF INPUT-FILENAME - 3:4) = EXT-TXT
+   59 >                OR INPUT-FILENAME (LENGTH OF INPUT-FILENAME - 3:4) = EXT-C..
+   60 |                OR INPUT-FILENAME (LENGTH OF INPUT-FILENAME - 4:5) = EXT-X..
+   61 |                THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_04/task_func_04.cbl:58: error: invalid expression: unfinished expression
+   56 | 
+   57 |        CHECK-EXTENSION.
+   58 >            IF INPUT-FILENAME (LENGTH OF INPUT-FILENAME - 3:4) = EXT-TXT
+   59 |                OR INPUT-FILENAME (LENGTH OF INPUT-FILENAME - 3:4) = EXT-C..
+   60 |                OR INPUT-FILENAME (LENGTH OF INPUT-FILENAME - 4:5) = EXT-X..
+
+2025-05-20 22:20:27.578 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.578 | ERROR    | __main__:compile:227 - Compilation failed for task_func_04
+2025-05-20 22:20:27.578 | INFO     | __main__:compile:156 - Processing program 5/46: task_func_05
+2025-05-20 22:20:27.578 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.579 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.579 | INFO     | __main__:compile:190 - compiling task_func_05
+2025-05-20 22:20:27.686 | SUCCESS  | __main__:compile:206 - task_func_05 is successfully compiled
+2025-05-20 22:20:27.691 | SUCCESS  | __main__:compile:216 - task_func_05 is successfully executed
+2025-05-20 22:20:27.692 | INFO     | __main__:compile:156 - Processing program 6/46: task_func_07
+2025-05-20 22:20:27.692 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.692 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.693 | INFO     | __main__:compile:190 - compiling task_func_07
+2025-05-20 22:20:27.714 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_07/task_func_07.cbl:41: error: continuation character expected
+   39 |        01  WS-DEFAULT-EMPLOYEES PIC X(30) OCCURS 5 VALUE
+   40 |            'Employee1', 'Employee2', 'Employee3', 'Employee4', 'Employee5..
+   41 >        01  WS-CURRENT-DATE PIC 9(8).
+   42 |        01  WS-FORMATTED-DATE PIC X(10).
+   43 |        01  WS-TASKS-TO-ASSIGN PIC 9(4).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_07/task_func_07.cbl:38: error: syntax error, unexpected Literal
+   36 |            05  WS-TASK PIC X(50).
+   37 |        01  WS-EMPLOYEES-ARRAY OCCURS 100 TIMES INDEXED BY EMPLOYEE-INDEX.
+   38 >            05  WS-EMPLOYEE PIC X(30).
+   39 |        01  WS-DEFAULT-EMPLOYEES PIC X(30) OCCURS 5 VALUE
+   40 |            'Employee1', 'Employee2', 'Employee3', 'Employee4', 'Employee5..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_07/task_func_07.cbl:40: error: invalid symbol '_' - skipping word
+   38 |            05  WS-EMPLOYEE PIC X(30).
+   39 |        01  WS-DEFAULT-EMPLOYEES PIC X(30) OCCURS 5 VALUE
+   40 >            'Employee1', 'Employee2', 'Employee3', 'Employee4', 'Employee5..
+   41 |        01  WS-CURRENT-DATE PIC 9(8).
+   42 |        01  WS-FORMATTED-DATE PIC X(10).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_07/task_func_07.cbl:40: error: syntax error, unexpected TO
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_07/task_func_07.cbl:37: error: PICTURE clause required for 'WS-EMPLOYEES-ARRAY'
+   35 |        01  WS-TASKS-ARRAY OCCURS 100 TIMES INDEXED BY TASK-INDEX.
+   36 |            05  WS-TASK PIC X(50).
+   37 >        01  WS-EMPLOYEES-ARRAY OCCURS 100 TIMES INDEXED BY EMPLOYEE-INDEX.
+   38 |            05  WS-EMPLOYEE PIC X(30).
+   39 |        01  WS-DEFAULT-EMPLOYEES PIC X(30) OCCURS 5 VALUE
+
+2025-05-20 22:20:27.714 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.714 | ERROR    | __main__:compile:227 - Compilation failed for task_func_07
+2025-05-20 22:20:27.714 | INFO     | __main__:compile:156 - Processing program 7/46: task_func_08
+2025-05-20 22:20:27.714 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.714 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.715 | INFO     | __main__:compile:190 - compiling task_func_08
+2025-05-20 22:20:27.736 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_08/task_func_08.cbl: in paragraph 'Main-Logic':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_08/task_func_08.cbl:33: error: 'EOF-InputFile' is not defined
+   31 |            OPEN INPUT InputFile
+   32 |            OPEN OUTPUT OutputFile
+   33 >            PERFORM UNTIL EOF-InputFile
+   34 |                READ InputFile INTO InputRecord
+   35 |                    AT END
+
+2025-05-20 22:20:27.736 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.736 | ERROR    | __main__:compile:227 - Compilation failed for task_func_08
+2025-05-20 22:20:27.737 | INFO     | __main__:compile:156 - Processing program 8/46: task_func_09
+2025-05-20 22:20:27.737 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.737 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.737 | INFO     | __main__:compile:190 - compiling task_func_09
+2025-05-20 22:20:27.759 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_09/task_func_09.cbl: in paragraph 'PARSE-NUMBERS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_09/task_func_09.cbl:69: warning: ignoring redundant . [-Wothers]
+   67 |            UNSTRING INPUT-RECORD
+   68 |                DELIMITED BY ','
+   69 >                INTO WS-NUMBER (1) WS-NUMBER (2) WS-NUMBER (3) ...
+   70 |            END-UNSTRING
+   71 |            INSPECT INPUT-RECORD TALLYING WS-NUMBER-COUNT FOR ALL ','.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_09/task_func_09.cbl:70: error: syntax error, unexpected END-UNSTRING
+   68 |                DELIMITED BY ','
+   69 |                INTO WS-NUMBER (1) WS-NUMBER (2) WS-NUMBER (3) ...
+   70 >            END-UNSTRING
+   71 |            INSPECT INPUT-RECORD TALLYING WS-NUMBER-COUNT FOR ALL ','.
+   72 | 
+
+2025-05-20 22:20:27.759 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.759 | ERROR    | __main__:compile:227 - Compilation failed for task_func_09
+2025-05-20 22:20:27.760 | INFO     | __main__:compile:156 - Processing program 9/46: task_func_10
+2025-05-20 22:20:27.760 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.760 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.760 | INFO     | __main__:compile:190 - compiling task_func_10
+2025-05-20 22:20:27.782 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_10/task_func_10.cbl: in paragraph 'MainSection':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_10/task_func_10.cbl:33: error: syntax error, unexpected PERFORM
+   31 |        MainSection.
+   32 |            PERFORM Initialize
+   33 >            PERFORM ProcessRecords
+   34 |            PERFORM Terminate
+   35 |            GOBACK.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_10/task_func_10.cbl:35: error: syntax error, unexpected GOBACK, expecting Identifier
+   33 |            PERFORM ProcessRecords
+   34 |            PERFORM Terminate
+   35 >            GOBACK.
+   36 | 
+   37 |        Initialize.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_10/task_func_10.cbl:34: error: PERFORM statement not terminated by END-PERFORM
+   32 |            PERFORM Initialize
+   33 |            PERFORM ProcessRecords
+   34 >            PERFORM Terminate
+   35 |            GOBACK.
+   36 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_10/task_func_10.cbl:32: error: PERFORM statement not terminated by END-PERFORM
+   30 |        PROCEDURE DIVISION.
+   31 |        MainSection.
+   32 >            PERFORM Initialize
+   33 |            PERFORM ProcessRecords
+   34 |            PERFORM Terminate
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_10/task_func_10.cbl:37: error: syntax error, unexpected .
+   35 |            GOBACK.
+   36 | 
+   37 >        Initialize.
+   38 |            MOVE 'USA' TO CountryEntry(1)
+   39 |            MOVE 'Canada' TO CountryEntry(2)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_10/task_func_10.cbl: in paragraph 'ValidateCountry':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_10/task_func_10.cbl:71: error: 'CountryEntry (CountryIndex)' is not numeric
+   69 |        ValidateCountry.
+   70 |            SET CountryIndex TO 1
+   71 >            PERFORM UNTIL CountryIndex > 10 OR CountryEntry(CountryIndex)..
+   72 |                SET CountryIndex UP BY 1
+   73 |            END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_10/task_func_10.cbl:78: error: syntax error, unexpected ., expecting Identifier
+   76 |            END-IF.
+   77 | 
+   78 >        Terminate.
+   79 |            CLOSE InputFile
+   80 |            CLOSE OutputFile.
+
+2025-05-20 22:20:27.782 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.783 | ERROR    | __main__:compile:227 - Compilation failed for task_func_10
+2025-05-20 22:20:27.783 | INFO     | __main__:compile:156 - Processing program 10/46: task_func_11
+2025-05-20 22:20:27.783 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.783 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.784 | INFO     | __main__:compile:190 - compiling task_func_11
+2025-05-20 22:20:27.805 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_11/task_func_11.cbl: in paragraph 'AnalyzeFilename':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_11/task_func_11.cbl:55: error: 'WS-File' is not defined
+   53 |            MOVE 'N' TO WS-HasNumbers
+   54 |            MOVE FUNCTION LENGTH(InputFilename) TO WS-FilenameLength
+   55 >            PERFORM VARYING WS-Index FROM 1 BY 1 UNTIL WS-Index > WS-Filen..
+   56 |                MOVE InputFilename(WS-Index:1) TO WS-CurrentChar
+   57 |                IF WS-CurrentChar = '.'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_11/task_func_11.cbl:61: error: invalid expression: unfinished expression
+   59 |                ELSE IF WS-CurrentChar NUMERIC
+   60 |                    MOVE 'Y' TO WS-HasNumbers
+   61 >                ELSE IF WS-CurrentChar NOT ALPHANUMERIC AND WS-CurrentChar..
+   62 |                    MOVE 'Y' TO WS-HasSpecial
+   63 |                END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_11/task_func_11.cbl:61: error: syntax error, unexpected ALPHANUMERIC
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_11/task_func_11.cbl:61: error: IF without imperative statement
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_11/task_func_11.cbl:67: error: 'WS-HasNum' is not defined
+   65 |            WRITE OutputRecord FROM
+   66 |                FUNCTION CONCATENATE(InputFilename " is_file: " WS-IsFile
+   67 >                " has_special: " WS-HasSpecial " has_numbers: " WS-HasNumb..
+   68 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_11/task_func_11.cbl:68: error: syntax error, unexpected end of file
+   66 |                FUNCTION CONCATENATE(InputFilename " is_file: " WS-IsFile
+   67 |                " has_special: " WS-HasSpecial " has_numbers: " WS-HasNumb..
+   68 > <EOF>
+
+2025-05-20 22:20:27.806 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.806 | ERROR    | __main__:compile:227 - Compilation failed for task_func_11
+2025-05-20 22:20:27.806 | INFO     | __main__:compile:156 - Processing program 11/46: task_func_12
+2025-05-20 22:20:27.806 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.806 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.807 | INFO     | __main__:compile:190 - compiling task_func_12
+2025-05-20 22:20:27.829 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_12/task_func_12.cbl: in paragraph 'SORT-INPUT-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_12/task_func_12.cbl:55: error: invalid SORT GIVING parameter
+   53 | 
+   54 |        SORT-INPUT-FILE.
+   55 >            SORT SORT-FILE ON ASCENDING KEY SORT-PATIENT-NAME
+   56 |                USING INPUT-FILE
+   57 |                GIVING SORT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_12/task_func_12.cbl: in paragraph 'PROCESS-SORTED-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_12/task_func_12.cbl:60: error: OPEN not allowed on SORT files
+   58 | 
+   59 |        PROCESS-SORTED-RECORDS.
+   60 >            OPEN INPUT SORT-FILE
+   61 |            READ SORT-FILE INTO SORT-RECORD
+   62 |                AT END SET END-OF-FILE TO TRUE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_12/task_func_12.cbl:61: error: READ not allowed on SORT files
+   59 |        PROCESS-SORTED-RECORDS.
+   60 |            OPEN INPUT SORT-FILE
+   61 >            READ SORT-FILE INTO SORT-RECORD
+   62 |                AT END SET END-OF-FILE TO TRUE.
+   63 |            PERFORM UNTIL END-OF-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_12/task_func_12.cbl:73: error: READ not allowed on SORT files
+   71 |                    ADD SORT-SURGERY-COST TO WS-TOTAL-COST
+   72 |                END-IF
+   73 >                READ SORT-FILE INTO SORT-RECORD
+   74 |                    AT END SET END-OF-FILE TO TRUE
+   75 |            END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_12/task_func_12.cbl: in paragraph 'CLOSE-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_12/task_func_12.cbl:88: error: CLOSE not allowed on SORT files
+   86 |        CLOSE-FILES.
+   87 |            CLOSE INPUT-FILE
+   88 >            CLOSE SORT-FILE
+   89 |            CLOSE OUTPUT-FILE.
+   90 | <EOF>
+
+2025-05-20 22:20:27.829 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.829 | ERROR    | __main__:compile:227 - Compilation failed for task_func_12
+2025-05-20 22:20:27.829 | INFO     | __main__:compile:156 - Processing program 12/46: task_func_13
+2025-05-20 22:20:27.829 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.829 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.830 | INFO     | __main__:compile:190 - compiling task_func_13
+2025-05-20 22:20:27.852 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl: in paragraph 'MAIN-PROCESS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:43: error: 'END-OF-FILE' is not defined
+   41 |                 OUTPUT OUTPUT-FILE.
+   42 | 
+   43 >            PERFORM READ-INPUT-FILE UNTIL END-OF-FILE.
+   44 | 
+   45 |            CLOSE INPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:48: error: 'SORTED-NAME' is ambiguous; needs qualification
+   46 | 
+   47 |            SORT SORT-FILE
+   48 >                ON ASCENDING KEY SORTED-NAME
+   49 |                USING SORT-RECORD
+   50 |                GIVING SORTED-RECORDS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:23: note: 'SORTED-NAME IN OUTPUT-RECORD' defined here
+   21 |        FD OUTPUT-FILE.
+   22 |        01 OUTPUT-RECORD.
+   23 >            05 SORTED-NAME PIC X(50).
+   24 | 
+   25 |        SD SORT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:27: note: 'SORTED-NAME IN SORT-RECORD' defined here
+   25 |        SD SORT-FILE.
+   26 |        01 SORT-RECORD.
+   27 >            05 SORTED-NAME PIC X(50).
+   28 | 
+   29 |        WORKING-STORAGE SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:49: error: 'SORT-RECORD' is not a file name
+   47 |            SORT SORT-FILE
+   48 |                ON ASCENDING KEY SORTED-NAME
+   49 >                USING SORT-RECORD
+   50 |                GIVING SORTED-RECORDS.
+   51 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:50: error: 'SORTED-RECORDS' is not defined
+   48 |                ON ASCENDING KEY SORTED-NAME
+   49 |                USING SORT-RECORD
+   50 >                GIVING SORTED-RECORDS.
+   51 | 
+   52 |            PERFORM WRITE-OUTPUT-FILE UNTIL END-OF-SORT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:50: error: 'SORTED-RECORDS' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:52: error: 'END-OF-SORT-FILE' is not defined
+   50 |                GIVING SORTED-RECORDS.
+   51 | 
+   52 >            PERFORM WRITE-OUTPUT-FILE UNTIL END-OF-SORT-FILE.
+   53 | 
+   54 |            CLOSE OUTPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl: in paragraph 'VALIDATE-NAME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:82: error: missing ALL/LEADING/TRAILING before value
+   80 |            INSPECT CUSTOMER-NAME
+   81 |                TALLYING WS-TOTAL-INVALID-RECORDS FOR CHARACTERS
+   82 >                    '0' THRU '9'
+   83 |            IF WS-TOTAL-INVALID-RECORDS > 0
+   84 |                MOVE 'N' TO WS-IS-VALID-NAME
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:82: error: ALL, LEADING or TRAILING expected before 'literal "0"'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_13/task_func_13.cbl:82: error: syntax error, unexpected THRU
+
+2025-05-20 22:20:27.852 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.852 | ERROR    | __main__:compile:227 - Compilation failed for task_func_13
+2025-05-20 22:20:27.853 | INFO     | __main__:compile:156 - Processing program 13/46: task_func_14
+2025-05-20 22:20:27.853 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.853 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.854 | INFO     | __main__:compile:190 - compiling task_func_14
+2025-05-20 22:20:27.876 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl: in paragraph 'READ-INPUT-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl:61: error: 'WS-RECORD-COUN' is not defined
+   59 |                        IF INPUT-DATE = WS-CURRENT-DATE
+   60 |                            ADD 1 TO WS-RECORD-COUNT
+   61 >                            MOVE INPUT-DATE TO WS-REC-DATE(WS-RECORD-COUNT..
+   62 |                            MOVE INPUT-VALUE TO WS-REC-VALUE(WS-RECORD-COU..
+   63 |                        END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl:62: error: syntax error, unexpected MOVE
+   60 |                            ADD 1 TO WS-RECORD-COUNT
+   61 |                            MOVE INPUT-DATE TO WS-REC-DATE(WS-RECORD-COUNT..
+   62 >                            MOVE INPUT-VALUE TO WS-REC-VALUE(WS-RECORD-COU..
+   63 |                        END-IF
+   64 |                END-READ
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl:62: error: 'WS-RECORD-CO' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl:63: error: syntax error, unexpected END-IF
+   61 |                            MOVE INPUT-DATE TO WS-REC-DATE(WS-RECORD-COUNT..
+   62 |                            MOVE INPUT-VALUE TO WS-REC-VALUE(WS-RECORD-COU..
+   63 >                        END-IF
+   64 |                END-READ
+   65 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl: in paragraph 'SORT-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl:68: error: 'WS-RECORD-C' is not defined
+   66 | 
+   67 |        SORT-RECORDS.
+   68 >            PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX = WS-RECORD-CO..
+   69 |                PERFORM VARYING WS-IDX2 FROM WS-IDX BY 1 UNTIL WS-IDX2 > W..
+   70 |                    IF WS-REC-VALUE(WS-IDX) > WS-REC-VALUE(WS-IDX2)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl:69: error: 'WS-IDX2' is not defined
+   67 |        SORT-RECORDS.
+   68 |            PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX = WS-RECORD-CO..
+   69 >                PERFORM VARYING WS-IDX2 FROM WS-IDX BY 1 UNTIL WS-IDX2 > W..
+   70 |                    IF WS-REC-VALUE(WS-IDX) > WS-REC-VALUE(WS-IDX2)
+   71 |                        MOVE WS-REC-DATE(WS-IDX) TO WS-TEMP-DATE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl:69: error: invalid expression: unfinished expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_14/task_func_14.cbl:75: error: syntax error, unexpected MOVE
+   73 |                        MOVE WS-REC-DATE(WS-IDX2) TO WS-REC-DATE(WS-IDX)
+   74 |                        MOVE WS-REC-VALUE(WS-IDX2) TO WS-REC-VALUE(WS-IDX)
+   75 >                        MOVE WS-TEMP-DATE TO WS-REC-DATE(WS-IDX2)
+   76 |                        MOVE WS-TEMP-VALUE TO WS-REC-VALUE(WS-IDX2)
+   77 |                    END-IF
+
+2025-05-20 22:20:27.876 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.876 | ERROR    | __main__:compile:227 - Compilation failed for task_func_14
+2025-05-20 22:20:27.877 | INFO     | __main__:compile:156 - Processing program 14/46: task_func_15
+2025-05-20 22:20:27.877 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.877 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.877 | INFO     | __main__:compile:190 - compiling task_func_15
+2025-05-20 22:20:27.901 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl:35: error: continuation character expected
+   33 | 
+   34 |        01 DEFAULT-ANIMALS VALUE 'Dog,Cat,Cow,Horse,Sheep,Goat,Pig,Chicken..
+   35 >        01 DEFAULT-FOODS VALUE 'Grass,Grain,Meat,Fish,Milk,Bread,Fruit,Veg..
+   36 | 
+   37 |        01 ANIMAL-COUNT PIC 9 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl:37: error: continuation character expected
+   35 |        01 DEFAULT-FOODS VALUE 'Grass,Grain,Meat,Fish,Milk,Bread,Fruit,Veg..
+   36 | 
+   37 >        01 ANIMAL-COUNT PIC 9 VALUE 0.
+   38 |        01 FOOD-COUNT PIC 9 VALUE 0.
+   39 |        01 COMBINATION PIC X(50).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl:34: error: syntax error, unexpected Identifier
+   32 |                10 FOOD-NAME PIC X(20).
+   33 | 
+   34 >        01 DEFAULT-ANIMALS VALUE 'Dog,Cat,Cow,Horse,Sheep,Goat,Pig,Chicken..
+   35 |        01 DEFAULT-FOODS VALUE 'Grass,Grain,Meat,Fish,Milk,Bread,Fruit,Veg..
+   36 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl:34: error: PICTURE clause required for 'DEFAULT-ANIMALS'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl:52: error: 'ANIMAL-COUNT' is not defined
+   50 |            PERFORM LOAD-ANIMALS
+   51 |            PERFORM LOAD-FOODS
+   52 > 
+   53 |            IF ANIMAL-COUNT > 10 OR FOOD-COUNT > 10
+   54 |                DISPLAY "ERROR: Input file contains more than 10 items."
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl: in paragraph 'LOAD-DEFAULT-FOODS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl:116: error: 'DEFAULT-FOODS' is not defined
+  114 |            END-IF.
+  115 | 
+  116 >        LOAD-DEFAULT-FOODS.
+  117 |            UNSTRING DEFAULT-FOODS DELIMITED BY ',' INTO
+  118 |                FOOD-NAME(1), FOOD-NAME(2), FOOD-NAME(3),
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl: in paragraph 'GENERATE-COMBINATIONS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl:125: error: invalid expression: unfinished expression
+  123 |            MOVE 10 TO FOOD-COUNT.
+  124 | 
+  125 >        GENERATE-COMBINATIONS.
+  126 |            PERFORM VARYING ANIMAL-INDEX FROM 1 BY 1 UNTIL ANIMAL-INDEX >..
+  127 |                PERFORM VARYING FOOD-INDEX FROM 1 BY 1 UNTIL FOOD-INDEX >..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_15/task_func_15.cbl:126: error: invalid expression: unfinished expression
+  124 | 
+  125 |        GENERATE-COMBINATIONS.
+  126 >            PERFORM VARYING ANIMAL-INDEX FROM 1 BY 1 UNTIL ANIMAL-INDEX >..
+  127 |                PERFORM VARYING FOOD-INDEX FROM 1 BY 1 UNTIL FOOD-INDEX >..
+  128 |                    STRING ANIMAL-NAME(ANIMAL-INDEX) DELIMITED BY SPACE
+
+2025-05-20 22:20:27.901 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.901 | ERROR    | __main__:compile:227 - Compilation failed for task_func_15
+2025-05-20 22:20:27.902 | INFO     | __main__:compile:156 - Processing program 15/46: task_func_16
+2025-05-20 22:20:27.902 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.902 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.902 | INFO     | __main__:compile:190 - compiling task_func_16
+2025-05-20 22:20:27.924 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl:40: error: 'OUTPUT-A' is not defined
+   38 |            PERFORM READ-INPUT-FILE
+   39 |            IF WS-TIMESTAMP-COUNT LESS THAN 2
+   40 >                MOVE "Insufficient timestamps in input file." TO OUTPUT-AV..
+   41 |                WRITE OUTPUT-RECORD
+   42 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl:44: error: 'OUTPUT-AVG' is not defined
+   42 |            ELSE
+   43 |                PERFORM CALCULATE-AVERAGE-DIFF
+   44 >                MOVE "Average time difference (seconds): " TO OUTPUT-AVG-D..
+   45 |                STRING WS-AVG-DIFF DELIMITED BY SIZE INTO OUTPUT-AVG-DIFF
+   46 |                WRITE OUTPUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl:44: error: syntax error, unexpected -
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl: in paragraph 'READ-INPUT-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl:53: error: 'EOF-INPUT-FILE' is not defined
+   51 | 
+   52 |        READ-INPUT-FILE.
+   53 >            PERFORM UNTIL EOF-INPUT-FILE
+   54 |                READ INPUT-FILE INTO INPUT-RECORD
+   55 |                    AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl:61: error: 'WS-TI' is not defined
+   59 |                        IF WS-VALID-TIMESTAMP NOT EQUAL TO SPACES
+   60 |                            ADD 1 TO WS-TIMESTAMP-COUNT
+   61 >                            MOVE WS-VALID-TIMESTAMP TO WS-TIMESTAMP(WS-TIM..
+   62 |                        END-IF
+   63 |                END-READ
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl:62: error: syntax error, unexpected END-IF
+   60 |                            ADD 1 TO WS-TIMESTAMP-COUNT
+   61 |                            MOVE WS-VALID-TIMESTAMP TO WS-TIMESTAMP(WS-TIM..
+   62 >                        END-IF
+   63 |                END-READ
+   64 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl: in paragraph 'CALCULATE-AVERAGE-DIFF':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl:79: error: 'WS-TIME' is not defined
+   77 | 
+   78 |        CALCULATE-AVERAGE-DIFF.
+   79 >            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX = WS-TIMES..
+   80 |                MOVE FUNCTION NUMVAL(WS-TIMESTAMP(WS-INDEX)(12:11)) TO WS-..
+   81 |                IF WS-INDEX > 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl:80: error: 'WS' is not defined
+   78 |        CALCULATE-AVERAGE-DIFF.
+   79 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX = WS-TIMES..
+   80 >                MOVE FUNCTION NUMVAL(WS-TIMESTAMP(WS-INDEX)(12:11)) TO WS-..
+   81 |                IF WS-INDEX > 1
+   82 |                    COMPUTE WS-TIME-DIFF = WS-CURR-TIME - WS-PREV-TIME
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_16/task_func_16.cbl:88: error: syntax error, unexpected end of file, expecting ) or - or +
+   86 |            END-PERFORM
+   87 |            COMPUTE WS-AVG-DIFF = WS-TOTAL-DIFF / (WS-TIMESTAMP-COUNT - 1)..
+   88 > <EOF>
+
+2025-05-20 22:20:27.924 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.924 | ERROR    | __main__:compile:227 - Compilation failed for task_func_16
+2025-05-20 22:20:27.924 | INFO     | __main__:compile:156 - Processing program 16/46: task_func_17
+2025-05-20 22:20:27.924 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.925 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.925 | INFO     | __main__:compile:190 - compiling task_func_17
+2025-05-20 22:20:27.947 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_17/task_func_17.cbl:52: warning: line not terminated by a newline [-Wmissing-newline]
+   50 |            INSPECT INPUT-RECORD
+   51 |                TALLYING WS-PHONE-COUNT FOR ALL NUMERIC
+   52 >                REPLACING FIRST NUMERIC BY WS.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_17/task_func_17.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_17/task_func_17.cbl:34: error: 'EOF-REACHED' is not defined
+   32 |            OPEN OUTPUT OUTPUT-FILE
+   33 | 
+   34 >            PERFORM UNTIL EOF-REACHED
+   35 |                READ INPUT-FILE INTO INPUT-RECORD
+   36 |                    AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_17/task_func_17.cbl: in paragraph 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_17/task_func_17.cbl:51: error: TALLYING clause is incomplete
+   49 |        PROCESS-RECORD.
+   50 |            INSPECT INPUT-RECORD
+   51 >                TALLYING WS-PHONE-COUNT FOR ALL NUMERIC
+   52 |                REPLACING FIRST NUMERIC BY WS.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_17/task_func_17.cbl:51: error: syntax error, unexpected NUMERIC
+
+2025-05-20 22:20:27.947 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.948 | ERROR    | __main__:compile:227 - Compilation failed for task_func_17
+2025-05-20 22:20:27.948 | INFO     | __main__:compile:156 - Processing program 17/46: task_func_18
+2025-05-20 22:20:27.948 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.948 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.948 | INFO     | __main__:compile:190 - compiling task_func_18
+2025-05-20 22:20:27.971 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_18/task_func_18.cbl:68: warning: line not terminated by a newline [-Wmissing-newline]
+   66 |                   CITY DELIMITED BY SPACE
+   67 |                   INTO WS-LABEL-LINE-3
+   68 >            WRITE OUTPUT-FILE.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_18/task_func_18.cbl: in paragraph 'PROCESS-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_18/task_func_18.cbl:48: error: EXIT PERFORM is only valid with inline PERFORM
+   46 |                    MOVE 'NO MORE RECORDS TO PROCESS' TO WS-LABEL-LINE-1
+   47 |                    DISPLAY WS-LABEL-LINE-1
+   48 >                    EXIT PERFORM
+   49 |                NOT AT END
+   50 |                    PERFORM PROCESS-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_18/task_func_18.cbl: in paragraph 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_18/task_func_18.cbl:55: error: 'WS-LABEL-LINE' is not defined
+   53 | 
+   54 |        PROCESS-RECORD.
+   55 >            MOVE SPACES TO WS-LABEL-LINE-1 WS-LABEL-LINE-2 WS-LABEL-LINE-3..
+   56 |            STRING CUSTOMER-NAME DELIMITED BY SPACE
+   57 |                   SPACE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_18/task_func_18.cbl:55: error: syntax error, unexpected -
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_18/task_func_18.cbl:68: error: WRITE requires a record name as subject
+   66 |                   CITY DELIMITED BY SPACE
+   67 |                   INTO WS-LABEL-LINE-3
+   68 >            WRITE OUTPUT-FILE.<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_18/task_func_18.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_18/task_func_18.cbl:36: error: 'TERMINATION' is not defined
+   34 |            PERFORM INITIALIZATION
+   35 |            PERFORM PROCESS-FILE
+   36 >            PERFORM TERMINATION
+   37 |            GOBACK.
+   38 | 
+
+2025-05-20 22:20:27.971 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.971 | ERROR    | __main__:compile:227 - Compilation failed for task_func_18
+2025-05-20 22:20:27.971 | INFO     | __main__:compile:156 - Processing program 18/46: task_func_19
+2025-05-20 22:20:27.972 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.972 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.972 | INFO     | __main__:compile:190 - compiling task_func_19
+2025-05-20 22:20:27.995 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl: in paragraph 'SortSalaries':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl:65: error: 'TempIndex' is not defined
+   63 |            PERFORM VARYING SalaryIndex FROM 1 BY 1
+   64 |                UNTIL SalaryIndex = SalaryCount
+   65 >                PERFORM VARYING TempIndex FROM SalaryIndex BY 1
+   66 |                    UNTIL TempIndex = SalaryCount
+   67 |                    IF Salaries(SalaryIndex) > Salaries(TempIndex)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl: in paragraph 'CalculateMedian':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl:83: error: 'MOD' is not defined
+   81 | 
+   82 |        CalculateMedian.
+   83 >            IF SalaryCount MOD 2 = 0
+   84 |                COMPUTE MedianSalary =
+   85 |                    (Salaries(SalaryCount / 2) + Salaries(SalaryCount / 2..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl:83: error: invalid expression: unfinished expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl:86: error: syntax error, unexpected ELSE
+   84 |                COMPUTE MedianSalary =
+   85 |                    (Salaries(SalaryCount / 2) + Salaries(SalaryCount / 2..
+   86 >            ELSE
+   87 |                MOVE Salaries(SalaryCount / 2 + 1) TO MedianSalary
+   88 |            END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl: in paragraph 'CalculateStdDeviation':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl:93: error: 'TempStorage' is not a numeric or numeric-edited name
+   91 |            PERFORM VARYING SalaryIndex FROM 1 BY 1
+   92 |                UNTIL SalaryIndex > SalaryCount
+   93 >                COMPUTE TempStorage = Salaries(SalaryIndex) - MeanSalary
+   94 |                COMPUTE TempStorage = TempStorage ** 2
+   95 |                ADD TempStorage TO SumOfSquares
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl:94: error: 'TempStorage' is not numeric
+   92 |                UNTIL SalaryIndex > SalaryCount
+   93 |                COMPUTE TempStorage = Salaries(SalaryIndex) - MeanSalary
+   94 >                COMPUTE TempStorage = TempStorage ** 2
+   95 |                ADD TempStorage TO SumOfSquares
+   96 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl:95: error: 'TempStorage' is not numeric
+   93 |                COMPUTE TempStorage = Salaries(SalaryIndex) - MeanSalary
+   94 |                COMPUTE TempStorage = TempStorage ** 2
+   95 >                ADD TempStorage TO SumOfSquares
+   96 |            END-PERFORM.
+   97 |            COMPUTE StdDeviation = SQRT(SumOfSquares / SalaryCount).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_19/task_func_19.cbl:97: error: 'SQRT' is not defined
+   95 |                ADD TempStorage TO SumOfSquares
+   96 |            END-PERFORM.
+   97 >            COMPUTE StdDeviation = SQRT(SumOfSquares / SalaryCount).
+   98 | 
+   99 |        WriteOutputFile.
+
+2025-05-20 22:20:27.995 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:27.995 | ERROR    | __main__:compile:227 - Compilation failed for task_func_19
+2025-05-20 22:20:27.995 | INFO     | __main__:compile:156 - Processing program 19/46: task_func_20
+2025-05-20 22:20:27.995 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:27.995 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:27.996 | INFO     | __main__:compile:190 - compiling task_func_20
+2025-05-20 22:20:28.017 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_20/task_func_20.cbl: in paragraph 'CALCULATE-LOAN-AMOUNT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_20/task_func_20.cbl:54: error: 'WS' is not defined
+   52 |            PERFORM DETERMINE-AGE-FACTOR
+   53 |            PERFORM DETERMINE-CREDIT-FACTOR
+   54 >            COMPUTE WS-LOAN-AMOUNT = WS-LOAN-AMOUNT * WS-AGE-FACTOR * WS-C..
+   55 |            MOVE WS-LOAN-AMOUNT TO OUTPUT-LOAN-AMOUNT.
+   56 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_20/task_func_20.cbl:55: error: syntax error, unexpected MOVE
+   53 |            PERFORM DETERMINE-CREDIT-FACTOR
+   54 |            COMPUTE WS-LOAN-AMOUNT = WS-LOAN-AMOUNT * WS-AGE-FACTOR * WS-C..
+   55 >            MOVE WS-LOAN-AMOUNT TO OUTPUT-LOAN-AMOUNT.
+   56 | 
+   57 |        DETERMINE-AGE-FACTOR.
+
+2025-05-20 22:20:28.017 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.017 | ERROR    | __main__:compile:227 - Compilation failed for task_func_20
+2025-05-20 22:20:28.017 | INFO     | __main__:compile:156 - Processing program 20/46: task_func_21
+2025-05-20 22:20:28.017 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.017 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.018 | INFO     | __main__:compile:190 - compiling task_func_21
+2025-05-20 22:20:28.039 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_21/task_func_21.cbl: in paragraph 'INITIALIZE-PROGRAM':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_21/task_func_21.cbl:54: error: syntax error, unexpected TIME
+   52 |            OPEN INPUT INPUT-FILE.
+   53 |            OPEN OUTPUT OUTPUT-FILE.
+   54 >            ACCEPT WS-CURRENT-DATE-TIME FROM DATE TIME.
+   55 |            MOVE FUNCTION NUMVAL(WS-CURRENT-DATE) TO WS-CURRENT-DATE.
+   56 |            MOVE FUNCTION NUMVAL(WS-CURRENT-TIME) TO WS-CURRENT-TIME.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_21/task_func_21.cbl: in paragraph 'VALIDATE-INPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_21/task_func_21.cbl:70: error: 'WS-EPOCH-TIMES' is not defined
+   68 | 
+   69 |        VALIDATE-INPUT.
+   70 >            MOVE FUNCTION NUMVAL(INPUT-EPOCH-TIMESTAMP) TO WS-EPOCH-TIMEST..
+   71 |            IF WS-EPOCH-TIMESTAMP > FUNCTION CURRENT-DATE-TO-SECONDS
+   72 |                MOVE 'Y' TO WS-INVALID-DATA
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_21/task_func_21.cbl:71: error: FUNCTION 'CURRENT-DATE-TO-SECONDS' unknown
+   69 |        VALIDATE-INPUT.
+   70 |            MOVE FUNCTION NUMVAL(INPUT-EPOCH-TIMESTAMP) TO WS-EPOCH-TIMEST..
+   71 >            IF WS-EPOCH-TIMESTAMP > FUNCTION CURRENT-DATE-TO-SECONDS
+   72 |                MOVE 'Y' TO WS-INVALID-DATA
+   73 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_21/task_func_21.cbl: in paragraph 'GENERATE-SALES-DATA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_21/task_func_21.cbl:82: error: syntax error, unexpected Identifier, expecting ) or - or +
+   80 |            PERFORM UNTIL WS-PRODUCT-NAME = SPACES
+   81 |                MOVE FUNCTION RANDOM(WS-RANDOM-SEED) TO WS-SALE-QUANTITY
+   82 >                COMPUTE WS-SALE-QUANTITY = (WS-SALE-QUANTITY MOD 41) + 10
+   83 |                MOVE WS-PRODUCT-NAME TO OUTPUT-PRODUCT-NAME
+   84 |                MOVE FUNCTION SECONDS-TO-DATE(WS-EPOCH-TIMESTAMP) TO WS-TE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_21/task_func_21.cbl:84: error: FUNCTION 'SECONDS-TO-DATE' unknown
+   82 |                COMPUTE WS-SALE-QUANTITY = (WS-SALE-QUANTITY MOD 41) + 10
+   83 |                MOVE WS-PRODUCT-NAME TO OUTPUT-PRODUCT-NAME
+   84 >                MOVE FUNCTION SECONDS-TO-DATE(WS-EPOCH-TIMESTAMP) TO WS-TE..
+   85 |                MOVE WS-TEMP-DATE-TIME TO OUTPUT-SALE-DATE
+   86 |                MOVE WS-SALE-QUANTITY TO OUTPUT-SALE-QUANTITY
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_21/task_func_21.cbl:84: error: 'WS-T' is not defined
+
+2025-05-20 22:20:28.039 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.039 | ERROR    | __main__:compile:227 - Compilation failed for task_func_21
+2025-05-20 22:20:28.040 | INFO     | __main__:compile:156 - Processing program 21/46: task_func_22
+2025-05-20 22:20:28.040 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.040 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.040 | INFO     | __main__:compile:190 - compiling task_func_22
+2025-05-20 22:20:28.061 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_22/task_func_22.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_22/task_func_22.cbl:51: error: 'VALID-RECORD' is not defined
+   49 |                    NOT AT END
+   50 |                        PERFORM VALIDATE-RECORD
+   51 >                        IF VALID-RECORD
+   52 |                            PERFORM PROCESS-RECORD
+   53 |                        END-IF
+
+2025-05-20 22:20:28.061 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.062 | ERROR    | __main__:compile:227 - Compilation failed for task_func_22
+2025-05-20 22:20:28.062 | INFO     | __main__:compile:156 - Processing program 22/46: task_func_23
+2025-05-20 22:20:28.062 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.062 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.062 | INFO     | __main__:compile:190 - compiling task_func_23
+2025-05-20 22:20:28.083 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_23/task_func_23.cbl: in paragraph 'GENERATE-STOCK-PRICES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_23/task_func_23.cbl:86: error: syntax error, unexpected Identifier
+   84 |            COMPUTE WS-FB-PRICE = FUNCTION RANDOM(WS-RANDOM-SEED) * 1000 +..
+   85 | 
+   86 >        WRITE-OUTPUT-RECORD.
+   87 |            STRING WS-GEN-YEAR "-" WS-GEN-MONTH "-" WS-GEN-DAY ","
+   88 |                   WS-AMZN-PRICE "," WS-GOOGL-PRICE "," WS-MSFT-PRICE ","
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_23/task_func_23.cbl: in paragraph 'GENERATE-STOCK-DATA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_23/task_func_23.cbl:65: error: 'WRITE-OUTPUT-RECORD' is not defined
+   63 |                PERFORM CALCULATE-PREVIOUS-DATE
+   64 |                PERFORM GENERATE-STOCK-PRICES
+   65 >                PERFORM WRITE-OUTPUT-RECORD
+   66 |            END-PERFORM.
+   67 | 
+
+2025-05-20 22:20:28.084 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.084 | ERROR    | __main__:compile:227 - Compilation failed for task_func_23
+2025-05-20 22:20:28.084 | INFO     | __main__:compile:156 - Processing program 23/46: task_func_24
+2025-05-20 22:20:28.084 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.084 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.084 | INFO     | __main__:compile:190 - compiling task_func_24
+2025-05-20 22:20:28.194 | SUCCESS  | __main__:compile:206 - task_func_24 is successfully compiled
+2025-05-20 22:20:28.200 | SUCCESS  | __main__:compile:216 - task_func_24 is successfully executed
+2025-05-20 22:20:28.201 | INFO     | __main__:compile:156 - Processing program 24/46: task_func_25
+2025-05-20 22:20:28.201 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.201 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.201 | INFO     | __main__:compile:190 - compiling task_func_25
+2025-05-20 22:20:28.222 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_25/task_func_25.cbl: in paragraph 'READ-COLUMN-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_25/task_func_25.cbl:71: error: invalid expression: unfinished expression
+   69 |            CLOSE COLUMN-FILE.
+   70 |            MOVE COLUMN-NAME TO WS-COLUMN-NAME.
+   71 >            IF WS-COLUMN-NAME NOT IN ('Age', 'Salary', 'Experience')
+   72 |                MOVE 'Y' TO WS-ERROR-FLAG
+   73 |            END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_25/task_func_25.cbl:71: error: syntax error, unexpected IN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_25/task_func_25.cbl:71: error: IF without imperative statement
+
+2025-05-20 22:20:28.223 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.223 | ERROR    | __main__:compile:227 - Compilation failed for task_func_25
+2025-05-20 22:20:28.223 | INFO     | __main__:compile:156 - Processing program 25/46: task_func_26
+2025-05-20 22:20:28.223 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.223 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.223 | INFO     | __main__:compile:190 - compiling task_func_26
+2025-05-20 22:20:28.247 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_26/task_func_26.cbl: in paragraph 'Process-Sales-Record':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_26/task_func_26.cbl:69: error: 'Sales-Amo' is not defined
+   67 |            END-IF
+   68 | 
+   69 >            COMPUTE WS-Department-Total = WS-Department-Total + Sales-Amou..
+   70 | 
+   71 |            MOVE "Salesperson: " TO WS-Salesperson-Detail(1:12)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_26/task_func_26.cbl:74: error: invalid MOVE statement
+   72 |            MOVE Salesperson-ID TO WS-Salesperson-Detail(13:10)
+   73 |            MOVE " Sales: $" TO WS-Salesperson-Detail(24:8)
+   74 >            MOVE Sales-Amount TO WS-Salesperson-Detail(32:9)
+   75 |            WRITE Report-Record FROM WS-Salesperson-Detail
+   76 |            PERFORM Check-Line-Count.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_26/task_func_26.cbl: in paragraph 'Write-Department-Summary':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_26/task_func_26.cbl:82: error: invalid MOVE statement
+   80 |            MOVE WS-Previous-Department TO WS-Department-Summary(13:4)
+   81 |            MOVE " Total Sales: $" TO WS-Department-Summary(18:14)
+   82 >            MOVE WS-Department-Total TO WS-Department-Summary(32:9)
+   83 |            WRITE Report-Record FROM WS-Department-Summary
+   84 |            PERFORM Check-Line-Count.
+
+2025-05-20 22:20:28.247 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.247 | ERROR    | __main__:compile:227 - Compilation failed for task_func_26
+2025-05-20 22:20:28.248 | INFO     | __main__:compile:156 - Processing program 26/46: task_func_27
+2025-05-20 22:20:28.248 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.248 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.249 | INFO     | __main__:compile:190 - compiling task_func_27
+2025-05-20 22:20:28.270 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_27/task_func_27.cbl: in paragraph 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_27/task_func_27.cbl:56: error: syntax error, unexpected Identifier
+   54 | 
+   55 |            WRITE OUTPUT-RECORD FROM
+   56 >                "Account Number: " ACCOUNT-NUMBER
+   57 |            WRITE OUTPUT-RECORD FROM
+   58 |                "Depositor Name: " DEPOSITOR-NAME
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_27/task_func_27.cbl:58: error: syntax error, unexpected Identifier
+   56 |                "Account Number: " ACCOUNT-NUMBER
+   57 |            WRITE OUTPUT-RECORD FROM
+   58 >                "Depositor Name: " DEPOSITOR-NAME
+   59 |            WRITE OUTPUT-RECORD FROM
+   60 |                "Principal Amount: " PRINCIPAL-AMOUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_27/task_func_27.cbl:60: error: syntax error, unexpected Identifier
+   58 |                "Depositor Name: " DEPOSITOR-NAME
+   59 |            WRITE OUTPUT-RECORD FROM
+   60 >                "Principal Amount: " PRINCIPAL-AMOUNT
+   61 |            WRITE OUTPUT-RECORD FROM
+   62 |                "Interest Rate: " INTEREST-RATE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_27/task_func_27.cbl:62: error: syntax error, unexpected Identifier
+   60 |                "Principal Amount: " PRINCIPAL-AMOUNT
+   61 |            WRITE OUTPUT-RECORD FROM
+   62 >                "Interest Rate: " INTEREST-RATE
+   63 |            WRITE OUTPUT-RECORD FROM
+   64 |                "Number of Years: " NUMBER-OF-YEARS
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_27/task_func_27.cbl:64: error: syntax error, unexpected Identifier
+   62 |                "Interest Rate: " INTEREST-RATE
+   63 |            WRITE OUTPUT-RECORD FROM
+   64 >                "Number of Years: " NUMBER-OF-YEARS
+   65 |            WRITE OUTPUT-RECORD FROM
+   66 |                "Year   New Balance   Accrued Interest"
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_27/task_func_27.cbl: in paragraph 'CALCULATE-COMPOUND-INTEREST':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_27/task_func_27.cbl:79: error: syntax error, unexpected Literal
+   77 | 
+   78 |            WRITE OUTPUT-RECORD FROM
+   79 >                WS-CURRENT-YEAR "   " WS-CURRENT-BALANCE "   " WS-ACCRUED-..
+   80 | <EOF>
+
+2025-05-20 22:20:28.271 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.271 | ERROR    | __main__:compile:227 - Compilation failed for task_func_27
+2025-05-20 22:20:28.271 | INFO     | __main__:compile:156 - Processing program 27/46: task_func_28
+2025-05-20 22:20:28.271 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.271 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.271 | INFO     | __main__:compile:190 - compiling task_func_28
+2025-05-20 22:20:28.293 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_28/task_func_28.cbl:32: error: continuation character expected
+   30 |        01 WS-ERROR-MESSAGE PIC X(80) VALUE 'ERROR: RECORD LIMIT EXCEEDED...
+   31 | 
+   32 >        PROCEDURE DIVISION.
+   33 |        MAIN-PROCEDURE.
+   34 |            OPEN INPUT INPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_28/task_func_28.cbl:30: error: syntax error, unexpected Identifier
+   28 |        01 WS-EOF PIC X VALUE 'N'.
+   29 |        01 WS-DUPLICATE-FLAG PIC X VALUE 'N'.
+   30 >        01 WS-ERROR-MESSAGE PIC X(80) VALUE 'ERROR: RECORD LIMIT EXCEEDED...
+   31 | 
+   32 |        PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_28/task_func_28.cbl:30: warning: handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_28/task_func_28.cbl:30: warning: handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_28/task_func_28.cbl:30: warning: handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_28/task_func_28.cbl:30: error: invalid literal: ' WS-RECORD-COUNT(WS-INDEX) ...'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_28/task_func_28.cbl:30: note: missing terminating ' character
+
+2025-05-20 22:20:28.293 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.294 | ERROR    | __main__:compile:227 - Compilation failed for task_func_28
+2025-05-20 22:20:28.294 | INFO     | __main__:compile:156 - Processing program 28/46: task_func_29
+2025-05-20 22:20:28.294 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.294 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.294 | INFO     | __main__:compile:190 - compiling task_func_29
+2025-05-20 22:20:28.316 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_29/task_func_29.cbl: in paragraph 'CHECK-DUPLICATES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_29/task_func_29.cbl:65: error: 'WS-AGE-DUPLICATE-TABLE' not indexed
+   63 | 
+   64 |        CHECK-DUPLICATES.
+   65 >            SEARCH WS-AGE-DUPLICATE-TABLE
+   66 |                AT END
+   67 |                    SET WS-TABLE-INDEX TO 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_29/task_func_29.cbl:33: note: 'WS-AGE-DUPLICATE-TABLE' defined here
+   31 |            05 WS-NAME          PIC X(30).
+   32 |            05 WS-AGE           PIC 99.
+   33 >        01 WS-AGE-DUPLICATE-TABLE.
+   34 |            05 WS-TABLE-ENTRY OCCURS 100 TIMES
+   35 |                INDEXED BY WS-TABLE-INDEX.
+
+2025-05-20 22:20:28.316 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.316 | ERROR    | __main__:compile:227 - Compilation failed for task_func_29
+2025-05-20 22:20:28.316 | INFO     | __main__:compile:156 - Processing program 29/46: task_func_30
+2025-05-20 22:20:28.316 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.317 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.317 | INFO     | __main__:compile:190 - compiling task_func_30
+2025-05-20 22:20:28.338 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl: in paragraph 'Main-Logic':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl:36: error: syntax error, unexpected .
+   34 |        PROCEDURE DIVISION.
+   35 |        Main-Logic.
+   36 >            PERFORM Initialize.
+   37 |            PERFORM Process-File UNTIL EndOfFileFlag = "Y".
+   38 |            PERFORM Write-Output.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl:36: error: PERFORM statement not terminated by END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl:39: error: syntax error, unexpected ., expecting Identifier
+   37 |            PERFORM Process-File UNTIL EndOfFileFlag = "Y".
+   38 |            PERFORM Write-Output.
+   39 >            PERFORM Terminate.
+   40 |            GOBACK.
+   41 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl:39: error: PERFORM statement not terminated by END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl:42: error: syntax error, unexpected .
+   40 |            GOBACK.
+   41 | 
+   42 >        Initialize.
+   43 |            OPEN INPUT InputFile
+   44 |            OPEN OUTPUT OutputFile
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl: in paragraph 'Process-Line':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl:58: error: EXIT PERFORM is only valid with inline PERFORM
+   56 |                INTO CurrentWord
+   57 |                WITH POINTER I
+   58 >                ON OVERFLOW EXIT PERFORM.
+   59 |            PERFORM UNTIL CurrentWord = SPACES
+   60 |                PERFORM Add-To-WordTable
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl: in paragraph 'Write-Output':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_30/task_func_30.cbl:97: error: syntax error, unexpected ., expecting Identifier
+   95 |            END-PERFORM.
+   96 | 
+   97 >        Terminate.
+   98 |            CLOSE InputFile
+   99 |            CLOSE OutputFile.
+
+2025-05-20 22:20:28.338 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.338 | ERROR    | __main__:compile:227 - Compilation failed for task_func_30
+2025-05-20 22:20:28.339 | INFO     | __main__:compile:156 - Processing program 30/46: task_func_31
+2025-05-20 22:20:28.339 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.339 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.339 | INFO     | __main__:compile:190 - compiling task_func_31
+2025-05-20 22:20:28.361 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_31/task_func_31.cbl:26: error: data item not signed
+   24 |        WORKING-STORAGE SECTION.
+   25 |        01 WS-WEATHER-STATS.
+   26 >            05 WS-MAX-TEMP       PIC 999V9 VALUE -9999.9.
+   27 |            05 WS-MIN-TEMP       PIC 999V9 VALUE 9999.9.
+   28 |            05 WS-TEMP-SUM       PIC 999V9 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_31/task_func_31.cbl:27: warning: value size exceeds data size [-Wothers]
+   25 |        01 WS-WEATHER-STATS.
+   26 |            05 WS-MAX-TEMP       PIC 999V9 VALUE -9999.9.
+   27 >            05 WS-MIN-TEMP       PIC 999V9 VALUE 9999.9.
+   28 |            05 WS-TEMP-SUM       PIC 999V9 VALUE 0.
+   29 |            05 WS-TEMP-COUNT     PIC 9(5) VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_31/task_func_31.cbl: in paragraph 'WRITE-OUTPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_31/task_func_31.cbl:74: error: invalid MOVE statement
+   72 |        WRITE-OUTPUT.
+   73 |            MOVE "MAX TEMPERATURE: " TO OUTPUT-LINE(1:17)
+   74 >            MOVE WS-MAX-TEMP TO OUTPUT-LINE(18:23)
+   75 |            WRITE WEATHER-OUTPUT-RECORD FROM OUTPUT-LINE
+   76 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_31/task_func_31.cbl:78: error: invalid MOVE statement
+   76 | 
+   77 |            MOVE "MIN TEMPERATURE: " TO OUTPUT-LINE(1:17)
+   78 >            MOVE WS-MIN-TEMP TO OUTPUT-LINE(18:23)
+   79 |            WRITE WEATHER-OUTPUT-RECORD FROM OUTPUT-LINE
+   80 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_31/task_func_31.cbl:82: error: invalid MOVE statement
+   80 | 
+   81 |            MOVE "AVG TEMPERATURE: " TO OUTPUT-LINE(1:17)
+   82 >            MOVE WS-AVG-TEMP TO OUTPUT-LINE(18:23)
+   83 |            WRITE WEATHER-OUTPUT-RECORD FROM OUTPUT-LINE.
+   84 | <EOF>
+
+2025-05-20 22:20:28.361 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.361 | ERROR    | __main__:compile:227 - Compilation failed for task_func_31
+2025-05-20 22:20:28.362 | INFO     | __main__:compile:156 - Processing program 31/46: task_func_32
+2025-05-20 22:20:28.362 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.362 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.362 | INFO     | __main__:compile:190 - compiling task_func_32
+2025-05-20 22:20:28.384 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_32/task_func_32.cbl: in paragraph 'ADD-NEW-TYPE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_32/task_func_32.cbl:65: error: incomplete expression
+   63 | 
+   64 |        ADD-NEW-TYPE.
+   65 >            PERFORM VARYING VEHICLE-INDEX FROM 1 BY 1 UNTIL VEHICLE-INDEX..
+   66 |                IF VEHICLE-TYPE(VEHICLE-INDEX) = SPACES
+   67 |                    MOVE VEHICLE-TYPE-IN TO VEHICLE-TYPE(VEHICLE-INDEX)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_32/task_func_32.cbl: in paragraph 'WRITE-OUTPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_32/task_func_32.cbl:75: error: incomplete expression
+   73 | 
+   74 |        WRITE-OUTPUT.
+   75 >            PERFORM VARYING VEHICLE-INDEX FROM 1 BY 1 UNTIL VEHICLE-INDEX..
+   76 |                IF VEHICLE-TYPE(VEHICLE-INDEX) NOT = SPACES
+   77 |                    MOVE TOTAL-SPEED(VEHICLE-INDEX) TO WS-TEMP-TOTAL
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_32/task_func_32.cbl:79: error: 'WS-TEMP-COU' is not defined
+   77 |                    MOVE TOTAL-SPEED(VEHICLE-INDEX) TO WS-TEMP-TOTAL
+   78 |                    MOVE VEHICLE-COUNT(VEHICLE-INDEX) TO WS-TEMP-COUNT
+   79 >                    COMPUTE WS-TEMP-AVERAGE = WS-TEMP-TOTAL / WS-TEMP-COUN..
+   80 |                    MOVE VEHICLE-TYPE(VEHICLE-INDEX) TO VEHICLE-TYPE-OUT
+   81 |                    MOVE WS-TEMP-AVERAGE TO AVERAGE-SPEED-OUT
+
+2025-05-20 22:20:28.384 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.384 | ERROR    | __main__:compile:227 - Compilation failed for task_func_32
+2025-05-20 22:20:28.384 | INFO     | __main__:compile:156 - Processing program 32/46: task_func_33
+2025-05-20 22:20:28.384 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.384 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.385 | INFO     | __main__:compile:190 - compiling task_func_33
+2025-05-20 22:20:28.493 | SUCCESS  | __main__:compile:206 - task_func_33 is successfully compiled
+2025-05-20 22:20:28.498 | SUCCESS  | __main__:compile:216 - task_func_33 is successfully executed
+2025-05-20 22:20:28.499 | INFO     | __main__:compile:156 - Processing program 33/46: task_func_34
+2025-05-20 22:20:28.499 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.499 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.499 | INFO     | __main__:compile:190 - compiling task_func_34
+2025-05-20 22:20:28.622 | SUCCESS  | __main__:compile:206 - task_func_34 is successfully compiled
+2025-05-20 22:20:28.628 | WARNING  | utils:cmd:35 - Err: libcob: warning: implicit CLOSE of BILL-FILE ('task_func34_out1')
+libcob: warning: implicit CLOSE of CUSTOMER-FILE ('task_func34_inp2')
+
+2025-05-20 22:20:28.628 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:28.628 | SUCCESS  | __main__:compile:216 - task_func_34 is successfully executed
+2025-05-20 22:20:28.629 | INFO     | __main__:compile:156 - Processing program 34/46: task_func_35
+2025-05-20 22:20:28.629 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.629 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.629 | INFO     | __main__:compile:190 - compiling task_func_35
+2025-05-20 22:20:28.650 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_35/task_func_35.cbl: in paragraph 'BEGIN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_35/task_func_35.cbl:49: error: 'Trans-Ac' is not defined
+   47 |            PERFORM UNTIL End-Of-Old-Master = "Y" AND End-Of-Transaction =..
+   48 |                IF End-Of-Old-Master = "N" AND
+   49 >                   (End-Of-Transaction = "Y" OR Old-Account-No < Trans-Acc..
+   50 |                    THEN
+   51 |                        MOVE Old-Account-No TO New-Account-No
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_35/task_func_35.cbl:48: error: invalid expression: unfinished expression
+   46 | 
+   47 |            PERFORM UNTIL End-Of-Old-Master = "Y" AND End-Of-Transaction =..
+   48 >                IF End-Of-Old-Master = "N" AND
+   49 |                   (End-Of-Transaction = "Y" OR Old-Account-No < Trans-Acc..
+   50 |                    THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_35/task_func_35.cbl:57: error: 'Ol' is not defined
+   55 |                            AT END MOVE "Y" TO End-Of-Old-Master
+   56 |                ELSE IF End-Of-Transaction = "N" AND
+   57 >                        (End-Of-Old-Master = "Y" OR Trans-Account-No < Old..
+   58 |                    THEN
+   59 |                        MOVE Trans-Account-No TO New-Account-No
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_35/task_func_35.cbl:56: error: invalid expression: unfinished expression
+   54 |                        READ Old-Master-File INTO Old-Master-Record
+   55 |                            AT END MOVE "Y" TO End-Of-Old-Master
+   56 >                ELSE IF End-Of-Transaction = "N" AND
+   57 |                        (End-Of-Old-Master = "Y" OR Trans-Account-No < Old..
+   58 |                    THEN
+
+2025-05-20 22:20:28.651 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.651 | ERROR    | __main__:compile:227 - Compilation failed for task_func_35
+2025-05-20 22:20:28.651 | INFO     | __main__:compile:156 - Processing program 35/46: task_func_36
+2025-05-20 22:20:28.651 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.651 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.652 | INFO     | __main__:compile:190 - compiling task_func_36
+2025-05-20 22:20:28.673 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl: in paragraph 'Main-Logic':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl:38: error: 'End-Of-File' is not defined
+   36 |            OPEN OUTPUT OutputFile
+   37 | 
+   38 >            PERFORM Read-Input UNTIL WS-Count = 1000 OR End-Of-File
+   39 |            PERFORM Calculate-Mean
+   40 |            PERFORM Calculate-Median
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl: in paragraph 'Calculate-Mean':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl:56: error: 'WS-Coun' is not defined
+   54 | 
+   55 |        Calculate-Mean.
+   56 >            PERFORM VARYING WS-Index FROM 1 BY 1 UNTIL WS-Index > WS-Count
+   57 |                ADD WS-NumberArray(WS-Index) TO WS-Sum
+   58 |            END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl: in paragraph 'Calculate-Median':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl:63: error: 'MOD' is not defined
+   61 |        Calculate-Median.
+   62 |            PERFORM Bubble-Sort
+   63 >            IF WS-Count MOD 2 = 0
+   64 |                COMPUTE WS-Median = (WS-NumberArray(WS-Count / 2) +
+   65 |                                     WS-NumberArray((WS-Count / 2) + 1)) /..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl:63: error: invalid expression: unfinished expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl: in paragraph 'Bubble-Sort':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl:71: error: 'WS-Index2' is not defined
+   69 |        Bubble-Sort.
+   70 |            PERFORM VARYING WS-Index FROM 1 BY 1 UNTIL WS-Index > WS-Count..
+   71 >                PERFORM VARYING WS-Index2 FROM 1 BY 1 UNTIL WS-Index2 > WS..
+   72 |                    IF WS-NumberArray(WS-Index2) > WS-NumberArray(WS-Index..
+   73 |                        MOVE WS-NumberArray(WS-Index2) TO WS-Temp
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl:71: error: 'W' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl:72: error: 'WS-Inde' is not defined
+   70 |            PERFORM VARYING WS-Index FROM 1 BY 1 UNTIL WS-Index > WS-Count..
+   71 |                PERFORM VARYING WS-Index2 FROM 1 BY 1 UNTIL WS-Index2 > WS..
+   72 >                    IF WS-NumberArray(WS-Index2) > WS-NumberArray(WS-Index..
+   73 |                        MOVE WS-NumberArray(WS-Index2) TO WS-Temp
+   74 |                        MOVE WS-NumberArray(WS-Index2 + 1) TO WS-NumberArr..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl:73: error: syntax error, unexpected MOVE
+   71 |                PERFORM VARYING WS-Index2 FROM 1 BY 1 UNTIL WS-Index2 > WS..
+   72 |                    IF WS-NumberArray(WS-Index2) > WS-NumberArray(WS-Index..
+   73 >                        MOVE WS-NumberArray(WS-Index2) TO WS-Temp
+   74 |                        MOVE WS-NumberArray(WS-Index2 + 1) TO WS-NumberArr..
+   75 |                        MOVE WS-Temp TO WS-NumberArray(WS-Index2 + 1)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_36/task_func_36.cbl:74: error: 'WS-NumberAr' is not defined
+   72 |                    IF WS-NumberArray(WS-Index2) > WS-NumberArray(WS-Index..
+   73 |                        MOVE WS-NumberArray(WS-Index2) TO WS-Temp
+   74 >                        MOVE WS-NumberArray(WS-Index2 + 1) TO WS-NumberArr..
+   75 |                        MOVE WS-Temp TO WS-NumberArray(WS-Index2 + 1)
+   76 |                    END-IF
+
+2025-05-20 22:20:28.673 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.674 | ERROR    | __main__:compile:227 - Compilation failed for task_func_36
+2025-05-20 22:20:28.674 | INFO     | __main__:compile:156 - Processing program 36/46: task_func_37
+2025-05-20 22:20:28.674 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.674 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.674 | INFO     | __main__:compile:190 - compiling task_func_37
+2025-05-20 22:20:28.696 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:40: error: syntax error, unexpected .
+   38 |        PROCEDURE DIVISION.
+   39 |        MAIN-PROCEDURE.
+   40 >            PERFORM INITIALIZE.
+   41 |            SORT SORT-WORK-FILE
+   42 |                ON ASCENDING KEY DEPARTMENT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:40: error: PERFORM statement not terminated by END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:42: error: 'DEPARTMENT' is ambiguous; needs qualification
+   40 |            PERFORM INITIALIZE.
+   41 |            SORT SORT-WORK-FILE
+   42 >                ON ASCENDING KEY DEPARTMENT
+   43 |                INPUT PROCEDURE IS INPUT-PROCESS
+   44 |                OUTPUT PROCEDURE IS OUTPUT-PROCESS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:19: note: 'DEPARTMENT IN INPUT-RECORD' defined here
+   17 |            05 PART-NUMBER      PIC X(10).
+   18 |            05 QUANTITY         PIC 9(5).
+   19 >            05 DEPARTMENT       PIC X(10).
+   20 |            05 FILLER           PIC X(55).
+   21 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:26: note: 'DEPARTMENT IN OUTPUT-RECORD' defined here
+   24 |            05 PART-NUMBER      PIC X(10).
+   25 |            05 QUANTITY         PIC 9(5).
+   26 >            05 DEPARTMENT       PIC X(10).
+   27 |            05 FILLER           PIC X(55).
+   28 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:33: note: 'DEPARTMENT IN SORT-RECORD' defined here
+   31 |            05 PART-NUMBER      PIC X(10).
+   32 |            05 QUANTITY         PIC 9(5).
+   33 >            05 DEPARTMENT       PIC X(10).
+   34 | 
+   35 |        WORKING-STORAGE SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:45: error: syntax error, unexpected ., expecting Identifier
+   43 |                INPUT PROCEDURE IS INPUT-PROCESS
+   44 |                OUTPUT PROCEDURE IS OUTPUT-PROCESS.
+   45 >            PERFORM TERMINATE.
+   46 |            GOBACK.
+   47 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:45: error: PERFORM statement not terminated by END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:48: error: syntax error, unexpected .
+   46 |            GOBACK.
+   47 | 
+   48 >        INITIALIZE.
+   49 |            OPEN INPUT INPUT-FILE
+   50 |            OPEN OUTPUT OUTPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl: in paragraph 'INPUT-PROCESS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:56: error: 'QUANTITY' is ambiguous; needs qualification
+   54 |                AT END MOVE 'Y' TO END-OF-FILE
+   55 |                NOT AT END
+   56 >                    IF QUANTITY > 0
+   57 |                        MOVE PART-NUMBER TO SORT-RECORD PART-NUMBER
+   58 |                        MOVE QUANTITY TO SORT-RECORD QUANTITY
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:18: note: 'QUANTITY IN INPUT-RECORD' defined here
+   16 |        01 INPUT-RECORD.
+   17 |            05 PART-NUMBER      PIC X(10).
+   18 >            05 QUANTITY         PIC 9(5).
+   19 |            05 DEPARTMENT       PIC X(10).
+   20 |            05 FILLER           PIC X(55).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:25: note: 'QUANTITY IN OUTPUT-RECORD' defined here
+   23 |        01 OUTPUT-RECORD.
+   24 |            05 PART-NUMBER      PIC X(10).
+   25 >            05 QUANTITY         PIC 9(5).
+   26 |            05 DEPARTMENT       PIC X(10).
+   27 |            05 FILLER           PIC X(55).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:32: note: 'QUANTITY IN SORT-RECORD' defined here
+   30 |        01 SORT-RECORD.
+   31 |            05 PART-NUMBER      PIC X(10).
+   32 >            05 QUANTITY         PIC 9(5).
+   33 |            05 DEPARTMENT       PIC X(10).
+   34 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:57: error: 'PART-NUMBER' is ambiguous; needs qualification
+   55 |                NOT AT END
+   56 |                    IF QUANTITY > 0
+   57 >                        MOVE PART-NUMBER TO SORT-RECORD PART-NUMBER
+   58 |                        MOVE QUANTITY TO SORT-RECORD QUANTITY
+   59 |                        MOVE DEPARTMENT TO SORT-RECORD DEPARTMENT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:17: note: 'PART-NUMBER IN INPUT-RECORD' defined here
+   15 |        FD INPUT-FILE.
+   16 |        01 INPUT-RECORD.
+   17 >            05 PART-NUMBER      PIC X(10).
+   18 |            05 QUANTITY         PIC 9(5).
+   19 |            05 DEPARTMENT       PIC X(10).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:24: note: 'PART-NUMBER IN OUTPUT-RECORD' defined here
+   22 |        FD OUTPUT-FILE.
+   23 |        01 OUTPUT-RECORD.
+   24 >            05 PART-NUMBER      PIC X(10).
+   25 |            05 QUANTITY         PIC 9(5).
+   26 |            05 DEPARTMENT       PIC X(10).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:31: note: 'PART-NUMBER IN SORT-RECORD' defined here
+   29 |        SD SORT-WORK-FILE.
+   30 |        01 SORT-RECORD.
+   31 >            05 PART-NUMBER      PIC X(10).
+   32 |            05 QUANTITY         PIC 9(5).
+   33 |            05 DEPARTMENT       PIC X(10).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl: in paragraph 'OUTPUT-PROCESS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_37/task_func_37.cbl:80: error: syntax error, unexpected ., expecting Identifier
+   78 |            END-IF.
+   79 | 
+   80 >        TERMINATE.
+   81 |            CLOSE INPUT-FILE
+   82 |            CLOSE OUTPUT-FILE.
+
+2025-05-20 22:20:28.696 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.696 | ERROR    | __main__:compile:227 - Compilation failed for task_func_37
+2025-05-20 22:20:28.696 | INFO     | __main__:compile:156 - Processing program 37/46: task_func_38
+2025-05-20 22:20:28.696 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.696 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.697 | INFO     | __main__:compile:190 - compiling task_func_38
+2025-05-20 22:20:28.718 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_38/task_func_38.cbl: in paragraph 'READ-NEXT-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_38/task_func_38.cbl:78: error: 'TR' is not defined
+   76 | 
+   77 |        READ-NEXT-RECORD.
+   78 >            IF EOF-INP1 = 'N' AND (EOF-INP2 = 'Y' OR TRANS-NUM-INP1 <= TRA..
+   79 |                MOVE FILE-INP1-REC TO TEMP-REC
+   80 |                PERFORM READ-FILE-INP1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_38/task_func_38.cbl:78: error: invalid expression: unfinished expression
+
+2025-05-20 22:20:28.719 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.719 | ERROR    | __main__:compile:227 - Compilation failed for task_func_38
+2025-05-20 22:20:28.719 | INFO     | __main__:compile:156 - Processing program 38/46: task_func_39
+2025-05-20 22:20:28.719 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.719 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.719 | INFO     | __main__:compile:190 - compiling task_func_39
+2025-05-20 22:20:28.741 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_39/task_func_39.cbl:35: error: continuation character expected
+   33 |        01 WS-DASHES-LINE.
+   34 |            05 FILLER               PIC X(20) VALUE '--------------------'..
+   35 >            05 FILLER               PIC X(30) VALUE '---------------------..
+   36 |            05 FILLER               PIC X(30) VALUE '---------------------..
+   37 |        01 WS-ERROR-MESSAGE         PIC X(30).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_39/task_func_39.cbl:36: error: continuation character expected
+   34 |            05 FILLER               PIC X(20) VALUE '--------------------'..
+   35 |            05 FILLER               PIC X(30) VALUE '---------------------..
+   36 >            05 FILLER               PIC X(30) VALUE '---------------------..
+   37 |        01 WS-ERROR-MESSAGE         PIC X(30).
+   38 |        01 WS-INVALID-VALUE         PIC X(30).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_39/task_func_39.cbl:37: error: continuation character expected
+   35 |            05 FILLER               PIC X(30) VALUE '---------------------..
+   36 |            05 FILLER               PIC X(30) VALUE '---------------------..
+   37 >        01 WS-ERROR-MESSAGE         PIC X(30).
+   38 |        01 WS-INVALID-VALUE         PIC X(30).
+   39 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_39/task_func_39.cbl:34: error: syntax error, unexpected -
+   32 |            05 FILLER               PIC X(30) VALUE 'INVALID VALUE'.
+   33 |        01 WS-DASHES-LINE.
+   34 >            05 FILLER               PIC X(20) VALUE '--------------------'..
+   35 |            05 FILLER               PIC X(30) VALUE '---------------------..
+   36 |            05 FILLER               PIC X(30) VALUE '---------------------..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_39/task_func_39.cbl:35: error: invalid literal: ' TO WS-ERROR-MESSAGE ...'
+   33 |        01 WS-DASHES-LINE.
+   34 |            05 FILLER               PIC X(20) VALUE '--------------------'..
+   35 >            05 FILLER               PIC X(30) VALUE '---------------------..
+   36 |            05 FILLER               PIC X(30) VALUE '---------------------..
+   37 |        01 WS-ERROR-MESSAGE         PIC X(30).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_39/task_func_39.cbl:35: note: missing terminating ' character
+
+2025-05-20 22:20:28.741 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.741 | ERROR    | __main__:compile:227 - Compilation failed for task_func_39
+2025-05-20 22:20:28.741 | INFO     | __main__:compile:156 - Processing program 39/46: task_func_40
+2025-05-20 22:20:28.741 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.741 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.742 | INFO     | __main__:compile:190 - compiling task_func_40
+2025-05-20 22:20:28.763 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl: in paragraph 'INITIALIZE-DATES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:41: error: 'END-M' is not defined
+   39 | 
+   40 |        INITIALIZE-DATES.
+   41 >            COMPUTE DATE-RANGE = FUNCTION INTEGER-OF-DATE(END-YEAR, END-MO..
+   42 |                               - FUNCTION INTEGER-OF-DATE(START-YEAR, STAR..
+   43 |                               + 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:42: error: 'STA' is not defined
+   40 |        INITIALIZE-DATES.
+   41 |            COMPUTE DATE-RANGE = FUNCTION INTEGER-OF-DATE(END-YEAR, END-MO..
+   42 >                               - FUNCTION INTEGER-OF-DATE(START-YEAR, STAR..
+   43 |                               + 1
+   44 |            MOVE FUNCTION RANDOM(SEED) TO SEED.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:44: error: syntax error, unexpected MOVE
+   42 |                               - FUNCTION INTEGER-OF-DATE(START-YEAR, STAR..
+   43 |                               + 1
+   44 >            MOVE FUNCTION RANDOM(SEED) TO SEED.
+   45 | 
+   46 |        GENERATE-DATES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl: in paragraph 'GENERATE-DATES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:47: error: 'D' is not defined
+   45 | 
+   46 |        GENERATE-DATES.
+   47 >            PERFORM VARYING RANDOM-DATE FROM 1 BY 1 UNTIL RANDOM-DATE > DA..
+   48 |                COMPUTE RANDOM-DATE = FUNCTION RANDOM(SEED) * DATE-RANGE +..
+   49 |                COMPUTE GENERATED-YEAR = FUNCTION YEAR-OF-INTEGER(
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:50: error: 'STAR' is not defined
+   48 |                COMPUTE RANDOM-DATE = FUNCTION RANDOM(SEED) * DATE-RANGE +..
+   49 |                COMPUTE GENERATED-YEAR = FUNCTION YEAR-OF-INTEGER(
+   50 >                                            FUNCTION INTEGER-OF-DATE(START..
+   51 |                                            + RANDOM-DATE - 1)
+   52 |                COMPUTE GENERATED-MONTH = FUNCTION MONTH-OF-INTEGER(
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:50: error: FUNCTION 'INTEGER-OF-DATE' has invalid argument
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:52: error: syntax error, unexpected COMPUTE
+   50 |                                            FUNCTION INTEGER-OF-DATE(START..
+   51 |                                            + RANDOM-DATE - 1)
+   52 >                COMPUTE GENERATED-MONTH = FUNCTION MONTH-OF-INTEGER(
+   53 |                                            FUNCTION INTEGER-OF-DATE(START..
+   54 |                                            + RANDOM-DATE - 1)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:53: error: FUNCTION 'INTEGER-OF-DATE' has invalid argument
+   51 |                                            + RANDOM-DATE - 1)
+   52 |                COMPUTE GENERATED-MONTH = FUNCTION MONTH-OF-INTEGER(
+   53 >                                            FUNCTION INTEGER-OF-DATE(START..
+   54 |                                            + RANDOM-DATE - 1)
+   55 |                COMPUTE GENERATED-DAY = FUNCTION DAY-OF-INTEGER(
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:55: error: syntax error, unexpected COMPUTE
+   53 |                                            FUNCTION INTEGER-OF-DATE(START..
+   54 |                                            + RANDOM-DATE - 1)
+   55 >                COMPUTE GENERATED-DAY = FUNCTION DAY-OF-INTEGER(
+   56 |                                            FUNCTION INTEGER-OF-DATE(START..
+   57 |                                            + RANDOM-DATE - 1)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:56: error: FUNCTION 'INTEGER-OF-DATE' has invalid argument
+   54 |                                            + RANDOM-DATE - 1)
+   55 |                COMPUTE GENERATED-DAY = FUNCTION DAY-OF-INTEGER(
+   56 >                                            FUNCTION INTEGER-OF-DATE(START..
+   57 |                                            + RANDOM-DATE - 1)
+   58 |                MOVE GENERATED-YEAR TO OUTPUT-DATE(1:4)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:58: error: syntax error, unexpected MOVE
+   56 |                                            FUNCTION INTEGER-OF-DATE(START..
+   57 |                                            + RANDOM-DATE - 1)
+   58 >                MOVE GENERATED-YEAR TO OUTPUT-DATE(1:4)
+   59 |                MOVE '-' TO OUTPUT-DATE(5:5)
+   60 |                MOVE GENERATED-MONTH TO OUTPUT-DATE(6:2)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_40/task_func_40.cbl:61: error: length of 'OUTPUT-DATE' out of bounds: 8
+   59 |                MOVE '-' TO OUTPUT-DATE(5:5)
+   60 |                MOVE GENERATED-MONTH TO OUTPUT-DATE(6:2)
+   61 >                MOVE '-' TO OUTPUT-DATE(8:8)
+   62 |                MOVE GENERATED-DAY TO OUTPUT-DATE(9:2)
+   63 |                WRITE OUTPUT-RECORD
+
+2025-05-20 22:20:28.763 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.763 | ERROR    | __main__:compile:227 - Compilation failed for task_func_40
+2025-05-20 22:20:28.764 | INFO     | __main__:compile:156 - Processing program 40/46: task_func_43
+2025-05-20 22:20:28.764 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.764 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.764 | INFO     | __main__:compile:190 - compiling task_func_43
+2025-05-20 22:20:28.786 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_43/task_func_43.cbl: in paragraph 'CHECK-PRIME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_43/task_func_43.cbl:61: error: 'MOD' is not defined
+   59 |                PERFORM VARYING WS-INDEX FROM 2 BY 1
+   60 |                    UNTIL WS-INDEX * WS-INDEX > WS-NUMBER
+   61 >                        IF WS-NUMBER MOD WS-INDEX = 0
+   62 |                            MOVE 'N' TO WS-IS-PRIME
+   63 |                            EXIT PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_43/task_func_43.cbl:61: error: invalid expression: unfinished expression
+
+2025-05-20 22:20:28.786 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.787 | ERROR    | __main__:compile:227 - Compilation failed for task_func_43
+2025-05-20 22:20:28.787 | INFO     | __main__:compile:156 - Processing program 41/46: task_func_44
+2025-05-20 22:20:28.787 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.787 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.787 | INFO     | __main__:compile:190 - compiling task_func_44
+2025-05-20 22:20:28.810 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl: in paragraph 'CHECK-TITLE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl:65: error: incomplete expression
+   63 | 
+   64 |        CHECK-TITLE.
+   65 >            IF ARTICLE-TITLE CONTAINS WS-KEYWORD-1 OR WS-KEYWORD-2
+   66 |                MOVE 'Title contains keyword.' TO LOG-MESSAGE
+   67 |                WRITE LOG-RECORD FROM LOG-MESSAGE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl:65: error: syntax error, unexpected CONTAINS
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl: in paragraph 'REMOVE-PUNCTUATION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl:79: error: syntax error, unexpected REPLACING
+   77 |            INSPECT ARTICLE-CONTENT
+   78 |                REPLACING ALL ',' BY SPACE
+   79 >                REPLACING ALL '.' BY SPACE
+   80 |                REPLACING ALL ';' BY SPACE
+   81 |                REPLACING ALL ':' BY SPACE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl: in paragraph 'ADD-WORD-TO-TABLE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl:92: error: 'WS-WORD-TABLE' not indexed
+   90 | 
+   91 |        ADD-WORD-TO-TABLE.
+   92 >            SEARCH WS-WORD-TABLE
+   93 |                AT END
+   94 |                    MOVE WS-TEMP-WORD TO WS-WORD-TEXT(WORD-INDEX)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl:34: note: 'WS-WORD-TABLE' defined here
+   32 |            05 WS-KEYWORD-1 PIC X(10) VALUE 'IMPORTANT'.
+   33 |            05 WS-KEYWORD-2 PIC X(10) VALUE 'URGENT'.
+   34 >        01 WS-WORD-TABLE.
+   35 |            05 WS-WORD OCCURS 1000 TIMES INDEXED BY WORD-INDEX.
+   36 |                10 WS-WORD-TEXT PIC X(50).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl: in paragraph 'WRITE-OUTPUT-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl:104: error: syntax error, unexpected Identifier
+  102 |                    MOVE WS-WORD-TEXT(WORD-INDEX) TO OUTPUT-WORD
+  103 |                    MOVE WS-WORD-COUNT(WORD-INDEX) TO OUTPUT-FREQUENCY
+  104 >                    WRITE OUTPUT-RECORD FROM OUTPUT-WORD OUTPUT-FREQUENCY.
+  105 | 
+  106 |        WRITE-LOG-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl:100: error: PERFORM statement not terminated by END-PERFORM
+   98 | 
+   99 |        WRITE-OUTPUT-FILE.
+  100 >            PERFORM VARYING WORD-INDEX FROM 1 BY 1 UNTIL WORD-INDEX > 1000
+  101 |                IF WS-WORD-TEXT(WORD-INDEX) NOT EQUAL SPACES
+  102 |                    MOVE WS-WORD-TEXT(WORD-INDEX) TO OUTPUT-WORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_44/task_func_44.cbl:50: error: 'WRITE-LOG-FILE' is not defined
+   48 |            PERFORM READ-ARTICLE-FILE UNTIL WS-END-OF-FILE = 'Y'
+   49 |            PERFORM WRITE-OUTPUT-FILE
+   50 >            PERFORM WRITE-LOG-FILE
+   51 | 
+   52 |            CLOSE ARTICLE-FILE
+
+2025-05-20 22:20:28.810 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.810 | ERROR    | __main__:compile:227 - Compilation failed for task_func_44
+2025-05-20 22:20:28.810 | INFO     | __main__:compile:156 - Processing program 42/46: task_func_45
+2025-05-20 22:20:28.810 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.810 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.811 | INFO     | __main__:compile:190 - compiling task_func_45
+2025-05-20 22:20:28.834 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl:36: error: syntax error, unexpected .
+   34 |                                'Beijing',
+   35 |                                'Tokyo',
+   36 >                                'Sydney'.
+   37 |            05 CITY-OFFSETS OCCURS 5 TIMES INDEXED BY OFFSET-INDEX.
+   38 |                10 PIC S99 VALUE +5,
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl:42: error: syntax error, unexpected .
+   40 |                               +8,
+   41 |                               +9,
+   42 >                               +10.
+   43 | 
+   44 |        01 WEATHER-CONDITIONS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl:50: error: syntax error, unexpected .
+   48 |                                'Rainy',
+   49 |                                'Snowy',
+   50 >                                'Stormy'.
+   51 | 
+   52 |        01 LOCAL-DATETIME.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl: in paragraph 'CALCULATE-LOCAL-DATETIME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl:86: error: 'CITY-OFFSETS (CITY-INDEX)' is not numeric
+   84 | 
+   85 |        CALCULATE-LOCAL-DATETIME.
+   86 >            COMPUTE LOCAL-HOUR = UTC-HOUR + CITY-OFFSETS(CITY-INDEX)
+   87 |            IF LOCAL-HOUR >= 24
+   88 |                COMPUTE LOCAL-HOUR = LOCAL-HOUR - 24
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl: in paragraph 'GENERATE-WEATHER-CONDITION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl:99: error: syntax error, unexpected Identifier
+   97 | 
+   98 |        GENERATE-WEATHER-CONDITION.
+   99 >            COMPUTE WEATHER-INDEX = RANDOM-SEED MOD 5 + 1
+  100 |            MOVE CONDITION-NAMES(WEATHER-INDEX) TO WEATHER-CONDITION
+  101 |            COMPUTE RANDOM-SEED = RANDOM-SEED * 7 MOD 99999999.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl:101: error: syntax error, unexpected Identifier
+   99 |            COMPUTE WEATHER-INDEX = RANDOM-SEED MOD 5 + 1
+  100 |            MOVE CONDITION-NAMES(WEATHER-INDEX) TO WEATHER-CONDITION
+  101 >            COMPUTE RANDOM-SEED = RANDOM-SEED * 7 MOD 99999999.
+  102 | 
+  103 |        WRITE-OUTPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl: in paragraph 'WRITE-OUTPUT-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl:107: error: 'LOCAL-DATETIME' is ambiguous; needs qualification
+  105 |            STRING LOCAL-YEAR '-' LOCAL-MONTH '-' LOCAL-DAY ' '
+  106 |                   LOCAL-HOUR ':' LOCAL-MINUTE ':' LOCAL-SECOND
+  107 >                   DELIMITED BY SIZE INTO LOCAL-DATETIME
+  108 |            WRITE OUTPUT-RECORD FROM OUTPUT-RECORD.
+  109 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl:26: note: 'LOCAL-DATETIME IN OUTPUT-RECORD' defined here
+   24 |        01 OUTPUT-RECORD.
+   25 |            05 CITY-NAME       PIC X(20).
+   26 >            05 LOCAL-DATETIME  PIC X(19).
+   27 |            05 WEATHER-CONDITION PIC X(10).
+   28 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_45/task_func_45.cbl:52: note: 'LOCAL-DATETIME' defined here
+   50 |                                'Stormy'.
+   51 | 
+   52 >        01 LOCAL-DATETIME.
+   53 |            05 LOCAL-YEAR   PIC 9(4).
+   54 |            05 LOCAL-MONTH  PIC 9(2).
+
+2025-05-20 22:20:28.834 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.834 | ERROR    | __main__:compile:227 - Compilation failed for task_func_45
+2025-05-20 22:20:28.834 | INFO     | __main__:compile:156 - Processing program 43/46: task_func_47
+2025-05-20 22:20:28.834 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.834 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.835 | INFO     | __main__:compile:190 - compiling task_func_47
+2025-05-20 22:20:28.857 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_47/task_func_47.cbl:25: error: syntax error, unexpected REDEFINES, expecting VALUE or VALUES
+   23 |        WORKING-STORAGE SECTION.
+   24 |        01 WS-EOF-FLAG PIC X VALUE 'N'.
+   25 >            88 EOF REDEFINES WS-EOF-FLAG VALUE 'Y'.
+   26 |        01 WS-ConvertedName PIC X(50).
+   27 |        01 WS-Char PIC X.
+
+2025-05-20 22:20:28.857 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.857 | ERROR    | __main__:compile:227 - Compilation failed for task_func_47
+2025-05-20 22:20:28.858 | INFO     | __main__:compile:156 - Processing program 44/46: task_func_48
+2025-05-20 22:20:28.858 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.858 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.858 | INFO     | __main__:compile:190 - compiling task_func_48
+2025-05-20 22:20:28.881 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:22: error: syntax error, unexpected .
+   20 |            05  SUBJECT-NAMES        PIC X(10) OCCURS 8 VALUE
+   21 |                'Subject 1', 'Subject 2', 'Subject 3', 'Subject 4',
+   22 >                'Subject 5', 'Subject 6', 'Subject 7', 'Subject 8'.
+   23 | 
+   24 |        01  STUDENT-DATA.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:26: error: syntax error, unexpected Literal
+   24 |        01  STUDENT-DATA.
+   25 |            05  STUDENT-NAME         PIC X(15) OCCURS 100 VALUE SPACES.
+   26 >            05  STUDENT-GRADES       PIC 9(3) OCCURS 100 TIMES 8.
+   27 |            05  STUDENT-AVERAGES     PIC 9(5)V9(2) OCCURS 100.
+   28 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl: in paragraph 'INITIALIZE-STUDENT-NAMES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:48: error: incomplete expression
+   46 | 
+   47 |        INITIALIZE-STUDENT-NAMES.
+   48 >            PERFORM VARYING STUDENT-INDEX FROM 1 BY 1 UNTIL STUDENT-INDEX..
+   49 |                STRING 'Student-' STUDENT-INDEX DELIMITED BY SIZE
+   50 |                    INTO STUDENT-NAME(STUDENT-INDEX)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl: in paragraph 'GENERATE-STUDENT-GRADES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:54: error: incomplete expression
+   52 | 
+   53 |        GENERATE-STUDENT-GRADES.
+   54 >            PERFORM VARYING STUDENT-INDEX FROM 1 BY 1 UNTIL STUDENT-INDEX..
+   55 |                PERFORM VARYING SUBJECT-INDEX FROM 1 BY 1 UNTIL SUBJECT-IN..
+   56 |                    COMPUTE RANDOM-GRADE = FUNCTION RANDOM(100) + 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:55: error: 'SUBJECT-I' is not defined
+   53 |        GENERATE-STUDENT-GRADES.
+   54 |            PERFORM VARYING STUDENT-INDEX FROM 1 BY 1 UNTIL STUDENT-INDEX..
+   55 >                PERFORM VARYING SUBJECT-INDEX FROM 1 BY 1 UNTIL SUBJECT-IN..
+   56 |                    COMPUTE RANDOM-GRADE = FUNCTION RANDOM(100) + 1
+   57 |                    MOVE RANDOM-GRADE TO STUDENT-GRADES(STUDENT-INDEX, SUB..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:57: error: 'SU' is not defined
+   55 |                PERFORM VARYING SUBJECT-INDEX FROM 1 BY 1 UNTIL SUBJECT-IN..
+   56 |                    COMPUTE RANDOM-GRADE = FUNCTION RANDOM(100) + 1
+   57 >                    MOVE RANDOM-GRADE TO STUDENT-GRADES(STUDENT-INDEX, SUB..
+   58 |                END-PERFORM
+   59 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:58: error: syntax error, unexpected END-PERFORM
+   56 |                    COMPUTE RANDOM-GRADE = FUNCTION RANDOM(100) + 1
+   57 |                    MOVE RANDOM-GRADE TO STUDENT-GRADES(STUDENT-INDEX, SUB..
+   58 >                END-PERFORM
+   59 |            END-PERFORM.
+   60 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:54: error: PERFORM statement not terminated by END-PERFORM
+   52 | 
+   53 |        GENERATE-STUDENT-GRADES.
+   54 >            PERFORM VARYING STUDENT-INDEX FROM 1 BY 1 UNTIL STUDENT-INDEX..
+   55 |                PERFORM VARYING SUBJECT-INDEX FROM 1 BY 1 UNTIL SUBJECT-IN..
+   56 |                    COMPUTE RANDOM-GRADE = FUNCTION RANDOM(100) + 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl: in paragraph 'CALCULATE-STUDENT-AVERAGES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:62: error: incomplete expression
+   60 | 
+   61 |        CALCULATE-STUDENT-AVERAGES.
+   62 >            PERFORM VARYING STUDENT-INDEX FROM 1 BY 1 UNTIL STUDENT-INDEX..
+   63 |                MOVE 0 TO TOTAL-STUDENT-GRADES
+   64 |                PERFORM VARYING SUBJECT-INDEX FROM 1 BY 1 UNTIL SUBJECT-IN..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:65: error: 'STUDENT-GRADES' requires one subscript
+   63 |                MOVE 0 TO TOTAL-STUDENT-GRADES
+   64 |                PERFORM VARYING SUBJECT-INDEX FROM 1 BY 1 UNTIL SUBJECT-IN..
+   65 >                    ADD STUDENT-GRADES(STUDENT-INDEX, SUBJECT-INDEX) TO TO..
+   66 |                END-PERFORM
+   67 |                COMPUTE STUDENT-AVERAGES(STUDENT-INDEX) =
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:65: error: 'T' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl: in paragraph 'CALCULATE-SUBJECT-AVERAGES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:72: error: incomplete expression
+   70 | 
+   71 |        CALCULATE-SUBJECT-AVERAGES.
+   72 >            PERFORM VARYING SUBJECT-INDEX FROM 1 BY 1 UNTIL SUBJECT-INDEX..
+   73 |                MOVE 0 TO TOTAL-GRADES
+   74 |                PERFORM VARYING STUDENT-INDEX FROM 1 BY 1 UNTIL STUDENT-IN..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:74: error: 'STUDENT-I' is not defined
+   72 |            PERFORM VARYING SUBJECT-INDEX FROM 1 BY 1 UNTIL SUBJECT-INDEX..
+   73 |                MOVE 0 TO TOTAL-GRADES
+   74 >                PERFORM VARYING STUDENT-INDEX FROM 1 BY 1 UNTIL STUDENT-IN..
+   75 |                    ADD STUDENT-GRADES(STUDENT-INDEX, SUBJECT-INDEX) TO TO..
+   76 |                END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:75: error: 'STUDENT-GRADES' requires one subscript
+   73 |                MOVE 0 TO TOTAL-GRADES
+   74 |                PERFORM VARYING STUDENT-INDEX FROM 1 BY 1 UNTIL STUDENT-IN..
+   75 >                    ADD STUDENT-GRADES(STUDENT-INDEX, SUBJECT-INDEX) TO TO..
+   76 |                END-PERFORM
+   77 |                COMPUTE SUBJECT-AVERAGES(SUBJECT-INDEX) =
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl: in paragraph 'WRITE-REPORT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:97: error: incomplete expression
+   95 |            WRITE OUTPUT-RECORD.
+   96 | 
+   97 >            PERFORM VARYING STUDENT-INDEX FROM 1 BY 1 UNTIL STUDENT-INDEX..
+   98 |                MOVE SPACES TO OUT-STUDENT-LINE
+   99 |                STRING STUDENT-NAME(STUDENT-INDEX) DELIMITED BY SIZE '  '
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:100: error: 'STUDENT-GRADES' requires one subscript
+   98 |                MOVE SPACES TO OUT-STUDENT-LINE
+   99 |                STRING STUDENT-NAME(STUDENT-INDEX) DELIMITED BY SIZE '  '
+  100 >                       STUDENT-GRADES(STUDENT-INDEX, 1) DELIMITED BY SIZE..
+  101 |                       STUDENT-GRADES(STUDENT-INDEX, 2) DELIMITED BY SIZE..
+  102 |                       STUDENT-GRADES(STUDENT-INDEX, 3) DELIMITED BY SIZE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:101: error: 'STUDENT-GRADES' requires one subscript
+   99 |                STRING STUDENT-NAME(STUDENT-INDEX) DELIMITED BY SIZE '  '
+  100 |                       STUDENT-GRADES(STUDENT-INDEX, 1) DELIMITED BY SIZE..
+  101 >                       STUDENT-GRADES(STUDENT-INDEX, 2) DELIMITED BY SIZE..
+  102 |                       STUDENT-GRADES(STUDENT-INDEX, 3) DELIMITED BY SIZE..
+  103 |                       STUDENT-GRADES(STUDENT-INDEX, 4) DELIMITED BY SIZE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:102: error: 'STUDENT-GRADES' requires one subscript
+  100 |                       STUDENT-GRADES(STUDENT-INDEX, 1) DELIMITED BY SIZE..
+  101 |                       STUDENT-GRADES(STUDENT-INDEX, 2) DELIMITED BY SIZE..
+  102 >                       STUDENT-GRADES(STUDENT-INDEX, 3) DELIMITED BY SIZE..
+  103 |                       STUDENT-GRADES(STUDENT-INDEX, 4) DELIMITED BY SIZE..
+  104 |                       STUDENT-GRADES(STUDENT-INDEX, 5) DELIMITED BY SIZE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:103: error: 'STUDENT-GRADES' requires one subscript
+  101 |                       STUDENT-GRADES(STUDENT-INDEX, 2) DELIMITED BY SIZE..
+  102 |                       STUDENT-GRADES(STUDENT-INDEX, 3) DELIMITED BY SIZE..
+  103 >                       STUDENT-GRADES(STUDENT-INDEX, 4) DELIMITED BY SIZE..
+  104 |                       STUDENT-GRADES(STUDENT-INDEX, 5) DELIMITED BY SIZE..
+  105 |                       STUDENT-GRADES(STUDENT-INDEX, 6) DELIMITED BY SIZE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:104: error: 'STUDENT-GRADES' requires one subscript
+  102 |                       STUDENT-GRADES(STUDENT-INDEX, 3) DELIMITED BY SIZE..
+  103 |                       STUDENT-GRADES(STUDENT-INDEX, 4) DELIMITED BY SIZE..
+  104 >                       STUDENT-GRADES(STUDENT-INDEX, 5) DELIMITED BY SIZE..
+  105 |                       STUDENT-GRADES(STUDENT-INDEX, 6) DELIMITED BY SIZE..
+  106 |                       STUDENT-GRADES(STUDENT-INDEX, 7) DELIMITED BY SIZE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:105: error: 'STUDENT-GRADES' requires one subscript
+  103 |                       STUDENT-GRADES(STUDENT-INDEX, 4) DELIMITED BY SIZE..
+  104 |                       STUDENT-GRADES(STUDENT-INDEX, 5) DELIMITED BY SIZE..
+  105 >                       STUDENT-GRADES(STUDENT-INDEX, 6) DELIMITED BY SIZE..
+  106 |                       STUDENT-GRADES(STUDENT-INDEX, 7) DELIMITED BY SIZE..
+  107 |                       STUDENT-GRADES(STUDENT-INDEX, 8) DELIMITED BY SIZE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:106: error: 'STUDENT-GRADES' requires one subscript
+  104 |                       STUDENT-GRADES(STUDENT-INDEX, 5) DELIMITED BY SIZE..
+  105 |                       STUDENT-GRADES(STUDENT-INDEX, 6) DELIMITED BY SIZE..
+  106 >                       STUDENT-GRADES(STUDENT-INDEX, 7) DELIMITED BY SIZE..
+  107 |                       STUDENT-GRADES(STUDENT-INDEX, 8) DELIMITED BY SIZE..
+  108 |                       STUDENT-AVERAGES(STUDENT-INDEX) DELIMITED BY SIZE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_48/task_func_48.cbl:107: error: 'STUDENT-GRADES' requires one subscript
+  105 |                       STUDENT-GRADES(STUDENT-INDEX, 6) DELIMITED BY SIZE..
+  106 |                       STUDENT-GRADES(STUDENT-INDEX, 7) DELIMITED BY SIZE..
+  107 >                       STUDENT-GRADES(STUDENT-INDEX, 8) DELIMITED BY SIZE..
+  108 |                       STUDENT-AVERAGES(STUDENT-INDEX) DELIMITED BY SIZE
+  109 |                       INTO OUT-STUDENT-LINE
+
+2025-05-20 22:20:28.881 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.881 | ERROR    | __main__:compile:227 - Compilation failed for task_func_48
+2025-05-20 22:20:28.881 | INFO     | __main__:compile:156 - Processing program 45/46: task_func_49
+2025-05-20 22:20:28.882 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.882 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.882 | INFO     | __main__:compile:190 - compiling task_func_49
+2025-05-20 22:20:28.905 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:13: error: PICTURE clause required for 'OUTPUT-RECORD'
+   11 |        FILE SECTION.
+   12 |        FD  OUTPUT-FILE.
+   13 >        01  OUTPUT-RECORD.
+   14 |            PIC X(80).
+   15 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:14: error: PROCEDURE DIVISION header missing
+   12 |        FD  OUTPUT-FILE.
+   13 |        01  OUTPUT-RECORD.
+   14 >            PIC X(80).
+   15 | 
+   16 |        WORKING-STORAGE SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:14: error: syntax error, unexpected PICTURE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:16: error: syntax error, unexpected WORKING-STORAGE
+   14 |            PIC X(80).
+   15 | 
+   16 >        WORKING-STORAGE SECTION.
+   17 |        01  SAMPLE-NAMES.
+   18 |            05  NAME-TABLE OCCURS 5 TIMES INDEXED BY NAME-INDEX.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:17: error: syntax error, unexpected Identifier, expecting SECTION or .
+   15 | 
+   16 |        WORKING-STORAGE SECTION.
+   17 >        01  SAMPLE-NAMES.
+   18 |            05  NAME-TABLE OCCURS 5 TIMES INDEXED BY NAME-INDEX.
+   19 |                10  NAME-ENTRY PIC X(20) VALUE 'John       '.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:17: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:18: error: syntax error, unexpected Identifier, expecting SECTION or .
+   16 |        WORKING-STORAGE SECTION.
+   17 |        01  SAMPLE-NAMES.
+   18 >            05  NAME-TABLE OCCURS 5 TIMES INDEXED BY NAME-INDEX.
+   19 |                10  NAME-ENTRY PIC X(20) VALUE 'John       '.
+   20 |                10  NAME-ENTRY PIC X(20) VALUE 'Alice      '.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:18: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:19: error: syntax error, unexpected Identifier, expecting SECTION or .
+   17 |        01  SAMPLE-NAMES.
+   18 |            05  NAME-TABLE OCCURS 5 TIMES INDEXED BY NAME-INDEX.
+   19 >                10  NAME-ENTRY PIC X(20) VALUE 'John       '.
+   20 |                10  NAME-ENTRY PIC X(20) VALUE 'Alice      '.
+   21 |                10  NAME-ENTRY PIC X(20) VALUE 'Robert     '.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:19: note: unknown statement '10'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:20: error: syntax error, unexpected Identifier, expecting SECTION or .
+   18 |            05  NAME-TABLE OCCURS 5 TIMES INDEXED BY NAME-INDEX.
+   19 |                10  NAME-ENTRY PIC X(20) VALUE 'John       '.
+   20 >                10  NAME-ENTRY PIC X(20) VALUE 'Alice      '.
+   21 |                10  NAME-ENTRY PIC X(20) VALUE 'Robert     '.
+   22 |                10  NAME-ENTRY PIC X(20) VALUE 'Emily      '.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:20: note: unknown statement '10'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:21: error: syntax error, unexpected Identifier, expecting SECTION or .
+   19 |                10  NAME-ENTRY PIC X(20) VALUE 'John       '.
+   20 |                10  NAME-ENTRY PIC X(20) VALUE 'Alice      '.
+   21 >                10  NAME-ENTRY PIC X(20) VALUE 'Robert     '.
+   22 |                10  NAME-ENTRY PIC X(20) VALUE 'Emily      '.
+   23 |                10  NAME-ENTRY PIC X(20) VALUE 'Michael    '.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:21: note: unknown statement '10'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:22: error: syntax error, unexpected Identifier, expecting SECTION or .
+   20 |                10  NAME-ENTRY PIC X(20) VALUE 'Alice      '.
+   21 |                10  NAME-ENTRY PIC X(20) VALUE 'Robert     '.
+   22 >                10  NAME-ENTRY PIC X(20) VALUE 'Emily      '.
+   23 |                10  NAME-ENTRY PIC X(20) VALUE 'Michael    '.
+   24 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:22: note: unknown statement '10'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:23: error: syntax error, unexpected Identifier, expecting SECTION or .
+   21 |                10  NAME-ENTRY PIC X(20) VALUE 'Robert     '.
+   22 |                10  NAME-ENTRY PIC X(20) VALUE 'Emily      '.
+   23 >                10  NAME-ENTRY PIC X(20) VALUE 'Michael    '.
+   24 | 
+   25 |        01  RANDOM-VARIABLES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:23: note: unknown statement '10'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:25: error: syntax error, unexpected Identifier, expecting SECTION or .
+   23 |                10  NAME-ENTRY PIC X(20) VALUE 'Michael    '.
+   24 | 
+   25 >        01  RANDOM-VARIABLES.
+   26 |            05  RANDOM-NAME PIC X(20).
+   27 |            05  RANDOM-AGE PIC 99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:25: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:26: error: syntax error, unexpected Identifier, expecting SECTION or .
+   24 | 
+   25 |        01  RANDOM-VARIABLES.
+   26 >            05  RANDOM-NAME PIC X(20).
+   27 |            05  RANDOM-AGE PIC 99.
+   28 |            05  RANDOM-HEIGHT PIC 999.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:26: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:27: error: syntax error, unexpected Identifier, expecting SECTION or .
+   25 |        01  RANDOM-VARIABLES.
+   26 |            05  RANDOM-NAME PIC X(20).
+   27 >            05  RANDOM-AGE PIC 99.
+   28 |            05  RANDOM-HEIGHT PIC 999.
+   29 |            05  RANDOM-WEIGHT PIC 99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:27: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:28: error: syntax error, unexpected Identifier, expecting SECTION or .
+   26 |            05  RANDOM-NAME PIC X(20).
+   27 |            05  RANDOM-AGE PIC 99.
+   28 >            05  RANDOM-HEIGHT PIC 999.
+   29 |            05  RANDOM-WEIGHT PIC 99.
+   30 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:28: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:29: error: syntax error, unexpected Identifier, expecting SECTION or .
+   27 |            05  RANDOM-AGE PIC 99.
+   28 |            05  RANDOM-HEIGHT PIC 999.
+   29 >            05  RANDOM-WEIGHT PIC 99.
+   30 | 
+   31 |        01  RUNNING-TOTALS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:29: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:31: error: syntax error, unexpected Identifier, expecting SECTION or .
+   29 |            05  RANDOM-WEIGHT PIC 99.
+   30 | 
+   31 >        01  RUNNING-TOTALS.
+   32 |            05  TOTAL-AGE PIC 9999 VALUE 0.
+   33 |            05  TOTAL-HEIGHT PIC 99999 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:31: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:32: error: syntax error, unexpected Identifier, expecting SECTION or .
+   30 | 
+   31 |        01  RUNNING-TOTALS.
+   32 >            05  TOTAL-AGE PIC 9999 VALUE 0.
+   33 |            05  TOTAL-HEIGHT PIC 99999 VALUE 0.
+   34 |            05  TOTAL-WEIGHT PIC 9999 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:32: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:33: error: syntax error, unexpected Identifier, expecting SECTION or .
+   31 |        01  RUNNING-TOTALS.
+   32 |            05  TOTAL-AGE PIC 9999 VALUE 0.
+   33 >            05  TOTAL-HEIGHT PIC 99999 VALUE 0.
+   34 |            05  TOTAL-WEIGHT PIC 9999 VALUE 0.
+   35 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:33: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:34: error: syntax error, unexpected Identifier, expecting SECTION or .
+   32 |            05  TOTAL-AGE PIC 9999 VALUE 0.
+   33 |            05  TOTAL-HEIGHT PIC 99999 VALUE 0.
+   34 >            05  TOTAL-WEIGHT PIC 9999 VALUE 0.
+   35 | 
+   36 |        01  RECORD-COUNTER PIC 99 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:34: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:36: error: syntax error, unexpected Identifier, expecting SECTION or .
+   34 |            05  TOTAL-WEIGHT PIC 9999 VALUE 0.
+   35 | 
+   36 >        01  RECORD-COUNTER PIC 99 VALUE 0.
+   37 | 
+   38 |        01  AVERAGES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:36: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:38: error: syntax error, unexpected Identifier, expecting SECTION or .
+   36 |        01  RECORD-COUNTER PIC 99 VALUE 0.
+   37 | 
+   38 >        01  AVERAGES.
+   39 |            05  AVERAGE-AGE PIC 99.
+   40 |            05  AVERAGE-HEIGHT PIC 999.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:38: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:39: error: syntax error, unexpected Identifier, expecting SECTION or .
+   37 | 
+   38 |        01  AVERAGES.
+   39 >            05  AVERAGE-AGE PIC 99.
+   40 |            05  AVERAGE-HEIGHT PIC 999.
+   41 |            05  AVERAGE-WEIGHT PIC 99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:39: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:40: error: syntax error, unexpected Identifier, expecting SECTION or .
+   38 |        01  AVERAGES.
+   39 |            05  AVERAGE-AGE PIC 99.
+   40 >            05  AVERAGE-HEIGHT PIC 999.
+   41 |            05  AVERAGE-WEIGHT PIC 99.
+   42 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:40: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:41: error: syntax error, unexpected Identifier, expecting SECTION or .
+   39 |            05  AVERAGE-AGE PIC 99.
+   40 |            05  AVERAGE-HEIGHT PIC 999.
+   41 >            05  AVERAGE-WEIGHT PIC 99.
+   42 | 
+   43 |        01  CSV-HEADER PIC X(80) VALUE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:41: note: unknown statement '05'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:43: error: syntax error, unexpected Identifier, expecting SECTION or .
+   41 |            05  AVERAGE-WEIGHT PIC 99.
+   42 | 
+   43 >        01  CSV-HEADER PIC X(80) VALUE
+   44 |            'Name,Age,Height,Weight'.
+   45 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:43: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:46: error: syntax error, unexpected PROCEDURE
+   44 |            'Name,Age,Height,Weight'.
+   45 | 
+   46 >        PROCEDURE DIVISION.
+   47 |        MAIN-PROCEDURE.
+   48 |            OPEN OUTPUT OUTPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:49: error: 'CSV-HEADER' is not defined
+   47 |        MAIN-PROCEDURE.
+   48 |            OPEN OUTPUT OUTPUT-FILE
+   49 >            WRITE OUTPUT-RECORD FROM CSV-HEADER.
+   50 | 
+   51 |            PERFORM VARYING RECORD-COUNTER FROM 1 BY 1 UNTIL RECORD-COUNTE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:51: error: 'RECORD-COUNTER' is not defined
+   49 |            WRITE OUTPUT-RECORD FROM CSV-HEADER.
+   50 | 
+   51 >            PERFORM VARYING RECORD-COUNTER FROM 1 BY 1 UNTIL RECORD-COUNTE..
+   52 |                PERFORM GENERATE-RANDOM-DATA
+   53 |                PERFORM WRITE-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:51: error: 'RECORD-COUNT' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl: in paragraph 'GENERATE-RANDOM-DATA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:63: error: 'NAME-INDEX' is not defined
+   61 | 
+   62 |        GENERATE-RANDOM-DATA.
+   63 >            SET NAME-INDEX TO FUNCTION RANDOM(1, 5)
+   64 |            MOVE NAME-TABLE(NAME-INDEX) TO RANDOM-NAME
+   65 |            MOVE FUNCTION RANDOM(18, 77) TO RANDOM-AGE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:63: error: FUNCTION 'RANDOM' has wrong number of arguments
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:64: error: 'NAME-TABLE' is not defined
+   62 |        GENERATE-RANDOM-DATA.
+   63 |            SET NAME-INDEX TO FUNCTION RANDOM(1, 5)
+   64 >            MOVE NAME-TABLE(NAME-INDEX) TO RANDOM-NAME
+   65 |            MOVE FUNCTION RANDOM(18, 77) TO RANDOM-AGE
+   66 |            MOVE FUNCTION RANDOM(150, 199) TO RANDOM-HEIGHT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:64: error: 'RANDOM-NAME' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:65: error: FUNCTION 'RANDOM' has wrong number of arguments
+   63 |            SET NAME-INDEX TO FUNCTION RANDOM(1, 5)
+   64 |            MOVE NAME-TABLE(NAME-INDEX) TO RANDOM-NAME
+   65 >            MOVE FUNCTION RANDOM(18, 77) TO RANDOM-AGE
+   66 |            MOVE FUNCTION RANDOM(150, 199) TO RANDOM-HEIGHT
+   67 |            MOVE FUNCTION RANDOM(50, 99) TO RANDOM-WEIGHT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:65: error: 'RANDOM-AGE' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:66: error: FUNCTION 'RANDOM' has wrong number of arguments
+   64 |            MOVE NAME-TABLE(NAME-INDEX) TO RANDOM-NAME
+   65 |            MOVE FUNCTION RANDOM(18, 77) TO RANDOM-AGE
+   66 >            MOVE FUNCTION RANDOM(150, 199) TO RANDOM-HEIGHT
+   67 |            MOVE FUNCTION RANDOM(50, 99) TO RANDOM-WEIGHT
+   68 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:66: error: 'RANDOM-HEIGHT' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:67: error: FUNCTION 'RANDOM' has wrong number of arguments
+   65 |            MOVE FUNCTION RANDOM(18, 77) TO RANDOM-AGE
+   66 |            MOVE FUNCTION RANDOM(150, 199) TO RANDOM-HEIGHT
+   67 >            MOVE FUNCTION RANDOM(50, 99) TO RANDOM-WEIGHT
+   68 | 
+   69 |            ADD RANDOM-AGE TO TOTAL-AGE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:67: error: 'RANDOM-WEIGHT' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:69: error: 'TOTAL-AGE' is not defined
+   67 |            MOVE FUNCTION RANDOM(50, 99) TO RANDOM-WEIGHT
+   68 | 
+   69 >            ADD RANDOM-AGE TO TOTAL-AGE
+   70 |            ADD RANDOM-HEIGHT TO TOTAL-HEIGHT
+   71 |            ADD RANDOM-WEIGHT TO TOTAL-WEIGHT.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:70: error: 'TOTAL-HEIGHT' is not defined
+   68 | 
+   69 |            ADD RANDOM-AGE TO TOTAL-AGE
+   70 >            ADD RANDOM-HEIGHT TO TOTAL-HEIGHT
+   71 |            ADD RANDOM-WEIGHT TO TOTAL-WEIGHT.
+   72 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:71: error: 'TOTAL-WEIGHT' is not defined
+   69 |            ADD RANDOM-AGE TO TOTAL-AGE
+   70 |            ADD RANDOM-HEIGHT TO TOTAL-HEIGHT
+   71 >            ADD RANDOM-WEIGHT TO TOTAL-WEIGHT.
+   72 | 
+   73 |        WRITE-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl: in paragraph 'CALCULATE-AVERAGES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:81: error: 'AVERAGE-AGE' is not defined
+   79 | 
+   80 |        CALCULATE-AVERAGES.
+   81 >            COMPUTE AVERAGE-AGE = TOTAL-AGE / 100
+   82 |            COMPUTE AVERAGE-HEIGHT = TOTAL-HEIGHT / 100
+   83 |            COMPUTE AVERAGE-WEIGHT = TOTAL-WEIGHT / 100.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:82: error: 'AVERAGE-HEIGHT' is not defined
+   80 |        CALCULATE-AVERAGES.
+   81 |            COMPUTE AVERAGE-AGE = TOTAL-AGE / 100
+   82 >            COMPUTE AVERAGE-HEIGHT = TOTAL-HEIGHT / 100
+   83 |            COMPUTE AVERAGE-WEIGHT = TOTAL-WEIGHT / 100.
+   84 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_49/task_func_49.cbl:83: error: 'AVERAGE-WEIGHT' is not defined
+   81 |            COMPUTE AVERAGE-AGE = TOTAL-AGE / 100
+   82 |            COMPUTE AVERAGE-HEIGHT = TOTAL-HEIGHT / 100
+   83 >            COMPUTE AVERAGE-WEIGHT = TOTAL-WEIGHT / 100.
+   84 | 
+   85 |        WRITE-AVERAGES.
+
+2025-05-20 22:20:28.905 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.905 | ERROR    | __main__:compile:227 - Compilation failed for task_func_49
+2025-05-20 22:20:28.905 | INFO     | __main__:compile:156 - Processing program 46/46: task_func_55
+2025-05-20 22:20:28.905 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:28.905 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:28.906 | INFO     | __main__:compile:190 - compiling task_func_55
+2025-05-20 22:20:28.927 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:42: error: syntax error, unexpected Literal
+   40 |        01 WS-OUTLIERS.
+   41 |            05 WS-OUTLIER-INDICES OCCURS 1000 TIMES INDEXED BY WS-OUTLIER-..
+   42 >                10 WS-OUTLIER-INDEX PIC 9(5).
+   43 |            05 WS-OUTLIER-COUNT PIC 9(5) VALUE ZERO.
+   44 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:41: error: PICTURE clause required for 'WS-OUTLIER-INDICES'
+   39 | 
+   40 |        01 WS-OUTLIERS.
+   41 >            05 WS-OUTLIER-INDICES OCCURS 1000 TIMES INDEXED BY WS-OUTLIER-..
+   42 |                10 WS-OUTLIER-INDEX PIC 9(5).
+   43 |            05 WS-OUTLIER-COUNT PIC 9(5) VALUE ZERO.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl: in paragraph 'READ-AND-STORE-DATA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:61: error: 'END-OF-FILE' is not defined
+   59 | 
+   60 |        READ-AND-STORE-DATA.
+   61 >            PERFORM UNTIL WS-COUNT >= 1000 OR END-OF-FILE
+   62 |                READ ORIGINAL-FILE INTO ORIGINAL-RECORD
+   63 |                    AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl: in paragraph 'CALCULATE-MEAN-AND-STD-DEV':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:73: error: 'WS-COUN' is not defined
+   71 |        CALCULATE-MEAN-AND-STD-DEV.
+   72 |            MOVE ZERO TO WS-MEAN WS-STD-DEV.
+   73 >            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > WS-COUNT
+   74 |                ADD WS-VALUES(WS-INDEX) TO WS-MEAN
+   75 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:74: error: 'WS-VALUES (WS-INDEX)' is not numeric
+   72 |            MOVE ZERO TO WS-MEAN WS-STD-DEV.
+   73 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > WS-COUNT
+   74 >                ADD WS-VALUES(WS-INDEX) TO WS-MEAN
+   75 |            END-PERFORM.
+   76 |            DIVIDE WS-MEAN BY WS-COUNT GIVING WS-MEAN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:79: error: 'WS-VALUES (WS-INDEX)' is not numeric
+   77 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > WS-COUNT
+   78 |                COMPUTE WS-STD-DEV = WS-STD-DEV +
+   79 >                    (WS-VALUES(WS-INDEX) - WS-MEAN) ** 2
+   80 |            END-PERFORM.
+   81 |            DIVIDE WS-STD-DEV BY WS-COUNT GIVING WS-STD-DEV.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl: in paragraph 'IDENTIFY-AND-REMOVE-OUTLIERS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:86: error: 'WS-VALUES (WS-INDEX)' is not numeric
+   84 |        IDENTIFY-AND-REMOVE-OUTLIERS.
+   85 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > WS-COUNT
+   86 >                COMPUTE WS-Z-SCORE = (WS-VALUES(WS-INDEX) - WS-MEAN) / WS-..
+   87 |                IF ABS(WS-Z-SCORE) > WS-THRESHOLD
+   88 |                    ADD 1 TO WS-OUTLIER-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:86: error: 'WS' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:87: error: 'ABS' is not defined
+   85 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > WS-COUNT
+   86 |                COMPUTE WS-Z-SCORE = (WS-VALUES(WS-INDEX) - WS-MEAN) / WS-..
+   87 >                IF ABS(WS-Z-SCORE) > WS-THRESHOLD
+   88 |                    ADD 1 TO WS-OUTLIER-COUNT
+   89 |                    MOVE WS-INDEX TO WS-OUTLIER-INDICES(WS-OUTLIER-COUNT)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl: in paragraph 'WRITE-OUTLIER-INDICES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:103: error: 'WS-OUTLIER-INDEX' is not defined
+  101 | 
+  102 |        WRITE-OUTLIER-INDICES.
+  103 >            PERFORM VARYING WS-OUTLIER-INDEX FROM 1 BY 1 UNTIL WS-OUTLIER-..
+  104 |                MOVE WS-OUTLIER-INDICES(WS-OUTLIER-INDEX) TO OUTLIER-INDEX
+  105 |                WRITE OUTLIER-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:103: error: incomplete expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_55/task_func_55.cbl:104: error: 'OUTLIER-INDE' is not defined
+  102 |        WRITE-OUTLIER-INDICES.
+  103 |            PERFORM VARYING WS-OUTLIER-INDEX FROM 1 BY 1 UNTIL WS-OUTLIER-..
+  104 >                MOVE WS-OUTLIER-INDICES(WS-OUTLIER-INDEX) TO OUTLIER-INDEX
+  105 |                WRITE OUTLIER-RECORD
+  106 |            END-PERFORM.
+
+2025-05-20 22:20:28.927 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:28.927 | ERROR    | __main__:compile:227 - Compilation failed for task_func_55
+2025-05-20 22:20:28.928 | SUCCESS  | __main__:compile:268 - Compilation completed
+2025-05-20 22:20:28.928 | INFO     | __main__:compile:269 - Total programs compiled: 4 
+Total programs executed: 4 
+Total results matched: 0.86
+2025-05-20 22:20:28.928 | INFO     | __main__:compile:285 - final_results directory path: /home/projadmin/CobolEval/FrameWork/final_results/instruct
+2025-05-20 22:20:28.942 | INFO     | __main__:compile:290 - Results saved to final_results/instruct/gpt-4o_instruct_final_results.csv
+
+
+--- STDOUT OUTPUT ---
+
+Starting compilation for model: gpt-4o, mode: instruct
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_05/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_24/task_func24_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_24/task_func24_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_33/weather1.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_33/weather2.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_34/task_func34_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-4o/instruct/task_func_34/task_func34_inp2Finished processing model: gpt-4o, mode: instruct
+Results summary: 46 programs processed
+Compiled: 4 - Executed: 4 - Match: 0.86
+2025-05-20 22:20:28.942 | SUCCESS  | __main__:<module>:384 - Completed processing model: gpt-4o, mode: instruct
+2025-05-20 22:20:28.942 | INFO     | __main__:<module>:385 - All logs saved to /home/projadmin/CobolEval/FrameWork/logs/gpt-4o_instruct.txt

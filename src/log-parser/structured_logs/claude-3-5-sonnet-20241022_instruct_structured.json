@@ -1,0 +1,972 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_01/task_func_01.cbl",
+        "line": 107,
+        "level": "error",
+        "message": "'WS-IDX' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:37.603",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:19:37.648 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl",
+        "line": 27,
+        "level": "warning",
+        "message": "handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl",
+        "line": 27,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl",
+        "line": 27,
+        "level": "error",
+        "message": "invalid literal: ' TO WS-MATCH-FLAG ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl",
+        "line": 27,
+        "level": "note",
+        "message": "missing terminating ' character"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:37.626",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:37.648",
+    "execution": {
+      "task_id": "task_func_03",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: file does not exist (status = 35) for file INPUT-FILE ('Task_func03_inp')",
+          "timestamp": "2025-05-20 22:19:37.782"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:37.782"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:37.648"
+    }
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:37.782",
+    "execution": {
+      "task_id": "task_func_04",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:37.782"
+    }
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:37.906",
+    "execution": {
+      "task_id": "task_func_05",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:37.906"
+    }
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_07/task_func_07.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "'WS-IDX' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_07/task_func_07.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "'WS-RANDOM' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:38.035",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:38.057",
+    "execution": {
+      "task_id": "task_func_08",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:38.057"
+    }
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:38.173",
+    "execution": {
+      "task_id": "task_func_09",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('output_txt' => output.txt)",
+          "timestamp": "2025-05-20 22:19:38.305"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:38.305"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:38.173"
+    }
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:38.305",
+    "execution": {
+      "task_id": "task_func_10",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:38.305"
+    }
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_11/task_func_11.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected CONTAINS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_11/task_func_11.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "IF without imperative statement"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:38.431",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:38.455",
+    "execution": {
+      "task_id": "task_func_12",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: READ/START not allowed, file not open for input (status = 47) for file INPUT-FILE ('input_dat' => input.dat)",
+          "timestamp": "2025-05-20 22:19:38.578"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:38.579"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:38.455"
+    }
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_13/task_func_13.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "'WS-VALID-FLAG' is not numeric"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:38.579",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_14/task_func_14.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "'WS-J' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:38.601",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:38.624",
+    "execution": {
+      "task_id": "task_func_15",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:38.624"
+    }
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_16/task_func_16.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "FUNCTION 'SECONDS-BETWEEN' unknown"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:38.766",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:38.789",
+    "execution": {
+      "task_id": "task_func_17",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:38.789"
+    }
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:38.905",
+    "execution": {
+      "task_id": "task_func_18",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:38.905"
+    }
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:39.027",
+    "execution": {
+      "task_id": "task_func_19",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: file does not exist (status = 35) for file INPUT-FILE ('input_dat' => input.dat)",
+          "timestamp": "2025-05-20 22:19:39.164"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:39.165"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:39.027"
+    }
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:39.165",
+    "execution": {
+      "task_id": "task_func_20",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: file does not exist (status = 35) for file CUSTOMER-FILE ('customer_dat' => customer.dat)",
+          "timestamp": "2025-05-20 22:19:39.288"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:39.289"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:39.165"
+    }
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_21/task_func_21.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "syntax error, unexpected intrinsic function name"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:39.289",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:39.315",
+    "execution": {
+      "task_id": "task_func_22",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE1 ('output1_txt' => output1.txt)",
+          "timestamp": "2025-05-20 22:19:39.448"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:39.449"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:39.315"
+    }
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:39.449",
+    "execution": {
+      "task_id": "task_func_23",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:39.449"
+    }
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:39.579",
+    "execution": {
+      "task_id": "task_func_24",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:39.579"
+    }
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:39.716",
+    "execution": {
+      "task_id": "task_func_25",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:39.716"
+    }
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:19:39.988 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_26/task_func_26.cbl",
+        "line": 33,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_26/task_func_26.cbl",
+        "line": 33,
+        "level": "note",
+        "message": "value size is 21 [-Wothers]"
+      }
+    ],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:19:39.844",
+    "execution": {
+      "task_id": "task_func_26",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_26/task_func_26.cbl:33: warning: value size exceeds data size [-Wothers]",
+          "timestamp": "2025-05-20 22:19:39.988"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:19:39.844"
+    }
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:19:40.136 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func_27.cbl",
+        "line": 49,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func_27.cbl",
+        "line": 49,
+        "level": "note",
+        "message": "value size is 11 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func_27.cbl",
+        "line": 71,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func_27.cbl",
+        "line": 71,
+        "level": "note",
+        "message": "value size is 16 [-Wothers]"
+      }
+    ],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:19:39.995",
+    "execution": {
+      "task_id": "task_func_27",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func_27.cbl:49: warning: value size exceeds data size [-Wothers]",
+          "timestamp": "2025-05-20 22:19:40.136"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:19:39.995"
+    }
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:45.144",
+    "execution": {
+      "task_id": "task_func_28",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: file does not exist (status = 35) for file INPUT-FILE ('sample_data_csv' => sample_data.csv)",
+          "timestamp": "2025-05-20 22:19:45.274"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:45.274"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:45.144"
+    }
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_29/task_func_29.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'WS-IDX' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_29/task_func_29.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "'WS-IDX2' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:45.275",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_30/task_func_30.cbl",
+        "line": 112,
+        "level": "error",
+        "message": "syntax error, unexpected MOVE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:45.299",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:45.323",
+    "execution": {
+      "task_id": "task_func_31",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: file does not exist (status = 35) for file INPUT-FILE ('input_txt' => input.txt)",
+          "timestamp": "2025-05-20 22:19:45.461"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:45.461"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:45.323"
+    }
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:45.461",
+    "execution": {
+      "task_id": "task_func_32",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: READ/START not allowed, file not open for input (status = 47) for file INPUT-FILE ('VEHICLE-IN_DAT' => VEHICLE-IN.DAT)",
+          "timestamp": "2025-05-20 22:19:45.586"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:45.586"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:45.461"
+    }
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:45.587",
+    "execution": {
+      "task_id": "task_func_33",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:45.587"
+    }
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:19:45.727 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_34/task_func_34.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected ADDRESS"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:45.705",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:45.727",
+    "execution": {
+      "task_id": "task_func_35",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file NEW-MASTER ('task_func35_out')",
+          "timestamp": "2025-05-20 22:19:45.846"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:45.846"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:45.727"
+    }
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:19:45.963 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_36/task_func_36.cbl",
+        "line": 39,
+        "level": "warning",
+        "message": "OCCURS DEPENDING ON without TO phrase used [-Wdialect]"
+      }
+    ],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:19:45.847",
+    "execution": {
+      "task_id": "task_func_36",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_36/task_func_36.cbl:39: warning: OCCURS DEPENDING ON without TO phrase used [-Wdialect]",
+          "timestamp": "2025-05-20 22:19:45.963"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:19:45.847"
+    }
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_37/task_func_37.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "file SORT requires GIVING or OUTPUT PROCEDURE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_37/task_func_37.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_37/task_func_37.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:45.970",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_38/task_func_38.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected OUTPUT"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:45.991",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:46.012",
+    "execution": {
+      "task_id": "task_func_39",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file ERROR-FILE ('task_func39_out1')",
+          "timestamp": "2025-05-20 22:19:46.125"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:46.125"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:46.012"
+    }
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_40/task_func_40.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "'WS-START' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_40/task_func_40.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "syntax error, unexpected COMPUTE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_40/task_func_40.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "syntax error, unexpected IF"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_40/task_func_40.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "syntax error, unexpected intrinsic function name"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:46.126",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:46.147",
+    "execution": {
+      "task_id": "task_func_43",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:46.147"
+    }
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:19:46.264",
+    "execution": {
+      "task_id": "task_func_44",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: warning: implicit CLOSE of OUTPUT-FILE ('OUTPUT.PS')",
+          "timestamp": "2025-05-20 22:19:46.387"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:19:46.264"
+    }
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:46.388",
+    "execution": {
+      "task_id": "task_func_45",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: file does not exist (status = 35) for file INPUT-FILE ('input_txt' => input.txt)",
+          "timestamp": "2025-05-20 22:19:46.512"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:19:46.512"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:19:46.388"
+    }
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_47/task_func_47.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected SPACE, expecting ZERO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_47/task_func_47.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "IF without imperative statement"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:46.513",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_48/task_func_48.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'WS-NUM-SUBJ' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_48/task_func_48.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "'WS-NUM-STUD' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:46.535",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:19:46.558",
+    "execution": {
+      "task_id": "task_func_49",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:19:46.558"
+    }
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "'WS-RECORD-CO' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "'DETECT-OUTLIERS-PARA' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "syntax error, unexpected ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "'ABS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl",
+        "line": 105,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl",
+        "line": 109,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl",
+        "line": 112,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:19:46.726",
+    "execution": {}
+  }
+]

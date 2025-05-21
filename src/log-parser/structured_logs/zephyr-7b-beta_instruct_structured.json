@@ -1,0 +1,1784 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.005 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_01/task_func_01.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_01/task_func_01.cbl",
+        "line": 111,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_01/task_func_01.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_01/task_func_01.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_01/task_func_01.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:58.984",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.028 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_02/task_func_02.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_02/task_func_02.cbl",
+        "line": 63,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_02/task_func_02.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_02/task_func_02.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_02/task_func_02.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.006",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.049 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_03/task_func_03.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_03/task_func_03.cbl",
+        "line": 138,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_03/task_func_03.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_03/task_func_03.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_03/task_func_03.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.028",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.071 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_04/task_func_04.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_04/task_func_04.cbl",
+        "line": 61,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.050",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.093 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_05/task_func_05.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_05/task_func_05.cbl",
+        "line": 42,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_05/task_func_05.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_05/task_func_05.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_05/task_func_05.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.072",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.117 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_07/task_func_07.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_07/task_func_07.cbl",
+        "line": 424,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.093",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.138 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_08/task_func_08.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_08/task_func_08.cbl",
+        "line": 51,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_08/task_func_08.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_08/task_func_08.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_08/task_func_08.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.117",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.160 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_09/task_func_09.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_09/task_func_09.cbl",
+        "line": 79,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_09/task_func_09.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_09/task_func_09.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_09/task_func_09.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.139",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.182 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_10/task_func_10.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_10/task_func_10.cbl",
+        "line": 55,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.161",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.189 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_11/task_func_11.cbl",
+        "line": 1,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_11/task_func_11.cbl",
+        "line": 2,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.183",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.211 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_12/task_func_12.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_12/task_func_12.cbl",
+        "line": 188,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.189",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.235 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_13/task_func_13.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_13/task_func_13.cbl",
+        "line": 344,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.212",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.259 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_14/task_func_14.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_14/task_func_14.cbl",
+        "line": 288,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_14/task_func_14.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_14/task_func_14.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_14/task_func_14.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.236",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.282 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_15/task_func_15.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_15/task_func_15.cbl",
+        "line": 80,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.260",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.306 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_16/task_func_16.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_16/task_func_16.cbl",
+        "line": 62,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.282",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.328 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_17/task_func_17.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_17/task_func_17.cbl",
+        "line": 118,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.307",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.350 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_18/task_func_18.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_18/task_func_18.cbl",
+        "line": 93,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_18/task_func_18.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_18/task_func_18.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_18/task_func_18.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.329",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.374 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_19/task_func_19.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_19/task_func_19.cbl",
+        "line": 447,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_19/task_func_19.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_19/task_func_19.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_19/task_func_19.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.351",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.397 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_20/task_func_20.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_20/task_func_20.cbl",
+        "line": 544,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_20/task_func_20.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_20/task_func_20.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_20/task_func_20.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.375",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.421 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_21/task_func_21.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_21/task_func_21.cbl",
+        "line": 984,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_21/task_func_21.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_21/task_func_21.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_21/task_func_21.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.398",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.445 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_22/task_func_22.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_22/task_func_22.cbl",
+        "line": 314,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.422",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.467 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_23/task_func_23.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_23/task_func_23.cbl",
+        "line": 40,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.446",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.491 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_24/task_func_24.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_24/task_func_24.cbl",
+        "line": 525,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_24/task_func_24.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_24/task_func_24.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_24/task_func_24.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.468",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.512 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_25/task_func_25.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_25/task_func_25.cbl",
+        "line": 78,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.491",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.534 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_26/task_func_26.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_26/task_func_26.cbl",
+        "line": 105,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_26/task_func_26.cbl",
+        "line": 129,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_26/task_func_26.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_26/task_func_26.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_26/task_func_26.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.512",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.555 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_27/task_func_27.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_27/task_func_27.cbl",
+        "line": 82,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_27/task_func_27.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_27/task_func_27.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_27/task_func_27.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.535",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.576 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_28/task_func_28.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_28/task_func_28.cbl",
+        "line": 64,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_28/task_func_28.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_28/task_func_28.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_28/task_func_28.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.555",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.598 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_29/task_func_29.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_29/task_func_29.cbl",
+        "line": 82,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_29/task_func_29.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_29/task_func_29.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_29/task_func_29.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.577",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.621 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_30/task_func_30.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.598",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.645 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_31/task_func_31.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_31/task_func_31.cbl",
+        "line": 55,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_31/task_func_31.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_31/task_func_31.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_31/task_func_31.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.622",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.666 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_32/task_func_32.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_32/task_func_32.cbl",
+        "line": 62,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_32/task_func_32.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_32/task_func_32.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_32/task_func_32.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.645",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.689 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_33/task_func_33.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_33/task_func_33.cbl",
+        "line": 96,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_33/task_func_33.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_33/task_func_33.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_33/task_func_33.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.667",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.711 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_34/task_func_34.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_34/task_func_34.cbl",
+        "line": 125,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_34/task_func_34.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_34/task_func_34.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_34/task_func_34.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.689",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.733 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_35/task_func_35.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_35/task_func_35.cbl",
+        "line": 79,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_35/task_func_35.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_35/task_func_35.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_35/task_func_35.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.711",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.757 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_36/task_func_36.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_36/task_func_36.cbl",
+        "line": 92,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.733",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.782 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_37/task_func_37.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_37/task_func_37.cbl",
+        "line": 307,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.758",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.806 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_38/task_func_38.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_38/task_func_38.cbl",
+        "line": 574,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_38/task_func_38.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_38/task_func_38.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_38/task_func_38.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.783",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.827 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_39/task_func_39.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_39/task_func_39.cbl",
+        "line": 262,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_39/task_func_39.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_39/task_func_39.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_39/task_func_39.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.806",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.850 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_40/task_func_40.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_40/task_func_40.cbl",
+        "line": 292,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_40/task_func_40.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_40/task_func_40.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_40/task_func_40.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.828",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.872 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_43/task_func_43.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_43/task_func_43.cbl",
+        "line": 61,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.851",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.895 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_44/task_func_44.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_44/task_func_44.cbl",
+        "line": 66,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_44/task_func_44.cbl",
+        "line": 136,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_44/task_func_44.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_44/task_func_44.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_44/task_func_44.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.873",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.917 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_45/task_func_45.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_45/task_func_45.cbl",
+        "line": 157,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_45/task_func_45.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_45/task_func_45.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_45/task_func_45.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.895",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.939 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_47/task_func_47.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_47/task_func_47.cbl",
+        "line": 74,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_47/task_func_47.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_47/task_func_47.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_47/task_func_47.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.918",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.963 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_48/task_func_48.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_48/task_func_48.cbl",
+        "line": 253,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_48/task_func_48.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_48/task_func_48.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_48/task_func_48.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.940",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:59.985 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_49/task_func_49.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_49/task_func_49.cbl",
+        "line": 90,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.964",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:21:00.007 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_55/task_func_55.cbl",
+        "line": 2,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_55/task_func_55.cbl",
+        "line": 89,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/zephyr-7b-beta/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:59.986",
+    "execution": {}
+  }
+]

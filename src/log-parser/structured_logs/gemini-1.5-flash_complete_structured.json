@@ -1,0 +1,1926 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_01/task_func_01.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "incomplete expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_01/task_func_01.cbl",
+        "line": 115,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:20.768",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:20.812 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_02/task_func_02.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "'EOF-INPUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_02/task_func_02.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "incomplete expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_02/task_func_02.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "syntax error, unexpected LIKE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_02/task_func_02.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "IF without imperative statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_02/task_func_02.cbl",
+        "line": 69,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:20.790",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_03/task_func_03.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "'EOF-INPUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_03/task_func_03.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_03/task_func_03.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_03/task_func_03.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_03/task_func_03.cbl",
+        "line": 107,
+        "level": "error",
+        "message": "'FUNCTIO' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_03/task_func_03.cbl",
+        "line": 110,
+        "level": "error",
+        "message": "'ARG2' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:20.812",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:20.856 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_04/task_func_04.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_04/task_func_04.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "incomplete expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_04/task_func_04.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "syntax error, unexpected CONTAINS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_04/task_func_04.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_04/task_func_04.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "invalid literal: ' WS-ERROR-COUNT. ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_04/task_func_04.cbl",
+        "line": 66,
+        "level": "note",
+        "message": "missing terminating ' character"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:20.834",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_05/task_func_05.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'WS-LINE-COUNTE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_05/task_func_05.cbl",
+        "line": 63,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:20.856",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_07/task_func_07.cbl",
+        "line": 98,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:20.878",
+    "execution": {
+      "task_id": "task_func_07",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_07/task_func_07.cbl: in paragraph 'CLOSE-FILES':",
+          "timestamp": "2025-05-20 22:20:20.988"
+        },
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('task_func07_out')",
+          "timestamp": "2025-05-20 22:20:20.993"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:20:20.994"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:20:20.878"
+    }
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:21.014 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_08/task_func_08.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "'EOF-INPUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_08/task_func_08.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_08/task_func_08.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected MOVE, expecting INTO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_08/task_func_08.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_08/task_func_08.cbl",
+        "line": 67,
+        "level": "note",
+        "message": "unknown statement '88'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:20.994",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_09/task_func_09.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "'WS-COMMA-COU' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_09/task_func_09.cbl",
+        "line": 95,
+        "level": "warning",
+        "message": "suspicious reference-modification: always using max. length [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_09/task_func_09.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "'WS-NUM' is not numeric"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_09/task_func_09.cbl",
+        "line": 108,
+        "level": "error",
+        "message": "'WS-OVERALL' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_09/task_func_09.cbl",
+        "line": 110,
+        "level": "error",
+        "message": "'WS-SUM' is not numeric"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.015",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:21.059 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_10/task_func_10.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'O' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_10/task_func_10.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.038",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:21.081 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_11/task_func_11.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_11/task_func_11.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'CHARACT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_11/task_func_11.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "missing ALL/LEADING/TRAILING before value"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_11/task_func_11.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "ALL, LEADING or TRAILING expected before 'internal error node'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_11/task_func_11.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected VALID"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_11/task_func_11.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "invalid literal: ' TO RESULT-TEXT ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_11/task_func_11.cbl",
+        "line": 67,
+        "level": "note",
+        "message": "missing terminating ' character"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.060",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:21.081",
+    "execution": {
+      "task_id": "task_func_12",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:21.081"
+    }
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_13/task_func_13.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "'WS-CUSTOM' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.196",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:21.217",
+    "execution": {
+      "task_id": "task_func_14",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:21.217"
+    }
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:21.360 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 50,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 50,
+        "level": "note",
+        "message": "value size is 80 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "'WS-INDEX-ANIMA' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected ADD"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "'WS-INDEX-AN' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "'WS-INDEX' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "syntax error, unexpected ELSE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "'ANIMAL-N' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "'WS-DEFAULT-FOOD-ENTRY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "'FOOD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_15/task_func_15.cbl",
+        "line": 89,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.337",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:21.383 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "'EOF-INPUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting GIVING"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "syntax error, unexpected *"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "'your' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "'timestamp' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "'conversion' cannot be used here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "'logic' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "'here' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting GIVING"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "syntax error, unexpected IS, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_16/task_func_16.cbl",
+        "line": 76,
+        "level": "note",
+        "message": "unknown statement 'This'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.360",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:21.406 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_17/task_func_17.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "'EOF-INPUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_17/task_func_17.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "syntax error, unexpected IF"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_17/task_func_17.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'WS-PHONE-NUM' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_17/task_func_17.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "syntax error, unexpected WRITE, expecting INTO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.384",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_18/task_func_18.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "length of 'WS-LABEL-LINE' out of bounds: 50"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_18/task_func_18.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "length of 'WS-LABEL-LINE' out of bounds: 53"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_18/task_func_18.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "length of 'WS-LABEL-LINE' out of bounds: 58"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.406",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "'WS-SALARY-ENTRY' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "'WS-SORTED-SALARY' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "'WS-SALARY' is ambiguous; needs qualification"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 37,
+        "level": "note",
+        "message": "'WS-SALARY IN WS-SALARY-ENTRY IN WS-SALARY-TABLE' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 48,
+        "level": "note",
+        "message": "'WS-SALARY IN WS-SORTED-SALARY IN WS-SORTED-SALARIES' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "'MOD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "'WS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected ELSE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_19/task_func_19.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.429",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:21.474 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_20/task_func_20.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "'EOF-INPUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_20/task_func_20.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'I' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_20/task_func_20.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "syntax error, unexpected IF, expecting ) or - or +"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_20/task_func_20.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_20/task_func_20.cbl",
+        "line": 68,
+        "level": "note",
+        "message": "unknown statement '01'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.452",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'WS-PRODUCT-NAMES' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "'WS-PRODUCT-NAMES' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "'WS-PRODUCT-NAMES' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "'WS-PRODUCT-NAMES' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 85,
+        "level": "error",
+        "message": "'WS-PRODUCT-NAMES' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "'WS-SALE-QUANTITY' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "'WS-PRODUCT-NAMES' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "'WS-SALES-DATA' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 95,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 98,
+        "level": "error",
+        "message": "syntax error, unexpected MOVE, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_21/task_func_21.cbl",
+        "line": 97,
+        "level": "note",
+        "message": "unknown statement 'WS-PRO'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.475",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:21.519 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_22/task_func_22.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_22/task_func_22.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.498",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_23/task_func_23.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'WS-DAY-C' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_23/task_func_23.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected COMPUTE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_23/task_func_23.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "syntax error, unexpected COMPUTE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_23/task_func_23.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "syntax error, unexpected COMPUTE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_23/task_func_23.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected MOVE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_23/task_func_23.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "syntax error, unexpected )"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_23/task_func_23.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "'OUT-DELI' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.519",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_24/task_func_24.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "syntax error, unexpected INTO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_24/task_func_24.cbl",
+        "line": 98,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.541",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_25/task_func_25.cbl",
+        "line": 112,
+        "level": "error",
+        "message": "'WS-M' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.563",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_26/task_func_26.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_26/task_func_26.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "syntax error, unexpected END PROGRAM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.585",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_27/task_func_27.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "'IN-PE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_27/task_func_27.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_27/task_func_27.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "length of 'WS-OUTPUT-LINE' out of bounds: 50"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_27/task_func_27.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_27/task_func_27.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "length of 'WS-OUTPUT-LINE' out of bounds: 59"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_27/task_func_27.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_27/task_func_27.cbl",
+        "line": 94,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.608",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_28/task_func_28.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "'EOF-INPUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_28/task_func_28.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'WS-RECO' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_28/task_func_28.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_28/task_func_28.cbl",
+        "line": 83,
+        "level": "note",
+        "message": "unknown statement '88'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:21.630",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_29/task_func_29.cbl",
+        "line": 98,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:20:21.653",
+    "execution": {
+      "task_id": "task_func_29",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_29/task_func_29.cbl: in paragraph 'GENERATE-REPORT':",
+          "timestamp": "2025-05-20 22:20:21.770"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:20:21.653"
+    }
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_30/task_func_30.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "'WS-WO' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_30/task_func_30.cbl",
+        "line": 85,
+        "level": "error",
+        "message": "'WS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_30/task_func_30.cbl",
+        "line": 109,
+        "level": "error",
+        "message": "syntax error, unexpected +, expecting UNTIL"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_30/task_func_30.cbl",
+        "line": 119,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_30/task_func_30.cbl",
+        "line": 122,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_30/task_func_30.cbl",
+        "line": 123,
+        "level": "error",
+        "message": "syntax error, unexpected &, expecting TO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:26.778",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:26.824 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_31/task_func_31.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "data item not signed"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:26.801",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:26.998 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_32/task_func_32.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "'WS-VEHI' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_32/task_func_32.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "PERFORM VARYING 'WS-VEHICLE-TYPE' (line 38 of /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_32/task_func_32.cbl) is not a numeric field"
+      }
+    ],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:26.824",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:26.998",
+    "execution": {
+      "task_id": "task_func_33",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('weather-merged_txt' => weather-merged.txt)",
+          "timestamp": "2025-05-20 22:20:27.117"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:20:27.117"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:20:26.998"
+    }
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_34/task_func_34.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "'WS-ZIP' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_34/task_func_34.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "'WS-TA' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_34/task_func_34.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "'WS-S' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_34/task_func_34.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "syntax error, unexpected &, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_34/task_func_34.cbl",
+        "line": 98,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_34/task_func_34.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "'WS-ZIPCODE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_34/task_func_34.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_34/task_func_34.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_34/task_func_34.cbl",
+        "line": 98,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.118",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.164 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_35/task_func_35.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'WS-EOF-TRANS-FIL' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_35/task_func_35.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.141",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.187 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "syntax error, unexpected NUMBERS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "REDEFINES must follow the original definition"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "syntax error, unexpected NUMBERS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected NUMBERS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "syntax error, unexpected SORT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "syntax error, unexpected END-IF, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 93,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 94,
+        "level": "error",
+        "message": "'TH' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 94,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "'W' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_36/task_func_36.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "syntax error, unexpected MOVE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.164",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_37/task_func_37.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "WRITE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_37/task_func_37.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "READ not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_37/task_func_37.cbl",
+        "line": 94,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.188",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.234 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "OPEN not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "'O' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "'O' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "WRITE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "WRITE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "WRITE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "WRITE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "CLOSE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 93,
+        "level": "error",
+        "message": "OPEN not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 95,
+        "level": "error",
+        "message": "READ not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_38/task_func_38.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "CLOSE not allowed on SORT files"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.211",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.258 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "literal type does not match numeric data type"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "literal type does not match numeric data type"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 93,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 95,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "'1ST' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "'2ND' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_39/task_func_39.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.235",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_40/task_func_40.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected MOVE, expecting ) or - or +"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_40/task_func_40.cbl",
+        "line": 81,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.259",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.307 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_43/task_func_43.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "'MOD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_43/task_func_43.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.282",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.329 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_44/task_func_44.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_44/task_func_44.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "invalid literal: '.  ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_44/task_func_44.cbl",
+        "line": 50,
+        "level": "note",
+        "message": "missing terminating ' character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_44/task_func_44.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.307",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_45/task_func_45.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "'WS-CITY-NAME' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_45/task_func_45.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "'WS-CITY-OFFSET' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_45/task_func_45.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "'WS-CITY-NAME' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_45/task_func_45.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "'WS-CITY-OFFSET' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_45/task_func_45.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'WS-CITY-NAME' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_45/task_func_45.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "'WS-CITY-OFFSET' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_45/task_func_45.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "'WS-CITY-INDEX' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_45/task_func_45.cbl",
+        "line": 106,
+        "level": "error",
+        "message": "'WS-CITY-TABLE (internal error node)' is not numeric"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_45/task_func_45.cbl",
+        "line": 112,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.329",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.377 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "syntax error, unexpected CHARACTER"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "'EOF-INPUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "'WS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "syntax error, unexpected CHARACTER"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "syntax error, unexpected CHARACTER"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "syntax error, unexpected CHARACTER"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "syntax error, unexpected CHARACTER"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "IF without imperative statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected WORKING-STORAGE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_47/task_func_47.cbl",
+        "line": 69,
+        "level": "note",
+        "message": "unknown statement '01'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.354",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.400 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_48/task_func_48.cbl",
+        "line": 34,
+        "level": "warning",
+        "message": "OCCURS DEPENDING ON without TO phrase used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_48/task_func_48.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected SUM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_48/task_func_48.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "'NUM-STUDENTS' OCCURS DEPENDING ON field item invalid here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_48/task_func_48.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "syntax error, unexpected SUM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_48/task_func_48.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "syntax error, unexpected SUM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_48/task_func_48.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "syntax error, unexpected SUM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_48/task_func_48.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_48/task_func_48.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "'GRADE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_48/task_func_48.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.377",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.423 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_49/task_func_49.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_49/task_func_49.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_49/task_func_49.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "invalid literal: 'Patricia Martinez ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_49/task_func_49.cbl",
+        "line": 58,
+        "level": "note",
+        "message": "missing terminating \" character"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.401",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:27.447 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_55/task_func_55.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "'EOF-CONDITION' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_55/task_func_55.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "'ORIG' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_55/task_func_55.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "syntax error, unexpected END-IF, expecting ) or - or +"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_55/task_func_55.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "syntax error, unexpected PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_55/task_func_55.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "'WS-STD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_55/task_func_55.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "syntax error, unexpected IF"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/complete/task_func_55/task_func_55.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "'WS-THRESHOL' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:27.424",
+    "execution": {}
+  }
+]

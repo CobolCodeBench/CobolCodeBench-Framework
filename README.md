@@ -31,13 +31,18 @@ cobol-code-generator
 │   │   |── compile_execute.py
 |   |   |── evaluate.py
 |   |   └── score_evaluator.py
+|   ├── logs
+|   ├── log-parser
+|       ├── output
+|       ├── structure_logs
+|       ├── log_utils.py
+|       ├── log_summary.py
+|       └── README.md
 │   ├── data
-│   │   ├── __init__.py
-│   │   └── data_loader.py
-│   └── __init__.py
-├── data
+│   │   └── data_procesor.py
 │   ├── Instruction_Set.json
 │   └── Completion_Set.json
+│   └── __init__.py
 ├── config
 │   └── model_config.py
 ├── main.py

@@ -1,0 +1,1938 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:32.309",
+    "execution": {
+      "task_id": "task_func_01",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:32.309"
+    }
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.440 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 115,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 119,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 257,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 113,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 113,
+        "level": "warning",
+        "message": "handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 123,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 123,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 123,
+        "level": "error",
+        "message": "invalid PICTURE character '5'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 127,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 127,
+        "level": "error",
+        "message": "invalid PICTURE character '5'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 131,
+        "level": "error",
+        "message": "unbalanced parentheses"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 131,
+        "level": "error",
+        "message": "invalid PICTURE character '5'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_02/task_func_02.cbl",
+        "line": 139,
+        "level": "error",
+        "message": "1 cannot follow B, 0 or /"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.418",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.461 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_03/task_func_03.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "syntax error, unexpected NUMBERS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_03/task_func_03.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "level number must begin with 01 or 77"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_03/task_func_03.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "PICTURE clause required for 'FACTORIAL-TABLE'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.440",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.482 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_04/task_func_04.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_04/task_func_04.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_04/task_func_04.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.462",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.503 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_05/task_func_05.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "WRITE subject does not refer to a record name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_05/task_func_05.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "syntax error, unexpected TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_05/task_func_05.cbl",
+        "line": 65,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.483",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.525 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_07/task_func_07.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "syntax error, unexpected ASSIGN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_07/task_func_07.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "syntax error, unexpected ASSIGN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_07/task_func_07.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "syntax error, unexpected ASSIGN"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.504",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:32.526",
+    "execution": {
+      "task_id": "task_func_08",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:32.526"
+    }
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.660 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_09/task_func_09.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "syntax error, unexpected COMMA"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.636",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.683 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "syntax error, unexpected NO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "PICTURE clause required for 'WS-COUNTRY-LIST'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 71,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 71,
+        "level": "note",
+        "message": "value size is 59 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_10/task_func_10.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.660",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.707 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_11/task_func_11.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_11/task_func_11.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "invalid symbol '!' - skipping word"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_11/task_func_11.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_11/task_func_11.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'WS-FILE-NAME' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_11/task_func_11.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_11/task_func_11.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected IN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_11/task_func_11.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "IF without imperative statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_11/task_func_11.cbl",
+        "line": 84,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.684",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_12/task_func_12.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "OPEN not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_12/task_func_12.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "CLOSE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_12/task_func_12.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "syntax error, unexpected NOT AT END"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_12/task_func_12.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_12/task_func_12.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "'WRITE-OUTPUT-RECORD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_12/task_func_12.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "syntax error, unexpected END-READ"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_12/task_func_12.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "'SORT-RECORD (MAIN SECTION:TRUE)' is not a procedure name"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.707",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.752 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_13/task_func_13.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "WRITE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_13/task_func_13.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "file SORT requires USING or INPUT PROCEDURE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_13/task_func_13.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "file SORT requires GIVING or OUTPUT PROCEDURE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_13/task_func_13.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_13/task_func_13.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "READ not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_13/task_func_13.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "'LEN' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_13/task_func_13.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_13/task_func_13.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "IF without imperative statement"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.730",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:32.753",
+    "execution": {
+      "task_id": "task_func_14",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:32.753"
+    }
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.887 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_15/task_func_15.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_15/task_func_15.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_15/task_func_15.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_15/task_func_15.cbl",
+        "line": 49,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_15/task_func_15.cbl",
+        "line": 49,
+        "level": "note",
+        "message": "value size is 96 [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.866",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.909 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "PICTURE clause required for 'WS-LESS-THAN-TWO-TIMESTAMPS'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "syntax error, unexpected *"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "'logic' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "'convert' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "'timestamp' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "syntax error, unexpected TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 100,
+        "level": "error",
+        "message": "'ABS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 111,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_16/task_func_16.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "'CALCULATE-TIME-DIFF' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.888",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:32.931 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_17/task_func_17.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "'EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_17/task_func_17.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "syntax error, unexpected FORMAT, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_17/task_func_17.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "WRITE subject does not refer to a record name"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:32.910",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_18/task_func_18.cbl",
+        "line": 75,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      }
+    ],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:20:32.932",
+    "execution": {
+      "task_id": "task_func_18",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_18/task_func_18.cbl: in paragraph '200-PROCESS-CUSTOMER':",
+          "timestamp": "2025-05-20 22:20:33.036"
+        },
+        {
+          "event": "Runtime Error",
+          "message": "libcob: warning: implicit CLOSE of OUTPUT-FILE ('task_func18_out')",
+          "timestamp": "2025-05-20 22:20:33.042"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:20:32.932"
+    }
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.065 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "TO phrase without DEPENDING phrase"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "PICTURE clause required for 'SALARY-TABLE'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "'EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'TEMP-SALARY' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "'I' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "'TEMP-SALARY' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "'MOD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "syntax error, unexpected ELSE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "syntax error, unexpected END-IF"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "'TEMP-A' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 85,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM, expecting ) or - or +"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "'NUM-OF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "'WRITE-OUTPUT-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "syntax error, unexpected ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_19/task_func_19.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "'J' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.043",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_20/task_func_20.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "'EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_20/task_func_20.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_20/task_func_20.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "'WRITE-OUTPUT-RECORD' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.066",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_21/task_func_21.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "'CALCULATE-SALES-DATE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_21/task_func_21.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "'GENERATE-SALES-DATA' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_21/task_func_21.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "incomplete expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_21/task_func_21.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "syntax error, unexpected ADD"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_21/task_func_21.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "syntax error, unexpected SPACE, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_21/task_func_21.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "syntax error, unexpected SPACE, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_21/task_func_21.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "syntax error, unexpected SPACE, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_21/task_func_21.cbl",
+        "line": 93,
+        "level": "error",
+        "message": "syntax error, unexpected OF, expecting ("
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.088",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_22/task_func_22.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'EOF-FLAG' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_22/task_func_22.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'HIGH-M' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_22/task_func_22.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "INVALID KEY clause invalid with this file type"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_22/task_func_22.cbl",
+        "line": 107,
+        "level": "error",
+        "message": "INVALID KEY clause invalid with this file type"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.110",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.155 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "'WS-FS1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "'WS-FS2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "syntax error, unexpected IN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'WS-STOCK-INDEX' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'WS-STOCK-IND' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "'WS-STOCK-PRICES' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "syntax error, unexpected ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "syntax error, unexpected =, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_23/task_func_23.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "redefinition of 'WS-STOCK-PRICE'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.132",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.176 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_24/task_func_24.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "invalid literal: 'Error writing to report ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_24/task_func_24.cbl",
+        "line": 57,
+        "level": "note",
+        "message": "missing terminating ' character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_24/task_func_24.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.155",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:33.176",
+    "execution": {
+      "task_id": "task_func_25",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:33.176"
+    }
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.307 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_26/task_func_26.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "'WS-FS1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_26/task_func_26.cbl",
+        "line": 14,
+        "level": "error",
+        "message": "'WS-FS2' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.287",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.329 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected -"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "'WS-BALANCE' is ambiguous; needs qualification"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 52,
+        "level": "note",
+        "message": "'WS-BALANCE' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 64,
+        "level": "note",
+        "message": "'WS-BALANCE IN WS-OUTPUT-HEADER' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "'WS-OUTPUT-DETAIL' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "'WS-PERI' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 97,
+        "level": "error",
+        "message": "'WS-ACC-INTEREST' is ambiguous; needs qualification"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 53,
+        "level": "note",
+        "message": "'WS-ACC-INTEREST' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 65,
+        "level": "note",
+        "message": "'WS-ACC-INTEREST IN WS-OUTPUT-HEADER' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_27/task_func_27.cbl",
+        "line": 108,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.308",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_28/task_func_28.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "'EOF' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.330",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_29/task_func_29.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "'EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_29/task_func_29.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "syntax error, unexpected FROM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.351",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.393 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "'FILLER' cannot have PICTURE clause"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 11,
+        "level": "error",
+        "message": "'WS-INPUT-STATUS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "'WS-OUTPUT-STATUS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 85,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 85,
+        "level": "error",
+        "message": "IF without imperative statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 98,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 105,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_30/task_func_30.cbl",
+        "line": 106,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.372",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.507 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_31/task_func_31.cbl",
+        "line": 45,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_31/task_func_31.cbl",
+        "line": 46,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      }
+    ],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:20:33.394",
+    "execution": {
+      "task_id": "task_func_31",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_31/task_func_31.cbl:45: warning: value size exceeds data size [-Wothers]",
+          "timestamp": "2025-05-20 22:20:33.507"
+        },
+        {
+          "event": "Runtime Error",
+          "message": "libcob: warning: implicit CLOSE of OUTPUT-FILE ('weather-output.txt')",
+          "timestamp": "2025-05-20 22:20:33.513"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:20:33.394"
+    }
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:20:33.514",
+    "execution": {
+      "task_id": "task_func_32",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: warning: implicit CLOSE of OUTPUT-FILE ('output.txt')",
+          "timestamp": "2025-05-20 22:20:33.638"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:20:33.514"
+    }
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_33/task_func_33.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "'READ-INPUT-FILE-2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_33/task_func_33.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'MERGE-RECORDS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_33/task_func_33.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "INVALID KEY clause invalid with this file type"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.639",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_34/task_func_34.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "'WS-TAX-RATE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_34/task_func_34.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "'WS-SALES' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_34/task_func_34.cbl",
+        "line": 104,
+        "level": "error",
+        "message": "syntax error, unexpected EXIT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_34/task_func_34.cbl",
+        "line": 110,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.660",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:20:33.682",
+    "execution": {
+      "task_id": "task_func_35",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: warning: implicit CLOSE of NEW-MASTER ('task_func35_out')",
+          "timestamp": "2025-05-20 22:20:33.801"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:20:33.682"
+    }
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.823 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_36/task_func_36.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "'EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_36/task_func_36.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'I' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_36/task_func_36.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "'MOD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_36/task_func_36.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_36/task_func_36.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.802",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.845 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_37/task_func_37.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "OPEN not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_37/task_func_37.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "WRITE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_37/task_func_37.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_37/task_func_37.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_37/task_func_37.cbl",
+        "line": 95,
+        "level": "error",
+        "message": "CLOSE not allowed on SORT files"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.823",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.867 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_38/task_func_38.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "CLOSE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_38/task_func_38.cbl",
+        "line": 103,
+        "level": "error",
+        "message": "WRITE not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_38/task_func_38.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "READ not allowed on SORT files"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_38/task_func_38.cbl",
+        "line": 111,
+        "level": "error",
+        "message": "WRITE not allowed on SORT files"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.845",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_39/task_func_39.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "'WS-VALI' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_39/task_func_39.cbl",
+        "line": 113,
+        "level": "error",
+        "message": "'N' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_39/task_func_39.cbl",
+        "line": 113,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.867",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_40/task_func_40.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "FUNCTION 'INTEGER-OF-DATE' has invalid argument"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_40/task_func_40.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "FUNCTION 'INTEGER-OF-DATE' has invalid argument"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_40/task_func_40.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "syntax error, unexpected ADD"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.889",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_43/task_func_43.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected END-READ"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_43/task_func_43.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "'MOD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_43/task_func_43.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_43/task_func_43.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "syntax error, unexpected END-READ"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.910",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.954 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_44/task_func_44.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "invalid literal: 'Error: Dataset is empty  ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_44/task_func_44.cbl",
+        "line": 59,
+        "level": "note",
+        "message": "missing terminating ' character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_44/task_func_44.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.932",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "incomplete expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "'WS-LOCAL' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "'WS-LOC' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "'W' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting UNTIL"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected COMPUTE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "'FUNCTI' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 85,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_45/task_func_45.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'WRITE-OUTPUT-FILE' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.954",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:33.997 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 39,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 39,
+        "level": "note",
+        "message": "value size is 61 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected AT END"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "syntax error, unexpected END-READ"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'FUN' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "'WS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_47/task_func_47.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "'WS-REPLACEMENT' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.976",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_48/task_func_48.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "'I' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_48/task_func_48.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "'J' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_48/task_func_48.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'RANDOM-GRADE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_48/task_func_48.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "'GRADE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_48/task_func_48.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "'GRADE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_48/task_func_48.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:33.998",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:34.040 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_49/task_func_49.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "syntax error, unexpected *, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_49/task_func_49.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected *, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_49/task_func_49.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "syntax error, unexpected *, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_49/task_func_49.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "'OUT-AGE' is not numeric"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_49/task_func_49.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "'OUT-HEIGHT' is not numeric"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_49/task_func_49.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "'OUT-WEIGHT' is not numeric"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:34.019",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:34.062 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "'ORIGINAL-FILE-EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "'ORIGINAL' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "'CALCULATE-MEAN' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "'DATA-COU' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'SUM-ORIGINAL-VALU' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting ) or - or +"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "'S' cannot be used here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "'CALCULATE-STANDARD-DEVIATION' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "'CALCULATE-Z-SCORE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/complete/task_func_55/task_func_55.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "'WRITE-TO-FILES' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:34.040",
+    "execution": {}
+  }
+]

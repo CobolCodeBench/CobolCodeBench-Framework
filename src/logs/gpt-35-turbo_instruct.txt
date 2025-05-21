@@ -1,0 +1,2479 @@
+2025-05-20 22:20:30.957 | INFO     | __main__:<module>:352 - Starting processing for model: gpt-35-turbo, mode: instruct
+2025-05-20 22:20:30.961 | INFO     | __main__:__init__:34 - Loaded ./data/Instruction_Set.json successfully
+2025-05-20 22:20:30.967 | INFO     | __main__:__init__:41 - Data frame read successfully
+2025-05-20 22:20:30.967 | INFO     | __main__:compile:150 - Processing 46 programs
+2025-05-20 22:20:30.968 | INFO     | __main__:compile:156 - Processing program 1/46: task_func_01
+2025-05-20 22:20:30.968 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:30.968 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:30.968 | INFO     | __main__:compile:190 - compiling task_func_01
+2025-05-20 22:20:30.990 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. SoccerMatchStatistics.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl: in paragraph 'ProcessMatchData':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl:68: error: 'EOF' is not defined
+   66 | 
+   67 | ProcessMatchData.
+   68 >     PERFORM UNTIL EOF
+   69 |         READ MatchDataFile INTO MatchDataRecord
+   70 |         AT END SET EOF TO TRUE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl: in paragraph 'AddAdditionalData':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl:78: error: 'I' is not defined
+   76 | 
+   77 | AddAdditionalData.
+   78 >     PERFORM VARYING I FROM 1 BY 1 UNTIL I > 10
+   79 |         IF AdditionalGoalsEntry(I).AdditionalTeamName NOT = SPACE
+   80 |             ADD AdditionalGoalsEntry(I).AdditionalGoals TO TotalGoalsScor..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl:79: error: incomplete expression
+   77 | AddAdditionalData.
+   78 |     PERFORM VARYING I FROM 1 BY 1 UNTIL I > 10
+   79 >         IF AdditionalGoalsEntry(I).AdditionalTeamName NOT = SPACE
+   80 |             ADD AdditionalGoalsEntry(I).AdditionalGoals TO TotalGoalsScor..
+   81 |             MOVE AdditionalGoalsEntry(I).AdditionalTeamName TO TempRecord..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl:79: error: syntax error, unexpected .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl:79: error: IF without imperative statement
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl:78: error: PERFORM statement not terminated by END-PERFORM
+   76 | 
+   77 | AddAdditionalData.
+   78 >     PERFORM VARYING I FROM 1 BY 1 UNTIL I > 10
+   79 |         IF AdditionalGoalsEntry(I).AdditionalTeamName NOT = SPACE
+   80 |             ADD AdditionalGoalsEntry(I).AdditionalGoals TO TotalGoalsScor..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl:79: error: syntax error, unexpected NOT, expecting SECTION or .
+   77 | AddAdditionalData.
+   78 |     PERFORM VARYING I FROM 1 BY 1 UNTIL I > 10
+   79 >         IF AdditionalGoalsEntry(I).AdditionalTeamName NOT = SPACE
+   80 |             ADD AdditionalGoalsEntry(I).AdditionalGoals TO TotalGoalsScor..
+   81 |             MOVE AdditionalGoalsEntry(I).AdditionalTeamName TO TempRecord..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_01/task_func_01.cbl:79: error: redefinition of 'AdditionalTeamName'
+
+2025-05-20 22:20:30.990 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:30.990 | ERROR    | __main__:compile:227 - Compilation failed for task_func_01
+2025-05-20 22:20:30.991 | INFO     | __main__:compile:156 - Processing program 2/46: task_func_02
+2025-05-20 22:20:30.991 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:30.991 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:30.991 | INFO     | __main__:compile:190 - compiling task_func_02
+2025-05-20 22:20:31.012 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. FileExtensionChecker.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl:26: error: group item 'ValidExtension' cannot have PICTURE clause
+   24 | 01 FileExtensionCount PIC 9(5) VALUE 0.
+   25 | 01 ExtensionTable.
+   26 >    05 ValidExtension PIC X(3) OCCURS 3 TIMES.
+   27 |       10 EXTENSION-VALUE PIC X(3) VALUE 'TXT'.
+   28 |       10 EXTENSION-VALUE PIC X(3) VALUE 'DOC'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl:29: warning: value size exceeds data size [-Wothers]
+   27 |       10 EXTENSION-VALUE PIC X(3) VALUE 'TXT'.
+   28 |       10 EXTENSION-VALUE PIC X(3) VALUE 'DOC'.
+   29 >       10 EXTENSION-VALUE PIC X(3) VALUE 'DOCX'.
+   30 | 
+   31 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl:29: note: value size is 4 [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl: in paragraph '100-MAIN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl:36: error: 'InputFile' is not a field
+   34 |          OUTPUT OutputFile.
+   35 | 
+   36 >     PERFORM UNTIL InputFile NOT AT END
+   37 |         READ InputFile INTO InputRecord
+   38 |         AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl:36: error: syntax error, unexpected NOT AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl:36: error: PERFORM statement not terminated by END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl:43: error: syntax error, unexpected END-PERFORM
+   41 | 
+   42 |         PERFORM CHECK-FILE-EXTENSION
+   43 >     END-PERFORM.
+   44 | 
+   45 |     CLOSE InputFile
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl: in paragraph 'CHECK-FILE-EXTENSION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_02/task_func_02.cbl:53: error: 'I' is not defined
+   51 | 
+   52 | CHECK-FILE-EXTENSION.
+   53 >     PERFORM VARYING I FROM 1 BY 1 UNTIL I > 3
+   54 |         IF FileName(LENGTH OF FileName - 2:3) = ValidExtension(I)
+   55 |             MOVE FileName TO OutputFileName
+
+2025-05-20 22:20:31.012 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.013 | ERROR    | __main__:compile:227 - Compilation failed for task_func_02
+2025-05-20 22:20:31.013 | INFO     | __main__:compile:156 - Processing program 3/46: task_func_03
+2025-05-20 22:20:31.013 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.013 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.013 | INFO     | __main__:compile:190 - compiling task_func_03
+2025-05-20 22:20:31.034 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc03.
+    3 | AUTHOR. YourName.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl: in paragraph 'Main-Procedure':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl:40: error: 'Valid-Input' is not defined
+   38 |     PERFORM Read-Input
+   39 |     PERFORM Validate-Input
+   40 >     IF Valid-Input
+   41 |         PERFORM Calculate-Factorials
+   42 |         PERFORM Write-Factorial-Sum
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl: in paragraph 'Validate-Input':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl:62: error: 'I' is not defined
+   60 | 
+   61 | Validate-Input.
+   62 >     PERFORM Varying I FROM 1 BY 1 UNTIL I > 3
+   63 |         IF InputNumbers(I) < 1 OR InputNumbers(I) > 9
+   64 |             SET Valid-Input TO FALSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl: in paragraph 'Calculate-Factorials':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl:73: error: 'Factorial' is not defined
+   71 | Calculate-Factorials.
+   72 |     PERFORM Varying I FROM 1 BY 1 UNTIL I > 3
+   73 >         COMPUTE FactorialValue(I) = Factorial(InputNumbers(I))
+   74 |         COMPUTE FactorialSum = FactorialSum + FactorialValue(I)
+   75 |     END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl: in paragraph 'Generate-Permutations':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl:83: error: 'PermutationTable' cannot be subscripted
+   81 | Generate-Permutations.
+   82 |     PERFORM Varying I FROM 1 BY 1 UNTIL I > 3
+   83 >         MOVE InputNumbers(I) TO PermutationTable(I)
+   84 |     END-PERFORM.
+   85 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl: in paragraph 'Write-Permutations':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl:88: error: 'J' is not defined
+   86 | Write-Permutations.
+   87 |     PERFORM Varying I FROM 1 BY 1 UNTIL I > 3
+   88 >         PERFORM Varying J FROM 1 BY 1 UNTIL J > 3
+   89 |             PERFORM Varying K FROM 1 BY 1 UNTIL K > 3
+   90 |                 IF I NOT = J AND J NOT = K AND I NOT = K
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl:89: error: 'K' is not defined
+   87 |     PERFORM Varying I FROM 1 BY 1 UNTIL I > 3
+   88 |         PERFORM Varying J FROM 1 BY 1 UNTIL J > 3
+   89 >             PERFORM Varying K FROM 1 BY 1 UNTIL K > 3
+   90 |                 IF I NOT = J AND J NOT = K AND I NOT = K
+   91 |                     MOVE "(" & PermutationTable(I) & ", " & PermutationTa..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl:91: error: syntax error, unexpected Identifier
+   89 |             PERFORM Varying K FROM 1 BY 1 UNTIL K > 3
+   90 |                 IF I NOT = J AND J NOT = K AND I NOT = K
+   91 >                     MOVE "(" & PermutationTable(I) & ", " & PermutationTa..
+   92 |                     WRITE OutputRecord2
+   93 |                 END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl: in section 'Factorial':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_03/task_func_03.cbl:99: error: redefinition of 'Factorial'
+   97 | 
+   98 | Factorial SECTION.
+   99 > Factorial.
+  100 |     ACCEPT Number
+  101 |     IF Number = 0
+
+2025-05-20 22:20:31.034 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.034 | ERROR    | __main__:compile:227 - Compilation failed for task_func_03
+2025-05-20 22:20:31.035 | INFO     | __main__:compile:156 - Processing program 4/46: task_func_04
+2025-05-20 22:20:31.035 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.035 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.035 | INFO     | __main__:compile:190 - compiling task_func_04
+2025-05-20 22:20:31.057 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl: in paragraph 'FileProcessing':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl:52: error: 'ValidExtension' is not defined
+   50 |                NOT AT END
+   51 |                    PERFORM CheckExtension
+   52 >                    IF ValidExtension
+   53 |                        WRITE OutputRecord
+   54 |                    ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl: in paragraph 'CheckExtension':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl:60: error: 'I' is not defined
+   58 | 
+   59 |        CheckExtension.
+   60 >            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 3
+   61 |                IF FileName ENDS-WITH Extension(I)
+   62 |                    SET ValidExtension TO TRUE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl:61: error: 'FileName' is ambiguous; needs qualification
+   59 |        CheckExtension.
+   60 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 3
+   61 >                IF FileName ENDS-WITH Extension(I)
+   62 |                    SET ValidExtension TO TRUE
+   63 |                    ADD 1 TO ValidCount
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl:18: note: 'FileName IN InputRecord' defined here
+   16 |        FD InputFile.
+   17 |        01 InputRecord.
+   18 >            05 FileName PIC X(50).
+   19 | 
+   20 |        FD OutputFile.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl:22: note: 'FileName IN OutputRecord' defined here
+   20 |        FD OutputFile.
+   21 |        01 OutputRecord.
+   22 >            05 FileName PIC X(50).
+   23 | 
+   24 |        FD ErrorFile.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl:26: note: 'FileName IN ErrorRecord' defined here
+   24 |        FD ErrorFile.
+   25 |        01 ErrorRecord.
+   26 >            05 FileName PIC X(50).
+   27 |            05 ErrorMsg PIC X(100).
+   28 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl:61: error: 'ENDS-WITH' is not defined
+   59 |        CheckExtension.
+   60 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 3
+   61 >                IF FileName ENDS-WITH Extension(I)
+   62 |                    SET ValidExtension TO TRUE
+   63 |                    ADD 1 TO ValidCount
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_04/task_func_04.cbl:61: error: invalid expression: unfinished expression
+
+2025-05-20 22:20:31.057 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.058 | ERROR    | __main__:compile:227 - Compilation failed for task_func_04
+2025-05-20 22:20:31.058 | INFO     | __main__:compile:156 - Processing program 5/46: task_func_05
+2025-05-20 22:20:31.058 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.058 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.058 | INFO     | __main__:compile:190 - compiling task_func_05
+2025-05-20 22:20:31.079 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_05/task_func_05.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. ProcessFiles.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_05/task_func_05.cbl:17: error: syntax error, unexpected STATUS
+   15 | 01 INPUT-RECORD.
+   16 |    05 FILENAME PIC X(50).
+   17 >    05 STATUS PIC X(10).
+   18 | 
+   19 | FD OUTPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_05/task_func_05.cbl: in paragraph 'MAIN-PROCESS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_05/task_func_05.cbl:29: error: syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT
+   27 | PROCEDURE DIVISION.
+   28 | MAIN-PROCESS.
+   29 >     OPEN INPUT-FILE
+   30 |     OPEN OUTPUT-FILE
+   31 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_05/task_func_05.cbl:30: error: syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT
+   28 | MAIN-PROCESS.
+   29 |     OPEN INPUT-FILE
+   30 >     OPEN OUTPUT-FILE
+   31 | 
+   32 |     PERFORM UNTIL EOF-SWITCH = 'Y'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_05/task_func_05.cbl:37: error: syntax error, unexpected STATUS
+   35 |                 SET EOF-SWITCH TO 'Y'
+   36 |             NOT AT END
+   37 >                 IF STATUS = 'processed'
+   38 |                     MOVE FILENAME TO FILENAME-OUT
+   39 |                     WRITE OUTPUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_05/task_func_05.cbl:37: error: IF without imperative statement
+
+2025-05-20 22:20:31.079 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.079 | ERROR    | __main__:compile:227 - Compilation failed for task_func_05
+2025-05-20 22:20:31.080 | INFO     | __main__:compile:156 - Processing program 6/46: task_func_07
+2025-05-20 22:20:31.080 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.080 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.080 | INFO     | __main__:compile:190 - compiling task_func_07
+2025-05-20 22:20:31.101 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskAssignmentProgram.
+    3 | AUTHOR. YourName.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:74: error: syntax error, unexpected Word or Literal, expecting BY
+   72 |         STRING TaskRecord.TaskDescription DELIMITED BY " "
+   73 |                INTO FormattedTaskName
+   74 >         REPLACE ALL " " BY "_" IN FormattedTaskName
+   75 | 
+   76 |         ACCEPT CurrentDate FROM DATE YYYY-MM-DD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:34: error: duplicate PICTURE clause
+   32 |    05 DefaultEmployeeNames OCCURS 5 TIMES.
+   33 |       10 DefaultEmployeeName PIC X(30) VALUE 'Employee1'
+   34 >                               PIC X(30) VALUE 'Employee2'
+   35 |                               PIC X(30) VALUE 'Employee3'
+   36 |                               PIC X(30) VALUE 'Employee4'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:35: error: duplicate VALUE clause
+   33 |       10 DefaultEmployeeName PIC X(30) VALUE 'Employee1'
+   34 |                               PIC X(30) VALUE 'Employee2'
+   35 >                               PIC X(30) VALUE 'Employee3'
+   36 |                               PIC X(30) VALUE 'Employee4'
+   37 |                               PIC X(30) VALUE 'Employee5'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:35: error: duplicate PICTURE clause
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:36: error: duplicate VALUE clause
+   34 |                               PIC X(30) VALUE 'Employee2'
+   35 |                               PIC X(30) VALUE 'Employee3'
+   36 >                               PIC X(30) VALUE 'Employee4'
+   37 |                               PIC X(30) VALUE 'Employee5'.
+   38 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:36: error: duplicate PICTURE clause
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:37: error: duplicate VALUE clause
+   35 |                               PIC X(30) VALUE 'Employee3'
+   36 |                               PIC X(30) VALUE 'Employee4'
+   37 >                               PIC X(30) VALUE 'Employee5'.
+   38 | 
+   39 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:37: error: duplicate PICTURE clause
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:37: error: duplicate VALUE clause
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl: in paragraph 'AssignTasks':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:62: error: 'TaskNum' is not defined
+   60 | 
+   61 | AssignTasks.
+   62 >     PERFORM VARYING TaskNum FROM 1 BY 1 UNTIL TaskNum > NumTasks
+   63 |         READ TaskInputFile INTO TaskRecord
+   64 |         AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:69: error: 'RandomEmployee' is not defined
+   67 |         END-READ
+   68 | 
+   69 >         COMPUTE RandomEmployee = FUNCTION RANDOM(1, 5)
+   70 |         MOVE DefaultEmployeeNames(RandomEmployee) TO AssignedEmployee
+   71 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:69: error: FUNCTION 'RANDOM' has wrong number of arguments
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:72: error: syntax error, unexpected ., expecting INTO
+   70 |         MOVE DefaultEmployeeNames(RandomEmployee) TO AssignedEmployee
+   71 | 
+   72 >         STRING TaskRecord.TaskDescription DELIMITED BY " "
+   73 |                INTO FormattedTaskName
+   74 |         REPLACE ALL " " BY "_" IN FormattedTaskName
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:62: error: PERFORM statement not terminated by END-PERFORM
+   60 | 
+   61 | AssignTasks.
+   62 >     PERFORM VARYING TaskNum FROM 1 BY 1 UNTIL TaskNum > NumTasks
+   63 |         READ TaskInputFile INTO TaskRecord
+   64 |         AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:72: error: syntax error, unexpected DELIMITED, expecting SECTION or .
+   70 |         MOVE DefaultEmployeeNames(RandomEmployee) TO AssignedEmployee
+   71 | 
+   72 >         STRING TaskRecord.TaskDescription DELIMITED BY " "
+   73 |                INTO FormattedTaskName
+   74 |         REPLACE ALL " " BY "_" IN FormattedTaskName
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_07/task_func_07.cbl:72: error: redefinition of 'TaskDescription'
+
+2025-05-20 22:20:31.101 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.101 | ERROR    | __main__:compile:227 - Compilation failed for task_func_07
+2025-05-20 22:20:31.102 | INFO     | __main__:compile:156 - Processing program 7/46: task_func_08
+2025-05-20 22:20:31.102 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.102 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.102 | INFO     | __main__:compile:190 - compiling task_func_08
+2025-05-20 22:20:31.123 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_08/task_func_08.cbl: in paragraph 'ReadInputFile':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_08/task_func_08.cbl:43: error: 'EOF' is not defined
+   41 | 
+   42 |        ReadInputFile.
+   43 >            PERFORM UNTIL EOF
+   44 |                READ InputFile
+   45 |                    AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_08/task_func_08.cbl: in paragraph 'CheckExtension':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_08/task_func_08.cbl:54: error: syntax error, unexpected MOVE, expecting SECTION or .
+   52 |        CheckExtension.
+   53 |            MOVE '.txt' TO ExtensionTable(1).OriginalExtension
+   54 >            MOVE '.docx' TO ExtensionTable(2).OriginalExtension
+   55 |            MOVE '.xlsx' TO ExtensionTable(3).OriginalExtension
+   56 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 3
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_08/task_func_08.cbl:53: error: redefinition of 'OriginalExtension'
+   51 | 
+   52 |        CheckExtension.
+   53 >            MOVE '.txt' TO ExtensionTable(1).OriginalExtension
+   54 |            MOVE '.docx' TO ExtensionTable(2).OriginalExtension
+   55 |            MOVE '.xlsx' TO ExtensionTable(3).OriginalExtension
+
+2025-05-20 22:20:31.123 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.123 | ERROR    | __main__:compile:227 - Compilation failed for task_func_08
+2025-05-20 22:20:31.123 | INFO     | __main__:compile:156 - Processing program 8/46: task_func_09
+2025-05-20 22:20:31.124 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.124 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.124 | INFO     | __main__:compile:190 - compiling task_func_09
+2025-05-20 22:20:31.145 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. StatisticsProgram.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:6: error: 'INPUT-FILE' is not defined
+    4 | DATA DIVISION.
+    5 | FILE SECTION.
+    6 > FD INPUT-FILE.
+    7 | 01 INPUT-RECORD.
+    8 |    05 INPUT-NUMBERS PIC X(100).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:6: error: 'INPUT-FILE' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:10: error: 'OUTPUT-FILE' is not defined
+    8 |    05 INPUT-NUMBERS PIC X(100).
+    9 | 
+   10 > FD OUTPUT-FILE.
+   11 | 01 OUTPUT-RECORD.
+   12 |    05 OUTPUT-MINIMUM PIC 9(5).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:10: error: 'OUTPUT-FILE' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl: in paragraph 'BEGIN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:23: error: 'INPUT-FILE' is not a file name
+   21 | PROCEDURE DIVISION.
+   22 | BEGIN.
+   23 >     OPEN INPUT INPUT-FILE
+   24 |     OPEN OUTPUT OUTPUT-FILE
+   25 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:24: error: 'OUTPUT-FILE' is not a file name
+   22 | BEGIN.
+   23 |     OPEN INPUT INPUT-FILE
+   24 >     OPEN OUTPUT OUTPUT-FILE
+   25 | 
+   26 |     PERFORM READ-PROCESS-FILE UNTIL EOF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:26: error: 'EOF' is not defined
+   24 |     OPEN OUTPUT OUTPUT-FILE
+   25 | 
+   26 >     PERFORM READ-PROCESS-FILE UNTIL EOF
+   27 |     PERFORM WRITE-OVERALL-STATISTICS
+   28 |     CLOSE INPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:28: error: 'INPUT-FILE' is not a file name
+   26 |     PERFORM READ-PROCESS-FILE UNTIL EOF
+   27 |     PERFORM WRITE-OVERALL-STATISTICS
+   28 >     CLOSE INPUT-FILE
+   29 |     CLOSE OUTPUT-FILE
+   30 |     STOP RUN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:29: error: 'OUTPUT-FILE' is not a file name
+   27 |     PERFORM WRITE-OVERALL-STATISTICS
+   28 |     CLOSE INPUT-FILE
+   29 >     CLOSE OUTPUT-FILE
+   30 |     STOP RUN.
+   31 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl: in paragraph 'READ-PROCESS-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:33: error: 'INPUT-FILE' is not a file name
+   31 | 
+   32 | READ-PROCESS-FILE.
+   33 >     READ INPUT-FILE
+   34 |     AT END SET EOF TO TRUE
+   35 |     NOT AT END PERFORM PROCESS-LINE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl: in paragraph 'CALCULATE-STATISTICS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:44: error: 'I' is not defined
+   42 | CALCULATE-STATISTICS.
+   43 |     MOVE 0 TO MINIMUM-NUMBER MAXIMUM-NUMBER TOTAL-SUM
+   44 >     PERFORM VARYING I FROM 1 BY 6 UNTIL I > 100
+   45 |         COMPUTE NUMBER-VALUE = FUNCTION NUMVAL(SUBSTRING(INPUT-NUMBERS, I..
+   46 |         IF NUMBER-VALUE > 0
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:45: error: 'NUMBER-VALUE' is not defined
+   43 |     MOVE 0 TO MINIMUM-NUMBER MAXIMUM-NUMBER TOTAL-SUM
+   44 |     PERFORM VARYING I FROM 1 BY 6 UNTIL I > 100
+   45 >         COMPUTE NUMBER-VALUE = FUNCTION NUMVAL(SUBSTRING(INPUT-NUMBERS, I..
+   46 |         IF NUMBER-VALUE > 0
+   47 |             IF NUMBER-VALUE < MINIMUM-NUMBER
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:45: error: 'SUBSTRING' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_09/task_func_09.cbl:44: error: PERFORM statement not terminated by END-PERFORM
+   42 | CALCULATE-STATISTICS.
+   43 |     MOVE 0 TO MINIMUM-NUMBER MAXIMUM-NUMBER TOTAL-SUM
+   44 >     PERFORM VARYING I FROM 1 BY 6 UNTIL I > 100
+   45 |         COMPUTE NUMBER-VALUE = FUNCTION NUMVAL(SUBSTRING(INPUT-NUMBERS, I..
+   46 |         IF NUMBER-VALUE > 0
+
+2025-05-20 22:20:31.145 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.145 | ERROR    | __main__:compile:227 - Compilation failed for task_func_09
+2025-05-20 22:20:31.145 | INFO     | __main__:compile:156 - Processing program 9/46: task_func_10
+2025-05-20 22:20:31.145 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.145 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.146 | INFO     | __main__:compile:190 - compiling task_func_10
+2025-05-20 22:20:31.169 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_10/task_func_10.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. PopulationDataValidation.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_10/task_func_10.cbl:30: error: group item 'ValidCountry' cannot have PICTURE clause
+   28 | WORKING-STORAGE SECTION.
+   29 | 01 ValidCountries.
+   30 >    05 ValidCountry PIC X(30) OCCURS 5 TIMES.
+   31 |        10 FILLER PIC X(30) VALUE 'CountryA'.
+   32 |        10 FILLER PIC X(30) VALUE 'CountryB'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_10/task_func_10.cbl: in paragraph 'Process-Records':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_10/task_func_10.cbl:47: error: 'EOF' is not defined
+   45 | 
+   46 | Process-Records.
+   47 >     PERFORM UNTIL EOF
+   48 |         READ InputFile
+   49 |             AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_10/task_func_10.cbl: in paragraph 'Check-Country':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_10/task_func_10.cbl:57: error: 'ValidCountryIndex' is not defined
+   55 | 
+   56 | Check-Country.
+   57 >     PERFORM Varying ValidCountryIndex
+   58 |         FROM 1 BY 1
+   59 |         UNTIL ValidCountryIndex > 5
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_10/task_func_10.cbl: in paragraph 'EOF':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_10/task_func_10.cbl:72: warning: optional period used [-Wdialect]
+   70 | 
+   71 | GOBACK
+   72 > <EOF>
+
+2025-05-20 22:20:31.170 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.170 | ERROR    | __main__:compile:227 - Compilation failed for task_func_10
+2025-05-20 22:20:31.170 | INFO     | __main__:compile:156 - Processing program 10/46: task_func_11
+2025-05-20 22:20:31.170 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.170 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.170 | INFO     | __main__:compile:190 - compiling task_func_11
+2025-05-20 22:20:31.192 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. FileAnalyzer.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl: in paragraph 'ReadAndAnalyzeFile':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl:42: error: EXIT PERFORM is only valid with inline PERFORM
+   40 |     AT END
+   41 |         MOVE 'EOF' TO InputRecord
+   42 >         EXIT PERFORM
+   43 |     END-READ
+   44 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl: in paragraph 'AnalyzeFileName':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl:52: error: incomplete expression
+   50 | 
+   51 | AnalyzeFileName.
+   52 >     IF FileName CONTAINS '.'
+   53 |         MOVE 'Y' TO IsFile
+   54 |     END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl:52: error: syntax error, unexpected CONTAINS
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl:52: error: IF without imperative statement
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl:60: error: 'I' is not defined
+   58 |     END-IF
+   59 | 
+   60 >     PERFORM Varying I FROM 1 BY 1 UNTIL I > LENGTH OF FileName
+   61 |         IF NOT (FileName(I:I) IS ALPHABETIC OR
+   62 |                 FileName(I:I) IS NUMERIC OR
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl: in paragraph 'WriteAnalysisResults':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl:77: error: offset of 'OutputRecord' out of bounds: 110
+   75 |     MOVE ' has_special: ' TO OutputRecord(80:14)
+   76 |     MOVE HasSpecial TO OutputRecord(95:1)
+   77 >     MOVE ' has_numbers: ' TO OutputRecord(110:14)
+   78 |     MOVE HasNumbers TO OutputRecord(125:1).
+   79 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_11/task_func_11.cbl:78: error: offset of 'OutputRecord' out of bounds: 125
+   76 |     MOVE HasSpecial TO OutputRecord(95:1)
+   77 |     MOVE ' has_numbers: ' TO OutputRecord(110:14)
+   78 >     MOVE HasNumbers TO OutputRecord(125:1).
+   79 | 
+   80 | WriteOutputRecord.
+
+2025-05-20 22:20:31.192 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.192 | ERROR    | __main__:compile:227 - Compilation failed for task_func_11
+2025-05-20 22:20:31.193 | INFO     | __main__:compile:156 - Processing program 11/46: task_func_12
+2025-05-20 22:20:31.193 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.193 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.193 | INFO     | __main__:compile:190 - compiling task_func_12
+2025-05-20 22:20:31.216 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_12/task_func_12.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. PatientBillingSystem.
+    3 | AUTHOR. AI Assistant.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_12/task_func_12.cbl: in paragraph 'InitializeFiles':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_12/task_func_12.cbl:52: error: 'EOF' is not defined
+   50 | 
+   51 | InitializeFiles.
+   52 >     PERFORM UNTIL EOF
+   53 |         READ InputFile
+   54 |             AT END SET EOF TO TRUE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_12/task_func_12.cbl: in paragraph 'WriteOutputRecords':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_12/task_func_12.cbl:83: error: syntax error, unexpected REWIND
+   81 | 
+   82 | WriteOutputRecords.
+   83 >     REWIND SortFile
+   84 |     PERFORM UNTIL EOF
+   85 |         READ SortFile
+
+2025-05-20 22:20:31.216 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.216 | ERROR    | __main__:compile:227 - Compilation failed for task_func_12
+2025-05-20 22:20:31.216 | INFO     | __main__:compile:156 - Processing program 12/46: task_func_13
+2025-05-20 22:20:31.216 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.217 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.217 | INFO     | __main__:compile:190 - compiling task_func_13
+2025-05-20 22:20:31.239 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_13/task_func_13.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. SortAndValidateNames.
+    3 | ENVIRONMENT DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_13/task_func_13.cbl: in paragraph 'READ-AND-SORT-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_13/task_func_13.cbl:50: error: EXIT PERFORM is only valid with inline PERFORM
+   48 |         AT END
+   49 |             SET WS-NAME-VALIDATION TO 'N'
+   50 >             EXIT PERFORM
+   51 |     END-READ.
+   52 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_13/task_func_13.cbl: in paragraph 'VALIDATE-NAME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_13/task_func_13.cbl:65: error: 'I' is not defined
+   63 | 
+   64 | VALIDATE-NAME.
+   65 >     PERFORM VARYING I FROM 1 BY 1 UNTIL I > LENGTH OF INPUT-RECORD
+   66 |         IF NOT (INPUT-RECORD(I:I) IS NUMERIC)
+   67 |             CONTINUE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_13/task_func_13.cbl: in paragraph 'SORT-AND-WRITE-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_13/task_func_13.cbl:8: error: must be an SD filename
+    6 |     SELECT INPUT-FILE ASSIGN TO 'input.txt'
+    7 |            ORGANIZATION IS LINE SEQUENTIAL.
+    8 >     SELECT TEMP-FILE ASSIGN TO 'tempfile.txt'
+    9 |            ORGANIZATION IS LINE SEQUENTIAL.
+   10 |     SELECT OUTPUT-FILE ASSIGN TO 'output.txt'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_13/task_func_13.cbl: in paragraph 'READ-TEMP-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_13/task_func_13.cbl:84: error: syntax error, unexpected END-READ
+   82 |         AT END
+   83 |             EXIT.
+   84 >     END-READ.
+   85 | 
+   86 | WRITE-OUTPUT-RECORD.
+
+2025-05-20 22:20:31.239 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.239 | ERROR    | __main__:compile:227 - Compilation failed for task_func_13
+2025-05-20 22:20:31.240 | INFO     | __main__:compile:156 - Processing program 13/46: task_func_14
+2025-05-20 22:20:31.240 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.240 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.240 | INFO     | __main__:compile:190 - compiling task_func_14
+2025-05-20 22:20:31.262 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_14/task_func_14.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. Process-CSV-File.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_14/task_func_14.cbl:29: error: syntax error, unexpected DAY
+   27 |    05 YEAR   PIC 9(4).
+   28 |    05 MONTH  PIC 99.
+   29 >    05 DAY    PIC 99.
+   30 | 
+   31 | 01 EOF-SWITCH       PIC X VALUE 'N'.
+
+2025-05-20 22:20:31.262 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.262 | ERROR    | __main__:compile:227 - Compilation failed for task_func_14
+2025-05-20 22:20:31.262 | INFO     | __main__:compile:156 - Processing program 14/46: task_func_15
+2025-05-20 22:20:31.262 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.263 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.263 | INFO     | __main__:compile:190 - compiling task_func_15
+2025-05-20 22:20:31.285 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. GenerateAnimalFoodCombinations.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl: in paragraph 'ReadAnimalsList':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl:51: error: 'AnimalsList' cannot be subscripted
+   49 | 
+   50 | ReadAnimalsList.
+   51 >     PERFORM UNTIL AnimalCounter = 10 OR AnimalsList(1) = SPACE
+   52 |         READ InputFile1
+   53 |             AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl:54: error: 'AnimalsList' cannot be subscripted
+   52 |         READ InputFile1
+   53 |             AT END
+   54 >                 MOVE 'DefaultAnimal' TO AnimalsList(1)
+   55 |         END-READ
+   56 |         ADD 1 TO AnimalCounter
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl: in paragraph 'ReadFoodsList':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl:60: error: 'FoodsList' cannot be subscripted
+   58 | 
+   59 | ReadFoodsList.
+   60 >     PERFORM UNTIL FoodCounter = 10 OR FoodsList(1) = SPACE
+   61 |         READ InputFile2
+   62 |             AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl:63: error: 'FoodsList' cannot be subscripted
+   61 |         READ InputFile2
+   62 |             AT END
+   63 >                 MOVE 'DefaultFood' TO FoodsList(1)
+   64 |         END-READ
+   65 |         ADD 1 TO FoodCounter
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl: in paragraph 'GenerateCombinations':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl:71: error: 'AnimalsList' cannot be subscripted
+   69 |     PERFORM VARYING AnimalCounter FROM 1 BY 1 UNTIL AnimalCounter > 10
+   70 |         PERFORM VARYING FoodCounter FROM 1 BY 1 UNTIL FoodCounter > 10
+   71 >             MOVE AnimalsList(AnimalCounter) TO AnimalName
+   72 |             MOVE FoodsList(FoodCounter) TO FoodName
+   73 |             MOVE AnimalName " : " FoodName " |" TO Combination
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl:72: error: 'FoodsList' cannot be subscripted
+   70 |         PERFORM VARYING FoodCounter FROM 1 BY 1 UNTIL FoodCounter > 10
+   71 |             MOVE AnimalsList(AnimalCounter) TO AnimalName
+   72 >             MOVE FoodsList(FoodCounter) TO FoodName
+   73 |             MOVE AnimalName " : " FoodName " |" TO Combination
+   74 |             WRITE OutputRecord
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_15/task_func_15.cbl:73: error: syntax error, unexpected Literal, expecting TO
+   71 |             MOVE AnimalsList(AnimalCounter) TO AnimalName
+   72 |             MOVE FoodsList(FoodCounter) TO FoodName
+   73 >             MOVE AnimalName " : " FoodName " |" TO Combination
+   74 |             WRITE OutputRecord
+   75 |             END-PERFORM
+
+2025-05-20 22:20:31.285 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.285 | ERROR    | __main__:compile:227 - Compilation failed for task_func_15
+2025-05-20 22:20:31.285 | INFO     | __main__:compile:156 - Processing program 15/46: task_func_16
+2025-05-20 22:20:31.286 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.286 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.286 | INFO     | __main__:compile:190 - compiling task_func_16
+2025-05-20 22:20:31.307 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. Calculate-Average-Time-Difference.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl:2: error: invalid PROGRAM-ID 'Calculate-Average-Time-Differenc...' - length exceeds maximum
+    1 | IDENTIFICATION DIVISION.
+    2 > PROGRAM-ID. Calculate-Average-Time-Difference.
+    3 | 
+    4 | ENVIRONMENT DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl: in paragraph 'PARSING-AND-CALCULATION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl:56: error: syntax error, unexpected VALID
+   54 | 
+   55 | PARSING-AND-CALCULATION.
+   56 >     IF TIMESTAMP-STRING IS VALID
+   57 |         ADD 1 TO TIMESTAMP-COUNT
+   58 |         MOVE TIMESTAMP-HHMMSS TO TIMESTAMP-LIST(TIMESTAMP-COUNT)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl:58: error: 'TIMESTAMP-HHMMSS' requires one subscript
+   56 |     IF TIMESTAMP-STRING IS VALID
+   57 |         ADD 1 TO TIMESTAMP-COUNT
+   58 >         MOVE TIMESTAMP-HHMMSS TO TIMESTAMP-LIST(TIMESTAMP-COUNT)
+   59 |         IF TIMESTAMP-COUNT > 1
+   60 |             COMPUTE DIFFERENCE = CALCULATE-DIFFERENCE(TIMESTAMP-LIST(TIME..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl:60: error: 'DIFFERENCE' is not defined
+   58 |         MOVE TIMESTAMP-HHMMSS TO TIMESTAMP-LIST(TIMESTAMP-COUNT)
+   59 |         IF TIMESTAMP-COUNT > 1
+   60 >             COMPUTE DIFFERENCE = CALCULATE-DIFFERENCE(TIMESTAMP-LIST(TIME..
+   61 |             ADD DIFFERENCE TO TOTAL-DIFFERENCE
+   62 |         END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl:60: error: 'TIMESTAMP-COUNT-1' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl:60: error: 'CALCULATE-DIFFERENCE' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl:56: error: IF without imperative statement
+   54 | 
+   55 | PARSING-AND-CALCULATION.
+   56 >     IF TIMESTAMP-STRING IS VALID
+   57 |         ADD 1 TO TIMESTAMP-COUNT
+   58 |         MOVE TIMESTAMP-HHMMSS TO TIMESTAMP-LIST(TIMESTAMP-COUNT)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl: in paragraph 'CALCULATE-DIFFERENCE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_16/task_func_16.cbl:66: error: syntax error, unexpected *
+   64 | 
+   65 | CALCULATE-DIFFERENCE.
+   66 >     * Implement logic to calculate time difference in seconds.
+   67 | 
+   68 | WRITE-AVERAGE-DIFFERENCE.
+
+2025-05-20 22:20:31.307 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.308 | ERROR    | __main__:compile:227 - Compilation failed for task_func_16
+2025-05-20 22:20:31.308 | INFO     | __main__:compile:156 - Processing program 16/46: task_func_17
+2025-05-20 22:20:31.308 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.308 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.308 | INFO     | __main__:compile:190 - compiling task_func_17
+2025-05-20 22:20:31.330 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_17/task_func_17.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. PhoneNumFormatter.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_17/task_func_17.cbl: in paragraph 'ReadAndFormatPhoneNumbers':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_17/task_func_17.cbl:39: error: syntax error, unexpected AT END
+   37 | ReadAndFormatPhoneNumbers.
+   38 |     READ InputFile INTO InputRecord.
+   39 >     AT END
+   40 |         MOVE 'EOF' TO InputRecord
+   41 |         GO TO EndRead.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_17/task_func_17.cbl: in paragraph 'FormatPhoneNumber':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_17/task_func_17.cbl:59: error: syntax error, unexpected Literal, expecting TO
+   57 | FormatPhoneNumber.
+   58 |     MOVE InputRecord(2:10) TO PhoneNumber
+   59 >     MOVE CountryCode ' (' PhoneNumber(1:3) ') ' PhoneNumber(4:6) ' ' Phon..
+   60 |           TO OutputRecord.
+   61 | 
+
+2025-05-20 22:20:31.330 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.330 | ERROR    | __main__:compile:227 - Compilation failed for task_func_17
+2025-05-20 22:20:31.330 | INFO     | __main__:compile:156 - Processing program 17/46: task_func_18
+2025-05-20 22:20:31.330 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.330 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.331 | INFO     | __main__:compile:190 - compiling task_func_18
+2025-05-20 22:20:31.354 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_18/task_func_18.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. MailingLabelsProgram.
+    3 | AUTHOR. YourName.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_18/task_func_18.cbl: in paragraph 'Begin':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_18/task_func_18.cbl:35: error: 'EOF' is not defined
+   33 |     OPEN OUTPUT OutputFile
+   34 | 
+   35 >     PERFORM ReadAndWriteLabels UNTIL EOF
+   36 | 
+   37 |     CLOSE InputFile
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_18/task_func_18.cbl: in paragraph 'WriteMailingLabel':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_18/task_func_18.cbl:56: error: offset of 'LabelLine' out of bounds: 82
+   54 |     MOVE StreetAddress TO LabelLine(31:30)
+   55 |     MOVE City TO LabelLine(61:20)
+   56 >     MOVE State TO LabelLine(82:2)
+   57 |     MOVE ZipCode TO LabelLine(85:5)
+   58 |     WRITE MailingLabel.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_18/task_func_18.cbl:57: error: offset of 'LabelLine' out of bounds: 85
+   55 |     MOVE City TO LabelLine(61:20)
+   56 |     MOVE State TO LabelLine(82:2)
+   57 >     MOVE ZipCode TO LabelLine(85:5)
+   58 |     WRITE MailingLabel.
+   59 | 
+
+2025-05-20 22:20:31.354 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.354 | ERROR    | __main__:compile:227 - Compilation failed for task_func_18
+2025-05-20 22:20:31.355 | INFO     | __main__:compile:156 - Processing program 18/46: task_func_19
+2025-05-20 22:20:31.355 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.355 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.355 | INFO     | __main__:compile:190 - compiling task_func_19
+2025-05-20 22:20:31.378 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl: in paragraph 'ReadInputFile':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:48: error: 'EOF' is not defined
+   46 | 
+   47 |        ReadInputFile.
+   48 >            PERFORM UNTIL EOF
+   49 |                READ InputFile
+   50 |                    AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl: in paragraph 'SortSalaryArray':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:60: error: 'I' is not defined
+   58 | 
+   59 |        SortSalaryArray.
+   60 >            PERFORM VARYING I FROM 1 BY 1 UNTIL I > NumOfSalaries
+   61 |                PERFORM VARYING J FROM I BY 1 UNTIL J > NumOfSalaries
+   62 |                    IF SalaryValue(I) > SalaryValue(J)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:61: error: 'J' is not defined
+   59 |        SortSalaryArray.
+   60 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > NumOfSalaries
+   61 >                PERFORM VARYING J FROM I BY 1 UNTIL J > NumOfSalaries
+   62 |                    IF SalaryValue(I) > SalaryValue(J)
+   63 |                        MOVE SalaryValue(I) TO Temp
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl: in paragraph 'CalculateMedian':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:74: error: 'MOD' is not defined
+   72 | 
+   73 |        CalculateMedian.
+   74 >            IF NumOfSalaries MOD 2 = 0
+   75 |                COMPUTE MedianSalary = (SalaryValue(NumOfSalaries / 2) + S..
+   76 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:74: error: invalid expression: unfinished expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:76: error: syntax error, unexpected ELSE
+   74 |            IF NumOfSalaries MOD 2 = 0
+   75 |                COMPUTE MedianSalary = (SalaryValue(NumOfSalaries / 2) + S..
+   76 >            ELSE
+   77 |                COMPUTE MedianSalary = SalaryValue((NumOfSalaries + 1) / 2..
+   78 |            END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:78: error: syntax error, unexpected END-IF
+   76 |            ELSE
+   77 |                COMPUTE MedianSalary = SalaryValue((NumOfSalaries + 1) / 2..
+   78 >            END-IF.
+   79 | 
+   80 |        CalculateStdDeviation.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl: in paragraph 'CalculateStdDeviation':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:82: error: 'M' is not defined
+   80 |        CalculateStdDeviation.
+   81 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > NumOfSalaries
+   82 >                COMPUTE StdDeviation = StdDeviation + (SalaryValue(I) - Me..
+   83 |            END-PERFORM
+   84 |            COMPUTE StdDeviation = SQRT(StdDeviation / NumOfSalaries).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:83: error: syntax error, unexpected END-PERFORM, expecting ) or - or +
+   81 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > NumOfSalaries
+   82 |                COMPUTE StdDeviation = StdDeviation + (SalaryValue(I) - Me..
+   83 >            END-PERFORM
+   84 |            COMPUTE StdDeviation = SQRT(StdDeviation / NumOfSalaries).
+   85 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:84: error: 'SQRT' is not defined
+   82 |                COMPUTE StdDeviation = StdDeviation + (SalaryValue(I) - Me..
+   83 |            END-PERFORM
+   84 >            COMPUTE StdDeviation = SQRT(StdDeviation / NumOfSalaries).
+   85 | 
+   86 |        WriteOutputFile.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:81: error: PERFORM statement not terminated by END-PERFORM
+   79 | 
+   80 |        CalculateStdDeviation.
+   81 >            PERFORM VARYING I FROM 1 BY 1 UNTIL I > NumOfSalaries
+   82 |                COMPUTE StdDeviation = StdDeviation + (SalaryValue(I) - Me..
+   83 |            END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl: in paragraph 'WriteOutputFile':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:88: error: invalid MOVE statement
+   86 |        WriteOutputFile.
+   87 |            MOVE "Mean: " TO OutputRecord
+   88 >            MOVE MeanSalary TO OutputRecord(6:8)
+   89 |            WRITE OutputRecord
+   90 |            MOVE "Median: " TO OutputRecord
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:91: error: invalid MOVE statement
+   89 |            WRITE OutputRecord
+   90 |            MOVE "Median: " TO OutputRecord
+   91 >            MOVE MedianSalary TO OutputRecord(8:8)
+   92 |            WRITE OutputRecord
+   93 |            MOVE "Standard Deviation: " TO OutputRecord
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_19/task_func_19.cbl:94: error: invalid MOVE statement
+   92 |            WRITE OutputRecord
+   93 |            MOVE "Standard Deviation: " TO OutputRecord
+   94 >            MOVE StdDeviation TO OutputRecord(20:8)
+   95 |            WRITE OutputRecord
+   96 | 
+
+2025-05-20 22:20:31.378 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.378 | ERROR    | __main__:compile:227 - Compilation failed for task_func_19
+2025-05-20 22:20:31.378 | INFO     | __main__:compile:156 - Processing program 19/46: task_func_20
+2025-05-20 22:20:31.378 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.378 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.379 | INFO     | __main__:compile:190 - compiling task_func_20
+2025-05-20 22:20:31.400 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_20/task_func_20.cbl: in paragraph '100-MAIN-LOGIC':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_20/task_func_20.cbl:33: error: 'EOF' is not defined
+   31 |            OPEN INPUT input-file
+   32 |            OPEN OUTPUT output-file
+   33 >            PERFORM UNTIL EOF
+   34 |                READ input-file
+   35 |                    AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_20/task_func_20.cbl: in paragraph 'CALCULATE-LOAN-AMOUNT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_20/task_func_20.cbl:67: error: 'scor' is not defined
+   65 |            END-IF
+   66 | 
+   67 >            COMPUTE loan-amount = customer-salary * 4 * age-factor * score..
+   68 | 
+   69 |        WRITE-OUTPUT.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_20/task_func_20.cbl:69: error: syntax error, unexpected Identifier
+   67 |            COMPUTE loan-amount = customer-salary * 4 * age-factor * score..
+   68 | 
+   69 >        WRITE-OUTPUT.
+   70 |            MOVE customer-name TO output-record
+   71 |            MOVE ' Maximum Loan Amount: ' TO output-record(51:25)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_20/task_func_20.cbl:72: error: length of 'output-record' out of bounds: 10
+   70 |            MOVE customer-name TO output-record
+   71 |            MOVE ' Maximum Loan Amount: ' TO output-record(51:25)
+   72 >            MOVE loan-amount TO output-record(76:10)
+   73 |            WRITE output-record.
+   74 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_20/task_func_20.cbl:72: error: invalid MOVE statement
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_20/task_func_20.cbl: in paragraph '100-MAIN-LOGIC':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_20/task_func_20.cbl:39: error: 'WRITE-OUTPUT' is not defined
+   37 |                    NOT AT END
+   38 |                        PERFORM CALCULATE-LOAN-AMOUNT
+   39 >                        PERFORM WRITE-OUTPUT
+   40 |                END-READ
+   41 |            END-PERFORM
+
+2025-05-20 22:20:31.400 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.400 | ERROR    | __main__:compile:227 - Compilation failed for task_func_20
+2025-05-20 22:20:31.401 | INFO     | __main__:compile:156 - Processing program 20/46: task_func_21
+2025-05-20 22:20:31.401 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.401 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.401 | INFO     | __main__:compile:190 - compiling task_func_21
+2025-05-20 22:20:31.423 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_21/task_func_21.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. SalesDataGenerator.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_21/task_func_21.cbl: in paragraph 'Begin':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_21/task_func_21.cbl:44: error: 'EOF' is not defined
+   42 |     ADD 1 TO CurrentDate GIVING SaleDateIncrement
+   43 | 
+   44 >     PERFORM ReadInputFile UNTIL EOF
+   45 |     CLOSE InputFile
+   46 |     CLOSE OutputFile
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_21/task_func_21.cbl: in paragraph 'VarySaleQuantity':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_21/task_func_21.cbl:67: error: syntax error, unexpected Identifier
+   65 |     COMPUTE ProductQuantity = RandomNumber + 10
+   66 | 
+   67 > WriteOutputRecord.
+   68 |     MOVE ProductNames(ProductNameIndex:20) TO ProductNameTemp
+   69 |     MOVE ProductNameTemp TO ProductName
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_21/task_func_21.cbl: in paragraph 'ProcessSalesData':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_21/task_func_21.cbl:61: error: 'WriteOutputRecord' is not defined
+   59 | ProcessSalesData.
+   60 |     PERFORM VarySaleQuantity
+   61 >     PERFORM WriteOutputRecord.
+   62 | 
+   63 | VarySaleQuantity.
+
+2025-05-20 22:20:31.423 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.423 | ERROR    | __main__:compile:227 - Compilation failed for task_func_21
+2025-05-20 22:20:31.423 | INFO     | __main__:compile:156 - Processing program 21/46: task_func_22
+2025-05-20 22:20:31.423 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.423 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.424 | INFO     | __main__:compile:190 - compiling task_func_22
+2025-05-20 22:20:31.444 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_22/task_func_22.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. StudentDataProcessor.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_22/task_func_22.cbl: in paragraph 'Begin':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_22/task_func_22.cbl:42: error: 'EOFInputFile' is not defined
+   40 |          OUTPUT OutputHeightFile.
+   41 | 
+   42 >     PERFORM ProcessData UNTIL EOFInputFile
+   43 |     CLOSE InputFile
+   44 |           OutputMarksFile
+
+2025-05-20 22:20:31.444 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.444 | ERROR    | __main__:compile:227 - Compilation failed for task_func_22
+2025-05-20 22:20:31.445 | INFO     | __main__:compile:156 - Processing program 22/46: task_func_23
+2025-05-20 22:20:31.445 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.445 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.445 | INFO     | __main__:compile:190 - compiling task_func_23
+2025-05-20 22:20:31.467 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. StockPriceGenerator.
+    3 | AUTHOR. AI Assistant.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:33: error: syntax error, unexpected DATE
+   31 | 
+   32 | 01 output-rec.
+   33 >    05 date PIC X(10).
+   34 |    05 filler PIC X VALUE ','.
+   35 |    05 amzn-price PIC 9(5)V99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:25: warning: value size exceeds data size [-Wothers]
+   23 |    05 amzn-header PIC X(10) VALUE 'AMZN PRICE'.
+   24 |    05 filler PIC X VALUE ','.
+   25 >    05 googl-header PIC X(10) VALUE 'GOOGL PRICE'.
+   26 |    05 filler PIC X VALUE ','.
+   27 |    05 msft-header PIC X(10) VALUE 'MSFT PRICE'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:25: note: value size is 11 [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:47: warning: value size exceeds data size [-Wothers]
+   45 | 01 company-names.
+   46 |    05 amzn PIC X(4) VALUE 'AMZN'.
+   47 >    05 googl PIC X(4) VALUE 'GOOGL'.
+   48 |    05 msft PIC X(4) VALUE 'MSFT'.
+   49 |    05 fb PIC X(2) VALUE 'FB'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:47: note: value size is 5 [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:64: error: syntax error, unexpected DISPLAY, expecting UNTIL
+   62 | 
+   63 |     PERFORM GENERATE-STOCK-PRICES VARYING num-days FROM 1 BY 1
+   64 >     DISPLAY 'Stock prices generated successfully'
+   65 |     CLOSE input-file
+   66 |     CLOSE output-file
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl: in section 'GENERATE-STOCK-PRICES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:70: error: 'days-back' is not defined
+   68 | 
+   69 | GENERATE-STOCK-PRICES SECTION.
+   70 >     PERFORM VARYING days-back FROM 1 BY 1 UNTIL days-back > num-days
+   71 |         MOVE FUNCTION CURRENT-DATE - days-back TO date
+   72 |         MOVE date TO output-rec.date
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:71: error: syntax error, unexpected -, expecting TO
+   69 | GENERATE-STOCK-PRICES SECTION.
+   70 |     PERFORM VARYING days-back FROM 1 BY 1 UNTIL days-back > num-days
+   71 >         MOVE FUNCTION CURRENT-DATE - days-back TO date
+   72 |         MOVE date TO output-rec.date
+   73 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:72: error: syntax error, unexpected DATE
+   70 |     PERFORM VARYING days-back FROM 1 BY 1 UNTIL days-back > num-days
+   71 |         MOVE FUNCTION CURRENT-DATE - days-back TO date
+   72 >         MOVE date TO output-rec.date
+   73 | 
+   74 |         PERFORM GENERATE-RANDOM-PRICE FOR amzn
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:70: error: PERFORM statement not terminated by END-PERFORM
+   68 | 
+   69 | GENERATE-STOCK-PRICES SECTION.
+   70 >     PERFORM VARYING days-back FROM 1 BY 1 UNTIL days-back > num-days
+   71 |         MOVE FUNCTION CURRENT-DATE - days-back TO date
+   72 |         MOVE date TO output-rec.date
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:72: error: syntax error, unexpected DATE
+   70 |     PERFORM VARYING days-back FROM 1 BY 1 UNTIL days-back > num-days
+   71 |         MOVE FUNCTION CURRENT-DATE - days-back TO date
+   72 >         MOVE date TO output-rec.date
+   73 | 
+   74 |         PERFORM GENERATE-RANDOM-PRICE FOR amzn
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:74: error: syntax error, unexpected FOR
+   72 |         MOVE date TO output-rec.date
+   73 | 
+   74 >         PERFORM GENERATE-RANDOM-PRICE FOR amzn
+   75 |         PERFORM GENERATE-RANDOM-PRICE FOR googl
+   76 |         PERFORM GENERATE-RANDOM-PRICE FOR msft
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:75: error: syntax error, unexpected FOR
+   73 | 
+   74 |         PERFORM GENERATE-RANDOM-PRICE FOR amzn
+   75 >         PERFORM GENERATE-RANDOM-PRICE FOR googl
+   76 |         PERFORM GENERATE-RANDOM-PRICE FOR msft
+   77 |         PERFORM GENERATE-RANDOM-PRICE FOR fb
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:76: error: syntax error, unexpected FOR
+   74 |         PERFORM GENERATE-RANDOM-PRICE FOR amzn
+   75 |         PERFORM GENERATE-RANDOM-PRICE FOR googl
+   76 >         PERFORM GENERATE-RANDOM-PRICE FOR msft
+   77 |         PERFORM GENERATE-RANDOM-PRICE FOR fb
+   78 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:77: error: syntax error, unexpected FOR
+   75 |         PERFORM GENERATE-RANDOM-PRICE FOR googl
+   76 |         PERFORM GENERATE-RANDOM-PRICE FOR msft
+   77 >         PERFORM GENERATE-RANDOM-PRICE FOR fb
+   78 | 
+   79 |         WRITE output-rec
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:80: error: syntax error, unexpected END-PERFORM
+   78 | 
+   79 |         WRITE output-rec
+   80 >     END-PERFORM.
+   81 | 
+   82 | GENERATE-RANDOM-PRICE SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl: in section 'GENERATE-RANDOM-PRICE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:83: error: 'company-name' is not defined
+   81 | 
+   82 | GENERATE-RANDOM-PRICE SECTION.
+   83 >     ACCEPT company-name
+   84 |     COMPUTE random-price = FUNCTION RANDOM * 100
+   85 |     MOVE random-price TO output-rec.company-name.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_23/task_func_23.cbl:84: error: 'random-price' is not defined
+   82 | GENERATE-RANDOM-PRICE SECTION.
+   83 |     ACCEPT company-name
+   84 >     COMPUTE random-price = FUNCTION RANDOM * 100
+   85 |     MOVE random-price TO output-rec.company-name.
+   86 | 
+
+2025-05-20 22:20:31.467 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.467 | ERROR    | __main__:compile:227 - Compilation failed for task_func_23
+2025-05-20 22:20:31.468 | INFO     | __main__:compile:156 - Processing program 23/46: task_func_24
+2025-05-20 22:20:31.468 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.468 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.468 | INFO     | __main__:compile:190 - compiling task_func_24
+2025-05-20 22:20:31.489 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:27: error: syntax error, unexpected STATUS
+   25 |        WORKING-STORAGE SECTION.
+   26 |        01 line-number PIC 9(5).
+   27 >        01 status PIC X.
+   28 |        01 line-content PIC X(100).
+   29 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl: in paragraph 'BEGIN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:36: error: 'EOF1' is not defined
+   34 |                 OUTPUT output-file.
+   35 | 
+   36 >            PERFORM COMPARE-FILES UNTIL EOF1 AND EOF2
+   37 |            CLOSE input-file1
+   38 |            CLOSE input-file2
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:36: error: 'EOF2' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:37: error: invalid conditional expression
+   35 | 
+   36 |            PERFORM COMPARE-FILES UNTIL EOF1 AND EOF2
+   37 >            CLOSE input-file1
+   38 |            CLOSE input-file2
+   39 |            CLOSE output-file
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl: in paragraph 'COMPARE-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:55: error: syntax error, unexpected STATUS
+   53 |                ADD 1 TO line-number
+   54 |                IF input-line1 = input-line2
+   55 >                    MOVE ' ' TO status
+   56 |                ELSE
+   57 |                    MOVE '-' TO status
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:57: error: syntax error, unexpected STATUS
+   55 |                    MOVE ' ' TO status
+   56 |                ELSE
+   57 >                    MOVE '-' TO status
+   58 |                    WRITE output-line
+   59 |                    MOVE '+' TO status
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:59: error: syntax error, unexpected STATUS
+   57 |                    MOVE '-' TO status
+   58 |                    WRITE output-line
+   59 >                    MOVE '+' TO status
+   60 |                    WRITE output-line
+   61 |                END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:64: error: syntax error, unexpected STATUS
+   62 |            ELSE IF NOT EOF1
+   63 |                ADD 1 TO line-number
+   64 >                MOVE '-' TO status
+   65 |                WRITE output-line
+   66 |            ELSE IF NOT EOF2
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:68: error: syntax error, unexpected STATUS
+   66 |            ELSE IF NOT EOF2
+   67 |                ADD 1 TO line-number
+   68 >                MOVE '+' TO status
+   69 |                WRITE output-line
+   70 |            END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl: in paragraph 'EOF1':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:75: error: syntax error, unexpected Identifier, expecting SECTION or .
+   73 | 
+   74 |        EOF1.
+   75 >            88 EOF1 VALUE TRUE.
+   76 | 
+   77 |        EOF2.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_24/task_func_24.cbl:75: note: unknown statement '88'
+
+2025-05-20 22:20:31.489 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.489 | ERROR    | __main__:compile:227 - Compilation failed for task_func_24
+2025-05-20 22:20:31.489 | INFO     | __main__:compile:156 - Processing program 24/46: task_func_25
+2025-05-20 22:20:31.490 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.490 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.490 | INFO     | __main__:compile:190 - compiling task_func_25
+2025-05-20 22:20:31.510 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_25/task_func_25.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. EmployeeStatistics.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_25/task_func_25.cbl: in paragraph 'WriteStatisticsToOutput':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_25/task_func_25.cbl:103: error: invalid MOVE statement
+  101 |     MOVE TotalValue TO OutputRecord
+  102 |     WRITE OutputRecord
+  103 >     MOVE MeanValue TO OutputRecord
+  104 |     WRITE OutputRecord
+  105 |     MOVE MinValue TO OutputRecord
+
+2025-05-20 22:20:31.511 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.511 | ERROR    | __main__:compile:227 - Compilation failed for task_func_25
+2025-05-20 22:20:31.511 | INFO     | __main__:compile:156 - Processing program 25/46: task_func_26
+2025-05-20 22:20:31.511 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.511 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.511 | INFO     | __main__:compile:190 - compiling task_func_26
+2025-05-20 22:20:31.532 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_26/task_func_26.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. MonthlySalesReport.
+    3 | ENVIRONMENT DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_26/task_func_26.cbl: in paragraph 'PrintDepartmentTotal':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_26/task_func_26.cbl:61: error: invalid MOVE statement
+   59 |     MOVE PreviousDepartment TO ReportRecord(30:3)
+   60 |     MOVE ' : $' TO ReportRecord(35:2)
+   61 >     MOVE TotalSales TO ReportRecord(38:9)
+   62 |     WRITE ReportRecord
+   63 |     ADD 1 TO LineCount
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_26/task_func_26.cbl:64: error: 'PrintSalespersonDetail' is not defined
+   62 |     WRITE ReportRecord
+   63 |     ADD 1 TO LineCount
+   64 > PrintSalespersonDetail.
+   65 |     MOVE SPACES TO ReportRecord
+   66 |     MOVE SalespersonID TO ReportRecord(5:5)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_26/task_func_26.cbl:68: error: invalid MOVE statement
+   66 |     MOVE SalespersonID TO ReportRecord(5:5)
+   67 |     MOVE ' : $' TO ReportRecord(15:2)
+   68 >     MOVE SalesAmount TO ReportRecord(18:9)
+   69 |     WRITE ReportRecord
+   70 |     ADD 1 TO LineCount
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_26/task_func_26.cbl:71: error: 'PrintPageFooter' is not defined
+   69 |     WRITE ReportRecord
+   70 |     ADD 1 TO LineCount
+   71 > PrintPageFooter.
+   72 |     MOVE SPACES TO ReportRecord
+   73 |     MOVE 'Page ' TO ReportRecord(70:5)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_26/task_func_26.cbl:78: warning: optional period used [-Wdialect]
+   76 |     ADD 1 TO PageCount
+   77 |     MOVE ZEROS TO LineCount
+   78 > <EOF>
+
+2025-05-20 22:20:31.532 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.532 | ERROR    | __main__:compile:227 - Compilation failed for task_func_26
+2025-05-20 22:20:31.532 | INFO     | __main__:compile:156 - Processing program 26/46: task_func_27
+2025-05-20 22:20:31.532 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.533 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.533 | INFO     | __main__:compile:190 - compiling task_func_27
+2025-05-20 22:20:31.554 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. CompoundInterestCalculator.
+    3 | AUTHOR. YourName.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl:36: error: 'INPUT-FILE' is not a field
+   34 |          OUTPUT OUTPUT-FILE.
+   35 | 
+   36 >     PERFORM READ-PROCESS-RECORD UNTIL INPUT-FILE AT END.
+   37 | 
+   38 |     CLOSE INPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl:36: error: syntax error, unexpected AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl: in paragraph 'CALCULATE-INTEREST':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl:59: error: PERFORM statement not terminated by END-PERFORM
+   57 |     MOVE 0 TO ACCRUED-INTEREST.
+   58 | 
+   59 >     PERFORM VARYING YEAR-COUNTER FROM 1 BY 1
+   60 |              UNTIL YEAR-COUNTER > INVESTMENT-YEARS
+   61 |         COMPUTE ACCRUED-INTEREST = NEW-BALANCE * INTEREST-RATE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl: in paragraph 'WRITE-OUTPUT-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl:65: error: syntax error, unexpected Identifier, expecting TO
+   63 | 
+   64 | WRITE-OUTPUT-RECORD.
+   65 >     MOVE "Account Number: " ACCOUNT-NUMBER TO OUTPUT-RECORD.
+   66 |     WRITE OUTPUT-RECORD.
+   67 |     MOVE "Depositor Name: " DEPOSITOR-NAME TO OUTPUT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl:67: error: syntax error, unexpected Identifier, expecting TO
+   65 |     MOVE "Account Number: " ACCOUNT-NUMBER TO OUTPUT-RECORD.
+   66 |     WRITE OUTPUT-RECORD.
+   67 >     MOVE "Depositor Name: " DEPOSITOR-NAME TO OUTPUT-RECORD.
+   68 |     WRITE OUTPUT-RECORD.
+   69 |     MOVE "Year   New Balance   Accrued Interest" TO OUTPUT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl:72: error: PERFORM statement not terminated by END-PERFORM
+   70 |     WRITE OUTPUT-RECORD.
+   71 | 
+   72 >     PERFORM VARYING YEAR-COUNTER FROM 1 BY 1
+   73 |              UNTIL YEAR-COUNTER > INVESTMENT-YEARS
+   74 |         MOVE YEAR-COUNTER TO OUTPUT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl:75: error: invalid MOVE statement
+   73 |              UNTIL YEAR-COUNTER > INVESTMENT-YEARS
+   74 |         MOVE YEAR-COUNTER TO OUTPUT-RECORD.
+   75 >         MOVE NEW-BALANCE TO OUTPUT-RECORD.
+   76 |         MOVE ACCRUED-INTEREST TO OUTPUT-RECORD.
+   77 |         WRITE OUTPUT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_27/task_func_27.cbl:76: error: invalid MOVE statement
+   74 |         MOVE YEAR-COUNTER TO OUTPUT-RECORD.
+   75 |         MOVE NEW-BALANCE TO OUTPUT-RECORD.
+   76 >         MOVE ACCRUED-INTEREST TO OUTPUT-RECORD.
+   77 |         WRITE OUTPUT-RECORD.
+   78 | 
+
+2025-05-20 22:20:31.554 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.554 | ERROR    | __main__:compile:227 - Compilation failed for task_func_27
+2025-05-20 22:20:31.554 | INFO     | __main__:compile:156 - Processing program 27/46: task_func_28
+2025-05-20 22:20:31.554 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.554 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.555 | INFO     | __main__:compile:190 - compiling task_func_28
+2025-05-20 22:20:31.575 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_28/task_func_28.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. DuplicateRecordCounter.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_28/task_func_28.cbl: in paragraph 'Read-Input-Records':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_28/task_func_28.cbl:53: error: 'Compare-Records' is not defined
+   51 |                 ADD 1 TO InputRecordCount
+   52 |                 MOVE InputData TO CurrentRecord
+   53 >                 PERFORM Compare-Records
+   54 |         END-READ
+   55 |     END-PERFORM.
+
+2025-05-20 22:20:31.575 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.575 | ERROR    | __main__:compile:227 - Compilation failed for task_func_28
+2025-05-20 22:20:31.576 | INFO     | __main__:compile:156 - Processing program 28/46: task_func_29
+2025-05-20 22:20:31.576 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.576 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.576 | INFO     | __main__:compile:190 - compiling task_func_29
+2025-05-20 22:20:31.596 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. DuplicateNameAnalyzer.
+    3 | AUTHOR. YourName.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:17: error: syntax error, unexpected ID
+   15 | FD INPUT-FILE.
+   16 | 01 PERSON-RECORD.
+   17 >    05 ID PIC X(10).
+   18 |    05 NAME PIC X(30).
+   19 |    05 AGE PIC 99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl: in paragraph 'BEGIN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:37: error: 'END-OF-FILE' is not defined
+   35 |     OPEN OUTPUT OUTPUT-FILE
+   36 | 
+   37 >     PERFORM READ-INPUT-RECORD UNTIL END-OF-FILE
+   38 |     PERFORM WRITE-OUTPUT-RECORD
+   39 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl: in paragraph 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:51: error: 'I' is not defined
+   49 | PROCESS-RECORD.
+   50 |     IF AGE > 0
+   51 >         PERFORM VARYING I FROM 1 BY 1 UNTIL I > 100
+   52 |             IF AGE-ENTRY(I).AGE-VALUE = AGE
+   53 |                 ADD 1 TO AGE-ENTRY(I).DUPLICATE-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:52: error: incomplete expression
+   50 |     IF AGE > 0
+   51 |         PERFORM VARYING I FROM 1 BY 1 UNTIL I > 100
+   52 >             IF AGE-ENTRY(I).AGE-VALUE = AGE
+   53 |                 ADD 1 TO AGE-ENTRY(I).DUPLICATE-COUNT
+   54 |                 EXIT PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:52: error: syntax error, unexpected .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:52: error: IF without imperative statement
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:51: error: PERFORM statement not terminated by END-PERFORM
+   49 | PROCESS-RECORD.
+   50 |     IF AGE > 0
+   51 >         PERFORM VARYING I FROM 1 BY 1 UNTIL I > 100
+   52 |             IF AGE-ENTRY(I).AGE-VALUE = AGE
+   53 |                 ADD 1 TO AGE-ENTRY(I).DUPLICATE-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:52: error: syntax error, unexpected =, expecting SECTION or .
+   50 |     IF AGE > 0
+   51 |         PERFORM VARYING I FROM 1 BY 1 UNTIL I > 100
+   52 >             IF AGE-ENTRY(I).AGE-VALUE = AGE
+   53 |                 ADD 1 TO AGE-ENTRY(I).DUPLICATE-COUNT
+   54 |                 EXIT PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_29/task_func_29.cbl:52: error: redefinition of 'AGE-VALUE'
+
+2025-05-20 22:20:31.597 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.597 | ERROR    | __main__:compile:227 - Compilation failed for task_func_29
+2025-05-20 22:20:31.597 | INFO     | __main__:compile:156 - Processing program 29/46: task_func_30
+2025-05-20 22:20:31.597 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.597 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.597 | INFO     | __main__:compile:190 - compiling task_func_30
+2025-05-20 22:20:31.619 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl: in paragraph 'READ-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl:48: error: syntax error, unexpected Identifier
+   46 |                AT END
+   47 |                    MOVE 'Y' TO WS-EOF
+   48 >                    EXIT READ-FILE.
+   49 |            PERFORM PROCESS-WORDS.
+   50 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl: in paragraph 'PROCESS-WORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl:52: error: 'WS-POS' is not defined
+   50 | 
+   51 |        PROCESS-WORDS.
+   52 >            PERFORM VARYING WS-POS FROM 1 BY 1
+   53 |                UNTIL WS-POS > FUNCTION LENGTH(INPUT-RECORD)
+   54 |                IF INPUT-RECORD(WS-POS:1) NOT = ' '
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl: in paragraph 'CHECK-WORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl:62: error: 'WS-I' is not defined
+   60 |        CHECK-WORD.
+   61 |            MOVE 'N' TO WS-WORD-FOUND.
+   62 >            PERFORM VARYING WS-I FROM 1 BY 1
+   63 |                UNTIL WS-I > WORD-COUNT
+   64 |                IF WORD(WS-I) = WS-WORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl:63: error: 'WORD-COUNT' requires one subscript
+   61 |            MOVE 'N' TO WS-WORD-FOUND.
+   62 |            PERFORM VARYING WS-I FROM 1 BY 1
+   63 >                UNTIL WS-I > WORD-COUNT
+   64 |                IF WORD(WS-I) = WS-WORD
+   65 |                    ADD 1 TO WORD-COUNT(WS-I)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl:72: error: 'WORD-COUNT' requires one subscript
+   70 | 
+   71 |            IF WS-WORD-FOUND = 'N'
+   72 >                ADD 1 TO WORD-COUNT
+   73 |                MOVE WS-WORD TO WORD(WORD-COUNT).
+   74 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl:73: error: 'WORD-COUNT' requires one subscript
+   71 |            IF WS-WORD-FOUND = 'N'
+   72 |                ADD 1 TO WORD-COUNT
+   73 >                MOVE WS-WORD TO WORD(WORD-COUNT).
+   74 | 
+   75 |        WRITE-OUTPUT.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl: in paragraph 'WRITE-OUTPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_30/task_func_30.cbl:77: error: 'WORD-COUNT' requires one subscript
+   75 |        WRITE-OUTPUT.
+   76 |            PERFORM VARYING WS-I FROM 1 BY 1
+   77 >                UNTIL WS-I > WORD-COUNT
+   78 |                MOVE WORD(WS-I) TO OUTPUT-RECORD
+   79 |                MOVE WORD-COUNT(WS-I) TO WS-WORD-COUNT
+
+2025-05-20 22:20:31.619 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.619 | ERROR    | __main__:compile:227 - Compilation failed for task_func_30
+2025-05-20 22:20:31.619 | INFO     | __main__:compile:156 - Processing program 30/46: task_func_31
+2025-05-20 22:20:31.619 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.619 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.620 | INFO     | __main__:compile:190 - compiling task_func_31
+2025-05-20 22:20:31.641 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_31/task_func_31.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. WeatherStatistics.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_31/task_func_31.cbl: in paragraph 'READ-INPUT-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_31/task_func_31.cbl:54: error: EXIT PERFORM is only valid with inline PERFORM
+   52 |     READ WeatherInputFile
+   53 |          AT END
+   54 >              EXIT PERFORM.
+   55 |     ADD 1 TO NumRecordsRead.
+   56 |     ADD Temperature TO TotalTemperature.
+
+2025-05-20 22:20:31.641 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.641 | ERROR    | __main__:compile:227 - Compilation failed for task_func_31
+2025-05-20 22:20:31.641 | INFO     | __main__:compile:156 - Processing program 31/46: task_func_32
+2025-05-20 22:20:31.642 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.642 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.642 | INFO     | __main__:compile:190 - compiling task_func_32
+2025-05-20 22:20:31.663 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_32/task_func_32.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. VehicleSpeedAnalysis.
+    3 | AUTHOR. AI Assistant.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_32/task_func_32.cbl: in paragraph 'ReadInputFile':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_32/task_func_32.cbl:45: error: EXIT PERFORM is only valid with inline PERFORM
+   43 |         AT END
+   44 |             MOVE 'Y' TO EndOfFileFlag
+   45 >             EXIT PERFORM
+   46 |     END-READ
+   47 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_32/task_func_32.cbl:59: error: 'CalculateAverage' is not defined
+   57 |     MOVE VehicleType TO PreviousVehicleType
+   58 | 
+   59 > CalculateAverage.
+   60 |     COMPUTE AverageSpeed = TotalSpeed / TotalCount
+   61 |     ROUND AverageSpeed
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_32/task_func_32.cbl:61: error: syntax error, unexpected Identifier
+   59 | CalculateAverage.
+   60 |     COMPUTE AverageSpeed = TotalSpeed / TotalCount
+   61 >     ROUND AverageSpeed
+   62 | 
+   63 | WriteOutputRecord.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_32/task_func_32.cbl:65: error: 'OutputSpeed' is not defined
+   63 | WriteOutputRecord.
+   64 |     MOVE PreviousVehicleType TO OutputVehicleType
+   65 >     MOVE AverageSpeed TO OutputSpeed
+   66 |     WRITE OutputRecord
+   67 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_32/task_func_32.cbl:50: error: 'WriteOutputRecord' is not defined
+   48 |     IF PreviousVehicleType NOT EQUAL TO Space
+   49 |         PERFORM CalculateAverage
+   50 >         PERFORM WriteOutputRecord
+   51 |         MOVE ZERO TO TotalSpeed
+   52 |         MOVE ZERO TO TotalCount
+
+2025-05-20 22:20:31.663 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.663 | ERROR    | __main__:compile:227 - Compilation failed for task_func_32
+2025-05-20 22:20:31.663 | INFO     | __main__:compile:156 - Processing program 32/46: task_func_33
+2025-05-20 22:20:31.664 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.664 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.664 | INFO     | __main__:compile:190 - compiling task_func_33
+2025-05-20 22:20:31.685 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. WeatherDataMerge.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:6: error: 'INPUT-FILE1' is not defined
+    4 | DATA DIVISION.
+    5 | FILE SECTION.
+    6 > FD INPUT-FILE1.
+    7 | 01 INPUT-RECORD1.
+    8 |    // Define structure of records in input file 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:6: error: 'INPUT-FILE1' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:7: error: PICTURE clause required for 'INPUT-RECORD1'
+    5 | FILE SECTION.
+    6 | FD INPUT-FILE1.
+    7 > 01 INPUT-RECORD1.
+    8 |    // Define structure of records in input file 1
+    9 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:8: error: PROCEDURE DIVISION header missing
+    6 | FD INPUT-FILE1.
+    7 | 01 INPUT-RECORD1.
+    8 >    // Define structure of records in input file 1
+    9 | 
+   10 | FD INPUT-FILE2.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:8: error: syntax error, unexpected /
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:11: error: syntax error, unexpected Identifier, expecting SECTION or .
+    9 | 
+   10 | FD INPUT-FILE2.
+   11 > 01 INPUT-RECORD2.
+   12 |    // Define structure of records in input file 2
+   13 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:11: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:12: error: syntax error, unexpected /
+   10 | FD INPUT-FILE2.
+   11 | 01 INPUT-RECORD2.
+   12 >    // Define structure of records in input file 2
+   13 | 
+   14 | FD OUTPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:15: error: syntax error, unexpected Identifier, expecting SECTION or .
+   13 | 
+   14 | FD OUTPUT-FILE.
+   15 > 01 OUTPUT-RECORD.
+   16 |    // Define structure of records in output file
+   17 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:15: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:16: error: syntax error, unexpected /
+   14 | FD OUTPUT-FILE.
+   15 | 01 OUTPUT-RECORD.
+   16 >    // Define structure of records in output file
+   17 | 
+   18 | WORKING-STORAGE SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:19: error: syntax error, unexpected Identifier, expecting SECTION or .
+   17 | 
+   18 | WORKING-STORAGE SECTION.
+   19 > 01 HEADER-RECORD.
+   20 |    // Define structure of header record for output file
+   21 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:19: note: unknown statement '01'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:20: error: syntax error, unexpected /
+   18 | WORKING-STORAGE SECTION.
+   19 | 01 HEADER-RECORD.
+   20 >    // Define structure of header record for output file
+   21 | 
+   22 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl: in paragraph 'BEGIN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:24: error: syntax error, unexpected /
+   22 | PROCEDURE DIVISION.
+   23 | BEGIN.
+   24 >    // Open input and output files
+   25 | 
+   26 |    // Write header record to output file
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:24: error: syntax error, unexpected AND, expecting Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:26: error: 'header' is not defined
+   24 |    // Open input and output files
+   25 | 
+   26 >    // Write header record to output file
+   27 | 
+   28 |    PERFORM READ-INPUT-RECORD1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:26: error: syntax error, unexpected RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:29: error: 'INPUT-FILE1-EOF' is not defined
+   27 | 
+   28 |    PERFORM READ-INPUT-RECORD1
+   29 >        UNTIL INPUT-FILE1-EOF
+   30 |    PERFORM READ-INPUT-RECORD2
+   31 |        UNTIL INPUT-FILE2-EOF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:31: error: 'INPUT-FILE2-EOF' is not defined
+   29 |        UNTIL INPUT-FILE1-EOF
+   30 |    PERFORM READ-INPUT-RECORD2
+   31 >        UNTIL INPUT-FILE2-EOF
+   32 | 
+   33 |    // Close input and output files
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:31: error: invalid expression: unfinished expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:33: error: syntax error, unexpected INPUT, expecting WINDOW or Identifier
+   31 |        UNTIL INPUT-FILE2-EOF
+   32 | 
+   33 >    // Close input and output files
+   34 | 
+   35 |    DISPLAY "Weather data merge completed."
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:37: error: 'READ-INPUT-RECORD1' is not defined
+   35 |    DISPLAY "Weather data merge completed."
+   36 | 
+   37 > READ-INPUT-RECORD1.
+   38 |    // Read record from input file 1
+   39 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:38: error: syntax error, unexpected /
+   36 | 
+   37 | READ-INPUT-RECORD1.
+   38 >    // Read record from input file 1
+   39 | 
+   40 | READ-INPUT-RECORD2.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:38: error: syntax error, unexpected RECORD, expecting Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:41: error: syntax error, unexpected /
+   39 | 
+   40 | READ-INPUT-RECORD2.
+   41 >    // Read record from input file 2
+   42 | 
+   43 | WRITE-OUTPUT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:41: error: syntax error, unexpected RECORD, expecting Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:44: error: syntax error, unexpected /
+   42 | 
+   43 | WRITE-OUTPUT-RECORD.
+   44 >    // Write merged record to output file
+   45 | 
+   46 | GOBACK.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:44: error: 'merged' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:44: error: syntax error, unexpected RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_33/task_func_33.cbl:30: error: 'READ-INPUT-RECORD2' is not defined
+   28 |    PERFORM READ-INPUT-RECORD1
+   29 |        UNTIL INPUT-FILE1-EOF
+   30 >    PERFORM READ-INPUT-RECORD2
+   31 |        UNTIL INPUT-FILE2-EOF
+   32 | 
+
+2025-05-20 22:20:31.685 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.685 | ERROR    | __main__:compile:227 - Compilation failed for task_func_33
+2025-05-20 22:20:31.686 | INFO     | __main__:compile:156 - Processing program 33/46: task_func_34
+2025-05-20 22:20:31.686 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.686 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.686 | INFO     | __main__:compile:190 - compiling task_func_34
+2025-05-20 22:20:31.707 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:26: error: syntax error, unexpected ADDRESS
+   24 |            05 UnitPrice PIC 9(5)V99.
+   25 |            05 Quantity PIC 9(4).
+   26 >            05 Address PIC X(30).
+   27 |            05 CustomerZipCode PIC X(5).
+   28 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl: in paragraph 'Begin':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:44: error: 'CustomerRecord-CustomerNumber' is not defined
+   42 |            PERFORM ReadSalesTaxFile
+   43 |            PERFORM ReadCustomerFile
+   44 >                UNTIL CustomerRecord-CustomerNumber = 99999
+   45 |            CLOSE SalesTaxFile
+   46 |            CLOSE CustomerFile
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl: in paragraph 'CalculateBill':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:64: error: 'CustomerRecord-UnitPrice' is not defined
+   62 | 
+   63 |        CalculateBill.
+   64 >            COMPUTE Subtotal = CustomerRecord-UnitPrice * CustomerRecord-Q..
+   65 |            PERFORM LookupTaxRate
+   66 |            COMPUTE SalesTaxAmount = Subtotal * TaxRate / 100.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:65: error: syntax error, unexpected PERFORM
+   63 |        CalculateBill.
+   64 |            COMPUTE Subtotal = CustomerRecord-UnitPrice * CustomerRecord-Q..
+   65 >            PERFORM LookupTaxRate
+   66 |            COMPUTE SalesTaxAmount = Subtotal * TaxRate / 100.
+   67 |            COMPUTE TotalAmountDue = Subtotal + SalesTaxAmount.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl: in paragraph 'LookupTaxRate':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:71: error: 'SalesTaxRecord-ZipCode' is not defined
+   69 |        LookupTaxRate.
+   70 |            PERFORM ReadSalesTaxFile
+   71 >                UNTIL SalesTaxRecord-ZipCode = CustomerRecord-CustomerZipC..
+   72 |            IF SalesTaxRecord-ZipCode NOT = CustomerRecord-CustomerZipCode
+   73 |                MOVE 0 TO TaxRate.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:71: error: 'CustomerRecord-CustomerZip' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:72: error: 'CustomerRecord-CustomerZipCod' is not defined
+   70 |            PERFORM ReadSalesTaxFile
+   71 |                UNTIL SalesTaxRecord-ZipCode = CustomerRecord-CustomerZipC..
+   72 >            IF SalesTaxRecord-ZipCode NOT = CustomerRecord-CustomerZipCode
+   73 |                MOVE 0 TO TaxRate.
+   74 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:74: error: syntax error, unexpected ELSE
+   72 |            IF SalesTaxRecord-ZipCode NOT = CustomerRecord-CustomerZipCode
+   73 |                MOVE 0 TO TaxRate.
+   74 >            ELSE
+   75 |                MOVE SalesTaxRecord-TaxRate TO TaxRate.
+   76 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:75: error: 'SalesTaxRecord-TaxRate' is not defined
+   73 |                MOVE 0 TO TaxRate.
+   74 |            ELSE
+   75 >                MOVE SalesTaxRecord-TaxRate TO TaxRate.
+   76 | 
+   77 |        WriteBillRecord.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl: in paragraph 'WriteBillRecord':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:80: error: 'CustomerRecord-Quantity' is not defined
+   78 |            MOVE CustomerRecord-CustomerNumber TO BillRecord
+   79 |            MOVE CustomerRecord-UnitPrice TO BillRecord
+   80 >            MOVE CustomerRecord-Quantity TO BillRecord
+   81 |            MOVE SalesTaxAmount TO BillRecord
+   82 |            MOVE TotalAmountDue TO BillRecord
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:81: error: invalid MOVE statement
+   79 |            MOVE CustomerRecord-UnitPrice TO BillRecord
+   80 |            MOVE CustomerRecord-Quantity TO BillRecord
+   81 >            MOVE SalesTaxAmount TO BillRecord
+   82 |            MOVE TotalAmountDue TO BillRecord
+   83 |            WRITE BillRecord.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_34/task_func_34.cbl:82: error: invalid MOVE statement
+   80 |            MOVE CustomerRecord-Quantity TO BillRecord
+   81 |            MOVE SalesTaxAmount TO BillRecord
+   82 >            MOVE TotalAmountDue TO BillRecord
+   83 |            WRITE BillRecord.
+   84 | 
+
+2025-05-20 22:20:31.707 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.708 | ERROR    | __main__:compile:227 - Compilation failed for task_func_34
+2025-05-20 22:20:31.708 | INFO     | __main__:compile:156 - Processing program 34/46: task_func_35
+2025-05-20 22:20:31.708 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.708 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.708 | INFO     | __main__:compile:190 - compiling task_func_35
+2025-05-20 22:20:31.822 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_35/task_func_35.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. UpdateMasterFile.
+    3 | 
+
+2025-05-20 22:20:31.822 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:31.822 | SUCCESS  | __main__:compile:206 - task_func_35 is successfully compiled
+2025-05-20 22:20:31.827 | WARNING  | utils:cmd:35 - Err: libcob: error: READ after unsuccessful READ/START (status = 46) for file TransactionFile ('task_func35_inp2')
+libcob: warning: implicit CLOSE of NewMasterFile ('task_func35_out')
+libcob: warning: implicit CLOSE of TransactionFile ('task_func35_inp2')
+libcob: warning: implicit CLOSE of MasterFile ('task_func35_inp1')
+
+2025-05-20 22:20:31.827 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.828 | ERROR    | __main__:compile:221 - Execution failed for task_func_35
+2025-05-20 22:20:31.828 | INFO     | __main__:compile:156 - Processing program 35/46: task_func_36
+2025-05-20 22:20:31.828 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.828 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.828 | INFO     | __main__:compile:190 - compiling task_func_36
+2025-05-20 22:20:31.850 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. MeanMedianCalculator.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:6: error: 'INPUT-FILE' is not defined
+    4 | DATA DIVISION.
+    5 | FILE SECTION.
+    6 > FD INPUT-FILE.
+    7 | 01 INPUT-RECORD PIC X(10).
+    8 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:6: error: 'INPUT-FILE' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:9: error: 'OUTPUT-FILE' is not defined
+    7 | 01 INPUT-RECORD PIC X(10).
+    8 | 
+    9 > FD OUTPUT-FILE.
+   10 | 01 OUTPUT-RECORD PIC X(50).
+   11 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:9: error: 'OUTPUT-FILE' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:13: error: syntax error, unexpected NUMBERS
+   11 | 
+   12 | WORKING-STORAGE SECTION.
+   13 > 01 NUMBERS OCCURS 100 TIMES.
+   14 |    05 NUM PIC 9(5).
+   15 | 01 NUM-COUNT PIC 9(3) VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:14: error: level number must begin with 01 or 77
+   12 | WORKING-STORAGE SECTION.
+   13 | 01 NUMBERS OCCURS 100 TIMES.
+   14 >    05 NUM PIC 9(5).
+   15 | 01 NUM-COUNT PIC 9(3) VALUE 0.
+   16 | 01 MEAN PIC 9(5)V9(2).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:21: error: 'INPUT-FILE' is not a file name
+   19 | PROCEDURE DIVISION.
+   20 | MAIN-PROCEDURE.
+   21 >     OPEN INPUT INPUT-FILE
+   22 |          OUTPUT OUTPUT-FILE.
+   23 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:22: error: 'OUTPUT-FILE' is not a file name
+   20 | MAIN-PROCEDURE.
+   21 |     OPEN INPUT INPUT-FILE
+   22 >          OUTPUT OUTPUT-FILE.
+   23 | 
+   24 |     PERFORM READ-INPUT-FILE UNTIL EOF-FLAG = 'Y'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:24: error: 'EOF-FLAG' is not defined
+   22 |          OUTPUT OUTPUT-FILE.
+   23 | 
+   24 >     PERFORM READ-INPUT-FILE UNTIL EOF-FLAG = 'Y'.
+   25 | 
+   26 |     PERFORM CALCULATE-MEAN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:31: error: 'INPUT-FILE' is not a file name
+   29 |     PERFORM WRITE-OUTPUT-FILE.
+   30 | 
+   31 >     CLOSE INPUT-FILE
+   32 |           OUTPUT-FILE.
+   33 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:32: error: 'OUTPUT-FILE' is not a file name
+   30 | 
+   31 |     CLOSE INPUT-FILE
+   32 >           OUTPUT-FILE.
+   33 | 
+   34 |     STOP RUN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl: in paragraph 'READ-INPUT-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:37: error: 'INPUT-FILE' is not a file name
+   35 | 
+   36 | READ-INPUT-FILE.
+   37 >     READ INPUT-FILE
+   38 |          AT END
+   39 |              SET EOF-FLAG TO 'Y'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:43: error: syntax error, unexpected NUMBERS
+   41 | 
+   42 |     IF EOF-FLAG = 'N'
+   43 >         MOVE INPUT-RECORD TO NUMBERS(NUM-COUNT)
+   44 |         ADD 1 TO NUM-COUNT
+   45 |     END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl: in paragraph 'CALCULATE-MEAN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:48: error: 'I' is not defined
+   46 | 
+   47 | CALCULATE-MEAN.
+   48 >     PERFORM VARYING I FROM 1 BY 1 UNTIL I > NUM-COUNT
+   49 |         ADD NUMBERS(I) TO MEAN
+   50 |     END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:49: error: syntax error, unexpected NUMBERS
+   47 | CALCULATE-MEAN.
+   48 |     PERFORM VARYING I FROM 1 BY 1 UNTIL I > NUM-COUNT
+   49 >         ADD NUMBERS(I) TO MEAN
+   50 |     END-PERFORM
+   51 |     DIVIDE MEAN BY NUM-COUNT GIVING MEAN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:48: error: PERFORM statement not terminated by END-PERFORM
+   46 | 
+   47 | CALCULATE-MEAN.
+   48 >     PERFORM VARYING I FROM 1 BY 1 UNTIL I > NUM-COUNT
+   49 |         ADD NUMBERS(I) TO MEAN
+   50 |     END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl: in paragraph 'CALCULATE-MEDIAN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:55: error: syntax error, unexpected Identifier
+   53 | CALCULATE-MEDIAN.
+   54 |     PERFORM SORT-NUMBERS
+   55 >     IF NUM-COUNT IS EVEN
+   56 |         COMPUTE MEDIAN = (NUMBERS(NUM-COUNT / 2) + NUMBERS((NUM-COUNT / 2..
+   57 |     ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:56: error: syntax error, unexpected NUMBERS
+   54 |     PERFORM SORT-NUMBERS
+   55 |     IF NUM-COUNT IS EVEN
+   56 >         COMPUTE MEDIAN = (NUMBERS(NUM-COUNT / 2) + NUMBERS((NUM-COUNT / 2..
+   57 |     ELSE
+   58 |         MOVE NUMBERS((NUM-COUNT / 2) + 1) TO MEDIAN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:58: error: syntax error, unexpected NUMBERS
+   56 |         COMPUTE MEDIAN = (NUMBERS(NUM-COUNT / 2) + NUMBERS((NUM-COUNT / 2..
+   57 |     ELSE
+   58 >         MOVE NUMBERS((NUM-COUNT / 2) + 1) TO MEDIAN
+   59 |     END-IF.
+   60 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:55: error: IF without imperative statement
+   53 | CALCULATE-MEDIAN.
+   54 |     PERFORM SORT-NUMBERS
+   55 >     IF NUM-COUNT IS EVEN
+   56 |         COMPUTE MEDIAN = (NUMBERS(NUM-COUNT / 2) + NUMBERS((NUM-COUNT / 2..
+   57 |     ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl: in paragraph 'SORT-NUMBERS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:63: error: 'J' is not defined
+   61 | SORT-NUMBERS.
+   62 |     PERFORM VARYING I FROM 1 BY 1 UNTIL I > NUM-COUNT
+   63 >         PERFORM VARYING J FROM I BY 1 UNTIL J > NUM-COUNT
+   64 |             IF NUMBERS(I) > NUMBERS(J)
+   65 |                 SWAP NUMBERS(I) WITH NUMBERS(J)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:64: error: syntax error, unexpected NUMBERS
+   62 |     PERFORM VARYING I FROM 1 BY 1 UNTIL I > NUM-COUNT
+   63 |         PERFORM VARYING J FROM I BY 1 UNTIL J > NUM-COUNT
+   64 >             IF NUMBERS(I) > NUMBERS(J)
+   65 |                 SWAP NUMBERS(I) WITH NUMBERS(J)
+   66 |             END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:64: error: IF without imperative statement
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl: in paragraph 'WRITE-OUTPUT-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:71: error: syntax error, unexpected Identifier, expecting TO
+   69 | 
+   70 | WRITE-OUTPUT-FILE.
+   71 >     MOVE "Mean: " MEAN TO OUTPUT-RECORD
+   72 |     WRITE OUTPUT-RECORD.
+   73 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_36/task_func_36.cbl:74: error: syntax error, unexpected Identifier, expecting TO
+   72 |     WRITE OUTPUT-RECORD.
+   73 | 
+   74 >     MOVE "Median: " MEDIAN TO OUTPUT-RECORD
+   75 |     WRITE OUTPUT-RECORD.
+   76 | 
+
+2025-05-20 22:20:31.850 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.850 | ERROR    | __main__:compile:227 - Compilation failed for task_func_36
+2025-05-20 22:20:31.851 | INFO     | __main__:compile:156 - Processing program 36/46: task_func_37
+2025-05-20 22:20:31.851 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.851 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.851 | INFO     | __main__:compile:190 - compiling task_func_37
+2025-05-20 22:20:31.873 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. TaskFunc37.
+    3 | ENVIRONMENT DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl: in paragraph 'Begin':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl:35: error: 'EOF-Flag' is not defined
+   33 |     OPEN INPUT InputFile
+   34 |          OUTPUT OutputFile.
+   35 >     PERFORM ReadInputFile UNTIL EOF-Flag = 'Y'.
+   36 |     CLOSE InputFile
+   37 |           OutputFile.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl: in paragraph 'ReadInputFile':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl:47: error: WRITE subject does not refer to a record name
+   45 |     IF Quantity <= 0
+   46 |         MOVE InputRecord TO WorkRecord
+   47 >         WRITE WorkRecord
+   48 |           AFTER ADVANCING 1 LINE
+   49 |           FROM OutputRecord.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl:49: error: syntax error, unexpected FROM
+   47 |         WRITE WorkRecord
+   48 |           AFTER ADVANCING 1 LINE
+   49 >           FROM OutputRecord.
+   50 |     PERFORM ReadInputFile.
+   51 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl: in paragraph 'EndReadInputFile':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl:53: error: 'WorkRecord' has no OCCURS clause
+   51 | 
+   52 | EndReadInputFile.
+   53 >     SORT WorkRecord
+   54 |          ON ASCENDING DepartmentWork
+   55 |          INPUT PROCEDURE ReadWorkFile
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl: in paragraph 'ReadWorkFile':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl:59: error: 'WorkRecord' is not a file name
+   57 | 
+   58 | ReadWorkFile.
+   59 >     READ WorkRecord
+   60 |          AT END
+   61 |              MOVE 'Y' TO EOF-Flag.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl: in paragraph 'WriteOutputFile':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_37/task_func_37.cbl:67: error: syntax error, unexpected FILLER
+   65 |     MOVE QuantityWork TO QuantityOut
+   66 |     MOVE DepartmentWork TO DepartmentOut
+   67 >     MOVE SPACES TO FILLER
+   68 |     WRITE OutputRecord
+   69 |           AFTER ADVANCING 1 LINE.
+
+2025-05-20 22:20:31.873 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.873 | ERROR    | __main__:compile:227 - Compilation failed for task_func_37
+2025-05-20 22:20:31.873 | INFO     | __main__:compile:156 - Processing program 37/46: task_func_38
+2025-05-20 22:20:31.873 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.873 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.874 | INFO     | __main__:compile:190 - compiling task_func_38
+2025-05-20 22:20:31.983 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_38/task_func_38.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. MergeAndDetectDuplicates.
+    3 | 
+
+2025-05-20 22:20:31.983 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:31.983 | SUCCESS  | __main__:compile:206 - task_func_38 is successfully compiled
+2025-05-20 22:20:31.989 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE1 ('task_func38_out1')
+libcob: warning: implicit CLOSE of OUTPUT-FILE2 ('task_func38_out2')
+libcob: warning: implicit CLOSE of OUTPUT-FILE1 ('task_func38_out1')
+libcob: warning: implicit CLOSE of INPUT-FILE2 ('task_func38_inp2')
+libcob: warning: implicit CLOSE of INPUT-FILE1 ('task_func38_inp1')
+
+2025-05-20 22:20:31.989 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:31.989 | ERROR    | __main__:compile:221 - Execution failed for task_func_38
+2025-05-20 22:20:31.989 | INFO     | __main__:compile:156 - Processing program 38/46: task_func_39
+2025-05-20 22:20:31.990 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:31.990 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:31.990 | INFO     | __main__:compile:190 - compiling task_func_39
+2025-05-20 22:20:32.100 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_39/task_func_39.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. EmployeeValidationProgram.
+    3 | AUTHOR. AI Assistant.
+
+2025-05-20 22:20:32.100 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:32.100 | SUCCESS  | __main__:compile:206 - task_func_39 is successfully compiled
+2025-05-20 22:20:32.105 | WARNING  | utils:cmd:35 - Err: libcob: warning: implicit CLOSE of ErrorReportFile ('task_func39_out1')
+libcob: warning: implicit CLOSE of EmployeeInputFile ('task_func39_inp1')
+
+2025-05-20 22:20:32.105 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:32.105 | SUCCESS  | __main__:compile:216 - task_func_39 is successfully executed
+2025-05-20 22:20:32.106 | INFO     | __main__:compile:156 - Processing program 39/46: task_func_40
+2025-05-20 22:20:32.106 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:32.106 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:32.106 | INFO     | __main__:compile:190 - compiling task_func_40
+2025-05-20 22:20:32.127 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_40/task_func_40.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. RandomDateGenerator.
+    3 | AUTHOR. AI Assistant.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_40/task_func_40.cbl:18: error: 'Output-File' is not a file name
+   16 | 
+   17 | PROCEDURE DIVISION.
+   18 >     OPEN OUTPUT Output-File.
+   19 |     MOVE FUNCTION NUMVAL(Start-Date) TO Start-Date.
+   20 |     MOVE FUNCTION NUMVAL(End-Date) TO End-Date.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_40/task_func_40.cbl:22: error: unknown device 'SEED'; not defined in SPECIAL-NAMES
+   20 |     MOVE FUNCTION NUMVAL(End-Date) TO End-Date.
+   21 |     COMPUTE Date-Range = End-Date - Start-Date + 1.
+   22 >     ACCEPT Seed-Value FROM SEED.
+   23 |     PERFORM GENERATE-RANDOM-DATES UNTIL Random-Date > End-Date.
+   24 |     CLOSE Output-File.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_40/task_func_40.cbl:24: error: 'Output-File' is not a file name
+   22 |     ACCEPT Seed-Value FROM SEED.
+   23 |     PERFORM GENERATE-RANDOM-DATES UNTIL Random-Date > End-Date.
+   24 >     CLOSE Output-File.
+   25 |     STOP RUN.
+   26 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_40/task_func_40.cbl: in paragraph 'GENERATE-RANDOM-DATES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_40/task_func_40.cbl:30: error: FUNCTION 'EDIT' unknown
+   28 |     COMPUTE Random-Date = FUNCTION RANDOM(1) * Date-Range + Start-Date -..
+   29 |     IF Random-Date >= Start-Date AND Random-Date <= End-Date
+   30 >         MOVE FUNCTION EDIT(Random-Date, '9999-99-99') TO Output-Date
+   31 |         WRITE Output-Date TO Output-File
+   32 |     END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_40/task_func_40.cbl:31: error: WRITE subject does not refer to a record name
+   29 |     IF Random-Date >= Start-Date AND Random-Date <= End-Date
+   30 |         MOVE FUNCTION EDIT(Random-Date, '9999-99-99') TO Output-Date
+   31 >         WRITE Output-Date TO Output-File
+   32 |     END-IF.
+   33 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_40/task_func_40.cbl:31: error: syntax error, unexpected TO
+
+2025-05-20 22:20:32.127 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:32.127 | ERROR    | __main__:compile:227 - Compilation failed for task_func_40
+2025-05-20 22:20:32.127 | INFO     | __main__:compile:156 - Processing program 40/46: task_func_43
+2025-05-20 22:20:32.127 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:32.127 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:32.128 | INFO     | __main__:compile:190 - compiling task_func_43
+2025-05-20 22:20:32.148 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:24: error: syntax error, unexpected REMAINDER
+   22 |        01 IsPrimeFlag PIC X VALUE 'Y'.
+   23 |        01 Divisor PIC 9(5).
+   24 >        01 Remainder PIC 9(5).
+   25 | 
+   26 |        PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:36: error: syntax error, unexpected Identifier
+   34 |            GOBACK
+   35 | 
+   36 >        READ-AND-CHECK-PRIME.
+   37 |            READ InputFile INTO InputRecord
+   38 |            AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:39: error: EXIT PERFORM is only valid with inline PERFORM
+   37 |            READ InputFile INTO InputRecord
+   38 |            AT END
+   39 >                EXIT PERFORM
+   40 | 
+   41 |            MOVE InputRecord TO NumberToCheck
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:42: error: syntax error, unexpected REMAINDER
+   40 | 
+   41 |            MOVE InputRecord TO NumberToCheck
+   42 >            DIVIDE NumberToCheck BY 2 GIVING Divisor REMAINDER Remainder
+   43 | 
+   44 |            PERFORM CHECK-PRIME UNTIL Divisor = 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:50: error: syntax error, unexpected Identifier
+   48 |            END-IF
+   49 | 
+   50 >        CHECK-PRIME.
+   51 |            IF Remainder = 0
+   52 |                MOVE 'N' TO IsPrimeFlag
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:51: error: syntax error, unexpected REMAINDER
+   49 | 
+   50 |        CHECK-PRIME.
+   51 >            IF Remainder = 0
+   52 |                MOVE 'N' TO IsPrimeFlag
+   53 |            SUBTRACT 1 FROM Divisor
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:54: error: 'Rema' is not defined
+   52 |                MOVE 'N' TO IsPrimeFlag
+   53 |            SUBTRACT 1 FROM Divisor
+   54 >            DIVIDE NumberToCheck BY Divisor GIVING Divisor REMAINDER Remai..
+   55 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:51: error: IF without imperative statement
+   49 | 
+   50 |        CHECK-PRIME.
+   51 >            IF Remainder = 0
+   52 |                MOVE 'N' TO IsPrimeFlag
+   53 |            SUBTRACT 1 FROM Divisor
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:55: warning: optional period used [-Wdialect]
+   53 |            SUBTRACT 1 FROM Divisor
+   54 |            DIVIDE NumberToCheck BY Divisor GIVING Divisor REMAINDER Remai..
+   55 > <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:30: error: 'READ-AND-CHECK-PRIME' is not defined
+   28 |            OPEN OUTPUT OutputFile
+   29 | 
+   30 >            PERFORM READ-AND-CHECK-PRIME UNTIL InputRecord = '99999'
+   31 | 
+   32 |            CLOSE InputFile
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_43/task_func_43.cbl:44: error: 'CHECK-PRIME' is not defined
+   42 |            DIVIDE NumberToCheck BY 2 GIVING Divisor REMAINDER Remainder
+   43 | 
+   44 >            PERFORM CHECK-PRIME UNTIL Divisor = 1
+   45 |            IF IsPrimeFlag = 'Y'
+   46 |                MOVE NumberToCheck TO OutputRecord
+
+2025-05-20 22:20:32.148 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:32.149 | ERROR    | __main__:compile:227 - Compilation failed for task_func_43
+2025-05-20 22:20:32.149 | INFO     | __main__:compile:156 - Processing program 41/46: task_func_44
+2025-05-20 22:20:32.149 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:32.149 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:32.149 | INFO     | __main__:compile:190 - compiling task_func_44
+2025-05-20 22:20:32.170 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_44/task_func_44.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. WordFrequencyAnalyzer.
+    3 | AUTHOR. AI Assistant.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_44/task_func_44.cbl:47: error: 'FILLER' cannot have PICTURE clause
+   45 | 01 CurrentPosition PIC 9(3) VALUE 1.
+   46 | 01 PunctuationFlag PIC X VALUE 'N'.
+   47 > 01 Index PIC 9(3) VALUE 1.
+   48 | 01 LogMessageText PIC X(100).
+   49 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_44/task_func_44.cbl: in paragraph 'ReadArticle':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_44/task_func_44.cbl:70: error: 'WordTable' cannot be subscripted
+   68 |             SET EndOfFileFlag TO 'Y'
+   69 |         NOT AT END
+   70 >             MOVE ArticleTitle TO WordTable(1).UniqueWord
+   71 |             MOVE ArticleContent TO WordTable(1).UniqueWord
+   72 |     END-READ.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_44/task_func_44.cbl:71: error: syntax error, unexpected MOVE, expecting SECTION or .
+   69 |         NOT AT END
+   70 |             MOVE ArticleTitle TO WordTable(1).UniqueWord
+   71 >             MOVE ArticleContent TO WordTable(1).UniqueWord
+   72 |     END-READ.
+   73 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_44/task_func_44.cbl:70: error: redefinition of 'UniqueWord'
+   68 |             SET EndOfFileFlag TO 'Y'
+   69 |         NOT AT END
+   70 >             MOVE ArticleTitle TO WordTable(1).UniqueWord
+   71 |             MOVE ArticleContent TO WordTable(1).UniqueWord
+   72 |     END-READ.
+
+2025-05-20 22:20:32.170 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:32.170 | ERROR    | __main__:compile:227 - Compilation failed for task_func_44
+2025-05-20 22:20:32.170 | INFO     | __main__:compile:156 - Processing program 42/46: task_func_45
+2025-05-20 22:20:32.170 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:32.171 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:32.171 | INFO     | __main__:compile:190 - compiling task_func_45
+2025-05-20 22:20:32.192 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. WeatherReport.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:18: error: syntax error, unexpected DAY
+   16 |    05 Year   PIC 9(4).
+   17 |    05 Month  PIC 99.
+   18 >    05 Day    PIC 99.
+   19 |    05 Hour   PIC 99.
+   20 |    05 Minute PIC 99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:37: error: group item 'City-Name' cannot have PICTURE clause
+   35 | WORKING-STORAGE SECTION.
+   36 | 01 Cities.
+   37 >    05 City-Name PIC X(10) OCCURS 5 TIMES.
+   38 |        10 New-York   VALUE 'New York'.
+   39 |        10 London     VALUE 'London'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:43: error: group item 'UTC-Offsets' cannot have PICTURE clause
+   41 |        10 Tokyo      VALUE 'Tokyo'.
+   42 |        10 Sydney     VALUE 'Sydney'.
+   43 >    05 UTC-Offsets PIC S9(2) OCCURS 5 TIMES.
+   44 |        10 New-York   VALUE -5.
+   45 |        10 London     VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:44: error: a non-numeric literal is expected for 'New-York'
+   42 |        10 Sydney     VALUE 'Sydney'.
+   43 |    05 UTC-Offsets PIC S9(2) OCCURS 5 TIMES.
+   44 >        10 New-York   VALUE -5.
+   45 |        10 London     VALUE 0.
+   46 |        10 Beijing    VALUE +8.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:44: error: PICTURE clause required for 'New-York'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:45: error: a non-numeric literal is expected for 'London'
+   43 |    05 UTC-Offsets PIC S9(2) OCCURS 5 TIMES.
+   44 |        10 New-York   VALUE -5.
+   45 >        10 London     VALUE 0.
+   46 |        10 Beijing    VALUE +8.
+   47 |        10 Tokyo      VALUE +9.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:45: error: PICTURE clause required for 'London'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:46: error: a non-numeric literal is expected for 'Beijing'
+   44 |        10 New-York   VALUE -5.
+   45 |        10 London     VALUE 0.
+   46 >        10 Beijing    VALUE +8.
+   47 |        10 Tokyo      VALUE +9.
+   48 |        10 Sydney     VALUE +10.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:46: error: PICTURE clause required for 'Beijing'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:47: error: a non-numeric literal is expected for 'Tokyo'
+   45 |        10 London     VALUE 0.
+   46 |        10 Beijing    VALUE +8.
+   47 >        10 Tokyo      VALUE +9.
+   48 |        10 Sydney     VALUE +10.
+   49 |    05 Weather-Conditions PIC X(6) OCCURS 5 TIMES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:47: error: PICTURE clause required for 'Tokyo'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:48: error: a non-numeric literal is expected for 'Sydney'
+   46 |        10 Beijing    VALUE +8.
+   47 |        10 Tokyo      VALUE +9.
+   48 >        10 Sydney     VALUE +10.
+   49 |    05 Weather-Conditions PIC X(6) OCCURS 5 TIMES.
+   50 |        10 Sunny   VALUE 'Sunny'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:48: error: PICTURE clause required for 'Sydney'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:49: error: group item 'Weather-Conditions' cannot have PICTURE clause
+   47 |        10 Tokyo      VALUE +9.
+   48 |        10 Sydney     VALUE +10.
+   49 >    05 Weather-Conditions PIC X(6) OCCURS 5 TIMES.
+   50 |        10 Sunny   VALUE 'Sunny'.
+   51 |        10 Cloudy  VALUE 'Cloudy'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl: in paragraph 'BEGIN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:61: error: 'EOF' is not defined
+   59 |          OUTPUT OutputFile.
+   60 | 
+   61 >     PERFORM READ-UTC-DATETIME UNTIL EOF
+   62 |     CLOSE InputFile
+   63 |           OutputFile
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl: in paragraph 'CALCULATE-LOCAL-DATETIME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:75: error: 'City-Index' is not defined
+   73 | 
+   74 | CALCULATE-LOCAL-DATETIME.
+   75 >     PERFORM VARYING City-Index FROM 1 BY 1 UNTIL City-Index > 5
+   76 |         COMPUTE Local-Year   = Year + 2000
+   77 |         COMPUTE Local-Month  = Month
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:78: error: syntax error, unexpected DAY
+   76 |         COMPUTE Local-Year   = Year + 2000
+   77 |         COMPUTE Local-Month  = Month
+   78 >         COMPUTE Local-Day    = Day
+   79 |         COMPUTE Local-Hour   = Hour + UTC-Offsets(City-Index)
+   80 |         IF Local-Hour < 0
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:79: error: 'UTC-Offsets (internal error node)' is not numeric
+   77 |         COMPUTE Local-Month  = Month
+   78 |         COMPUTE Local-Day    = Day
+   79 >         COMPUTE Local-Hour   = Hour + UTC-Offsets(City-Index)
+   80 |         IF Local-Hour < 0
+   81 |             COMPUTE Local-Hour = Local-Hour + 24
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:87: error: 'Local-Datetime' cannot be subscripted
+   85 |             COMPUTE Local-Day = Local-Day + 1
+   86 |         END-IF
+   87 >         MOVE Local-Year TO Local-DateTime(City-Index).Local-Year
+   88 |         MOVE Local-Month TO Local-DateTime(City-Index).Local-Month
+   89 |         MOVE Local-Day TO Local-DateTime(City-Index).Local-Day
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:75: error: PERFORM statement not terminated by END-PERFORM
+   73 | 
+   74 | CALCULATE-LOCAL-DATETIME.
+   75 >     PERFORM VARYING City-Index FROM 1 BY 1 UNTIL City-Index > 5
+   76 |         COMPUTE Local-Year   = Year + 2000
+   77 |         COMPUTE Local-Month  = Month
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:88: error: syntax error, unexpected MOVE, expecting SECTION or .
+   86 |         END-IF
+   87 |         MOVE Local-Year TO Local-DateTime(City-Index).Local-Year
+   88 >         MOVE Local-Month TO Local-DateTime(City-Index).Local-Month
+   89 |         MOVE Local-Day TO Local-DateTime(City-Index).Local-Day
+   90 |         MOVE Local-Hour TO Local-DateTime(City-Index).Local-Hour
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_45/task_func_45.cbl:87: error: redefinition of 'Local-Year'
+   85 |             COMPUTE Local-Day = Local-Day + 1
+   86 |         END-IF
+   87 >         MOVE Local-Year TO Local-DateTime(City-Index).Local-Year
+   88 |         MOVE Local-Month TO Local-DateTime(City-Index).Local-Month
+   89 |         MOVE Local-Day TO Local-DateTime(City-Index).Local-Day
+
+2025-05-20 22:20:32.192 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:32.192 | ERROR    | __main__:compile:227 - Compilation failed for task_func_45
+2025-05-20 22:20:32.193 | INFO     | __main__:compile:156 - Processing program 43/46: task_func_47
+2025-05-20 22:20:32.193 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:32.193 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:32.193 | INFO     | __main__:compile:190 - compiling task_func_47
+2025-05-20 22:20:32.214 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_47/task_func_47.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. ConvertNames.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_47/task_func_47.cbl:70: error: syntax error, unexpected ., expecting BY
+   68 |         IF ReplacementChar NOT = ' '
+   69 |             REPLACE TempName(Index:1) BY ReplacementChar
+   70 >     END-PERFORM.
+   71 | 
+   72 | GOBACK.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_47/task_func_47.cbl:23: error: 'FILLER' cannot have PICTURE clause
+   21 | 
+   22 | WORKING-STORAGE SECTION.
+   23 > 01 Index PIC 9(3).
+   24 | 01 CharToReplace PIC X.
+   25 | 01 ReplacementChar PIC X.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_47/task_func_47.cbl: in paragraph 'Process-Records':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_47/task_func_47.cbl:40: error: 'EOF' is not defined
+   38 | 
+   39 | Process-Records.
+   40 >     PERFORM UNTIL EOF
+   41 |         READ InputFile
+   42 |             AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_47/task_func_47.cbl: in paragraph 'Convert-Name':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_47/task_func_47.cbl:52: error: syntax error, unexpected INDEX, expecting Identifier
+   50 | 
+   51 | Convert-Name.
+   52 >     PERFORM VARYING Index FROM 1 BY 1 UNTIL Index > LENGTH OF TempName
+   53 |         MOVE TempName(Index:1) TO CharToReplace
+   54 |         EVALUATE CharToReplace
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_47/task_func_47.cbl:53: error: syntax error, unexpected INDEX
+   51 | Convert-Name.
+   52 |     PERFORM VARYING Index FROM 1 BY 1 UNTIL Index > LENGTH OF TempName
+   53 >         MOVE TempName(Index:1) TO CharToReplace
+   54 |         EVALUATE CharToReplace
+   55 |             WHEN 'ä'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_47/task_func_47.cbl:70: error: syntax error, unexpected end of file
+   68 |         IF ReplacementChar NOT = ' '
+   69 |             REPLACE TempName(Index:1) BY ReplacementChar
+   70 >     END-PERFORM.
+   71 | 
+   72 | GOBACK.
+
+2025-05-20 22:20:32.214 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:32.214 | ERROR    | __main__:compile:227 - Compilation failed for task_func_47
+2025-05-20 22:20:32.214 | INFO     | __main__:compile:156 - Processing program 44/46: task_func_48
+2025-05-20 22:20:32.215 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:32.215 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:32.215 | INFO     | __main__:compile:190 - compiling task_func_48
+2025-05-20 22:20:32.236 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. StudentGradesReport.
+    3 | AUTHOR. AI Assistant.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl: in paragraph 'Initialize-Data':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:27: error: 'SubjectNames' cannot be subscripted
+   25 | 
+   26 | Initialize-Data.
+   27 >     MOVE "Math" TO SubjectNames(1)
+   28 |     MOVE "Science" TO SubjectNames(2)
+   29 |     MOVE "History" TO SubjectNames(3)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:28: error: 'SubjectNames' cannot be subscripted
+   26 | Initialize-Data.
+   27 |     MOVE "Math" TO SubjectNames(1)
+   28 >     MOVE "Science" TO SubjectNames(2)
+   29 |     MOVE "History" TO SubjectNames(3)
+   30 |     MOVE "English" TO SubjectNames(4)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:29: error: 'SubjectNames' cannot be subscripted
+   27 |     MOVE "Math" TO SubjectNames(1)
+   28 |     MOVE "Science" TO SubjectNames(2)
+   29 >     MOVE "History" TO SubjectNames(3)
+   30 |     MOVE "English" TO SubjectNames(4)
+   31 |     MOVE "Art" TO SubjectNames(5)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:30: error: 'SubjectNames' cannot be subscripted
+   28 |     MOVE "Science" TO SubjectNames(2)
+   29 |     MOVE "History" TO SubjectNames(3)
+   30 >     MOVE "English" TO SubjectNames(4)
+   31 |     MOVE "Art" TO SubjectNames(5)
+   32 |     MOVE "Music" TO SubjectNames(6)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:31: error: 'SubjectNames' cannot be subscripted
+   29 |     MOVE "History" TO SubjectNames(3)
+   30 |     MOVE "English" TO SubjectNames(4)
+   31 >     MOVE "Art" TO SubjectNames(5)
+   32 |     MOVE "Music" TO SubjectNames(6)
+   33 |     MOVE "PhysicalEd" TO SubjectNames(7)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:32: error: 'SubjectNames' cannot be subscripted
+   30 |     MOVE "English" TO SubjectNames(4)
+   31 |     MOVE "Art" TO SubjectNames(5)
+   32 >     MOVE "Music" TO SubjectNames(6)
+   33 |     MOVE "PhysicalEd" TO SubjectNames(7)
+   34 |     MOVE "Computer" TO SubjectNames(8).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:33: error: 'SubjectNames' cannot be subscripted
+   31 |     MOVE "Art" TO SubjectNames(5)
+   32 |     MOVE "Music" TO SubjectNames(6)
+   33 >     MOVE "PhysicalEd" TO SubjectNames(7)
+   34 |     MOVE "Computer" TO SubjectNames(8).
+   35 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:34: error: 'SubjectNames' cannot be subscripted
+   32 |     MOVE "Music" TO SubjectNames(6)
+   33 |     MOVE "PhysicalEd" TO SubjectNames(7)
+   34 >     MOVE "Computer" TO SubjectNames(8).
+   35 | 
+   36 | Generate-Grades.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl: in paragraph 'Generate-Grades':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:37: error: 'StudentIndex' is not defined
+   35 | 
+   36 | Generate-Grades.
+   37 >     PERFORM VARYING StudentIndex FROM 1 BY 1 UNTIL StudentIndex > 100
+   38 |         PERFORM VARYING SubjectIndex FROM 1 BY 1 UNTIL SubjectIndex > 8
+   39 |             COMPUTE SubjectGrades(SubjectIndex) = FUNCTION RANDOM(1) * 10..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl: in paragraph 'Calculate-Averages':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:49: error: 'SubjectGrades' requires one subscript
+   47 | 
+   48 |     PERFORM VARYING SubjectIndex FROM 1 BY 1 UNTIL SubjectIndex > 8
+   49 >         COMPUTE SubjectAverage(SubjectIndex) = (SubjectGrades(SubjectInde..
+   50 |     END-PERFORM
+   51 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:49: error: 'SubjectGrades' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:49: error: 'SubjectGrades' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:49: error: 'SubjectGrades' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:49: error: 'SubjectGrades' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:49: error: 'SubjectGrades' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:49: error: 'SubjectGrades' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:49: error: 'SubjectGrades' requires one subscript
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl: in paragraph 'Write-Report':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:57: error: syntax error, unexpected Literal, expecting Identifier
+   55 | 
+   56 | Write-Report.
+   57 >     OPEN OUTPUT 'task_func48_out'
+   58 |     WRITE 'Subject Names: Math Science History English Art Music Physical..
+   59 |     PERFORM VARYING StudentIndex FROM 1 BY 1 UNTIL StudentIndex > 100
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:58: error: syntax error, unexpected Literal, expecting FILE or Identifier
+   56 | Write-Report.
+   57 |     OPEN OUTPUT 'task_func48_out'
+   58 >     WRITE 'Subject Names: Math Science History English Art Music Physical..
+   59 |     PERFORM VARYING StudentIndex FROM 1 BY 1 UNTIL StudentIndex > 100
+   60 |         WRITE StudentName(StudentIndex) SubjectGrades(1) SubjectGrades(2)..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:60: error: 'StudentName' requires one subscript
+   58 |     WRITE 'Subject Names: Math Science History English Art Music Physical..
+   59 |     PERFORM VARYING StudentIndex FROM 1 BY 1 UNTIL StudentIndex > 100
+   60 >         WRITE StudentName(StudentIndex) SubjectGrades(1) SubjectGrades(2)..
+   61 |     END-PERFORM
+   62 |     WRITE 'Average Grades:'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:60: error: WRITE subject does not refer to a record name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:60: error: syntax error, unexpected (
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:62: error: syntax error, unexpected Literal, expecting FILE or Identifier
+   60 |         WRITE StudentName(StudentIndex) SubjectGrades(1) SubjectGrades(2)..
+   61 |     END-PERFORM
+   62 >     WRITE 'Average Grades:'
+   63 |     PERFORM VARYING SubjectIndex FROM 1 BY 1 UNTIL SubjectIndex > 8
+   64 |         WRITE SubjectNames(SubjectIndex) TotalAverageGrade(SubjectIndex)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:64: error: WRITE subject does not refer to a record name
+   62 |     WRITE 'Average Grades:'
+   63 |     PERFORM VARYING SubjectIndex FROM 1 BY 1 UNTIL SubjectIndex > 8
+   64 >         WRITE SubjectNames(SubjectIndex) TotalAverageGrade(SubjectIndex)
+   65 |     END-PERFORM
+   66 |     CLOSE 'task_func48_out'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:64: error: syntax error, unexpected (
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:66: error: syntax error, unexpected Literal, expecting WINDOW or Identifier
+   64 |         WRITE SubjectNames(SubjectIndex) TotalAverageGrade(SubjectIndex)
+   65 |     END-PERFORM
+   66 >     CLOSE 'task_func48_out'.
+   67 | 
+   68 | GOBACK.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:63: error: PERFORM statement not terminated by END-PERFORM
+   61 |     END-PERFORM
+   62 |     WRITE 'Average Grades:'
+   63 >     PERFORM VARYING SubjectIndex FROM 1 BY 1 UNTIL SubjectIndex > 8
+   64 |         WRITE SubjectNames(SubjectIndex) TotalAverageGrade(SubjectIndex)
+   65 |     END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_48/task_func_48.cbl:59: error: PERFORM statement not terminated by END-PERFORM
+   57 |     OPEN OUTPUT 'task_func48_out'
+   58 |     WRITE 'Subject Names: Math Science History English Art Music Physical..
+   59 >     PERFORM VARYING StudentIndex FROM 1 BY 1 UNTIL StudentIndex > 100
+   60 |         WRITE StudentName(StudentIndex) SubjectGrades(1) SubjectGrades(2)..
+   61 |     END-PERFORM
+
+2025-05-20 22:20:32.236 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:32.237 | ERROR    | __main__:compile:227 - Compilation failed for task_func_48
+2025-05-20 22:20:32.237 | INFO     | __main__:compile:156 - Processing program 45/46: task_func_49
+2025-05-20 22:20:32.237 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:32.237 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:32.237 | INFO     | __main__:compile:190 - compiling task_func_49
+2025-05-20 22:20:32.258 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:7: error: 'OUTPUT-FILE' is not defined
+    5 |        DATA DIVISION.
+    6 |        FILE SECTION.
+    7 >        FD OUTPUT-FILE.
+    8 |        01 OUTPUT-RECORD PIC X(100).
+    9 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:7: error: 'OUTPUT-FILE' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:20: error: syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT
+   18 | 
+   19 |        PROCEDURE DIVISION.
+   20 >            OPEN OUTPUT-FILE.
+   21 |            WRITE OUTPUT-RECORD FROM CSV-HEADER.
+   22 |            PERFORM VARYING RECORD-COUNT FROM 1 BY 1 UNTIL RECORD-COUNT =..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:22: error: invalid expression: unfinished expression
+   20 |            OPEN OUTPUT-FILE.
+   21 |            WRITE OUTPUT-RECORD FROM CSV-HEADER.
+   22 >            PERFORM VARYING RECORD-COUNT FROM 1 BY 1 UNTIL RECORD-COUNT =..
+   23 |                MOVE NAME-ENTRY(1 + FUNCTION RANDOM(1) * 5) TO OUTPUT-RECO..
+   24 |                COMPUTE AGE = FUNCTION RANDOM(59) + 18
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:23: error: 'OUTPUT-REC' is not defined
+   21 |            WRITE OUTPUT-RECORD FROM CSV-HEADER.
+   22 |            PERFORM VARYING RECORD-COUNT FROM 1 BY 1 UNTIL RECORD-COUNT =..
+   23 >                MOVE NAME-ENTRY(1 + FUNCTION RANDOM(1) * 5) TO OUTPUT-RECO..
+   24 |                COMPUTE AGE = FUNCTION RANDOM(59) + 18
+   25 |                COMPUTE HEIGHT = FUNCTION RANDOM(50) + 150
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:24: error: 'AGE' is not defined
+   22 |            PERFORM VARYING RECORD-COUNT FROM 1 BY 1 UNTIL RECORD-COUNT =..
+   23 |                MOVE NAME-ENTRY(1 + FUNCTION RANDOM(1) * 5) TO OUTPUT-RECO..
+   24 >                COMPUTE AGE = FUNCTION RANDOM(59) + 18
+   25 |                COMPUTE HEIGHT = FUNCTION RANDOM(50) + 150
+   26 |                COMPUTE WEIGHT = FUNCTION RANDOM(49) + 50
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:25: error: 'HEIGHT' is not defined
+   23 |                MOVE NAME-ENTRY(1 + FUNCTION RANDOM(1) * 5) TO OUTPUT-RECO..
+   24 |                COMPUTE AGE = FUNCTION RANDOM(59) + 18
+   25 >                COMPUTE HEIGHT = FUNCTION RANDOM(50) + 150
+   26 |                COMPUTE WEIGHT = FUNCTION RANDOM(49) + 50
+   27 |                MOVE NAME-ENTRY(1 + FUNCTION RANDOM(1) * 5) TO OUTPUT-RECO..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:26: error: 'WEIGHT' is not defined
+   24 |                COMPUTE AGE = FUNCTION RANDOM(59) + 18
+   25 |                COMPUTE HEIGHT = FUNCTION RANDOM(50) + 150
+   26 >                COMPUTE WEIGHT = FUNCTION RANDOM(49) + 50
+   27 |                MOVE NAME-ENTRY(1 + FUNCTION RANDOM(1) * 5) TO OUTPUT-RECO..
+   28 |                WRITE OUTPUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:33: error: 'AGE-AVERAGE' is not defined
+   31 |                ADD WEIGHT TO WEIGHT-TOTAL
+   32 |            END-PERFORM.
+   33 >            COMPUTE AGE-AVERAGE = AGE-TOTAL / 100
+   34 |            COMPUTE HEIGHT-AVERAGE = HEIGHT-TOTAL / 100
+   35 |            COMPUTE WEIGHT-AVERAGE = WEIGHT-TOTAL / 100
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:34: error: 'HEIGHT-AVERAGE' is not defined
+   32 |            END-PERFORM.
+   33 |            COMPUTE AGE-AVERAGE = AGE-TOTAL / 100
+   34 >            COMPUTE HEIGHT-AVERAGE = HEIGHT-TOTAL / 100
+   35 |            COMPUTE WEIGHT-AVERAGE = WEIGHT-TOTAL / 100
+   36 |            MOVE "Averages," AGE-AVERAGE, HEIGHT-AVERAGE, WEIGHT-AVERAGE T..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:35: error: 'WEIGHT-AVERAGE' is not defined
+   33 |            COMPUTE AGE-AVERAGE = AGE-TOTAL / 100
+   34 |            COMPUTE HEIGHT-AVERAGE = HEIGHT-TOTAL / 100
+   35 >            COMPUTE WEIGHT-AVERAGE = WEIGHT-TOTAL / 100
+   36 |            MOVE "Averages," AGE-AVERAGE, HEIGHT-AVERAGE, WEIGHT-AVERAGE T..
+   37 |            WRITE OUTPUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:36: error: syntax error, unexpected Identifier, expecting TO
+   34 |            COMPUTE HEIGHT-AVERAGE = HEIGHT-TOTAL / 100
+   35 |            COMPUTE WEIGHT-AVERAGE = WEIGHT-TOTAL / 100
+   36 >            MOVE "Averages," AGE-AVERAGE, HEIGHT-AVERAGE, WEIGHT-AVERAGE T..
+   37 |            WRITE OUTPUT-RECORD
+   38 |            CLOSE OUTPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_49/task_func_49.cbl:38: error: 'OUTPUT-FILE' is not a file name
+   36 |            MOVE "Averages," AGE-AVERAGE, HEIGHT-AVERAGE, WEIGHT-AVERAGE T..
+   37 |            WRITE OUTPUT-RECORD
+   38 >            CLOSE OUTPUT-FILE.
+   39 |            GOBACK.
+   40 | <EOF>
+
+2025-05-20 22:20:32.258 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:32.258 | ERROR    | __main__:compile:227 - Compilation failed for task_func_49
+2025-05-20 22:20:32.258 | INFO     | __main__:compile:156 - Processing program 46/46: task_func_55
+2025-05-20 22:20:32.258 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:32.258 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:32.259 | INFO     | __main__:compile:190 - compiling task_func_55
+2025-05-20 22:20:32.279 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_55/task_func_55.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. Remove_Outliers.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_55/task_func_55.cbl:26: error: 'FILLER' cannot have PICTURE clause
+   24 | FD Outlier-Indices-File.
+   25 | 01 Outlier-Index-Record.
+   26 >    05 Index PIC 9(5).
+   27 | 
+   28 | WORKING-STORAGE SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_55/task_func_55.cbl:32: error: PICTURE clause required for 'Threshold'
+   30 | 01 Mean PIC 9(5)V99 VALUE ZERO.
+   31 | 01 Standard-Deviation PIC 9(5)V99 VALUE ZERO.
+   32 > 01 Threshold VALUE 2.0.
+   33 | 
+   34 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_55/task_func_55.cbl:32: error: a non-numeric literal is expected for 'Threshold'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_55/task_func_55.cbl: in paragraph '400-CHECK-OUTLIER':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_55/task_func_55.cbl:64: error: 'SQRT' is not defined
+   62 |     IF Total-Values > 1
+   63 |         COMPUTE Mean = Mean / Total-Values
+   64 >         COMPUTE Standard-Deviation = SQRT((Standard-Deviation - (Total-Va..
+   65 |         IF ABS(Original-Value - Mean) / Standard-Deviation > Threshold
+   66 |             WRITE Outlier-Index-Record FROM Total-Values
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_55/task_func_55.cbl:65: error: 'ABS' is not defined
+   63 |         COMPUTE Mean = Mean / Total-Values
+   64 |         COMPUTE Standard-Deviation = SQRT((Standard-Deviation - (Total-Va..
+   65 >         IF ABS(Original-Value - Mean) / Standard-Deviation > Threshold
+   66 |             WRITE Outlier-Index-Record FROM Total-Values
+   67 |             WRITE Cleaned-Data-Record
+
+2025-05-20 22:20:32.279 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:32.279 | ERROR    | __main__:compile:227 - Compilation failed for task_func_55
+2025-05-20 22:20:32.280 | SUCCESS  | __main__:compile:268 - Compilation completed
+2025-05-20 22:20:32.280 | INFO     | __main__:compile:269 - Total programs compiled: 3 
+Total programs executed: 1 
+Total results matched: 0.23
+2025-05-20 22:20:32.281 | INFO     | __main__:compile:285 - final_results directory path: /home/projadmin/CobolEval/FrameWork/final_results/instruct
+2025-05-20 22:20:32.293 | INFO     | __main__:compile:290 - Results saved to final_results/instruct/gpt-35-turbo_instruct_final_results.csv
+
+
+--- STDOUT OUTPUT ---
+
+Starting compilation for model: gpt-35-turbo, mode: instruct
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_35/task_func35_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_35/task_func35_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_38/task_func38_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_38/task_func38_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gpt-35-turbo/instruct/task_func_39/task_func39_inp1
+Finished processing model: gpt-35-turbo, mode: instruct
+Results summary: 46 programs processed
+Compiled: 3 - Executed: 1 - Match: 0.23
+2025-05-20 22:20:32.293 | SUCCESS  | __main__:<module>:384 - Completed processing model: gpt-35-turbo, mode: instruct
+2025-05-20 22:20:32.293 | INFO     | __main__:<module>:385 - All logs saved to /home/projadmin/CobolEval/FrameWork/logs/gpt-35-turbo_instruct.txt

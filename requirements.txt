@@ -1,8 +1,10 @@
-marko 
-loguru 
-anthropic 
+marko
+loguru
+anthropic
 openai
-bert_score 
-huggingface_hub==0.29.0 
+bert_score
+huggingface_hub==0.29.0
 google-generativeai
 datasets
+dotenv
+fuzzywuzzy

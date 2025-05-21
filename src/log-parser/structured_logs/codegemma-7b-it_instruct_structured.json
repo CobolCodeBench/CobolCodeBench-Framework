@@ -1,0 +1,1826 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.560 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_01/task_func_01.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_01/task_func_01.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_01/task_func_01.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_01/task_func_01.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected ENVIRONMENT, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.539",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.581 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_02/task_func_02.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_02/task_func_02.cbl",
+        "line": 7,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_02/task_func_02.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_02/task_func_02.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.561",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.605 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_03/task_func_03.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_03/task_func_03.cbl",
+        "line": 26,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_03/task_func_03.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_03/task_func_03.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.582",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.626 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl",
+        "line": 42,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "'WORKING' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TIMES"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.605",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.648 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "invalid indicator 'R' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl",
+        "line": 20,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "invalid indicator 'F' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected PROGRAM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.627",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.669 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_07/task_func_07.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_07/task_func_07.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_07/task_func_07.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_07/task_func_07.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected *, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.648",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.691 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_08/task_func_08.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_08/task_func_08.cbl",
+        "line": 42,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_08/task_func_08.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_08/task_func_08.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.670",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.714 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_09/task_func_09.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_09/task_func_09.cbl",
+        "line": 7,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_09/task_func_09.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected SECTION, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.692",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.720 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_10/task_func_10.cbl",
+        "line": 2,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.714",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.742 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_11/task_func_11.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_11/task_func_11.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_11/task_func_11.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_11/task_func_11.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.721",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.764 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "syntax error, unexpected FILE, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "syntax error, unexpected /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "'Workfile' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "'UNRECORDED' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "'UNRECORDED' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "'EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "syntax error, unexpected EOP"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.742",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.770 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_13/task_func_13.cbl",
+        "line": 2,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.764",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.794 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_14/task_func_14.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_14/task_func_14.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_14/task_func_14.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_14/task_func_14.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.771",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.818 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.795",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.842 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected PROGRAM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "number or constant in parentheses must be greater than zero"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "PICTURE string must contain at least one of the set A, N, U, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "'REQUEST' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "'REQUEST' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "syntax error, unexpected ON"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "syntax error, unexpected ALL, expecting FILE or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "syntax error, unexpected AFTER, expecting WINDOW or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "'WORKING' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "'STORAGE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl",
+        "line": 19,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.819",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.849 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_17/task_func_17.cbl",
+        "line": 2,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.843",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.870 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_18/task_func_18.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_18/task_func_18.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_18/task_func_18.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_18/task_func_18.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.849",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.877 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_19/task_func_19.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "invalid indicator 'M' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_19/task_func_19.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_19/task_func_19.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_19/task_func_19.cbl",
+        "line": 13,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.871",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.899 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl",
+        "line": 7,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "'N' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "syntax error, unexpected DATA"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.878",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.921 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_21/task_func_21.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_21/task_func_21.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_21/task_func_21.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_21/task_func_21.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected SECTION, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.900",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.945 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_22/task_func_22.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_22/task_func_22.cbl",
+        "line": 7,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_22/task_func_22.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_22/task_func_22.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected *, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.922",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.967 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_23/task_func_23.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_23/task_func_23.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_23/task_func_23.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_23/task_func_23.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.945",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:13.990 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl",
+        "line": 7,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "syntax error, unexpected /"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.968",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.013 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_25/task_func_25.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_25/task_func_25.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_25/task_func_25.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_25/task_func_25.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected SECTION, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:13.991",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.035 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_26/task_func_26.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_26/task_func_26.cbl",
+        "line": 7,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_26/task_func_26.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.013",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.058 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_27/task_func_27.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_27/task_func_27.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_27/task_func_27.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_27/task_func_27.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.036",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.081 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "invalid PICTURE character '''"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "invalid PICTURE character 'T'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "S may only occur once in a PICTURE string"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "S must be at start of PICTURE string"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "invalid PICTURE character 'K'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "A or X cannot follow S"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.058",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.105 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 18,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "invalid system-name 'EVDATA'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected /, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "invalid system-name 'IOCONTROL'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "syntax error, unexpected /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "invalid system-name 'FCNTL'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "invalid system-name 'information'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "syntax error, unexpected DIVISION"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "invalid system-name 'DMAIN'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "syntax error, unexpected END"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "invalid system-name 'definition'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl",
+        "line": 19,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.081",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.127 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_30/task_func_30.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_30/task_func_30.cbl",
+        "line": 7,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_30/task_func_30.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_30/task_func_30.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.105",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.148 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_31/task_func_31.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_31/task_func_31.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_31/task_func_31.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_31/task_func_31.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected *, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.128",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.170 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_32/task_func_32.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_32/task_func_32.cbl",
+        "line": 18,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_32/task_func_32.cbl",
+        "line": 26,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_32/task_func_32.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.149",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.193 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl",
+        "line": 67,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.170",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.215 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_34/task_func_34.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_34/task_func_34.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_34/task_func_34.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_34/task_func_34.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.194",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.221 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_35/task_func_35.cbl",
+        "line": 1,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_35/task_func_35.cbl",
+        "line": 2,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.216",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.242 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_36/task_func_36.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_36/task_func_36.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_36/task_func_36.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.222",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.264 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_37/task_func_37.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_37/task_func_37.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_37/task_func_37.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_37/task_func_37.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.243",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.285 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_38/task_func_38.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_38/task_func_38.cbl",
+        "line": 26,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_38/task_func_38.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_38/task_func_38.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.264",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.307 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_39/task_func_39.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_39/task_func_39.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_39/task_func_39.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_39/task_func_39.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.286",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.328 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_40/task_func_40.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_40/task_func_40.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_40/task_func_40.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_40/task_func_40.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected *, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.308",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.350 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_43/task_func_43.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_43/task_func_43.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_43/task_func_43.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.329",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.372 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected /"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected OF, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "invalid symbol '\\' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.351",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.380 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_45/task_func_45.cbl",
+        "line": 1,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_45/task_func_45.cbl",
+        "line": 2,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.373",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.402 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_47/task_func_47.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_47/task_func_47.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_47/task_func_47.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_47/task_func_47.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected PROGRAM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.381",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.425 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_48/task_func_48.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_48/task_func_48.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_48/task_func_48.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_48/task_func_48.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.403",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.448 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected OCCURS"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.426",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.471 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_55/task_func_55.cbl",
+        "line": 3,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_55/task_func_55.cbl",
+        "line": 12,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_55/task_func_55.cbl",
+        "line": 3,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_55/task_func_55.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting FUNCTION-ID or PROGRAM-ID"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.449",
+    "execution": {}
+  }
+]

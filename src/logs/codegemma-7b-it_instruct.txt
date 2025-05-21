@@ -1,0 +1,1109 @@
+2025-05-20 22:20:13.530 | INFO     | __main__:<module>:352 - Starting processing for model: codegemma-7b-it, mode: instruct
+2025-05-20 22:20:13.532 | INFO     | __main__:__init__:34 - Loaded ./data/Instruction_Set.json successfully
+2025-05-20 22:20:13.538 | INFO     | __main__:__init__:41 - Data frame read successfully
+2025-05-20 22:20:13.538 | INFO     | __main__:compile:150 - Processing 46 programs
+2025-05-20 22:20:13.539 | INFO     | __main__:compile:156 - Processing program 1/46: task_func_01
+2025-05-20 22:20:13.539 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.539 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.539 | INFO     | __main__:compile:190 - compiling task_func_01
+2025-05-20 22:20:13.560 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_01/task_func_01.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 >    identification Division    Environment Section      Identification Cla..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_01/task_func_01.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 >    identification Division    Environment Section      Identification Cla..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_01/task_func_01.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 >    identification Division    Environment Section      Identification Cla..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_01/task_func_01.cbl:3: error: syntax error, unexpected ENVIRONMENT, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:13.560 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.560 | ERROR    | __main__:compile:227 - Compilation failed for task_func_01
+2025-05-20 22:20:13.561 | INFO     | __main__:compile:156 - Processing program 2/46: task_func_02
+2025-05-20 22:20:13.561 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.561 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.561 | INFO     | __main__:compile:190 - compiling task_func_02
+2025-05-20 22:20:13.581 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_02/task_func_02.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > environment	divison		 is			screen/console
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_02/task_func_02.cbl:7: warning: line not terminated by a newline [-Wmissing-newline]
+    5 | 
+    6 | 
+    7 > data				Division = "FILE"<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_02/task_func_02.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > environment	divison		 is			screen/console
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_02/task_func_02.cbl:3: error: syntax error, unexpected Identifier, expecting DIVISION
+
+2025-05-20 22:20:13.581 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.582 | ERROR    | __main__:compile:227 - Compilation failed for task_func_02
+2025-05-20 22:20:13.582 | INFO     | __main__:compile:156 - Processing program 3/46: task_func_03
+2025-05-20 22:20:13.582 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.582 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.582 | INFO     | __main__:compile:190 - compiling task_func_03
+2025-05-20 22:20:13.605 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_03/task_func_03.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > identification Division // Program Header Section   ***AreaA****    **COB..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_03/task_func_03.cbl:26: warning: line not terminated by a newline [-Wmissing-newline]
+   24 | 
+   25 | 
+   26 > input                FILE STATUS = FILE STAUS                  FOR INPUT..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_03/task_func_03.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > identification Division // Program Header Section   ***AreaA****    **COB..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_03/task_func_03.cbl:3: error: syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:13.605 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.605 | ERROR    | __main__:compile:227 - Compilation failed for task_func_03
+2025-05-20 22:20:13.605 | INFO     | __main__:compile:156 - Processing program 4/46: task_func_04
+2025-05-20 22:20:13.605 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.605 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.606 | INFO     | __main__:compile:190 - compiling task_func_04
+2025-05-20 22:20:13.626 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > ENVIRONMENT Division       INPUT/Output Section        File Control..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl:42: warning: line not terminated by a newline [-Wmissing-newline]
+   40 | 
+   41 | 
+   42 >                         PERFORM INIT                       WORKING STORAG..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > ENVIRONMENT Division       INPUT/Output Section        File Control..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl:3: warning: optional period used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl:3: error: syntax error, unexpected INPUT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl:42: error: 'WORKING' is not defined
+   40 | 
+   41 | 
+   42 >                         PERFORM INIT                       WORKING STORAG..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_04/task_func_04.cbl:42: error: syntax error, unexpected Identifier, expecting TIMES
+
+2025-05-20 22:20:13.626 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.626 | ERROR    | __main__:compile:227 - Compilation failed for task_func_04
+2025-05-20 22:20:13.627 | INFO     | __main__:compile:156 - Processing program 5/46: task_func_05
+2025-05-20 22:20:13.627 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.627 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.627 | INFO     | __main__:compile:190 - compiling task_func_05
+2025-05-20 22:20:13.648 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl:7: error: invalid indicator 'R' at column 7
+    5 | 
+    6 | 
+    7 > **ENVIRONMENT Division                          Area **B..
+    8 | 
+    9 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl:12: error: invalid indicator 'O' at column 7
+   10 | 
+   11 | 
+   12 > INPUT OUTPUT Section                 Sequential                     File..
+   13 | 
+   14 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl:20: warning: line not terminated by a newline [-Wmissing-newline]
+   18 | 
+   19 | 
+   20 > Input File                        LINE Sequential                IN..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl:20: error: invalid indicator 'F' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 >        PROGRAM ID      IS     FILE_READER..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_05/task_func_05.cbl:3: error: syntax error, unexpected PROGRAM
+
+2025-05-20 22:20:13.648 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.648 | ERROR    | __main__:compile:227 - Compilation failed for task_func_05
+2025-05-20 22:20:13.648 | INFO     | __main__:compile:156 - Processing program 6/46: task_func_07
+2025-05-20 22:20:13.648 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.648 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.649 | INFO     | __main__:compile:190 - compiling task_func_07
+2025-05-20 22:20:13.669 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_07/task_func_07.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   * Program identification information    */..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_07/task_func_07.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   * Program identification information    */..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_07/task_func_07.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   * Program identification information    */..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_07/task_func_07.cbl:3: error: syntax error, unexpected *, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:13.669 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.669 | ERROR    | __main__:compile:227 - Compilation failed for task_func_07
+2025-05-20 22:20:13.670 | INFO     | __main__:compile:156 - Processing program 7/46: task_func_08
+2025-05-20 22:20:13.670 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.670 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.670 | INFO     | __main__:compile:190 - compiling task_func_08
+2025-05-20 22:20:13.691 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_08/task_func_08.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   *** File name change using cobal ***
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_08/task_func_08.cbl:42: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   40 | 
+   41 | 
+   42 > DSN             IS                "SYSUDTA('infil')",                 //..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_08/task_func_08.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   *** File name change using cobal ***
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_08/task_func_08.cbl:3: error: syntax error, unexpected exponentiation operator, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:13.691 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.692 | ERROR    | __main__:compile:227 - Compilation failed for task_func_08
+2025-05-20 22:20:13.692 | INFO     | __main__:compile:156 - Processing program 8/46: task_func_09
+2025-05-20 22:20:13.692 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.692 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.692 | INFO     | __main__:compile:190 - compiling task_func_09
+2025-05-20 22:20:13.714 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_09/task_func_09.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > identification section       pic x(9), pic s value comp           procedu..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_09/task_func_09.cbl:7: warning: line not terminated by a newline [-Wmissing-newline]
+    5 | 
+    6 | 
+    7 > data Section               picture X's'(any number upto max no.)..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_09/task_func_09.cbl:3: error: syntax error, unexpected SECTION, expecting DIVISION
+    1 | 
+    2 | 
+    3 > identification section       pic x(9), pic s value comp           procedu..
+    4 | 
+    5 | 
+
+2025-05-20 22:20:13.714 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.714 | ERROR    | __main__:compile:227 - Compilation failed for task_func_09
+2025-05-20 22:20:13.714 | INFO     | __main__:compile:156 - Processing program 9/46: task_func_10
+2025-05-20 22:20:13.714 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.714 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.715 | INFO     | __main__:compile:190 - compiling task_func_10
+2025-05-20 22:20:13.720 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_10/task_func_10.cbl:1: warning: line not terminated by a newline [-Wmissing-newline]
+    1 > nan<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_10/task_func_10.cbl:2: error: PROGRAM-ID header missing
+    1 | nan<EOF>
+
+2025-05-20 22:20:13.720 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.720 | ERROR    | __main__:compile:227 - Compilation failed for task_func_10
+2025-05-20 22:20:13.721 | INFO     | __main__:compile:156 - Processing program 10/46: task_func_11
+2025-05-20 22:20:13.721 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.721 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.721 | INFO     | __main__:compile:190 - compiling task_func_11
+2025-05-20 22:20:13.742 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_11/task_func_11.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division    WORKING - STORAGE SECTION       CLASS        S..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_11/task_func_11.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division    WORKING - STORAGE SECTION       CLASS        S..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_11/task_func_11.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division    WORKING - STORAGE SECTION       CLASS        S..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_11/task_func_11.cbl:3: error: syntax error, unexpected Identifier, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:13.742 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.742 | ERROR    | __main__:compile:227 - Compilation failed for task_func_11
+2025-05-20 22:20:13.742 | INFO     | __main__:compile:156 - Processing program 11/46: task_func_12
+2025-05-20 22:20:13.743 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.743 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.743 | INFO     | __main__:compile:190 - compiling task_func_12
+2025-05-20 22:20:13.764 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > FD INPUT                         PIC X(10).                    /*--*/ /*..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:12: warning: line not terminated by a newline [-Wmissing-newline]
+   10 | 
+   11 | 
+   12 > RD READINPUT                     READ UNRECORDED             AT END MOVE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > FD INPUT                         PIC X(10).                    /*--*/ /*..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:3: error: syntax error, unexpected INPUT, expecting Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:3: error: syntax error, unexpected /
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:7: error: syntax error, unexpected FILE, expecting Identifier
+    5 | 
+    6 | 
+    7 > SD SORT                          FILE STATUS IS *ACTIVE*.        /****/ /..
+    8 | 
+    9 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:7: error: syntax error, unexpected /
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:7: error: 'Workfile' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:7: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:12: error: 'UNRECORDED' is not defined
+   10 | 
+   11 | 
+   12 > RD READINPUT                     READ UNRECORDED             AT END MOVE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:12: error: 'UNRECORDED' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:12: error: 'EOF' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_12/task_func_12.cbl:12: error: syntax error, unexpected EOP
+
+2025-05-20 22:20:13.764 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.764 | ERROR    | __main__:compile:227 - Compilation failed for task_func_12
+2025-05-20 22:20:13.764 | INFO     | __main__:compile:156 - Processing program 12/46: task_func_13
+2025-05-20 22:20:13.764 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.764 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.765 | INFO     | __main__:compile:190 - compiling task_func_13
+2025-05-20 22:20:13.770 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_13/task_func_13.cbl:1: warning: line not terminated by a newline [-Wmissing-newline]
+    1 > nan<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_13/task_func_13.cbl:2: error: PROGRAM-ID header missing
+    1 | nan<EOF>
+
+2025-05-20 22:20:13.771 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.771 | ERROR    | __main__:compile:227 - Compilation failed for task_func_13
+2025-05-20 22:20:13.771 | INFO     | __main__:compile:156 - Processing program 13/46: task_func_14
+2025-05-20 22:20:13.771 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.771 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.772 | INFO     | __main__:compile:190 - compiling task_func_14
+2025-05-20 22:20:13.794 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_14/task_func_14.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > identification Division    /*     * */ /*      ** IDENTIFICATION SECTION..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_14/task_func_14.cbl:12: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   10 | 
+   11 | 
+   12 > file Section                      		 /** File control section..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_14/task_func_14.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > identification Division    /*     * */ /*      ** IDENTIFICATION SECTION..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_14/task_func_14.cbl:3: error: syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:13.794 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.794 | ERROR    | __main__:compile:227 - Compilation failed for task_func_14
+2025-05-20 22:20:13.795 | INFO     | __main__:compile:156 - Processing program 14/46: task_func_15
+2025-05-20 22:20:13.795 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.795 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.795 | INFO     | __main__:compile:190 - compiling task_func_15
+2025-05-20 22:20:13.818 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > ENVIRONMENT    Division				INPUT OUTPUT     FILE SECTION      FD       US..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 > ENVIRONMENT    Division				INPUT OUTPUT     FILE SECTION      FD       US..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > ENVIRONMENT    Division				INPUT OUTPUT     FILE SECTION      FD       US..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl:3: warning: optional period used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_15/task_func_15.cbl:3: error: syntax error, unexpected INPUT
+
+2025-05-20 22:20:13.818 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.818 | ERROR    | __main__:compile:227 - Compilation failed for task_func_15
+2025-05-20 22:20:13.819 | INFO     | __main__:compile:156 - Processing program 15/46: task_func_16
+2025-05-20 22:20:13.819 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.819 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.819 | INFO     | __main__:compile:190 - compiling task_func_16
+2025-05-20 22:20:13.842 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 >    PROGRAM ID FUNCTIONALTYCALCULATION                                   /..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   16 | 
+   17 | 
+   18 >             INPUT OUTPUT CONTROL                         				          PI..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 >    PROGRAM ID FUNCTIONALTYCALCULATION                                   /..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:3: error: syntax error, unexpected PROGRAM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: error: number or constant in parentheses must be greater than zero
+   16 | 
+   17 | 
+   18 >             INPUT OUTPUT CONTROL                         				          PI..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: error: PICTURE string must contain at least one of the set A, N, U, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: error: 'REQUEST' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: error: 'REQUEST' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: error: syntax error, unexpected ON
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: error: syntax error, unexpected ALL, expecting FILE or Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: error: syntax error, unexpected AFTER, expecting WINDOW or Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: error: 'WORKING' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:18: error: 'STORAGE' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_16/task_func_16.cbl:19: warning: optional period used [-Wdialect]
+   17 | 
+   18 |             INPUT OUTPUT CONTROL                         				          PI..
+
+2025-05-20 22:20:13.842 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.842 | ERROR    | __main__:compile:227 - Compilation failed for task_func_16
+2025-05-20 22:20:13.843 | INFO     | __main__:compile:156 - Processing program 16/46: task_func_17
+2025-05-20 22:20:13.843 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.843 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.843 | INFO     | __main__:compile:190 - compiling task_func_17
+2025-05-20 22:20:13.849 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_17/task_func_17.cbl:1: warning: line not terminated by a newline [-Wmissing-newline]
+    1 > nan<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_17/task_func_17.cbl:2: error: PROGRAM-ID header missing
+    1 | nan<EOF>
+
+2025-05-20 22:20:13.849 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.849 | ERROR    | __main__:compile:227 - Compilation failed for task_func_17
+2025-05-20 22:20:13.849 | INFO     | __main__:compile:156 - Processing program 17/46: task_func_18
+2025-05-20 22:20:13.849 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.849 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.850 | INFO     | __main__:compile:190 - compiling task_func_18
+2025-05-20 22:20:13.870 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_18/task_func_18.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION   DIVISION    WORKING STORAGE SECTION     CLASS        A..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_18/task_func_18.cbl:12: warning: line not terminated by a newline [-Wmissing-newline]
+   10 | 
+   11 | 
+   12 > input rec                                                     pic x(30),..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_18/task_func_18.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION   DIVISION    WORKING STORAGE SECTION     CLASS        A..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_18/task_func_18.cbl:3: error: syntax error, unexpected Identifier, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:13.870 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.870 | ERROR    | __main__:compile:227 - Compilation failed for task_func_18
+2025-05-20 22:20:13.871 | INFO     | __main__:compile:156 - Processing program 18/46: task_func_19
+2025-05-20 22:20:13.871 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.871 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.871 | INFO     | __main__:compile:190 - compiling task_func_19
+2025-05-20 22:20:13.877 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_19/task_func_19.cbl:7: error: invalid indicator 'M' at column 7
+    5 | 
+    6 | 
+    7 > PROGRAM ID . MSTATICS..
+    8 | 
+    9 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_19/task_func_19.cbl:12: warning: line not terminated by a newline [-Wmissing-newline]
+   10 | 
+   11 | 
+   12 > DATA SEGMENT                              * Data segment declaration area..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_19/task_func_19.cbl:12: error: invalid indicator 'E' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_19/task_func_19.cbl:13: error: PROGRAM-ID header missing
+   11 | 
+   12 | DATA SEGMENT                              * Data segment declaration area..
+
+2025-05-20 22:20:13.877 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.877 | ERROR    | __main__:compile:227 - Compilation failed for task_func_19
+2025-05-20 22:20:13.878 | INFO     | __main__:compile:156 - Processing program 19/46: task_func_20
+2025-05-20 22:20:13.878 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.878 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.878 | INFO     | __main__:compile:190 - compiling task_func_20
+2025-05-20 22:20:13.899 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > ENVIRONMENT division       INPUT OUTPUT section        file control pic x..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl:7: warning: line not terminated by a newline [-Wmissing-newline]
+    5 | 
+    6 | 
+    7 > data                   division                 FILE SEC..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > ENVIRONMENT division       INPUT OUTPUT section        file control pic x..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl:3: warning: optional period used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl:3: error: syntax error, unexpected INPUT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl:3: error: 'N' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_20/task_func_20.cbl:7: error: syntax error, unexpected DATA
+    5 | 
+    6 | 
+    7 > data                   division                 FILE SEC..
+
+2025-05-20 22:20:13.899 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.899 | ERROR    | __main__:compile:227 - Compilation failed for task_func_20
+2025-05-20 22:20:13.900 | INFO     | __main__:compile:156 - Processing program 20/46: task_func_21
+2025-05-20 22:20:13.900 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.900 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.900 | INFO     | __main__:compile:190 - compiling task_func_21
+2025-05-20 22:20:13.921 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_21/task_func_21.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > environment     section              group sequential      class cics..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_21/task_func_21.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 > environment     section              group sequential      class cics..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_21/task_func_21.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > environment     section              group sequential      class cics..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_21/task_func_21.cbl:3: error: syntax error, unexpected SECTION, expecting DIVISION
+
+2025-05-20 22:20:13.922 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.922 | ERROR    | __main__:compile:227 - Compilation failed for task_func_21
+2025-05-20 22:20:13.922 | INFO     | __main__:compile:156 - Processing program 21/46: task_func_22
+2025-05-20 22:20:13.922 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.922 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.923 | INFO     | __main__:compile:190 - compiling task_func_22
+2025-05-20 22:20:13.945 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_22/task_func_22.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   	    * Program Identification Section     AreaA..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_22/task_func_22.cbl:7: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+    5 | 
+    6 | 
+    7 > ENVIRONMENT SECTION                 ** Environment Description..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_22/task_func_22.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   	    * Program Identification Section     AreaA..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_22/task_func_22.cbl:3: error: syntax error, unexpected *, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:13.945 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.945 | ERROR    | __main__:compile:227 - Compilation failed for task_func_22
+2025-05-20 22:20:13.945 | INFO     | __main__:compile:156 - Processing program 22/46: task_func_23
+2025-05-20 22:20:13.945 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.945 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.946 | INFO     | __main__:compile:190 - compiling task_func_23
+2025-05-20 22:20:13.967 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_23/task_func_23.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   PIC X(05).    /* Program name */
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_23/task_func_23.cbl:12: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   10 | 
+   11 | 
+   12 > DATA        Division         WORKING STORAGE FILE          UNINITIALIZED..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_23/task_func_23.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   PIC X(05).    /* Program name */
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_23/task_func_23.cbl:3: error: syntax error, unexpected PICTURE, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:13.968 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.968 | ERROR    | __main__:compile:227 - Compilation failed for task_func_23
+2025-05-20 22:20:13.968 | INFO     | __main__:compile:156 - Processing program 23/46: task_func_24
+2025-05-20 22:20:13.968 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.968 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.969 | INFO     | __main__:compile:190 - compiling task_func_24
+2025-05-20 22:20:13.990 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > ENVIRONMENT division       INPUT OUTPUT section        file control..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl:7: warning: line not terminated by a newline [-Wmissing-newline]
+    5 | 
+    6 | 
+    7 > DATA               division           WORKING STORAGE            SECTION..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > ENVIRONMENT division       INPUT OUTPUT section        file control..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl:3: warning: optional period used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl:3: error: syntax error, unexpected INPUT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_24/task_func_24.cbl:7: error: syntax error, unexpected /
+    5 | 
+    6 | 
+    7 > DATA               division           WORKING STORAGE            SECTION..
+
+2025-05-20 22:20:13.991 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:13.991 | ERROR    | __main__:compile:227 - Compilation failed for task_func_24
+2025-05-20 22:20:13.991 | INFO     | __main__:compile:156 - Processing program 24/46: task_func_25
+2025-05-20 22:20:13.991 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:13.991 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:13.992 | INFO     | __main__:compile:190 - compiling task_func_25
+2025-05-20 22:20:14.013 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_25/task_func_25.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > ENVIRONMENT       SECTION        INPUT OUTPUT                     **IO Se..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_25/task_func_25.cbl:3: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+    1 | 
+    2 | 
+    3 > ENVIRONMENT       SECTION        INPUT OUTPUT                     **IO Se..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_25/task_func_25.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > ENVIRONMENT       SECTION        INPUT OUTPUT                     **IO Se..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_25/task_func_25.cbl:3: error: syntax error, unexpected SECTION, expecting DIVISION
+
+2025-05-20 22:20:14.013 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.013 | ERROR    | __main__:compile:227 - Compilation failed for task_func_25
+2025-05-20 22:20:14.013 | INFO     | __main__:compile:156 - Processing program 25/46: task_func_26
+2025-05-20 22:20:14.013 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.013 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.014 | INFO     | __main__:compile:190 - compiling task_func_26
+2025-05-20 22:20:14.035 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_26/task_func_26.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION DIV   PIC X(05), VALUE "COBO".    /* Program name */
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_26/task_func_26.cbl:7: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+    5 | 
+    6 | 
+    7 > ENVIRONMENT        DIV     WORKING STORAGE SECTION       CLASS IS ABEND P..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_26/task_func_26.cbl:3: error: syntax error, unexpected Identifier, expecting DIVISION
+    1 | 
+    2 | 
+    3 > IDENTIFICATION DIV   PIC X(05), VALUE "COBO".    /* Program name */
+    4 | 
+    5 | 
+
+2025-05-20 22:20:14.035 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.035 | ERROR    | __main__:compile:227 - Compilation failed for task_func_26
+2025-05-20 22:20:14.036 | INFO     | __main__:compile:156 - Processing program 26/46: task_func_27
+2025-05-20 22:20:14.036 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.036 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.036 | INFO     | __main__:compile:190 - compiling task_func_27
+2025-05-20 22:20:14.058 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_27/task_func_27.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division                                   /* */ /* * /..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_27/task_func_27.cbl:3: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division                                   /* */ /* * /..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_27/task_func_27.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division                                   /* */ /* * /..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_27/task_func_27.cbl:3: error: syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.058 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.058 | ERROR    | __main__:compile:227 - Compilation failed for task_func_27
+2025-05-20 22:20:14.058 | INFO     | __main__:compile:156 - Processing program 27/46: task_func_28
+2025-05-20 22:20:14.058 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.059 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.059 | INFO     | __main__:compile:190 - compiling task_func_28
+2025-05-20 22:20:14.081 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   PIC S'TASK FUNCTION NUMBER = TASKFUNCNUM'' VALU..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:12: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   10 | 
+   11 | 
+   12 > DATA DivisIon            WORKING Storage                  EXTENT..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:3: error: invalid PICTURE character '''
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   PIC S'TASK FUNCTION NUMBER = TASKFUNCNUM'' VALU..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:3: error: invalid PICTURE character 'T'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:3: error: S may only occur once in a PICTURE string
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:3: error: S must be at start of PICTURE string
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:3: error: invalid PICTURE character 'K'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:3: error: A or X cannot follow S
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:3: warning: optional period used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_28/task_func_28.cbl:3: error: syntax error, unexpected PICTURE, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.081 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.081 | ERROR    | __main__:compile:227 - Compilation failed for task_func_28
+2025-05-20 22:20:14.081 | INFO     | __main__:compile:156 - Processing program 28/46: task_func_29
+2025-05-20 22:20:14.082 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.082 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.082 | INFO     | __main__:compile:190 - compiling task_func_29
+2025-05-20 22:20:14.105 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > ENVIRONMENT Division                 EVDATA..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:18: warning: line not terminated by a newline [-Wmissing-newline]
+   16 | 
+   17 | 
+   18 > DATA                        DIVISION                     DMAIN..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > ENVIRONMENT Division                 EVDATA..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:3: warning: optional period used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:3: error: CONFIGURATION SECTION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:3: error: SPECIAL-NAMES header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:3: error: invalid system-name 'EVDATA'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:3: error: syntax error, unexpected /, expecting CRT or Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:3: error: syntax error, unexpected /
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:7: error: invalid system-name 'IOCONTROL'
+    5 | 
+    6 | 
+    7 > INPUT OUTPUT Control                IOCONTROL..
+    8 | 
+    9 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:7: error: syntax error, unexpected /
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:12: error: invalid system-name 'FCNTL'
+   10 | 
+   11 | 
+   12 > FILE CONTROL                    FCNTL..
+   13 | 
+   14 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:12: error: invalid system-name 'information'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:18: error: syntax error, unexpected DIVISION
+   16 | 
+   17 | 
+   18 > DATA                        DIVISION                     DMAIN..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:18: error: invalid system-name 'DMAIN'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:18: error: syntax error, unexpected END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:18: error: invalid system-name 'definition'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_29/task_func_29.cbl:19: error: syntax error, unexpected end of file
+   17 | 
+   18 | DATA                        DIVISION                     DMAIN..
+
+2025-05-20 22:20:14.105 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.105 | ERROR    | __main__:compile:227 - Compilation failed for task_func_29
+2025-05-20 22:20:14.105 | INFO     | __main__:compile:156 - Processing program 29/46: task_func_30
+2025-05-20 22:20:14.106 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.106 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.106 | INFO     | __main__:compile:190 - compiling task_func_30
+2025-05-20 22:20:14.127 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_30/task_func_30.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > ENVIRONMENT SEC       INPUT OUTPUT FILE CONTROL PIC X VALUE IS SPACE Pic..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_30/task_func_30.cbl:7: warning: line not terminated by a newline [-Wmissing-newline]
+    5 | 
+    6 | 
+    7 > DATA SEGMENT        WORKING STORAGE SEGMENT..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_30/task_func_30.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > ENVIRONMENT SEC       INPUT OUTPUT FILE CONTROL PIC X VALUE IS SPACE Pic..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_30/task_func_30.cbl:3: error: syntax error, unexpected Identifier, expecting DIVISION
+
+2025-05-20 22:20:14.127 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.127 | ERROR    | __main__:compile:227 - Compilation failed for task_func_30
+2025-05-20 22:20:14.128 | INFO     | __main__:compile:156 - Processing program 30/46: task_func_31
+2025-05-20 22:20:14.128 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.128 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.128 | INFO     | __main__:compile:190 - compiling task_func_31
+2025-05-20 22:20:14.148 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_31/task_func_31.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > identification Division                                          * Progra..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_31/task_func_31.cbl:12: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   10 | 
+   11 | 
+   12 > environment Section                                          	 * Environm..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_31/task_func_31.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > identification Division                                          * Progra..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_31/task_func_31.cbl:3: error: syntax error, unexpected *, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.148 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.149 | ERROR    | __main__:compile:227 - Compilation failed for task_func_31
+2025-05-20 22:20:14.149 | INFO     | __main__:compile:156 - Processing program 31/46: task_func_32
+2025-05-20 22:20:14.149 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.149 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.149 | INFO     | __main__:compile:190 - compiling task_func_32
+2025-05-20 22:20:14.170 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_32/task_func_32.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > identification Division.**   * Program identification information goes he..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_32/task_func_32.cbl:18: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   16 | 
+   17 | 
+   18 > InputFD Pic X(03),          Pic S9VNN pic s'****.'        // Input field..
+   19 | 
+   20 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_32/task_func_32.cbl:26: warning: line not terminated by a newline [-Wmissing-newline]
+   24 | 
+   25 | 
+   26 > OutputFd PIC XX('OUT'), // Output Field Descriptor..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_32/task_func_32.cbl:3: error: syntax error, unexpected exponentiation operator, expecting FUNCTION-ID or PROGRAM-ID
+    1 | 
+    2 | 
+    3 > identification Division.**   * Program identification information goes he..
+    4 | 
+    5 | 
+
+2025-05-20 22:20:14.170 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.170 | ERROR    | __main__:compile:227 - Compilation failed for task_func_32
+2025-05-20 22:20:14.170 | INFO     | __main__:compile:156 - Processing program 32/46: task_func_33
+2025-05-20 22:20:14.171 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.171 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.171 | INFO     | __main__:compile:190 - compiling task_func_33
+2025-05-20 22:20:14.193 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > **Identification Division:**
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl:67: warning: line not terminated by a newline [-Wmissing-newline]
+   65 | 
+   66 | 
+   67 > DS FILE SECTION                    P                      Q..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > **Identification Division:**
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_33/task_func_33.cbl:3: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.194 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.194 | ERROR    | __main__:compile:227 - Compilation failed for task_func_33
+2025-05-20 22:20:14.194 | INFO     | __main__:compile:156 - Processing program 33/46: task_func_34
+2025-05-20 22:20:14.194 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.194 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.194 | INFO     | __main__:compile:190 - compiling task_func_34
+2025-05-20 22:20:14.215 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_34/task_func_34.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   /* Program identification */
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_34/task_func_34.cbl:12: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   10 | 
+   11 | 
+   12 > ENVIRONMENT    Division       /                                    * Envi..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_34/task_func_34.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   /* Program identification */
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_34/task_func_34.cbl:3: error: syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.215 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.215 | ERROR    | __main__:compile:227 - Compilation failed for task_func_34
+2025-05-20 22:20:14.216 | INFO     | __main__:compile:156 - Processing program 34/46: task_func_35
+2025-05-20 22:20:14.216 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.216 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.216 | INFO     | __main__:compile:190 - compiling task_func_35
+2025-05-20 22:20:14.221 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_35/task_func_35.cbl:1: warning: line not terminated by a newline [-Wmissing-newline]
+    1 > nan<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_35/task_func_35.cbl:2: error: PROGRAM-ID header missing
+    1 | nan<EOF>
+
+2025-05-20 22:20:14.221 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.222 | ERROR    | __main__:compile:227 - Compilation failed for task_func_35
+2025-05-20 22:20:14.222 | INFO     | __main__:compile:156 - Processing program 35/46: task_func_36
+2025-05-20 22:20:14.222 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.222 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.222 | INFO     | __main__:compile:190 - compiling task_func_36
+2025-05-20 22:20:14.242 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_36/task_func_36.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION DIV   PIC X(05A);    /* Program name */
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_36/task_func_36.cbl:12: warning: line not terminated by a newline [-Wmissing-newline]
+   10 | 
+   11 | 
+   12 > FILE        SECTION         FD INPUT                TRUNCATE SPACE IS DEL..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_36/task_func_36.cbl:3: error: syntax error, unexpected Identifier, expecting DIVISION
+    1 | 
+    2 | 
+    3 > IDENTIFICATION DIV   PIC X(05A);    /* Program name */
+    4 | 
+    5 | 
+
+2025-05-20 22:20:14.243 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.243 | ERROR    | __main__:compile:227 - Compilation failed for task_func_36
+2025-05-20 22:20:14.243 | INFO     | __main__:compile:156 - Processing program 36/46: task_func_37
+2025-05-20 22:20:14.243 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.243 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.243 | INFO     | __main__:compile:190 - compiling task_func_37
+2025-05-20 22:20:14.264 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_37/task_func_37.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   	;    ** Program Header **     A0****      B***..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_37/task_func_37.cbl:3: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   	;    ** Program Header **     A0****      B***..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_37/task_func_37.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION Division   	;    ** Program Header **     A0****      B***..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_37/task_func_37.cbl:3: error: syntax error, unexpected exponentiation operator, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.264 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.264 | ERROR    | __main__:compile:227 - Compilation failed for task_func_37
+2025-05-20 22:20:14.264 | INFO     | __main__:compile:156 - Processing program 37/46: task_func_38
+2025-05-20 22:20:14.264 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.265 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.265 | INFO     | __main__:compile:190 - compiling task_func_38
+2025-05-20 22:20:14.285 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_38/task_func_38.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > identification Division   PIC X(69);    /* Program Header */
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_38/task_func_38.cbl:26: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   24 | 
+   25 | 
+   26 > record                      Pic x              Value                 spac..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_38/task_func_38.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > identification Division   PIC X(69);    /* Program Header */
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_38/task_func_38.cbl:3: error: syntax error, unexpected PICTURE, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.285 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.285 | ERROR    | __main__:compile:227 - Compilation failed for task_func_38
+2025-05-20 22:20:14.286 | INFO     | __main__:compile:156 - Processing program 38/46: task_func_39
+2025-05-20 22:20:14.286 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.286 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.286 | INFO     | __main__:compile:190 - compiling task_func_39
+2025-05-20 22:20:14.307 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_39/task_func_39.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > identification Division       /* Identifies this cobal source code..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_39/task_func_39.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 > identification Division       /* Identifies this cobal source code..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_39/task_func_39.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > identification Division       /* Identifies this cobal source code..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_39/task_func_39.cbl:3: error: syntax error, unexpected /, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.307 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.308 | ERROR    | __main__:compile:227 - Compilation failed for task_func_39
+2025-05-20 22:20:14.308 | INFO     | __main__:compile:156 - Processing program 39/46: task_func_40
+2025-05-20 22:20:14.308 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.308 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.308 | INFO     | __main__:compile:190 - compiling task_func_40
+2025-05-20 22:20:14.328 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_40/task_func_40.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 >  IDENTIFICATION Division                                      * Program n..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_40/task_func_40.cbl:3: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+    1 | 
+    2 | 
+    3 >  IDENTIFICATION Division                                      * Program n..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_40/task_func_40.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 >  IDENTIFICATION Division                                      * Program n..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_40/task_func_40.cbl:3: error: syntax error, unexpected *, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.329 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.329 | ERROR    | __main__:compile:227 - Compilation failed for task_func_40
+2025-05-20 22:20:14.329 | INFO     | __main__:compile:156 - Processing program 40/46: task_func_43
+2025-05-20 22:20:14.329 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.329 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.329 | INFO     | __main__:compile:190 - compiling task_func_43
+2025-05-20 22:20:14.350 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_43/task_func_43.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION DIVISON   	    PROGRAM ID IS PRIME_NUMBERS     		CLASS is..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_43/task_func_43.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION DIVISON   	    PROGRAM ID IS PRIME_NUMBERS     		CLASS is..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_43/task_func_43.cbl:3: error: syntax error, unexpected Identifier, expecting DIVISION
+    1 | 
+    2 | 
+    3 > IDENTIFICATION DIVISON   	    PROGRAM ID IS PRIME_NUMBERS     		CLASS is..
+
+2025-05-20 22:20:14.351 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.351 | ERROR    | __main__:compile:227 - Compilation failed for task_func_43
+2025-05-20 22:20:14.351 | INFO     | __main__:compile:156 - Processing program 41/46: task_func_44
+2025-05-20 22:20:14.351 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.351 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.351 | INFO     | __main__:compile:190 - compiling task_func_44
+2025-05-20 22:20:14.372 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > /* IDENTIFICATION Division */    * * ------------------- START OF PROGRAM..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+    1 | 
+    2 | 
+    3 > /* IDENTIFICATION Division */    * * ------------------- START OF PROGRAM..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > /* IDENTIFICATION Division */    * * ------------------- START OF PROGRAM..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: syntax error, unexpected /
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: syntax error, unexpected OF, expecting Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '|' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '|' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '\' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '\' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '|' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '\' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '\' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '\' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '\' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_44/task_func_44.cbl:3: error: invalid symbol '\' - skipping word
+
+2025-05-20 22:20:14.373 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.373 | ERROR    | __main__:compile:227 - Compilation failed for task_func_44
+2025-05-20 22:20:14.373 | INFO     | __main__:compile:156 - Processing program 42/46: task_func_45
+2025-05-20 22:20:14.373 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.373 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.374 | INFO     | __main__:compile:190 - compiling task_func_45
+2025-05-20 22:20:14.380 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_45/task_func_45.cbl:1: warning: line not terminated by a newline [-Wmissing-newline]
+    1 > nan<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_45/task_func_45.cbl:2: error: PROGRAM-ID header missing
+    1 | nan<EOF>
+
+2025-05-20 22:20:14.380 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.380 | ERROR    | __main__:compile:227 - Compilation failed for task_func_45
+2025-05-20 22:20:14.381 | INFO     | __main__:compile:156 - Processing program 43/46: task_func_47
+2025-05-20 22:20:14.381 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.381 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.382 | INFO     | __main__:compile:190 - compiling task_func_47
+2025-05-20 22:20:14.402 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_47/task_func_47.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 >        program        id      name         is task func53          on..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_47/task_func_47.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 >        program        id      name         is task func53          on..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_47/task_func_47.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_47/task_func_47.cbl:3: error: syntax error, unexpected PROGRAM
+
+2025-05-20 22:20:14.402 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.402 | ERROR    | __main__:compile:227 - Compilation failed for task_func_47
+2025-05-20 22:20:14.403 | INFO     | __main__:compile:156 - Processing program 44/46: task_func_48
+2025-05-20 22:20:14.403 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.403 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.404 | INFO     | __main__:compile:190 - compiling task_func_48
+2025-05-20 22:20:14.425 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_48/task_func_48.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION   DIVISION    WORKING - STORAGE SECTION     CLASS        S..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_48/task_func_48.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION   DIVISION    WORKING - STORAGE SECTION     CLASS        S..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_48/task_func_48.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION   DIVISION    WORKING - STORAGE SECTION     CLASS        S..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_48/task_func_48.cbl:3: error: syntax error, unexpected Identifier, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.425 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.425 | ERROR    | __main__:compile:227 - Compilation failed for task_func_48
+2025-05-20 22:20:14.426 | INFO     | __main__:compile:156 - Processing program 45/46: task_func_49
+2025-05-20 22:20:14.426 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.426 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.426 | INFO     | __main__:compile:190 - compiling task_func_49
+2025-05-20 22:20:14.448 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > DATA Division         WORKING STORAGE Section          EXTENT..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl:3: warning: line not terminated by a newline [-Wmissing-newline]
+    1 | 
+    2 | 
+    3 > DATA Division         WORKING STORAGE Section          EXTENT..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl:3: error: PROGRAM-ID header missing
+    1 | 
+    2 | 
+    3 > DATA Division         WORKING STORAGE Section          EXTENT..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl:3: warning: optional period used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl:3: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl:3: error: syntax error, unexpected Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_49/task_func_49.cbl:3: error: syntax error, unexpected OCCURS
+
+2025-05-20 22:20:14.449 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.449 | ERROR    | __main__:compile:227 - Compilation failed for task_func_49
+2025-05-20 22:20:14.449 | INFO     | __main__:compile:156 - Processing program 46/46: task_func_55
+2025-05-20 22:20:14.449 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.449 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.449 | INFO     | __main__:compile:190 - compiling task_func_55
+2025-05-20 22:20:14.471 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_55/task_func_55.cbl:3: note: free format detected
+    1 | 
+    2 | 
+    3 > IDENTIFICATION   DIVISION    WORKING - STORAGE SECTION     CLASS        I..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_55/task_func_55.cbl:12: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   10 | 
+   11 | 
+   12 > DATA               Division             file Section              Pic sS(..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_55/task_func_55.cbl:3: warning: optional period used [-Wdialect]
+    1 | 
+    2 | 
+    3 > IDENTIFICATION   DIVISION    WORKING - STORAGE SECTION     CLASS        I..
+    4 | 
+    5 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/instruct/task_func_55/task_func_55.cbl:3: error: syntax error, unexpected Identifier, expecting FUNCTION-ID or PROGRAM-ID
+
+2025-05-20 22:20:14.471 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.471 | ERROR    | __main__:compile:227 - Compilation failed for task_func_55
+2025-05-20 22:20:14.472 | SUCCESS  | __main__:compile:268 - Compilation completed
+2025-05-20 22:20:14.472 | INFO     | __main__:compile:269 - Total programs compiled: 0 
+Total programs executed: 0 
+Total results matched: 0.0
+2025-05-20 22:20:14.472 | INFO     | __main__:compile:285 - final_results directory path: /home/projadmin/CobolEval/FrameWork/final_results/instruct
+2025-05-20 22:20:14.483 | INFO     | __main__:compile:290 - Results saved to final_results/instruct/codegemma-7b-it_instruct_final_results.csv
+
+
+--- STDOUT OUTPUT ---
+
+Starting compilation for model: codegemma-7b-it, mode: instruct
+Finished processing model: codegemma-7b-it, mode: instruct
+Results summary: 46 programs processed
+Compiled: 0 - Executed: 0 - Match: 0.0
+2025-05-20 22:20:14.483 | SUCCESS  | __main__:<module>:384 - Completed processing model: codegemma-7b-it, mode: instruct
+2025-05-20 22:20:14.484 | INFO     | __main__:<module>:385 - All logs saved to /home/projadmin/CobolEval/FrameWork/logs/codegemma-7b-it_instruct.txt

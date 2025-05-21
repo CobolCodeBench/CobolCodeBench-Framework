@@ -1,0 +1,2599 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:45.817 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 113,
+        "level": "error",
+        "message": "syntax error, unexpected Word or Literal, expecting ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 115,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'TEAM-NAME' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "'GOALS-SCORED' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'PENALTIES' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "syntax error, unexpected END-IF"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "'TEAM-NAME' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "'GOALS-SCORED' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "'PENALTIES' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_01/task_func_01.cbl",
+        "line": 112,
+        "level": "error",
+        "message": "'RENAME-FILES' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.795",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:45.839 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl",
+        "line": 68,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "condition-name not allowed here: 'END-OF-FILE'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_02/task_func_02.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'OTHERWISE' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.818",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:45.860 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_03/task_func_03.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_03/task_func_03.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "missing file description for FILE OUTFILE1"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_03/task_func_03.cbl",
+        "line": 13,
+        "level": "error",
+        "message": "missing file description for FILE OUTFILE2"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.839",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:45.882 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_04/task_func_04.cbl",
+        "line": 90,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_04/task_func_04.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting VALUE or VALUES"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.861",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:45.903 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl",
+        "line": 22,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl",
+        "line": 21,
+        "level": "error",
+        "message": "PICTURE clause required for 'OUTPUT-REC'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl",
+        "line": 22,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_05/task_func_05.cbl",
+        "line": 22,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.883",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:45.925 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl",
+        "line": 32,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl",
+        "line": 30,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl",
+        "line": 30,
+        "level": "note",
+        "message": "value size is 2 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_07/task_func_07.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.904",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:45.946 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl",
+        "line": 57,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "length of 'FILENAME' out of bounds: 3"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "length of 'FILENAME' out of bounds: 4"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "length of 'FILENAME' out of bounds: 4"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl",
+        "line": 53,
+        "level": "warning",
+        "message": "'CONCATENATE' is not defined [-Wignored-error]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_08/task_func_08.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "syntax error, unexpected INTO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.925",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:45.968 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_09/task_func_09.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_09/task_func_09.cbl",
+        "line": 25,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_09/task_func_09.cbl",
+        "line": 25,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_09/task_func_09.cbl",
+        "line": 25,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.947",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:45.991 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 91,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 5,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 5,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 5,
+        "level": "error",
+        "message": "invalid system-name 'INPUT-FILE-OPEN-PARAGRAPH'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 5,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 6,
+        "level": "error",
+        "message": "syntax error, unexpected OPEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 8,
+        "level": "error",
+        "message": "invalid system-name 'OUTPUT-FILE-OPEN-PARAGRAPH'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "syntax error, unexpected OPEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 11,
+        "level": "error",
+        "message": "invalid system-name 'WRITE-HEADER-PARAGRAPH'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "syntax error, unexpected WRITE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "invalid system-name 'output-file'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 14,
+        "level": "error",
+        "message": "invalid system-name 'PROCESS-RECORDS-PARAGRAPH'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 14,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "syntax error, unexpected PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "invalid system-name 'END-OF-FILE'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 16,
+        "level": "error",
+        "message": "syntax error, unexpected READ"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 16,
+        "level": "error",
+        "message": "invalid system-name 'country-name'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "'END-OF-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "syntax error, unexpected END-IF"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 22,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TEST"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 23,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT, expecting WINDOW or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "syntax error, unexpected DATA"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 29,
+        "level": "error",
+        "message": "syntax error, unexpected FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "syntax error, unexpected FD"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 31,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 32,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "syntax error, unexpected FD"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 35,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 36,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 37,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 38,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "syntax error, unexpected WORKING-STORAGE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 41,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 42,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 43,
+        "level": "note",
+        "message": "unknown statement '88'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 44,
+        "level": "note",
+        "message": "unknown statement '88'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 45,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "syntax error, unexpected PROCEDURE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "'VALID-COUNTRY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'valid-countries' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "'country-name' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "'population' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "'output-record' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected END-IF"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "syntax error, unexpected NOT AT END"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT, expecting WINDOW or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "'CLOSE-FILES-PARAGRAPH' is ambiguous; needs qualification"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 25,
+        "level": "note",
+        "message": "'CLOSE-FILES-PARAGRAPH IN MAIN SECTION' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_10/task_func_10.cbl",
+        "line": 60,
+        "level": "note",
+        "message": "'CLOSE-FILES-PARAGRAPH IN MAIN SECTION' defined here"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.968",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.012 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_11/task_func_11.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_11/task_func_11.cbl",
+        "line": 26,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_11/task_func_11.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_11/task_func_11.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:45.992",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.033 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl",
+        "line": 23,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "missing file description for FILE SORT-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl",
+        "line": 13,
+        "level": "error",
+        "message": "missing file description for FILE OUTPUT-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl",
+        "line": 23,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_12/task_func_12.cbl",
+        "line": 23,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.013",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.055 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_13/task_func_13.cbl",
+        "line": 88,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_13/task_func_13.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "FUNCTION 'ALL' unknown"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_13/task_func_13.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.034",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.077 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl",
+        "line": 39,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl",
+        "line": 29,
+        "level": "error",
+        "message": "invalid VALUE clause"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "PICTURE clause required for 'WS-SORTED-RECORDS'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_14/task_func_14.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.056",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.101 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 94,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "'ANIMAL-INDEX' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "'ANIMAL-ENTRY' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'FOOD-INDEX' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'FOOD-ENTRY' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "'CONCATENATE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "'ANIMAL-ENTRY' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "'FOOD-ENTRY' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "syntax error, unexpected INTO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_15/task_func_15.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.077",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.124 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl",
+        "line": 103,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected CONVERTING"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "'CONVERT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl",
+        "line": 90,
+        "level": "error",
+        "message": "syntax error, unexpected TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "'TIMESTAMP-DIFFERENCE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_16/task_func_16.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "syntax error, unexpected CONVERTING"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.102",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.146 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_17/task_func_17.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting VALUE or VALUES"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.125",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.167 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl",
+        "line": 20,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "missing file description for FILE OUTPUT-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_18/task_func_18.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.146",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.190 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 102,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "syntax error, unexpected INITIAL"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "PICTURE clause required for 'SALARY-VALUE'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 35,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 36,
+        "level": "note",
+        "message": "unknown statement '55'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 37,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "syntax error, unexpected PROCEDURE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "'END-OF-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "invalid MOVE statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 84,
+        "level": "error",
+        "message": "'MEDIAN-SALARY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "'SALARY-VALUE ((ARRAY-SIZE /  2))' is not numeric"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "'SALARY-VALUE (((ARRAY-SIZE /  2) +  1))' is not numeric"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "'STD-DEVIATION' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 98,
+        "level": "error",
+        "message": "'SALARY-VALUE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 101,
+        "level": "error",
+        "message": "'SALARY-VALUE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_19/task_func_19.cbl",
+        "line": 102,
+        "level": "error",
+        "message": "'SALARY-VALUE' requires one subscript"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.168",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.212 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl",
+        "line": 91,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "invalid PICTURE character '#'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "syntax error, unexpected SPACE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "'BETWEEN' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "invalid conditional expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "invalid conditional expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "invalid conditional expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_20/task_func_20.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "invalid conditional expression"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.190",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.233 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_21/task_func_21.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_21/task_func_21.cbl",
+        "line": 92,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_21/task_func_21.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting VALUE or VALUES"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.212",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.255 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 94,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "syntax error, unexpected VALID"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "syntax error, unexpected VALID"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "'O-STUDENT-NAME' is ambiguous; needs qualification"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 26,
+        "level": "note",
+        "message": "'O-STUDENT-NAME IN OUTPUT-MARKS-RECORD' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 31,
+        "level": "note",
+        "message": "'O-STUDENT-NAME IN OUTPUT-HEIGHT-RECORD' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_22/task_func_22.cbl",
+        "line": 94,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.234",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.277 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 61,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 21,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 21,
+        "level": "note",
+        "message": "value size is 23 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 27,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "'END-OF-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "'COMPANY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_23/task_func_23.cbl",
+        "line": 59,
+        "level": "note",
+        "message": "unknown statement 'CONCATENATE'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.256",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.299 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_24/task_func_24.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_24/task_func_24.cbl",
+        "line": 126,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_24/task_func_24.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting VALUE or VALUES"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.278",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.321 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl",
+        "line": 99,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "syntax error, unexpected SUM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl",
+        "line": 40,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "FUNCTION 'Len' unknown"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl",
+        "line": 88,
+        "level": "error",
+        "message": "syntax error, unexpected ON"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl",
+        "line": 92,
+        "level": "error",
+        "message": "'STATS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_25/task_func_25.cbl",
+        "line": 95,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.299",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.343 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl",
+        "line": 38,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl",
+        "line": 26,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl",
+        "line": 26,
+        "level": "note",
+        "message": "value size is 22 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_26/task_func_26.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.321",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.364 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl",
+        "line": 21,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "missing file description for FILE OUTPUT-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl",
+        "line": 21,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_27/task_func_27.cbl",
+        "line": 21,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.343",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.386 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl",
+        "line": 10,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "invalid literal: 'task_func2 ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl",
+        "line": 10,
+        "level": "note",
+        "message": "missing terminating \" character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_28/task_func_28.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "syntax error, unexpected end of file, expecting SEQUENTIAL"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.365",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.408 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl",
+        "line": 78,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "syntax error, unexpected ID"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "'END-OF-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "'SKIP' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "syntax error, unexpected END-IF"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_29/task_func_29.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.386",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.430 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_30/task_func_30.cbl",
+        "line": 30,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_30/task_func_30.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "syntax error, unexpected end of file"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.408",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.453 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_31/task_func_31.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_31/task_func_31.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "missing file description for FILE OUTPUT-FILE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.431",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.475 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 96,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 29,
+        "level": "error",
+        "message": "syntax error, unexpected -"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "literal type does not match numeric data type"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "group item 'WS-SPEED-COUNT' cannot have PICTURE clause"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "'END-OF-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "field does not have a FALSE clause"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "invalid SET statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "condition-name not allowed here: 'END-OF-TABLE'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "syntax error, unexpected PERFORM, expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_32/task_func_32.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "'VEHICLE-LOOP-SUBUNTIL' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.453",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.583 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/task_func_33.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/task_func_33.cbl",
+        "line": 61,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/task_func_33.cbl",
+        "line": 30,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/task_func_33.cbl",
+        "line": 30,
+        "level": "note",
+        "message": "value size is 29 [-Wothers]"
+      }
+    ],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:20:46.476",
+    "execution": {
+      "task_id": "task_func_33",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_33/task_func_33.cbl:1: note: free format detected",
+          "timestamp": "2025-05-20 22:20:46.583"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:20:46.476"
+    }
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.610 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl",
+        "line": 10,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "invalid literal: 'task_func3 ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl",
+        "line": 10,
+        "level": "note",
+        "message": "missing terminating \" character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_34/task_func_34.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "syntax error, unexpected end of file, expecting SEQUENTIAL"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.589",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.631 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl",
+        "line": 10,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "invalid literal: 'task_func3 ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl",
+        "line": 10,
+        "level": "note",
+        "message": "missing terminating \" character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_35/task_func_35.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "syntax error, unexpected end of file, expecting SEQUENTIAL"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.610",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.653 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 81,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "'WRITE-OUTPUT-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "'NUMBER-ARRAY' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 75,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 77,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected IN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "'the' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "'the' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected NUMBERS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "'calculations' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected FOR, expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected ALSO, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_36/task_func_36.cbl",
+        "line": 79,
+        "level": "note",
+        "message": "unknown statement 'we'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.632",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.675 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_37/task_func_37.cbl",
+        "line": 80,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_37/task_func_37.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "'WS-TABLE' has no OCCURS clause"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_37/task_func_37.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "syntax error, unexpected INTO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.654",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.843 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl",
+        "line": 137,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'READ-FILE-1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl",
+        "line": 58,
+        "level": "warning",
+        "message": "inline PERFORM without imperative statement used [-Wdialect]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_38/task_func_38.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'READ-FILE-2' is not defined"
+      }
+    ],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:46.675",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.865 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_39/task_func_39.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_39/task_func_39.cbl",
+        "line": 29,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_39/task_func_39.cbl",
+        "line": 29,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_39/task_func_39.cbl",
+        "line": 29,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.843",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.887 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 49,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 23,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 23,
+        "level": "warning",
+        "message": "numeric value is expected [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "syntax error, unexpected ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "'PER' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "FUNCTION 'NUMVAL' has wrong number of arguments"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "FUNCTION 'DATE-YEAR' unknown"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "FUNCTION 'DATE-MONTH' unknown"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_40/task_func_40.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "FUNCTION 'DATE-DAY' unknown"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.865",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:46.988 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      }
+    ],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:20:46.887",
+    "execution": {
+      "task_id": "task_func_43",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_43/task_func_43.cbl:1: note: free format detected",
+          "timestamp": "2025-05-20 22:20:46.988"
+        },
+        {
+          "event": "Runtime Error",
+          "message": "libcob: warning: implicit CLOSE of OUTPUT-FILE ('output.txt')",
+          "timestamp": "2025-05-20 22:20:46.993"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:20:46.887"
+    }
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:47.015 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_44/task_func_44.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_44/task_func_44.cbl",
+        "line": 35,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_44/task_func_44.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_44/task_func_44.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:46.994",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:47.036 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl",
+        "line": 10,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "invalid literal: 'task_func4 ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl",
+        "line": 10,
+        "level": "note",
+        "message": "missing terminating \" character"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_45/task_func_45.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "syntax error, unexpected end of file, expecting SEQUENTIAL"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:47.015",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:47.056 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_47/task_func_47.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_47/task_func_47.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_47/task_func_47.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "group item 'WS-ENTRY' cannot have PICTURE clause"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:47.036",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:47.078 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl",
+        "line": 15,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl",
+        "line": 14,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl",
+        "line": 14,
+        "level": "note",
+        "message": "value size is 2 [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_48/task_func_48.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:47.057",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:47.099 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_49/task_func_49.cbl",
+        "line": 40,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_49/task_func_49.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_49/task_func_49.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:47.078",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:47.121 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 81,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "syntax error, unexpected COUNT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "'FILLER' cannot have PICTURE clause"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "condition-name not allowed here: 'END-OF-FILE'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "syntax error, unexpected COUNT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected COUNT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "syntax error, unexpected COUNT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected COUNT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "IF without imperative statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/Mixtral-8x7B-Instruct-v0.1/instruct/task_func_55/task_func_55.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "syntax error, unexpected INDEX"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:47.100",
+    "execution": {}
+  }
+]

@@ -1,0 +1,1850 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.521 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_01/task_func_01.cbl",
+        "line": 51,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_01/task_func_01.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_01/task_func_01.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.500",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.544 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl",
+        "line": 41,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected FILE, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.522",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.568 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_03/task_func_03.cbl",
+        "line": 44,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_03/task_func_03.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_03/task_func_03.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_03/task_func_03.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.544",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.591 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl",
+        "line": 50,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "invalid indicator 'R' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.569",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.617 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_05/task_func_05.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_05/task_func_05.cbl",
+        "line": 41,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_05/task_func_05.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_05/task_func_05.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.592",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.640 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl",
+        "line": 47,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "'task' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "'task' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "'inputfile' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "'inputfile' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.618",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.663 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_08/task_func_08.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "invalid indicator 'R' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_08/task_func_08.cbl",
+        "line": 40,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_08/task_func_08.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_08/task_func_08.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.641",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.686 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_09/task_func_09.cbl",
+        "line": 45,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_09/task_func_09.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_09/task_func_09.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_09/task_func_09.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.663",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.712 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_10/task_func_10.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_10/task_func_10.cbl",
+        "line": 49,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_10/task_func_10.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_10/task_func_10.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.686",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.735 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_11/task_func_11.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_11/task_func_11.cbl",
+        "line": 43,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_11/task_func_11.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_11/task_func_11.cbl",
+        "line": 44,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.713",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.757 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_12/task_func_12.cbl",
+        "line": 52,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_12/task_func_12.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_12/task_func_12.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_12/task_func_12.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.735",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.779 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_13/task_func_13.cbl",
+        "line": 41,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_13/task_func_13.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_13/task_func_13.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_13/task_func_13.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.757",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.803 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl",
+        "line": 43,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "'WS-INPUT-STATUS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl",
+        "line": 14,
+        "level": "error",
+        "message": "'WS-OUTPUT-STATUS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.780",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.827 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_15/task_func_15.cbl",
+        "line": 41,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_15/task_func_15.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_15/task_func_15.cbl",
+        "line": 42,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.804",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.851 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_16/task_func_16.cbl",
+        "line": 32,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_16/task_func_16.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_16/task_func_16.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.828",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.874 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_17/task_func_17.cbl",
+        "line": 37,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_17/task_func_17.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_17/task_func_17.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_17/task_func_17.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.852",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.896 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl",
+        "line": 46,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.875",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.917 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "invalid indicator 'e' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl",
+        "line": 38,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.896",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.939 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_20/task_func_20.cbl",
+        "line": 39,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_20/task_func_20.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_20/task_func_20.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.918",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.961 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_21/task_func_21.cbl",
+        "line": 37,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_21/task_func_21.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_21/task_func_21.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_21/task_func_21.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.940",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:14.983 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_22/task_func_22.cbl",
+        "line": 47,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_22/task_func_22.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_22/task_func_22.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_22/task_func_22.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.962",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.005 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl",
+        "line": 46,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "'WS-FS1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "'WS-FS2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "A or X cannot follow S"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:14.983",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.026 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 64,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "'WS-FILE1-STATUS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 13,
+        "level": "error",
+        "message": "'WS-FILE2-STATUS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "'WS-REPORT-STATUS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 44,
+        "level": "warning",
+        "message": "handling of USAGE NATIONAL is unfinished; implementation is likely to be changed [-Wunfinished]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "N cannot follow 9"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "N cannot follow S"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "N cannot follow V"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "syntax error, unexpected INTO, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "'variable' cannot be used here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "'holding' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "'one' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "'complete' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected RECORD, expecting INTO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.005",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.049 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl",
+        "line": 59,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "'WS-FS1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl",
+        "line": 13,
+        "level": "error",
+        "message": "'WS-FS2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "'WS-FS3' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.027",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.071 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl",
+        "line": 83,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "'WS-FS1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl",
+        "line": 14,
+        "level": "error",
+        "message": "'WS-FS2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "A or X cannot follow S"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.049",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.095 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl",
+        "line": 51,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl",
+        "line": 8,
+        "level": "error",
+        "message": "'WS-FS1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "'WS-FS2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.072",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.118 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl",
+        "line": 36,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.095",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.140 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_29/task_func_29.cbl",
+        "line": 42,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_29/task_func_29.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_29/task_func_29.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_29/task_func_29.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.118",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.162 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_30/task_func_30.cbl",
+        "line": 40,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_30/task_func_30.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_30/task_func_30.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting VALUE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.141",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.184 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl",
+        "line": 45,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected FILE, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.163",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.206 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl",
+        "line": 40,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "invalid PICTURE character '8'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "PICTURE string must contain at least one of the set A, N, U, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.185",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.228 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_33/task_func_33.cbl",
+        "line": 43,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_33/task_func_33.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting DIVISION"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.207",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.250 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_34/task_func_34.cbl",
+        "line": 58,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_34/task_func_34.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_34/task_func_34.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_34/task_func_34.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.229",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.273 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl",
+        "line": 51,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "invalid indicator 'e' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.251",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.296 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_36/task_func_36.cbl",
+        "line": 35,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_36/task_func_36.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_36/task_func_36.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_36/task_func_36.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.274",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.320 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl",
+        "line": 60,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.297",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.343 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_38/task_func_38.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_38/task_func_38.cbl",
+        "line": 59,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_38/task_func_38.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_38/task_func_38.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "syntax error, unexpected SEGMENT"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.320",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.365 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "invalid indicator 'R' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl",
+        "line": 80,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "invalid indicator 'A' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.343",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.388 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl",
+        "line": 33,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.365",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.410 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl",
+        "line": 40,
+        "level": "warning",
+        "message": "source text exceeds 512 bytes, will be truncated [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "PICTURE string must contain at least one of the set A, N, U, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting VALUE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.389",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.432 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl",
+        "line": 48,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "invalid indicator 'o' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.411",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.454 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_45/task_func_45.cbl",
+        "line": 48,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_45/task_func_45.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_45/task_func_45.cbl",
+        "line": 44,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.432",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.476 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl",
+        "line": 38,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "syntax error, unexpected FILE, expecting Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.455",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.497 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl",
+        "line": 35,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "S may only occur once in a PICTURE string"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "S must be at start of PICTURE string"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "A or X cannot follow S"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl",
+        "line": 31,
+        "level": "warning",
+        "message": "ignoring redundant . [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "syntax error, unexpected OTHER"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.476",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.519 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_49/task_func_49.cbl",
+        "line": 35,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_49/task_func_49.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_49/task_func_49.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_49/task_func_49.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "syntax error, unexpected exponentiation operator"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.498",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:15.540 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl",
+        "line": 40,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "invalid PICTURE character '8'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "invalid PICTURE character '3'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "PICTURE string must contain at least one of the set A, N, U, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:15.519",
+    "execution": {}
+  }
+]

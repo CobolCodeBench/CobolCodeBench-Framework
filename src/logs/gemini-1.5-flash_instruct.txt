@@ -1,0 +1,1926 @@
+2025-05-20 22:20:19.472 | INFO     | __main__:<module>:352 - Starting processing for model: gemini-1.5-flash, mode: instruct
+2025-05-20 22:20:19.474 | INFO     | __main__:__init__:34 - Loaded ./data/Instruction_Set.json successfully
+2025-05-20 22:20:19.481 | INFO     | __main__:__init__:41 - Data frame read successfully
+2025-05-20 22:20:19.481 | INFO     | __main__:compile:150 - Processing 46 programs
+2025-05-20 22:20:19.481 | INFO     | __main__:compile:156 - Processing program 1/46: task_func_01
+2025-05-20 22:20:19.481 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.482 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.482 | INFO     | __main__:compile:190 - compiling task_func_01
+2025-05-20 22:20:19.505 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_01/task_func_01.cbl:11: error: continuation character expected
+    9 |                ORGANIZATION IS LINE SEQUENTIAL.
+   10 |            SELECT UPDATED-MATCH-DATA-FILE ASSIGN TO "updated_match_data.p..
+   11 >                ORGANIZATION IS LINE SEQUENTIAL.
+   12 | 
+   13 |        DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_01/task_func_01.cbl:10: error: syntax error, unexpected Identifier, expecting SEQUENTIAL
+    8 |            SELECT TEMP-FILE ASSIGN TO "temp.ps"
+    9 |                ORGANIZATION IS LINE SEQUENTIAL.
+   10 >            SELECT UPDATED-MATCH-DATA-FILE ASSIGN TO "updated_match_data.p..
+   11 |                ORGANIZATION IS LINE SEQUENTIAL.
+   12 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_01/task_func_01.cbl:10: error: invalid literal: ' TOTAL-PENALTIES. ...'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_01/task_func_01.cbl:10: note: missing terminating " character
+
+2025-05-20 22:20:19.505 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.505 | ERROR    | __main__:compile:227 - Compilation failed for task_func_01
+2025-05-20 22:20:19.506 | INFO     | __main__:compile:156 - Processing program 2/46: task_func_02
+2025-05-20 22:20:19.506 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.506 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.506 | INFO     | __main__:compile:190 - compiling task_func_02
+2025-05-20 22:20:19.527 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_02/task_func_02.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_02/task_func_02.cbl:33: error: 'WS' is not defined
+   31 |                    MOVE INPUT-RECORD TO WS-FILENAME
+   32 |                    PERFORM FIND-EXTENSION
+   33 >                    IF WS-EXTENSION = "TXT" OR WS-EXTENSION = "DOC" OR WS-..
+   34 |                        MOVE WS-FILENAME TO OUTPUT-RECORD
+   35 |                        WRITE OUTPUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_02/task_func_02.cbl: in paragraph 'FIND-EXTENSION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_02/task_func_02.cbl:46: error: missing ALL/LEADING/TRAILING before value
+   44 |        FIND-EXTENSION.
+   45 |            INSPECT WS-FILENAME TALLYING WS-PERIOD-POS FOR CHARACTERS '.'
+   46 >            IF WS-PERIOD-POS > 0 THEN
+   47 |                MOVE WS-PERIOD-POS TO 1
+   48 |                INSPECT WS-FILENAME REPLACING ALL '.' BY SPACE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_02/task_func_02.cbl:45: error: ALL, LEADING or TRAILING expected before 'literal "."'
+   43 | 
+   44 |        FIND-EXTENSION.
+   45 >            INSPECT WS-FILENAME TALLYING WS-PERIOD-POS FOR CHARACTERS '.'
+   46 |            IF WS-PERIOD-POS > 0 THEN
+   47 |                MOVE WS-PERIOD-POS TO 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_02/task_func_02.cbl:47: error: invalid MOVE target: 1
+   45 |            INSPECT WS-FILENAME TALLYING WS-PERIOD-POS FOR CHARACTERS '.'
+   46 |            IF WS-PERIOD-POS > 0 THEN
+   47 >                MOVE WS-PERIOD-POS TO 1
+   48 |                INSPECT WS-FILENAME REPLACING ALL '.' BY SPACE
+   49 |                MOVE WS-PERIOD-POS TO 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_02/task_func_02.cbl:49: error: invalid MOVE target: 1
+   47 |                MOVE WS-PERIOD-POS TO 1
+   48 |                INSPECT WS-FILENAME REPLACING ALL '.' BY SPACE
+   49 >                MOVE WS-PERIOD-POS TO 1
+   50 |                STRING WS-FILENAME(WS-PERIOD-POS + 1:) DELIMITED BY SIZE I..
+   51 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_02/task_func_02.cbl:51: error: syntax error, unexpected ELSE, expecting INTO
+   49 |                MOVE WS-PERIOD-POS TO 1
+   50 |                STRING WS-FILENAME(WS-PERIOD-POS + 1:) DELIMITED BY SIZE I..
+   51 >            ELSE
+   52 |                MOVE "NOEXT" TO WS-EXTENSION
+   53 |            END-IF.
+
+2025-05-20 22:20:19.527 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.527 | ERROR    | __main__:compile:227 - Compilation failed for task_func_02
+2025-05-20 22:20:19.527 | INFO     | __main__:compile:156 - Processing program 3/46: task_func_03
+2025-05-20 22:20:19.527 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.527 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.528 | INFO     | __main__:compile:190 - compiling task_func_03
+2025-05-20 22:20:19.552 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:21: error: syntax error, unexpected NUMBERS
+   19 |        01  OUTPUT-RECORD2 PIC X(10).
+   20 |        WORKING-STORAGE SECTION.
+   21 >        01  NUMBERS.
+   22 |            05  NUM1 PIC 9.
+   23 |            05  NUM2 PIC 9.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:22: error: level number must begin with 01 or 77
+   20 |        WORKING-STORAGE SECTION.
+   21 |        01  NUMBERS.
+   22 >            05  NUM1 PIC 9.
+   23 |            05  NUM2 PIC 9.
+   24 |            05  NUM3 PIC 9.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:23: error: level number must begin with 01 or 77
+   21 |        01  NUMBERS.
+   22 |            05  NUM1 PIC 9.
+   23 >            05  NUM2 PIC 9.
+   24 |            05  NUM3 PIC 9.
+   25 |        01  FACTORIALS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:24: error: level number must begin with 01 or 77
+   22 |            05  NUM1 PIC 9.
+   23 |            05  NUM2 PIC 9.
+   24 >            05  NUM3 PIC 9.
+   25 |        01  FACTORIALS.
+   26 |            05  FACT1 PIC 9(9).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl: in paragraph 'PARSE-INPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:22: error: PICTURE clause required for 'NUM1'
+   20 |        WORKING-STORAGE SECTION.
+   21 |        01  NUMBERS.
+   22 >            05  NUM1 PIC 9.
+   23 |            05  NUM2 PIC 9.
+   24 |            05  NUM3 PIC 9.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:23: error: PICTURE clause required for 'NUM2'
+   21 |        01  NUMBERS.
+   22 |            05  NUM1 PIC 9.
+   23 >            05  NUM2 PIC 9.
+   24 |            05  NUM3 PIC 9.
+   25 |        01  FACTORIALS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:24: error: PICTURE clause required for 'NUM3'
+   22 |            05  NUM1 PIC 9.
+   23 |            05  NUM2 PIC 9.
+   24 >            05  NUM3 PIC 9.
+   25 |        01  FACTORIALS.
+   26 |            05  FACT1 PIC 9(9).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:76: error: 'WS-C' is not defined
+   74 |            END-IF
+   75 | 
+   76 >            IF INPUT-RECORD(2:1) <> WS-COMMA OR INPUT-RECORD(4:1) <> WS-CO..
+   77 |                DISPLAY "Error: Invalid input format."
+   78 |                MOVE 1 TO WS-INPUT-ERROR
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:81: error: syntax error, unexpected Identifier
+   79 |            END-IF
+   80 | 
+   81 >        CALCULATE-FACTORIALS.
+   82 |            PERFORM CALCULATE-FACTORIAL NUM1 FACT1
+   83 |            PERFORM CALCULATE-FACTORIAL NUM2 FACT2
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:82: error: syntax error, unexpected Identifier, expecting TIMES
+   80 | 
+   81 |        CALCULATE-FACTORIALS.
+   82 >            PERFORM CALCULATE-FACTORIAL NUM1 FACT1
+   83 |            PERFORM CALCULATE-FACTORIAL NUM2 FACT2
+   84 |            PERFORM CALCULATE-FACTORIAL NUM3 FACT3
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:83: error: syntax error, unexpected Identifier, expecting TIMES
+   81 |        CALCULATE-FACTORIALS.
+   82 |            PERFORM CALCULATE-FACTORIAL NUM1 FACT1
+   83 >            PERFORM CALCULATE-FACTORIAL NUM2 FACT2
+   84 |            PERFORM CALCULATE-FACTORIAL NUM3 FACT3
+   85 |            COMPUTE SUM-OF-FACTORIALS = FACT1 + FACT2 + FACT3.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:84: error: syntax error, unexpected Identifier, expecting TIMES
+   82 |            PERFORM CALCULATE-FACTORIAL NUM1 FACT1
+   83 |            PERFORM CALCULATE-FACTORIAL NUM2 FACT2
+   84 >            PERFORM CALCULATE-FACTORIAL NUM3 FACT3
+   85 |            COMPUTE SUM-OF-FACTORIALS = FACT1 + FACT2 + FACT3.
+   86 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl: in section 'CALCULATE-FACTORIAL':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:88: error: FUNCTION 'FACT' unknown
+   86 | 
+   87 |        CALCULATE-FACTORIAL SECTION.
+   88 >            COMPUTE FACT1 = FUNCTION FACT(NUM1)
+   89 |            COMPUTE FACT2 = FUNCTION FACT(NUM2)
+   90 |            COMPUTE FACT3 = FUNCTION FACT(NUM3)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:89: error: FUNCTION 'FACT' unknown
+   87 |        CALCULATE-FACTORIAL SECTION.
+   88 |            COMPUTE FACT1 = FUNCTION FACT(NUM1)
+   89 >            COMPUTE FACT2 = FUNCTION FACT(NUM2)
+   90 |            COMPUTE FACT3 = FUNCTION FACT(NUM3)
+   91 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:90: error: FUNCTION 'FACT' unknown
+   88 |            COMPUTE FACT1 = FUNCTION FACT(NUM1)
+   89 |            COMPUTE FACT2 = FUNCTION FACT(NUM2)
+   90 >            COMPUTE FACT3 = FUNCTION FACT(NUM3)
+   91 | 
+   92 |        WRITE-OUTPUT1.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:92: error: syntax error, unexpected Identifier
+   90 |            COMPUTE FACT3 = FUNCTION FACT(NUM3)
+   91 | 
+   92 >        WRITE-OUTPUT1.
+   93 |            WRITE OUTPUT-RECORD1 FROM SUM-OF-FACTORIALS.
+   94 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl: in paragraph 'GENERATE-PERMUTATIONS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:105: error: syntax error, unexpected *
+  103 |            WRITE OUTPUT-RECORD2.
+  104 | 
+  105 >            * Add more permutation logic here as needed.  This is a simpli..
+  106 | 
+  107 |        WRITE-OUTPUT2.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:105: error: 'more' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:105: error: 'permutation' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:105: error: 'logic' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:105: error: 'here' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:105: error: syntax error, unexpected AS, expecting GIVING
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:105: error: syntax error, unexpected IS, expecting SECTION or .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_03/task_func_03.cbl:105: note: unknown statement 'This'
+
+2025-05-20 22:20:19.552 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.552 | ERROR    | __main__:compile:227 - Compilation failed for task_func_03
+2025-05-20 22:20:19.553 | INFO     | __main__:compile:156 - Processing program 4/46: task_func_04
+2025-05-20 22:20:19.553 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.553 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.554 | INFO     | __main__:compile:190 - compiling task_func_04
+2025-05-20 22:20:19.575 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_04/task_func_04.cbl: in paragraph '010-FILE-PROCESSING':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_04/task_func_04.cbl:50: error: TALLYING clause is incomplete
+   48 |            IF WS-EOF = 0 THEN
+   49 |                MOVE INPUT-RECORD TO WS-FILE-NAME
+   50 >                INSPECT WS-FILE-NAME TALLYING WS-VALID-FILE FOR CHARACTERS
+   51 |                    BEFORE '.'
+   52 |                IF WS-VALID-FILE > 0 THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_04/task_func_04.cbl:50: error: syntax error, unexpected CHARACTER
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_04/task_func_04.cbl:54: error: syntax error, unexpected TRAILING, expecting BY
+   52 |                IF WS-VALID-FILE > 0 THEN
+   53 |                    INSPECT WS-FILE-NAME REPLACING CHARACTERS
+   54 >                        TRAILING '.' BY SPACE
+   55 |                    MOVE WS-FILE-NAME(WS-VALID-FILE + 1:4) TO WS-EXTENSION
+   56 |                END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_04/task_func_04.cbl:55: error: 'WS-EXTENSIO' is not defined
+   53 |                    INSPECT WS-FILE-NAME REPLACING CHARACTERS
+   54 |                        TRAILING '.' BY SPACE
+   55 >                    MOVE WS-FILE-NAME(WS-VALID-FILE + 1:4) TO WS-EXTENSION
+   56 |                END-IF
+   57 |                IF WS-EXTENSION = ".TXT" OR WS-EXTENSION = ".CSV" OR WS-EX..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_04/task_func_04.cbl:57: error: 'WS-E' is not defined
+   55 |                    MOVE WS-FILE-NAME(WS-VALID-FILE + 1:4) TO WS-EXTENSION
+   56 |                END-IF
+   57 >                IF WS-EXTENSION = ".TXT" OR WS-EXTENSION = ".CSV" OR WS-EX..
+   58 |                    WRITE OUTPUT-RECORD FROM WS-FILE-NAME
+   59 |                    ADD 1 TO WS-VALID-COUNT
+
+2025-05-20 22:20:19.575 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.575 | ERROR    | __main__:compile:227 - Compilation failed for task_func_04
+2025-05-20 22:20:19.576 | INFO     | __main__:compile:156 - Processing program 5/46: task_func_05
+2025-05-20 22:20:19.576 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.576 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.576 | INFO     | __main__:compile:190 - compiling task_func_05
+2025-05-20 22:20:19.597 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_05/task_func_05.cbl: in paragraph 'OPEN-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_05/task_func_05.cbl:40: error: 'INPUT-FILE' is not a field
+   38 |        OPEN-FILES.
+   39 |            OPEN INPUT INPUT-FILE OUTPUT OUTPUT-FILE.
+   40 >            IF  FILE-STATUS(INPUT-FILE) NOT = "00" THEN
+   41 |                DISPLAY "Error opening input file."
+   42 |                STOP RUN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_05/task_func_05.cbl:40: error: 'FILE-STATUS' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_05/task_func_05.cbl:44: error: 'OUTPUT-FILE' is not a field
+   42 |                STOP RUN
+   43 |            END-IF.
+   44 >            IF FILE-STATUS(OUTPUT-FILE) NOT = "00" THEN
+   45 |                DISPLAY "Error opening output file."
+   46 |                STOP RUN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_05/task_func_05.cbl: in paragraph 'CLOSE-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_05/task_func_05.cbl:61: error: 'INPUT-FILE' is not a field
+   59 |        CLOSE-FILES.
+   60 |            CLOSE INPUT-FILE OUTPUT-FILE.
+   61 >            IF FILE-STATUS(INPUT-FILE) NOT = "00" THEN
+   62 |                DISPLAY "Error closing input file."
+   63 |            END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_05/task_func_05.cbl:64: error: 'OUTPUT-FILE' is not a field
+   62 |                DISPLAY "Error closing input file."
+   63 |            END-IF.
+   64 >            IF FILE-STATUS(OUTPUT-FILE) NOT = "00" THEN
+   65 |                DISPLAY "Error closing output file."
+   66 |            END-IF.
+
+2025-05-20 22:20:19.597 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.597 | ERROR    | __main__:compile:227 - Compilation failed for task_func_05
+2025-05-20 22:20:19.597 | INFO     | __main__:compile:156 - Processing program 6/46: task_func_07
+2025-05-20 22:20:19.597 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.597 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.598 | INFO     | __main__:compile:190 - compiling task_func_07
+2025-05-20 22:20:19.619 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_07/task_func_07.cbl:37: error: continuation character expected
+   35 |                10 WS-DEFAULT-EMPLOYEE-NAMES OCCURS 5 TIMES PIC X(30) VALU..
+   36 |                    "John Doe" "Jane Smith" "Peter Jones" "Mary Brown" "Da..
+   37 >            05  WS-ERROR-FLAG PIC 9 VALUE 0.
+   38 |        01  WS-TASK-ARRAY.
+   39 |            05  WS-TASK-RECORDS OCCURS 100 TIMES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_07/task_func_07.cbl:92: error: syntax error, unexpected Word or Literal, expecting BY
+   90 |                MOVE WS-EMPLOYEE-NAMES(FUNCTION RANDOM(EMPLOYEE-COUNTER) +..
+   91 |                MOVE WS-TASK-RECORDS(TASK-COUNTER).WS-TASK-DESC TO WS-FORM..
+   92 >                REPLACE ALL SPACES OF WS-FORMATTED-TASK-NAME BY "_"
+   93 |                ACCEPT WS-DATE FROM DATE
+   94 |                MOVE WS-YEAR TO WS-DUE-DATE(1:4)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_07/task_func_07.cbl:35: error: syntax error, unexpected Identifier
+   33 |            05  WS-DUE-DATE PIC 9(8).
+   34 |            05  DEFAULT-EMPLOYEES.
+   35 >                10 WS-DEFAULT-EMPLOYEE-NAMES OCCURS 5 TIMES PIC X(30) VALU..
+   36 |                    "John Doe" "Jane Smith" "Peter Jones" "Mary Brown" "Da..
+   37 |            05  WS-ERROR-FLAG PIC 9 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_07/task_func_07.cbl:36: error: invalid literal: '  ...'
+   34 |            05  DEFAULT-EMPLOYEES.
+   35 |                10 WS-DEFAULT-EMPLOYEE-NAMES OCCURS 5 TIMES PIC X(30) VALU..
+   36 >                    "John Doe" "Jane Smith" "Peter Jones" "Mary Brown" "Da..
+   37 |            05  WS-ERROR-FLAG PIC 9 VALUE 0.
+   38 |        01  WS-TASK-ARRAY.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_07/task_func_07.cbl:36: note: missing terminating " character
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_07/task_func_07.cbl:36: error: PROCEDURE DIVISION header missing
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_07/task_func_07.cbl:36: error: syntax error, unexpected Literal
+
+2025-05-20 22:20:19.619 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.619 | ERROR    | __main__:compile:227 - Compilation failed for task_func_07
+2025-05-20 22:20:19.619 | INFO     | __main__:compile:156 - Processing program 7/46: task_func_08
+2025-05-20 22:20:19.619 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.619 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.620 | INFO     | __main__:compile:190 - compiling task_func_08
+2025-05-20 22:20:19.728 | SUCCESS  | __main__:compile:206 - task_func_08 is successfully compiled
+2025-05-20 22:20:19.733 | SUCCESS  | __main__:compile:216 - task_func_08 is successfully executed
+2025-05-20 22:20:19.734 | INFO     | __main__:compile:156 - Processing program 8/46: task_func_09
+2025-05-20 22:20:19.734 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.734 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.734 | INFO     | __main__:compile:190 - compiling task_func_09
+2025-05-20 22:20:19.755 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_09/task_func_09.cbl:29: error: continuation character expected
+   27 |            05  WS-LINE-COUNTER PIC 9(5) VALUE 0.
+   28 |        01  WS-ERROR-MESSAGE PIC X(50) VALUE "Error processing input file...
+   29 >        PROCEDURE DIVISION.
+   30 |        MAIN-PARAGRAPH.
+   31 |            OPEN INPUT INPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_09/task_func_09.cbl:28: error: syntax error, unexpected LINE
+   26 |            05  WS-EOF PIC 9 VALUE 0.
+   27 |            05  WS-LINE-COUNTER PIC 9(5) VALUE 0.
+   28 >        01  WS-ERROR-MESSAGE PIC X(50) VALUE "Error processing input file...
+   29 |        PROCEDURE DIVISION.
+   30 |        MAIN-PARAGRAPH.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_09/task_func_09.cbl:28: error: invalid literal: ' TO OUTPUT-RECORD(40:7) ...'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_09/task_func_09.cbl:28: note: missing terminating " character
+
+2025-05-20 22:20:19.755 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.755 | ERROR    | __main__:compile:227 - Compilation failed for task_func_09
+2025-05-20 22:20:19.755 | INFO     | __main__:compile:156 - Processing program 9/46: task_func_10
+2025-05-20 22:20:19.755 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.755 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.756 | INFO     | __main__:compile:190 - compiling task_func_10
+2025-05-20 22:20:19.777 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_10/task_func_10.cbl: in paragraph 'OPEN-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_10/task_func_10.cbl:42: error: syntax error, unexpected END-IF
+   40 |                DISPLAY "Error opening files."
+   41 |                STOP RUN.
+   42 >            END-IF.
+   43 |            WRITE OUTPUT-RECORD FROM "Country: Population:"
+   44 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_10/task_func_10.cbl:45: error: syntax error, unexpected Identifier
+   43 |            WRITE OUTPUT-RECORD FROM "Country: Population:"
+   44 | 
+   45 >        INITIALIZE-COUNTRY-TABLE.
+   46 |            MOVE "United States" TO COUNTRY-TABLE(1).
+   47 |            MOVE "Canada" TO COUNTRY-TABLE(2).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_10/task_func_10.cbl: in paragraph 'VALIDATE-COUNTRY':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_10/task_func_10.cbl:71: error: 'I' is not defined
+   69 |            MOVE COUNTRY-NAME TO WS-COUNTRY-NAME
+   70 |            MOVE POPULATION TO WS-POPULATION
+   71 >            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 5 OR WS-COUNTRY-FOUND..
+   72 |                IF WS-COUNTRY-NAME = COUNTRY-TABLE(I) THEN
+   73 |                    MOVE 1 TO WS-COUNTRY-FOUND
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_10/task_func_10.cbl: in paragraph 'WRITE-OUTPUT-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_10/task_func_10.cbl:80: error: length of 'OUTPUT-LINE' out of bounds: 33
+   78 |            IF WS-COUNTRY-FOUND = 1 AND WS-POPULATION > 0 THEN
+   79 |                MOVE WS-COUNTRY-NAME TO OUTPUT-LINE(1:30)
+   80 >                MOVE ": " TO OUTPUT-LINE(31:33)
+   81 |                MOVE WS-POPULATION TO OUTPUT-LINE(34:43)
+   82 |                WRITE OUTPUT-RECORD FROM OUTPUT-LINE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_10/task_func_10.cbl:81: error: length of 'OUTPUT-LINE' out of bounds: 43
+   79 |                MOVE WS-COUNTRY-NAME TO OUTPUT-LINE(1:30)
+   80 |                MOVE ": " TO OUTPUT-LINE(31:33)
+   81 >                MOVE WS-POPULATION TO OUTPUT-LINE(34:43)
+   82 |                WRITE OUTPUT-RECORD FROM OUTPUT-LINE
+   83 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_10/task_func_10.cbl:88: error: 'WS-ERROR-MESSAG' is not defined
+   86 |                    DISPLAY WS-ERROR-MESSAGE WS-COUNTRY-NAME
+   87 |                ELSE
+   88 >                    MOVE "Population must be positive" TO WS-ERROR-MESSAGE
+   89 |                    DISPLAY WS-ERROR-MESSAGE
+   90 |                END-IF
+
+2025-05-20 22:20:19.777 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.777 | ERROR    | __main__:compile:227 - Compilation failed for task_func_10
+2025-05-20 22:20:19.777 | INFO     | __main__:compile:156 - Processing program 10/46: task_func_11
+2025-05-20 22:20:19.777 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.777 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.778 | INFO     | __main__:compile:190 - compiling task_func_11
+2025-05-20 22:20:19.799 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl: in paragraph 'ANALYZE-FILENAME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:43: error: syntax error, unexpected MOVE
+   41 |            MOVE 0 TO WS-IS-FILE WS-HAS-SPECIAL WS-HAS-NUMBERS
+   42 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > LENGTH O..
+   43 >                MOVE WS-FILENAME(WS-INDEX:1) TO WS-CHARACTER
+   44 |                IF WS-CHARACTER = "." THEN MOVE 1 TO WS-IS-FILE
+   45 |                IF WS-CHARACTER NOT NUMERIC AND WS-CHARACTER NOT ALPHABETI..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:45: error: invalid expression: unfinished expression
+   43 |                MOVE WS-FILENAME(WS-INDEX:1) TO WS-CHARACTER
+   44 |                IF WS-CHARACTER = "." THEN MOVE 1 TO WS-IS-FILE
+   45 >                IF WS-CHARACTER NOT NUMERIC AND WS-CHARACTER NOT ALPHABETI..
+   46 |                IF WS-CHARACTER NUMERIC THEN MOVE 1 TO WS-HAS-NUMBERS
+   47 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:45: error: syntax error, unexpected ALPHABET
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:45: error: IF without imperative statement
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl: in paragraph 'WRITE-OUTPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:51: error: syntax error, unexpected IF
+   49 |            MOVE WS-FILENAME TO OUTPUT-RECORD(1:LENGTH OF WS-FILENAME)
+   50 |            MOVE " is_file: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME + 1:1..
+   51 >            IF WS-IS-FILE = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF WS-..
+   52 |            MOVE " has_special: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME +..
+   53 |            IF WS-HAS-SPECIAL = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:51: error: 'WS' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:52: error: syntax error, unexpected MOVE
+   50 |            MOVE " is_file: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME + 1:1..
+   51 |            IF WS-IS-FILE = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF WS-..
+   52 >            MOVE " has_special: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME +..
+   53 |            IF WS-HAS-SPECIAL = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF..
+   54 |            MOVE " has_numbers: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME +..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:53: error: syntax error, unexpected IF
+   51 |            IF WS-IS-FILE = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF WS-..
+   52 |            MOVE " has_special: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME +..
+   53 >            IF WS-HAS-SPECIAL = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF..
+   54 |            MOVE " has_numbers: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME +..
+   55 |            IF WS-HAS-NUMBERS = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:53: error: 'O' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:54: error: syntax error, unexpected MOVE
+   52 |            MOVE " has_special: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME +..
+   53 |            IF WS-HAS-SPECIAL = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF..
+   54 >            MOVE " has_numbers: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME +..
+   55 |            IF WS-HAS-NUMBERS = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF..
+   56 |            WRITE OUTPUT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:55: error: syntax error, unexpected IF
+   53 |            IF WS-HAS-SPECIAL = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF..
+   54 |            MOVE " has_numbers: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME +..
+   55 >            IF WS-HAS-NUMBERS = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF..
+   56 |            WRITE OUTPUT-RECORD.
+   57 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_11/task_func_11.cbl:56: error: syntax error, unexpected WRITE
+   54 |            MOVE " has_numbers: " TO OUTPUT-RECORD(LENGTH OF WS-FILENAME +..
+   55 |            IF WS-HAS-NUMBERS = 1 THEN MOVE "Y" TO OUTPUT-RECORD(LENGTH OF..
+   56 >            WRITE OUTPUT-RECORD.
+   57 | <EOF>
+
+2025-05-20 22:20:19.799 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.799 | ERROR    | __main__:compile:227 - Compilation failed for task_func_11
+2025-05-20 22:20:19.799 | INFO     | __main__:compile:156 - Processing program 11/46: task_func_12
+2025-05-20 22:20:19.799 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.799 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.800 | INFO     | __main__:compile:190 - compiling task_func_12
+2025-05-20 22:20:19.821 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_12/task_func_12.cbl: in paragraph 'OUTPUT-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_12/task_func_12.cbl:74: error: WRITE not allowed on SORT files
+   72 |            RETURN SORT-FILE AT END MOVE 1 TO WS-EOF.
+   73 |            IF WS-EOF = 0 THEN
+   74 >                WRITE SORT-RECORD.
+   75 | 
+   76 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_12/task_func_12.cbl: in paragraph 'PROCESS-SORTED-DATA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_12/task_func_12.cbl:79: error: READ not allowed on SORT files
+   77 |        PROCESS-SORTED-DATA.
+   78 |            PERFORM UNTIL WS-EOF = 1
+   79 >                READ SORT-FILE AT END MOVE 1 TO WS-EOF
+   80 |                IF WS-EOF = 0 THEN
+   81 |                    IF SORT-PATIENT-NAME = WS-PREVIOUS-NAME THEN
+
+2025-05-20 22:20:19.821 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.821 | ERROR    | __main__:compile:227 - Compilation failed for task_func_12
+2025-05-20 22:20:19.821 | INFO     | __main__:compile:156 - Processing program 12/46: task_func_13
+2025-05-20 22:20:19.822 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.822 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.822 | INFO     | __main__:compile:190 - compiling task_func_13
+2025-05-20 22:20:19.844 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_13/task_func_13.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_13/task_func_13.cbl:8: error: must be an SD filename
+    6 |            SELECT CUSTOMER-INPUT-FILE ASSIGN TO "input.txt"
+    7 |                ORGANIZATION IS LINE SEQUENTIAL.
+    8 >            SELECT SORT-FILE ASSIGN TO "sort-file"
+    9 |                ORGANIZATION IS LINE SEQUENTIAL.
+   10 |            SELECT CUSTOMER-OUTPUT-FILE ASSIGN TO "output.txt"
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_13/task_func_13.cbl: in paragraph 'VALIDATE-NAME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_13/task_func_13.cbl:68: error: syntax error, unexpected THRU
+   66 |        VALIDATE-NAME.
+   67 |            MOVE CUSTOMER-NAME TO WS-NAME
+   68 >            INSPECT WS-NAME TALLYING WS-NUMERIC FOR LEADING '0' THRU '9'
+   69 |            IF WS-NUMERIC > 0 THEN
+   70 |                MOVE CUSTOMER-NAME TO WS-ERROR-NAME
+
+2025-05-20 22:20:19.844 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.844 | ERROR    | __main__:compile:227 - Compilation failed for task_func_13
+2025-05-20 22:20:19.845 | INFO     | __main__:compile:156 - Processing program 13/46: task_func_14
+2025-05-20 22:20:19.845 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.845 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.845 | INFO     | __main__:compile:190 - compiling task_func_14
+2025-05-20 22:20:19.868 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_14/task_func_14.cbl:47: error: continuation character expected
+   45 |            ELSE
+   46 |                DISPLAY "Input file is empty or contains no matching recor..
+   47 >            END-IF
+   48 |            CLOSE INPUT-FILE OUTPUT-FILE
+   49 |            STOP RUN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_14/task_func_14.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_14/task_func_14.cbl:46: error: invalid literal: 'Input file is empty or contains no ...'
+   44 |                PERFORM SORT-RECORDS
+   45 |            ELSE
+   46 >                DISPLAY "Input file is empty or contains no matching recor..
+   47 |            END-IF
+   48 |            CLOSE INPUT-FILE OUTPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_14/task_func_14.cbl:46: note: missing terminating " character
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_14/task_func_14.cbl:46: warning: optional period used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_14/task_func_14.cbl:33: error: 'GET-CURRENT-DATE' is not defined
+   31 |        PROCEDURE DIVISION.
+   32 |        MAIN-PARAGRAPH.
+   33 >            PERFORM GET-CURRENT-DATE.
+   34 |            OPEN INPUT INPUT-FILE
+   35 |            OPEN OUTPUT OUTPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_14/task_func_14.cbl:40: error: 'PROCESS-RECORD' is not defined
+   38 |                END-READ
+   39 |                IF WS-EOF-FLAG = 0
+   40 >                    PERFORM PROCESS-RECORD
+   41 |                END-IF
+   42 |            END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_14/task_func_14.cbl:44: error: 'SORT-RECORDS' is not defined
+   42 |            END-PERFORM
+   43 |            IF WS-RECORD-COUNT > 0
+   44 >                PERFORM SORT-RECORDS
+   45 |            ELSE
+   46 |                DISPLAY "Input file is empty or contains no matching recor..
+
+2025-05-20 22:20:19.868 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.869 | ERROR    | __main__:compile:227 - Compilation failed for task_func_14
+2025-05-20 22:20:19.869 | INFO     | __main__:compile:156 - Processing program 14/46: task_func_15
+2025-05-20 22:20:19.869 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.869 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.870 | INFO     | __main__:compile:190 - compiling task_func_15
+2025-05-20 22:20:19.893 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:36: error: syntax error, unexpected .
+   34 |            05  DEFAULT-ANIMAL-ENTRY OCCURS 10 TIMES PIC X(30)
+   35 |                VALUE "Lion" "Tiger" "Bear" "Zebra" "Elephant"
+   36 >                "Giraffe" "Monkey" "Lion" "Tiger" "Bear".
+   37 |        01  WS-DEFAULT-FOODS.
+   38 |            05  DEFAULT-FOOD-ENTRY OCCURS 10 TIMES PIC X(30)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:40: error: syntax error, unexpected .
+   38 |            05  DEFAULT-FOOD-ENTRY OCCURS 10 TIMES PIC X(30)
+   39 |                VALUE "Meat" "Grass" "Leaves" "Fruit" "Nuts"
+   40 >                "Berries" "Insects" "Fish" "Roots" "Seeds".
+   41 | 
+   42 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl: in paragraph 'READ-ANIMALS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:56: error: 'EOF-ANIMAL-FILE' is not defined
+   54 |        READ-ANIMALS.
+   55 |            OPEN INPUT ANIMAL-FILE
+   56 >            PERFORM UNTIL ANIMAL-COUNT = 10 OR EOF-ANIMAL-FILE
+   57 |                READ ANIMAL-FILE AT END SET EOF-ANIMAL-FILE TO TRUE
+   58 |                IF NOT EOF-ANIMAL-FILE THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:65: error: 'DEFAULT-ANIMAL-ENTRY' requires one subscript
+   63 |            CLOSE ANIMAL-FILE
+   64 |            IF ANIMAL-COUNT = 0 THEN
+   65 >                MOVE DEFAULT-ANIMAL-ENTRY TO ANIMALS-TABLE
+   66 |                MOVE 10 TO ANIMAL-COUNT
+   67 |            END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl: in paragraph 'READ-FOODS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:76: error: 'EOF-FOOD-FILE' is not defined
+   74 |        READ-FOODS.
+   75 |            OPEN INPUT FOOD-FILE
+   76 >            PERFORM UNTIL FOOD-COUNT = 10 OR EOF-FOOD-FILE
+   77 |                READ FOOD-FILE AT END SET EOF-FOOD-FILE TO TRUE
+   78 |                IF NOT EOF-FOOD-FILE THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:85: error: 'DEFAULT-FOOD-ENTRY' requires one subscript
+   83 |            CLOSE FOOD-FILE
+   84 |            IF FOOD-COUNT = 0 THEN
+   85 >                MOVE DEFAULT-FOOD-ENTRY TO FOODS-TABLE
+   86 |                MOVE 10 TO FOOD-COUNT
+   87 |            END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl: in paragraph 'GENERATE-COMBINATIONS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:96: error: 'I' is not defined
+   94 | 
+   95 |        GENERATE-COMBINATIONS.
+   96 >            PERFORM VARYING I FROM 1 BY 1 UNTIL I > ANIMAL-COUNT
+   97 |                PERFORM VARYING J FROM 1 BY 1 UNTIL J > FOOD-COUNT
+   98 |                    MOVE ANIMAL-ENTRY(I) TO OUTPUT-RECORD(1:30)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:97: error: 'J' is not defined
+   95 |        GENERATE-COMBINATIONS.
+   96 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > ANIMAL-COUNT
+   97 >                PERFORM VARYING J FROM 1 BY 1 UNTIL J > FOOD-COUNT
+   98 |                    MOVE ANIMAL-ENTRY(I) TO OUTPUT-RECORD(1:30)
+   99 |                    MOVE ":" TO OUTPUT-RECORD(31:31)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:99: error: length of 'OUTPUT-RECORD' out of bounds: 31
+   97 |                PERFORM VARYING J FROM 1 BY 1 UNTIL J > FOOD-COUNT
+   98 |                    MOVE ANIMAL-ENTRY(I) TO OUTPUT-RECORD(1:30)
+   99 >                    MOVE ":" TO OUTPUT-RECORD(31:31)
+  100 |                    MOVE FOOD-ENTRY(J) TO OUTPUT-RECORD(32:60)
+  101 |                    MOVE "|" TO OUTPUT-RECORD(61:61)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:100: error: length of 'OUTPUT-RECORD' out of bounds: 60
+   98 |                    MOVE ANIMAL-ENTRY(I) TO OUTPUT-RECORD(1:30)
+   99 |                    MOVE ":" TO OUTPUT-RECORD(31:31)
+  100 >                    MOVE FOOD-ENTRY(J) TO OUTPUT-RECORD(32:60)
+  101 |                    MOVE "|" TO OUTPUT-RECORD(61:61)
+  102 |                    MOVE OUTPUT-RECORD TO WS-OUTPUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:101: error: length of 'OUTPUT-RECORD' out of bounds: 61
+   99 |                    MOVE ":" TO OUTPUT-RECORD(31:31)
+  100 |                    MOVE FOOD-ENTRY(J) TO OUTPUT-RECORD(32:60)
+  101 >                    MOVE "|" TO OUTPUT-RECORD(61:61)
+  102 |                    MOVE OUTPUT-RECORD TO WS-OUTPUT-RECORD
+  103 |                END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_15/task_func_15.cbl:102: error: 'WS-OUTPUT-RECORD' is not defined
+  100 |                    MOVE FOOD-ENTRY(J) TO OUTPUT-RECORD(32:60)
+  101 |                    MOVE "|" TO OUTPUT-RECORD(61:61)
+  102 >                    MOVE OUTPUT-RECORD TO WS-OUTPUT-RECORD
+  103 |                END-PERFORM
+  104 |            END-PERFORM.
+
+2025-05-20 22:20:19.894 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.894 | ERROR    | __main__:compile:227 - Compilation failed for task_func_15
+2025-05-20 22:20:19.894 | INFO     | __main__:compile:156 - Processing program 15/46: task_func_16
+2025-05-20 22:20:19.894 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.894 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.895 | INFO     | __main__:compile:190 - compiling task_func_16
+2025-05-20 22:20:19.917 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl:49: error: continuation character expected
+   47 |            ELSE
+   48 |                DISPLAY "Insufficient valid timestamps for average calcula..
+   49 >            END-IF
+   50 | 
+   51 |            CLOSE TASK-FUNC16-IN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl:22: error: syntax error, unexpected COUNT
+   20 |            05  TIME-DIFF PIC 9(9)V99.
+   21 |            05  TOTAL-DIFF PIC 9(11)V99 VALUE 0.
+   22 >            05  COUNT PIC 9(5) VALUE 0.
+   23 |            05  AVERAGE-DIFF PIC 9(9)V99.
+   24 |            05  WS-EOF-FLAG PIC 9 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl:43: error: syntax error, unexpected COUNT
+   41 |            END-PERFORM
+   42 | 
+   43 >            IF COUNT > 1
+   44 |                COMPUTE AVERAGE-DIFF = TOTAL-DIFF / COUNT
+   45 |                MOVE AVERAGE-DIFF TO AVERAGE-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl:44: error: syntax error, unexpected COUNT
+   42 | 
+   43 |            IF COUNT > 1
+   44 >                COMPUTE AVERAGE-DIFF = TOTAL-DIFF / COUNT
+   45 |                MOVE AVERAGE-DIFF TO AVERAGE-RECORD
+   46 |                WRITE AVERAGE-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl:48: error: invalid literal: 'Insufficient valid timestamps for  ...'
+   46 |                WRITE AVERAGE-RECORD
+   47 |            ELSE
+   48 >                DISPLAY "Insufficient valid timestamps for average calcula..
+   49 |            END-IF
+   50 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl:48: note: missing terminating " character
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl:48: warning: optional period used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl:36: error: 'PARSE-TIMESTAMP' is not defined
+   34 |                READ TASK-FUNC16-IN AT END MOVE 1 TO WS-EOF-FLAG END-READ
+   35 |                IF WS-EOF-FLAG = 0
+   36 >                    PERFORM PARSE-TIMESTAMP
+   37 |                    IF WS-ERROR-FLAG = 0
+   38 |                        PERFORM CALCULATE-DIFFERENCE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_16/task_func_16.cbl:38: error: 'CALCULATE-DIFFERENCE' is not defined
+   36 |                    PERFORM PARSE-TIMESTAMP
+   37 |                    IF WS-ERROR-FLAG = 0
+   38 >                        PERFORM CALCULATE-DIFFERENCE
+   39 |                    END-IF
+   40 |                END-IF
+
+2025-05-20 22:20:19.917 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.917 | ERROR    | __main__:compile:227 - Compilation failed for task_func_16
+2025-05-20 22:20:19.917 | INFO     | __main__:compile:156 - Processing program 16/46: task_func_17
+2025-05-20 22:20:19.918 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.918 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.918 | INFO     | __main__:compile:190 - compiling task_func_17
+2025-05-20 22:20:19.939 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_17/task_func_17.cbl: in paragraph 'EXTRACT-PHONE-NUMBER':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_17/task_func_17.cbl:50: error: syntax error, unexpected IF
+   48 |        EXTRACT-PHONE-NUMBER.
+   49 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > LENGTH O..
+   50 >                IF INPUT-RECORD(WS-INDEX:10) NUMERIC THEN
+   51 |                    MOVE INPUT-RECORD(WS-INDEX:10) TO WS-PHONE-NUMBER
+   52 |                    EXIT PERFORM
+
+2025-05-20 22:20:19.939 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.939 | ERROR    | __main__:compile:227 - Compilation failed for task_func_17
+2025-05-20 22:20:19.939 | INFO     | __main__:compile:156 - Processing program 17/46: task_func_18
+2025-05-20 22:20:19.940 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.940 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.940 | INFO     | __main__:compile:190 - compiling task_func_18
+2025-05-20 22:20:19.961 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_18/task_func_18.cbl: in paragraph 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_18/task_func_18.cbl:46: error: length of 'ws-label-line' out of bounds: 90
+   44 |            MOVE customer-name TO ws-label-line(1:30).
+   45 |            MOVE customer-name TO ws-label-line(31:60).
+   46 >            MOVE street-address TO ws-label-line(61:90).
+   47 |            MOVE street-address TO ws-label-line(91:120).
+   48 |            MOVE city TO ws-label-line(121:140).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_18/task_func_18.cbl:47: error: length of 'ws-label-line' out of bounds: 120
+   45 |            MOVE customer-name TO ws-label-line(31:60).
+   46 |            MOVE street-address TO ws-label-line(61:90).
+   47 >            MOVE street-address TO ws-label-line(91:120).
+   48 |            MOVE city TO ws-label-line(121:140).
+   49 |            MOVE city TO ws-label-line(141:160).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_18/task_func_18.cbl:48: error: length of 'ws-label-line' out of bounds: 140
+   46 |            MOVE street-address TO ws-label-line(61:90).
+   47 |            MOVE street-address TO ws-label-line(91:120).
+   48 >            MOVE city TO ws-label-line(121:140).
+   49 |            MOVE city TO ws-label-line(141:160).
+   50 |            MOVE state TO ws-label-line(161:162).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_18/task_func_18.cbl:49: error: length of 'ws-label-line' out of bounds: 160
+   47 |            MOVE street-address TO ws-label-line(91:120).
+   48 |            MOVE city TO ws-label-line(121:140).
+   49 >            MOVE city TO ws-label-line(141:160).
+   50 |            MOVE state TO ws-label-line(161:162).
+   51 |            MOVE state TO ws-label-line(163:164).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_18/task_func_18.cbl:50: error: length of 'ws-label-line' out of bounds: 162
+   48 |            MOVE city TO ws-label-line(121:140).
+   49 |            MOVE city TO ws-label-line(141:160).
+   50 >            MOVE state TO ws-label-line(161:162).
+   51 |            MOVE state TO ws-label-line(163:164).
+   52 |            MOVE zip-code TO ws-label-line(165:169).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_18/task_func_18.cbl:51: error: length of 'ws-label-line' out of bounds: 164
+   49 |            MOVE city TO ws-label-line(141:160).
+   50 |            MOVE state TO ws-label-line(161:162).
+   51 >            MOVE state TO ws-label-line(163:164).
+   52 |            MOVE zip-code TO ws-label-line(165:169).
+   53 |            MOVE zip-code TO ws-label-line(170:174).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_18/task_func_18.cbl:52: error: length of 'ws-label-line' out of bounds: 169
+   50 |            MOVE state TO ws-label-line(161:162).
+   51 |            MOVE state TO ws-label-line(163:164).
+   52 >            MOVE zip-code TO ws-label-line(165:169).
+   53 |            MOVE zip-code TO ws-label-line(170:174).
+   54 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_18/task_func_18.cbl:53: error: length of 'ws-label-line' out of bounds: 174
+   51 |            MOVE state TO ws-label-line(163:164).
+   52 |            MOVE zip-code TO ws-label-line(165:169).
+   53 >            MOVE zip-code TO ws-label-line(170:174).
+   54 | 
+   55 |            WRITE output-record FROM ws-label-line.
+
+2025-05-20 22:20:19.961 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.961 | ERROR    | __main__:compile:227 - Compilation failed for task_func_18
+2025-05-20 22:20:19.962 | INFO     | __main__:compile:156 - Processing program 18/46: task_func_19
+2025-05-20 22:20:19.962 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.962 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.962 | INFO     | __main__:compile:190 - compiling task_func_19
+2025-05-20 22:20:19.984 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl: in paragraph '0030-SORT-SALARIES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:55: error: syntax error, unexpected +, expecting UNTIL
+   53 |        0030-SORT-SALARIES.
+   54 |            PERFORM VARYING WS-I FROM 1 BY 1 UNTIL WS-I > WS-COUNT
+   55 >                PERFORM VARYING WS-J FROM WS-I + 1 BY 1 UNTIL WS-J > WS-CO..
+   56 |                    IF SALARY-ENTRY(WS-I) > SALARY-ENTRY(WS-J) THEN
+   57 |                        MOVE SALARY-ENTRY(WS-I) TO WS-TEMP
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:62: error: syntax error, unexpected END-PERFORM
+   60 |                    END-IF
+   61 |                END-PERFORM
+   62 >            END-PERFORM.
+   63 | 
+   64 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl: in paragraph '0040-CALCULATE-STATISTICS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:67: error: syntax error, unexpected Identifier
+   65 |        0040-CALCULATE-STATISTICS.
+   66 |            COMPUTE WS-MEAN = WS-SUM / WS-COUNT.
+   67 >            IF WS-COUNT IS ODD THEN
+   68 |                MOVE SALARY-ENTRY((WS-COUNT + 1) / 2) TO WS-MEDIAN
+   69 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:70: error: 'SALARY' is not defined
+   68 |                MOVE SALARY-ENTRY((WS-COUNT + 1) / 2) TO WS-MEDIAN
+   69 |            ELSE
+   70 >                COMPUTE WS-MEDIAN = (SALARY-ENTRY(WS-COUNT / 2) + SALARY-E..
+   71 |            END-IF.
+   72 |            PERFORM VARYING WS-I FROM 1 BY 1 UNTIL WS-I > WS-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:71: error: syntax error, unexpected END-IF
+   69 |            ELSE
+   70 |                COMPUTE WS-MEDIAN = (SALARY-ENTRY(WS-COUNT / 2) + SALARY-E..
+   71 >            END-IF.
+   72 |            PERFORM VARYING WS-I FROM 1 BY 1 UNTIL WS-I > WS-COUNT
+   73 |                COMPUTE WS-VARIANCE = WS-VARIANCE + (SALARY-ENTRY(WS-I) -..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:74: error: syntax error, unexpected END-PERFORM
+   72 |            PERFORM VARYING WS-I FROM 1 BY 1 UNTIL WS-I > WS-COUNT
+   73 |                COMPUTE WS-VARIANCE = WS-VARIANCE + (SALARY-ENTRY(WS-I) -..
+   74 >            END-PERFORM.
+   75 |            COMPUTE WS-STD-DEV = FUNCTION SQRT(WS-VARIANCE / WS-COUNT).
+   76 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:72: error: PERFORM statement not terminated by END-PERFORM
+   70 |                COMPUTE WS-MEDIAN = (SALARY-ENTRY(WS-COUNT / 2) + SALARY-E..
+   71 |            END-IF.
+   72 >            PERFORM VARYING WS-I FROM 1 BY 1 UNTIL WS-I > WS-COUNT
+   73 |                COMPUTE WS-VARIANCE = WS-VARIANCE + (SALARY-ENTRY(WS-I) -..
+   74 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl: in paragraph '0050-WRITE-REPORT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:80: error: syntax error, unexpected comma delimiter, expecting INTO
+   78 |        0050-WRITE-REPORT.
+   79 |            MOVE "Mean: " TO REPORT-RECORD.
+   80 >            STRING REPORT-RECORD, WS-MEAN DELIMITED BY SIZE INTO REPORT-RE..
+   81 |            WRITE REPORT-RECORD.
+   82 |            MOVE "Median: " TO REPORT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:83: error: syntax error, unexpected comma delimiter, expecting INTO
+   81 |            WRITE REPORT-RECORD.
+   82 |            MOVE "Median: " TO REPORT-RECORD.
+   83 >            STRING REPORT-RECORD, WS-MEDIAN DELIMITED BY SIZE INTO REPORT-..
+   84 |            WRITE REPORT-RECORD.
+   85 |            MOVE "Standard Deviation: " TO REPORT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_19/task_func_19.cbl:86: error: syntax error, unexpected comma delimiter, expecting INTO
+   84 |            WRITE REPORT-RECORD.
+   85 |            MOVE "Standard Deviation: " TO REPORT-RECORD.
+   86 >            STRING REPORT-RECORD, WS-STD-DEV DELIMITED BY SIZE INTO REPORT..
+   87 |            WRITE REPORT-RECORD.
+   88 | 
+
+2025-05-20 22:20:19.985 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:19.985 | ERROR    | __main__:compile:227 - Compilation failed for task_func_19
+2025-05-20 22:20:19.985 | INFO     | __main__:compile:156 - Processing program 19/46: task_func_20
+2025-05-20 22:20:19.985 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:19.985 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:19.986 | INFO     | __main__:compile:190 - compiling task_func_20
+2025-05-20 22:20:20.007 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_20/task_func_20.cbl: in paragraph 'CALCULATE-LOAN-AMOUNT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_20/task_func_20.cbl:77: error: 'WS-CR' is not defined
+   75 |            END-IF.
+   76 | 
+   77 >            COMPUTE WS-LOAN-AMOUNT = WS-BASE-LOAN * WS-AGE-FACTOR * WS-CRE..
+   78 | 
+   79 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_20/task_func_20.cbl:80: error: syntax error, unexpected Identifier
+   78 | 
+   79 | 
+   80 >        WRITE-OUTPUT-RECORD.
+   81 |            MOVE CUSTOMER-NAME TO OUTPUT-NAME
+   82 |            MOVE WS-LOAN-AMOUNT TO OUTPUT-LOAN-AMOUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_20/task_func_20.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_20/task_func_20.cbl:45: error: 'WRITE-OUTPUT-RECORD' is not defined
+   43 |                IF WS-EOF = 0 THEN
+   44 |                    PERFORM CALCULATE-LOAN-AMOUNT
+   45 >                    PERFORM WRITE-OUTPUT-RECORD
+   46 |                END-IF
+   47 |            END-PERFORM
+
+2025-05-20 22:20:20.007 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.007 | ERROR    | __main__:compile:227 - Compilation failed for task_func_20
+2025-05-20 22:20:20.007 | INFO     | __main__:compile:156 - Processing program 20/46: task_func_21
+2025-05-20 22:20:20.008 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.008 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.008 | INFO     | __main__:compile:190 - compiling task_func_21
+2025-05-20 22:20:20.032 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl: in paragraph 'OPEN-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl:47: error: 'INPUT-FILE-STATUS' is not defined
+   45 |            OPEN INPUT INPUT-FILE
+   46 |            OPEN OUTPUT SALES-FILE.
+   47 >            IF INPUT-FILE-STATUS NOT = 0 THEN
+   48 |                DISPLAY "Error opening input file."
+   49 |                MOVE 1 TO WS-ERROR-FLAG
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl:52: error: 'SALES-FILE-STATUS' is not defined
+   50 |                GO TO CLOSE-FILES
+   51 |            END-IF.
+   52 >            IF SALES-FILE-STATUS NOT = 0 THEN
+   53 |                DISPLAY "Error opening output file."
+   54 |                MOVE 1 TO WS-ERROR-FLAG
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl: in paragraph 'GENERATE-SALES-DATA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl:74: error: 'WS-POINTER' is not defined
+   72 | 
+   73 |            UNSTRING PRODUCT-NAMES DELIMITED BY ',' INTO WS-PRODUCT-NAME
+   74 >                WITH POINTER WS-POINTER. *> Assumes comma separated produc..
+   75 | 
+   76 |            PERFORM UNTIL WS-PRODUCT-NAME = SPACES
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl:77: error: 'WS-RANDO' is not defined
+   75 | 
+   76 |            PERFORM UNTIL WS-PRODUCT-NAME = SPACES
+   77 >                CALL "GENERATE-RANDOM-NUMBER" USING RANDOM-SEED, WS-RANDOM..
+   78 |                COMPUTE SALE-QUANTITY = 10 + FUNCTION MOD(WS-RANDOM-NUMBER..
+   79 |                WRITE SALES-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl:78: error: 'WS-RANDOM-NUMBE' is not defined
+   76 |            PERFORM UNTIL WS-PRODUCT-NAME = SPACES
+   77 |                CALL "GENERATE-RANDOM-NUMBER" USING RANDOM-SEED, WS-RANDOM..
+   78 >                COMPUTE SALE-QUANTITY = 10 + FUNCTION MOD(WS-RANDOM-NUMBER..
+   79 |                WRITE SALES-RECORD
+   80 |                ADD 86400 TO WS-SALE-DATE *> Add one day (86400 seconds)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl:79: error: syntax error, unexpected WRITE
+   77 |                CALL "GENERATE-RANDOM-NUMBER" USING RANDOM-SEED, WS-RANDOM..
+   78 |                COMPUTE SALE-QUANTITY = 10 + FUNCTION MOD(WS-RANDOM-NUMBER..
+   79 >                WRITE SALES-RECORD
+   80 |                ADD 86400 TO WS-SALE-DATE *> Add one day (86400 seconds)
+   81 |                UNSTRING PRODUCT-NAMES DELIMITED BY ',' INTO WS-PRODUCT-NA..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl:81: error: 'WS-PRODUCT-N' is not defined
+   79 |                WRITE SALES-RECORD
+   80 |                ADD 86400 TO WS-SALE-DATE *> Add one day (86400 seconds)
+   81 >                UNSTRING PRODUCT-NAMES DELIMITED BY ',' INTO WS-PRODUCT-NA..
+   82 |                    WITH POINTER WS-POINTER.
+   83 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl:76: error: PERFORM statement not terminated by END-PERFORM
+   74 |                WITH POINTER WS-POINTER. *> Assumes comma separated produc..
+   75 | 
+   76 >            PERFORM UNTIL WS-PRODUCT-NAME = SPACES
+   77 |                CALL "GENERATE-RANDOM-NUMBER" USING RANDOM-SEED, WS-RANDOM..
+   78 |                COMPUTE SALE-QUANTITY = 10 + FUNCTION MOD(WS-RANDOM-NUMBER..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_21/task_func_21.cbl:83: error: syntax error, unexpected END-PERFORM
+   81 |                UNSTRING PRODUCT-NAMES DELIMITED BY ',' INTO WS-PRODUCT-NA..
+   82 |                    WITH POINTER WS-POINTER.
+   83 >            END-PERFORM.
+   84 | 
+   85 | 
+
+2025-05-20 22:20:20.032 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.032 | ERROR    | __main__:compile:227 - Compilation failed for task_func_21
+2025-05-20 22:20:20.033 | INFO     | __main__:compile:156 - Processing program 21/46: task_func_22
+2025-05-20 22:20:20.033 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.033 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.033 | INFO     | __main__:compile:190 - compiling task_func_22
+2025-05-20 22:20:20.055 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_22/task_func_22.cbl:33: error: continuation character expected
+   31 |            05  INVALID-DATA-MSG PIC X(50) VALUE "Invalid data in input fi..
+   32 | 
+   33 >        PROCEDURE DIVISION.
+   34 |        MAIN-PARAGRAPH.
+   35 |            PERFORM OPEN-FILES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_22/task_func_22.cbl:31: error: syntax error, unexpected Identifier
+   29 |            05  EOF-FLAG           PIC 9 VALUE 0.
+   30 |        01  WS-ERROR-MESSAGES.
+   31 >            05  INVALID-DATA-MSG PIC X(50) VALUE "Invalid data in input fi..
+   32 | 
+   33 |        PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_22/task_func_22.cbl:31: error: invalid literal: ' & MAXIMU ...'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_22/task_func_22.cbl:31: note: missing terminating " character
+
+2025-05-20 22:20:20.055 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.055 | ERROR    | __main__:compile:227 - Compilation failed for task_func_22
+2025-05-20 22:20:20.055 | INFO     | __main__:compile:156 - Processing program 22/46: task_func_23
+2025-05-20 22:20:20.056 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.056 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.056 | INFO     | __main__:compile:190 - compiling task_func_23
+2025-05-20 22:20:20.077 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_23/task_func_23.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_23/task_func_23.cbl:44: error: WRITE subject does not refer to a record name
+   42 |            END-IF.
+   43 | 
+   44 >            WRITE ws-header-record.
+   45 | 
+   46 |            PERFORM VARYING ws-counter FROM 1 BY 1 UNTIL ws-counter > ws-n..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_23/task_func_23.cbl:46: error: 'ws' is not defined
+   44 |            WRITE ws-header-record.
+   45 | 
+   46 >            PERFORM VARYING ws-counter FROM 1 BY 1 UNTIL ws-counter > ws-n..
+   47 |                PERFORM generate-stock-prices
+   48 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_23/task_func_23.cbl:46: error: invalid expression: unfinished expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_23/task_func_23.cbl: in paragraph 'generate-stock-prices':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_23/task_func_23.cbl:55: error: 'FUNCTION CURRENT-DATE' is not numeric
+   53 | 
+   54 |        generate-stock-prices.
+   55 >            COMPUTE ws-date = FUNCTION CURRENT-DATE - ws-counter.
+   56 |            MOVE ws-date TO date-field.
+   57 |            MOVE FUNCTION RANDOM(1000) TO amzn-price.
+
+2025-05-20 22:20:20.078 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.078 | ERROR    | __main__:compile:227 - Compilation failed for task_func_23
+2025-05-20 22:20:20.078 | INFO     | __main__:compile:156 - Processing program 23/46: task_func_24
+2025-05-20 22:20:20.078 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.078 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.078 | INFO     | __main__:compile:190 - compiling task_func_24
+2025-05-20 22:20:20.105 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_24/task_func_24.cbl:24: error: syntax error, unexpected LINE-COUNTER
+   22 | 
+   23 |        WORKING-STORAGE SECTION.
+   24 >        01  LINE-COUNTER PIC 9(5) VALUE 0.
+   25 |        01  STATUS-INDICATOR PIC X VALUE " ".
+   26 |        01  EOF-INFILE1 PIC 9 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_24/task_func_24.cbl:30: error: syntax error, unexpected STATUS
+   28 |        01  WS-OUT-RECORD.
+   29 |            05  LINE-NUMBER PIC 9(5).
+   30 >            05  STATUS       PIC X.
+   31 |            05  LINE-CONTENT PIC X(100).
+   32 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_24/task_func_24.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_24/task_func_24.cbl:41: error: invalid LINE-COUNTER usage
+   39 |            PERFORM UNTIL EOF-INFILE1 = 1 AND EOF-INFILE2 = 1
+   40 |                ADD 1 TO LINE-COUNTER
+   41 >                READ INFILE1 AT END MOVE 1 TO EOF-INFILE1 END-READ
+   42 |                READ INFILE2 AT END MOVE 1 TO EOF-INFILE2 END-READ
+   43 |                IF EOF-INFILE1 = 0 AND EOF-INFILE2 = 0
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_24/task_func_24.cbl:46: error: invalid LINE-COUNTER usage
+   44 |                    IF INFILE1-RECORD = INFILE2-RECORD
+   45 |                        MOVE " " TO STATUS-INDICATOR
+   46 >                        MOVE LINE-COUNTER TO LINE-NUMBER
+   47 |                        MOVE INFILE1-RECORD TO LINE-CONTENT
+   48 |                        WRITE OUTFILE-RECORD FROM WS-OUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_24/task_func_24.cbl:51: error: invalid LINE-COUNTER usage
+   49 |                    ELSE
+   50 |                        MOVE "-" TO STATUS-INDICATOR
+   51 >                        MOVE LINE-COUNTER TO LINE-NUMBER
+   52 |                        MOVE INFILE1-RECORD TO LINE-CONTENT
+   53 |                        WRITE OUTFILE-RECORD FROM WS-OUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_24/task_func_24.cbl:55: error: invalid LINE-COUNTER usage
+   53 |                        WRITE OUTFILE-RECORD FROM WS-OUT-RECORD
+   54 |                        MOVE "+" TO STATUS-INDICATOR
+   55 >                        MOVE LINE-COUNTER TO LINE-NUMBER
+   56 |                        MOVE INFILE2-RECORD TO LINE-CONTENT
+   57 |                        WRITE OUTFILE-RECORD FROM WS-OUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_24/task_func_24.cbl:61: error: invalid LINE-COUNTER usage
+   59 |                ELSE IF EOF-INFILE1 = 0
+   60 |                    MOVE "-" TO STATUS-INDICATOR
+   61 >                    MOVE LINE-COUNTER TO LINE-NUMBER
+   62 |                    MOVE INFILE1-RECORD TO LINE-CONTENT
+   63 |                    WRITE OUTFILE-RECORD FROM WS-OUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_24/task_func_24.cbl:66: error: invalid LINE-COUNTER usage
+   64 |                ELSE IF EOF-INFILE2 = 0
+   65 |                    MOVE "+" TO STATUS-INDICATOR
+   66 >                    MOVE LINE-COUNTER TO LINE-NUMBER
+   67 |                    MOVE INFILE2-RECORD TO LINE-CONTENT
+   68 |                    WRITE OUTFILE-RECORD FROM WS-OUT-RECORD
+
+2025-05-20 22:20:20.105 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.105 | ERROR    | __main__:compile:227 - Compilation failed for task_func_24
+2025-05-20 22:20:20.105 | INFO     | __main__:compile:156 - Processing program 24/46: task_func_25
+2025-05-20 22:20:20.105 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.105 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.106 | INFO     | __main__:compile:190 - compiling task_func_25
+2025-05-20 22:20:20.127 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl: in paragraph 'OPEN-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl:53: error: 'INPUT-COLUMN-FILE' is not a field
+   51 |            OPEN INPUT INPUT-COLUMN-FILE INPUT-EMPLOYEE-FILE
+   52 |            OPEN OUTPUT OUTPUT-STATISTICS-FILE.
+   53 >            IF (INPUT-COLUMN-FILE IS NOT OPEN) OR (INPUT-EMPLOYEE-FILE IS..
+   54 |                DISPLAY "Error opening files."
+   55 |                MOVE 1 TO WS-ERROR-FLAG
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl:53: error: syntax error, unexpected OPEN, expecting ZERO
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl:57: error: syntax error, unexpected END-IF
+   55 |                MOVE 1 TO WS-ERROR-FLAG
+   56 |                GO TO END-PROGRAM.
+   57 >            END-IF.
+   58 | 
+   59 |        READ-COLUMN-NAME.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl: in paragraph 'READ-COLUMN-NAME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl:65: error: syntax error, unexpected END-IF
+   63 |                MOVE 1 TO WS-ERROR-FLAG
+   64 |                GO TO END-PROGRAM.
+   65 >            END-IF.
+   66 |            MOVE COLUMN-NAME-RECORD TO WS-COLUMN-NAME.
+   67 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl: in paragraph 'WRITE-STATISTICS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl:102: error: syntax error, unexpected Literal, expecting TO
+  100 |                    MOVE "Column Name,Sum,Mean,Min,Max" TO OUTPUT-RECORD
+  101 |                    WRITE OUTPUT-RECORD
+  102 >                    MOVE WS-COLUMN-NAME "," WS-SUM "," WS-MEAN "," WS-MIN..
+  103 |                    WRITE OUTPUT-RECORD
+  104 |                ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl: in paragraph 'CLOSE-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl:110: error: 'OUTPUT-STATISTICS' is not defined
+  108 | 
+  109 |        CLOSE-FILES.
+  110 >            CLOSE INPUT-COLUMN-FILE INPUT-EMPLOYEE-FILE OUTPUT-STATISTICS-..
+  111 | 
+  112 |        END-PROGRAM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl:110: error: 'OUTPUT-STATISTICS' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl:112: error: 'END-PROGRAM' is not defined
+  110 |            CLOSE INPUT-COLUMN-FILE INPUT-EMPLOYEE-FILE OUTPUT-STATISTICS-..
+  111 | 
+  112 >        END-PROGRAM.
+  113 |            IF WS-ERROR-FLAG = 1 THEN
+  114 |                DISPLAY WS-ERROR-MESSAGE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_25/task_func_25.cbl:112: error: 'END-PROGRAM' is not a file name
+
+2025-05-20 22:20:20.127 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.127 | ERROR    | __main__:compile:227 - Compilation failed for task_func_25
+2025-05-20 22:20:20.127 | INFO     | __main__:compile:156 - Processing program 25/46: task_func_26
+2025-05-20 22:20:20.127 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.128 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.128 | INFO     | __main__:compile:190 - compiling task_func_26
+2025-05-20 22:20:20.248 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_26/task_func_26.cbl:41: warning: value size exceeds data size [-Wothers]
+   39 |            05 FILLER           PIC X(10) VALUE SPACES.
+   40 |            05 SL-DEPT-NO       PIC 99.
+   41 >            05 FILLER           PIC X(10) VALUE "TOTAL SALES: ".
+   42 |            05 SL-DEPT-SALES    PIC $$,$$$,$$9.99.
+   43 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_26/task_func_26.cbl:41: note: value size is 12 [-Wothers]
+
+2025-05-20 22:20:20.249 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:20.249 | SUCCESS  | __main__:compile:206 - task_func_26 is successfully compiled
+2025-05-20 22:20:20.254 | SUCCESS  | __main__:compile:216 - task_func_26 is successfully executed
+2025-05-20 22:20:20.255 | INFO     | __main__:compile:156 - Processing program 26/46: task_func_27
+2025-05-20 22:20:20.255 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.255 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.255 | INFO     | __main__:compile:190 - compiling task_func_27
+2025-05-20 22:20:20.280 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:52: error: continuation character expected
+   50 |            WRITE OUTPUT-RECORD FROM "Number of Years: " NUMBER-OF-YEARS
+   51 |            WRITE OUTPUT-RECORD FROM "------------------------------------..
+   52 >            WRITE OUTPUT-RECORD FROM "Year  New Balance  Accrued Interest"
+   53 |            PERFORM VARYING YEAR-COUNTER FROM 1 BY 1 UNTIL YEAR-COUNTER >..
+   54 |                COMPUTE ACCRUED-INTEREST = NEW-BALANCE * INTEREST-RATE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:53: error: continuation character expected
+   51 |            WRITE OUTPUT-RECORD FROM "------------------------------------..
+   52 |            WRITE OUTPUT-RECORD FROM "Year  New Balance  Accrued Interest"
+   53 >            PERFORM VARYING YEAR-COUNTER FROM 1 BY 1 UNTIL YEAR-COUNTER >..
+   54 |                COMPUTE ACCRUED-INTEREST = NEW-BALANCE * INTEREST-RATE
+   55 |                COMPUTE NEW-BALANCE = NEW-BALANCE + ACCRUED-INTEREST
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:59: error: continuation character expected
+   57 |            END-PERFORM.
+   58 |            WRITE OUTPUT-RECORD FROM "------------------------------------..
+   59 >            WRITE OUTPUT-RECORD FROM SPACE.
+   60 | 
+   61 |        END PROGRAM COMPOUND-INTEREST.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl: in paragraph 'PROCESS-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:46: error: syntax error, unexpected Identifier
+   44 |            MOVE PRINCIPAL-AMOUNT TO NEW-BALANCE.
+   45 |            MOVE 1 TO YEAR-COUNTER.
+   46 >            WRITE OUTPUT-RECORD FROM "Account Number: " ACCOUNT-NUMBER
+   47 |            WRITE OUTPUT-RECORD FROM "Depositor Name: " DEPOSITOR-NAME
+   48 |            WRITE OUTPUT-RECORD FROM "Principal Amount: " PRINCIPAL-AMOUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:47: error: syntax error, unexpected Identifier
+   45 |            MOVE 1 TO YEAR-COUNTER.
+   46 |            WRITE OUTPUT-RECORD FROM "Account Number: " ACCOUNT-NUMBER
+   47 >            WRITE OUTPUT-RECORD FROM "Depositor Name: " DEPOSITOR-NAME
+   48 |            WRITE OUTPUT-RECORD FROM "Principal Amount: " PRINCIPAL-AMOUNT
+   49 |            WRITE OUTPUT-RECORD FROM "Interest Rate: " INTEREST-RATE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:48: error: syntax error, unexpected Identifier
+   46 |            WRITE OUTPUT-RECORD FROM "Account Number: " ACCOUNT-NUMBER
+   47 |            WRITE OUTPUT-RECORD FROM "Depositor Name: " DEPOSITOR-NAME
+   48 >            WRITE OUTPUT-RECORD FROM "Principal Amount: " PRINCIPAL-AMOUNT
+   49 |            WRITE OUTPUT-RECORD FROM "Interest Rate: " INTEREST-RATE
+   50 |            WRITE OUTPUT-RECORD FROM "Number of Years: " NUMBER-OF-YEARS
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:49: error: syntax error, unexpected Identifier
+   47 |            WRITE OUTPUT-RECORD FROM "Depositor Name: " DEPOSITOR-NAME
+   48 |            WRITE OUTPUT-RECORD FROM "Principal Amount: " PRINCIPAL-AMOUNT
+   49 >            WRITE OUTPUT-RECORD FROM "Interest Rate: " INTEREST-RATE
+   50 |            WRITE OUTPUT-RECORD FROM "Number of Years: " NUMBER-OF-YEARS
+   51 |            WRITE OUTPUT-RECORD FROM "------------------------------------..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:50: error: syntax error, unexpected Identifier
+   48 |            WRITE OUTPUT-RECORD FROM "Principal Amount: " PRINCIPAL-AMOUNT
+   49 |            WRITE OUTPUT-RECORD FROM "Interest Rate: " INTEREST-RATE
+   50 >            WRITE OUTPUT-RECORD FROM "Number of Years: " NUMBER-OF-YEARS
+   51 |            WRITE OUTPUT-RECORD FROM "------------------------------------..
+   52 |            WRITE OUTPUT-RECORD FROM "Year  New Balance  Accrued Interest"
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:51: error: syntax error, unexpected Identifier
+   49 |            WRITE OUTPUT-RECORD FROM "Interest Rate: " INTEREST-RATE
+   50 |            WRITE OUTPUT-RECORD FROM "Number of Years: " NUMBER-OF-YEARS
+   51 >            WRITE OUTPUT-RECORD FROM "------------------------------------..
+   52 |            WRITE OUTPUT-RECORD FROM "Year  New Balance  Accrued Interest"
+   53 |            PERFORM VARYING YEAR-COUNTER FROM 1 BY 1 UNTIL YEAR-COUNTER >..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:52: error: invalid expression: unfinished expression
+   50 |            WRITE OUTPUT-RECORD FROM "Number of Years: " NUMBER-OF-YEARS
+   51 |            WRITE OUTPUT-RECORD FROM "------------------------------------..
+   52 >            WRITE OUTPUT-RECORD FROM "Year  New Balance  Accrued Interest"
+   53 |            PERFORM VARYING YEAR-COUNTER FROM 1 BY 1 UNTIL YEAR-COUNTER >..
+   54 |                COMPUTE ACCRUED-INTEREST = NEW-BALANCE * INTEREST-RATE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:55: error: syntax error, unexpected Literal
+   53 |            PERFORM VARYING YEAR-COUNTER FROM 1 BY 1 UNTIL YEAR-COUNTER >..
+   54 |                COMPUTE ACCRUED-INTEREST = NEW-BALANCE * INTEREST-RATE
+   55 >                COMPUTE NEW-BALANCE = NEW-BALANCE + ACCRUED-INTEREST
+   56 |                WRITE OUTPUT-RECORD FROM YEAR-COUNTER ":" NEW-BALANCE ":"..
+   57 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:52: error: PERFORM statement not terminated by END-PERFORM
+   50 |            WRITE OUTPUT-RECORD FROM "Number of Years: " NUMBER-OF-YEARS
+   51 |            WRITE OUTPUT-RECORD FROM "------------------------------------..
+   52 >            WRITE OUTPUT-RECORD FROM "Year  New Balance  Accrued Interest"
+   53 |            PERFORM VARYING YEAR-COUNTER FROM 1 BY 1 UNTIL YEAR-COUNTER >..
+   54 |                COMPUTE ACCRUED-INTEREST = NEW-BALANCE * INTEREST-RATE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:57: error: invalid literal: '---------------------------------- ...'
+   55 |                COMPUTE NEW-BALANCE = NEW-BALANCE + ACCRUED-INTEREST
+   56 |                WRITE OUTPUT-RECORD FROM YEAR-COUNTER ":" NEW-BALANCE ":"..
+   57 >            END-PERFORM.
+   58 |            WRITE OUTPUT-RECORD FROM "------------------------------------..
+   59 |            WRITE OUTPUT-RECORD FROM SPACE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:57: note: missing terminating " character
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_27/task_func_27.cbl:57: warning: optional period used [-Wdialect]
+
+2025-05-20 22:20:20.280 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.281 | ERROR    | __main__:compile:227 - Compilation failed for task_func_27
+2025-05-20 22:20:20.281 | INFO     | __main__:compile:156 - Processing program 27/46: task_func_28
+2025-05-20 22:20:20.281 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.281 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.281 | INFO     | __main__:compile:190 - compiling task_func_28
+2025-05-20 22:20:20.303 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_28/task_func_28.cbl:33: error: continuation character expected
+   31 |        01  WS-EOF                 PIC 9 VALUE 0.
+   32 |        01  WS-ERROR-MESSAGE       PIC X(50) VALUE "Record limit exceeded...
+   33 >        01  WS-I                   PIC 9(3) VALUE 0.
+   34 |        01  WS-J                   PIC 9(3) VALUE 0.
+   35 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_28/task_func_28.cbl:32: error: syntax error, unexpected :
+   30 |                10  WS-RECORD-COUNT   PIC 9(4) VALUE 0.
+   31 |        01  WS-EOF                 PIC 9 VALUE 0.
+   32 >        01  WS-ERROR-MESSAGE       PIC X(50) VALUE "Record limit exceeded...
+   33 |        01  WS-I                   PIC 9(3) VALUE 0.
+   34 |        01  WS-J                   PIC 9(3) VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_28/task_func_28.cbl:32: error: invalid literal: ' WS-TABLE-ENTRY(WS-I).WS-REC ...'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_28/task_func_28.cbl:32: note: missing terminating " character
+
+2025-05-20 22:20:20.303 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.303 | ERROR    | __main__:compile:227 - Compilation failed for task_func_28
+2025-05-20 22:20:20.304 | INFO     | __main__:compile:156 - Processing program 28/46: task_func_29
+2025-05-20 22:20:20.304 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.304 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.304 | INFO     | __main__:compile:190 - compiling task_func_29
+2025-05-20 22:20:20.327 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_29/task_func_29.cbl: in paragraph 'SEARCH-AGE-TABLE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_29/task_func_29.cbl:52: error: 'I' is not defined
+   50 |            END-IF.
+   51 |        SEARCH-AGE-TABLE.
+   52 >            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 100 OR AGE-TABLE(I).AG..
+   53 |            IF AGE-TABLE(I).AGE-VALUE = WS-AGE THEN
+   54 |                ADD 1 TO AGE-TABLE(I).DUPLICATE-COUNT-AGE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_29/task_func_29.cbl:52: error: 'AGE-TABLE' cannot be subscripted
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_29/task_func_29.cbl:52: warning: inline PERFORM without imperative statement used [-Wdialect]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_29/task_func_29.cbl:52: error: PERFORM statement not terminated by END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_29/task_func_29.cbl:53: error: syntax error, unexpected IF, expecting SECTION or .
+   51 |        SEARCH-AGE-TABLE.
+   52 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 100 OR AGE-TABLE(I).AG..
+   53 >            IF AGE-TABLE(I).AGE-VALUE = WS-AGE THEN
+   54 |                ADD 1 TO AGE-TABLE(I).DUPLICATE-COUNT-AGE
+   55 |            END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_29/task_func_29.cbl:52: note: unknown statement 'A'
+   50 |            END-IF.
+   51 |        SEARCH-AGE-TABLE.
+   52 >            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 100 OR AGE-TABLE(I).AG..
+   53 |            IF AGE-TABLE(I).AGE-VALUE = WS-AGE THEN
+   54 |                ADD 1 TO AGE-TABLE(I).DUPLICATE-COUNT-AGE
+
+2025-05-20 22:20:20.327 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.327 | ERROR    | __main__:compile:227 - Compilation failed for task_func_29
+2025-05-20 22:20:20.328 | INFO     | __main__:compile:156 - Processing program 29/46: task_func_30
+2025-05-20 22:20:20.328 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.328 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.328 | INFO     | __main__:compile:190 - compiling task_func_30
+2025-05-20 22:20:20.350 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl: in paragraph 'OPEN-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl:43: error: 'INVALID-KEY' is not defined
+   41 |        OPEN-FILES.
+   42 |            OPEN INPUT INPUT-FILE OUTPUT OUTPUT-FILE.
+   43 >            IF  INVALID-KEY THEN
+   44 |                DISPLAY "Error opening input file."
+   45 |                STOP RUN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl: in paragraph 'PROCESS-INPUT-LINE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl:56: error: 'WS-CHARA' is not defined
+   54 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > LENGTH OF WS-WORD
+   55 |                MOVE WS-WORD(I:1) TO WS-CHARACTER
+   56 >                IF WS-CHARACTER = SPACE OR WS-CHARACTER = ',' OR WS-CHARAC..
+   57 |                    PERFORM EXTRACT-WORD
+   58 |                END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl: in paragraph 'FIND-WORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl:71: error: 'WORD-TABLE' cannot be subscripted
+   69 |        FIND-WORD.
+   70 |            PERFORM VARYING J FROM 1 BY 1 UNTIL J > WORD-INDEX
+   71 >                IF WS-WORD = WORD-TABLE(J).WORD-TEXT THEN
+   72 |                    ADD 1 TO WORD-TABLE(J).WORD-COUNT
+   73 |                    EXIT PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl:71: error: syntax error, unexpected .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl:71: error: IF without imperative statement
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl:70: error: PERFORM statement not terminated by END-PERFORM
+   68 | 
+   69 |        FIND-WORD.
+   70 >            PERFORM VARYING J FROM 1 BY 1 UNTIL J > WORD-INDEX
+   71 |                IF WS-WORD = WORD-TABLE(J).WORD-TEXT THEN
+   72 |                    ADD 1 TO WORD-TABLE(J).WORD-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl:71: error: syntax error, unexpected THEN, expecting SECTION or .
+   69 |        FIND-WORD.
+   70 |            PERFORM VARYING J FROM 1 BY 1 UNTIL J > WORD-INDEX
+   71 >                IF WS-WORD = WORD-TABLE(J).WORD-TEXT THEN
+   72 |                    ADD 1 TO WORD-TABLE(J).WORD-COUNT
+   73 |                    EXIT PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_30/task_func_30.cbl:71: error: redefinition of 'WORD-TEXT'
+
+2025-05-20 22:20:20.350 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.350 | ERROR    | __main__:compile:227 - Compilation failed for task_func_30
+2025-05-20 22:20:20.351 | INFO     | __main__:compile:156 - Processing program 30/46: task_func_31
+2025-05-20 22:20:20.351 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.351 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.351 | INFO     | __main__:compile:190 - compiling task_func_31
+2025-05-20 22:20:20.373 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_31/task_func_31.cbl:21: error: data item not signed
+   19 |        WORKING-STORAGE SECTION.
+   20 |        01  WS-VARIABLES.
+   21 >            05  MAX-TEMPERATURE     PIC 9(3) VALUE -999.
+   22 |            05  MIN-TEMPERATURE     PIC 9(3) VALUE 999.
+   23 |            05  TOTAL-TEMPERATURE   PIC 9(5) VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_31/task_func_31.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_31/task_func_31.cbl:37: error: 'NUMBER-OF-R' is not defined
+   35 |                END-IF
+   36 |            END-PERFORM
+   37 >            COMPUTE AVERAGE-TEMPERATURE = TOTAL-TEMPERATURE / NUMBER-OF-RE..
+   38 |            MOVE "Maximum Temperature: " TO WEATHER-OUTPUT-RECORD
+   39 |            WRITE WEATHER-OUTPUT-RECORD FROM MAX-TEMPERATURE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_31/task_func_31.cbl:43: error: invalid MOVE statement
+   41 |            WRITE WEATHER-OUTPUT-RECORD FROM MIN-TEMPERATURE
+   42 |            MOVE "Average Temperature: " TO WEATHER-OUTPUT-RECORD
+   43 >            WRITE WEATHER-OUTPUT-RECORD FROM AVERAGE-TEMPERATURE
+   44 |            CLOSE WEATHER-INPUT-FILE
+   45 |            CLOSE WEATHER-OUTPUT-FILE
+
+2025-05-20 22:20:20.373 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.373 | ERROR    | __main__:compile:227 - Compilation failed for task_func_31
+2025-05-20 22:20:20.373 | INFO     | __main__:compile:156 - Processing program 31/46: task_func_32
+2025-05-20 22:20:20.373 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.374 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.374 | INFO     | __main__:compile:190 - compiling task_func_32
+2025-05-20 22:20:20.396 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_32/task_func_32.cbl: in paragraph 'SEARCH-TABLE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_32/task_func_32.cbl:68: error: syntax error, unexpected Identifier
+   66 |                WHEN VEHICLE-TYPE = WS-TYPE(WS-TABLE-INDEX) NEXT SENTENCE.
+   67 | 
+   68 >        WRITE-OUTPUT-RECORDS.
+   69 |            PERFORM VARYING WS-TABLE-INDEX FROM 1 BY 1 UNTIL WS-TABLE-INDE..
+   70 |                IF WS-RECORD-COUNT(WS-TABLE-INDEX) > 0 THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_32/task_func_32.cbl:69: error: 'WS-TABLE-IND' is not defined
+   67 | 
+   68 |        WRITE-OUTPUT-RECORDS.
+   69 >            PERFORM VARYING WS-TABLE-INDEX FROM 1 BY 1 UNTIL WS-TABLE-INDE..
+   70 |                IF WS-RECORD-COUNT(WS-TABLE-INDEX) > 0 THEN
+   71 |                    COMPUTE WS-AVERAGE-SPEED = WS-TOTAL-SPEED(WS-TABLE-IND..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_32/task_func_32.cbl:71: error: 'WS-TABLE-IN' is not defined
+   69 |            PERFORM VARYING WS-TABLE-INDEX FROM 1 BY 1 UNTIL WS-TABLE-INDE..
+   70 |                IF WS-RECORD-COUNT(WS-TABLE-INDEX) > 0 THEN
+   71 >                    COMPUTE WS-AVERAGE-SPEED = WS-TOTAL-SPEED(WS-TABLE-IND..
+   72 |                    MOVE WS-TYPE(WS-TABLE-INDEX) TO OUTPUT-VEHICLE-TYPE
+   73 |                    MOVE WS-AVERAGE-SPEED TO OUTPUT-AVERAGE-SPEED
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_32/task_func_32.cbl:72: error: syntax error, unexpected MOVE
+   70 |                IF WS-RECORD-COUNT(WS-TABLE-INDEX) > 0 THEN
+   71 |                    COMPUTE WS-AVERAGE-SPEED = WS-TOTAL-SPEED(WS-TABLE-IND..
+   72 >                    MOVE WS-TYPE(WS-TABLE-INDEX) TO OUTPUT-VEHICLE-TYPE
+   73 |                    MOVE WS-AVERAGE-SPEED TO OUTPUT-AVERAGE-SPEED
+   74 |                    WRITE OUTPUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_32/task_func_32.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_32/task_func_32.cbl:36: error: 'WRITE-OUTPUT-RECORDS' is not defined
+   34 |            PERFORM OPEN-FILES.
+   35 |            PERFORM READ-INPUT-RECORDS UNTIL WS-EOF-FLAG = 1.
+   36 >            PERFORM WRITE-OUTPUT-RECORDS.
+   37 |            PERFORM CLOSE-FILES.
+   38 |            STOP RUN.
+
+2025-05-20 22:20:20.396 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.396 | ERROR    | __main__:compile:227 - Compilation failed for task_func_32
+2025-05-20 22:20:20.396 | INFO     | __main__:compile:156 - Processing program 32/46: task_func_33
+2025-05-20 22:20:20.396 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.396 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.397 | INFO     | __main__:compile:190 - compiling task_func_33
+2025-05-20 22:20:20.418 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_33/task_func_33.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_33/task_func_33.cbl:42: error: syntax error, unexpected FROM
+   40 |                PERFORM READ-FILE-2
+   41 |                IF WS-EOF-FILE-1 = 0
+   42 >                    PERFORM WRITE-OUTPUT FROM WEATHER-RECORD-1
+   43 |                END-IF
+   44 |                IF WS-EOF-FILE-2 = 0
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_33/task_func_33.cbl:45: error: syntax error, unexpected FROM
+   43 |                END-IF
+   44 |                IF WS-EOF-FILE-2 = 0
+   45 >                    PERFORM WRITE-OUTPUT FROM WEATHER-RECORD-2
+   46 |                END-IF
+   47 |            END-PERFORM
+
+2025-05-20 22:20:20.418 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.419 | ERROR    | __main__:compile:227 - Compilation failed for task_func_33
+2025-05-20 22:20:20.419 | INFO     | __main__:compile:156 - Processing program 33/46: task_func_34
+2025-05-20 22:20:20.419 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.419 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.419 | INFO     | __main__:compile:190 - compiling task_func_34
+2025-05-20 22:20:20.441 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_34/task_func_34.cbl: in paragraph 'READ-SALES-TAX-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_34/task_func_34.cbl:60: error: syntax error, unexpected MOVE, expecting SECTION or .
+   58 |            IF EOF-SALES-TAX = 0 THEN
+   59 |                MOVE ZIP-CODE-TAX TO TAX-TABLE-ENTRY(ZIP-CODE-TAX).ZIP-COD..
+   60 >                MOVE TAX-RATE TO TAX-TABLE-ENTRY(ZIP-CODE-TAX).RATE.
+   61 | 
+   62 |        READ-CUSTOMER-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_34/task_func_34.cbl:59: note: unknown statement 'ZIP-CO'
+   57 |            READ SALES-TAX-FILE AT END MOVE 1 TO EOF-SALES-TAX.
+   58 |            IF EOF-SALES-TAX = 0 THEN
+   59 >                MOVE ZIP-CODE-TAX TO TAX-TABLE-ENTRY(ZIP-CODE-TAX).ZIP-COD..
+   60 |                MOVE TAX-RATE TO TAX-TABLE-ENTRY(ZIP-CODE-TAX).RATE.
+   61 | 
+
+2025-05-20 22:20:20.441 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.441 | ERROR    | __main__:compile:227 - Compilation failed for task_func_34
+2025-05-20 22:20:20.442 | INFO     | __main__:compile:156 - Processing program 34/46: task_func_35
+2025-05-20 22:20:20.442 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.442 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.442 | INFO     | __main__:compile:190 - compiling task_func_35
+2025-05-20 22:20:20.464 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_35/task_func_35.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_35/task_func_35.cbl:39: error: PERFORM statement not terminated by END-PERFORM
+   37 |            OPEN OUTPUT task_func35_out
+   38 | 
+   39 >            PERFORM UNTIL WS-EOF-MASTER = 1
+   40 |                READ task_func35_inp1 AT END MOVE 1 TO WS-EOF-MASTER END-R..
+   41 |                IF WS-EOF-MASTER = 0 THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_35/task_func_35.cbl:40: error: syntax error, unexpected END
+   38 | 
+   39 |            PERFORM UNTIL WS-EOF-MASTER = 1
+   40 >                READ task_func35_inp1 AT END MOVE 1 TO WS-EOF-MASTER END-R..
+   41 |                IF WS-EOF-MASTER = 0 THEN
+   42 |                    PERFORM PROCESS-MASTER-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_35/task_func_35.cbl:44: error: syntax error, unexpected END-PERFORM
+   42 |                    PERFORM PROCESS-MASTER-RECORD
+   43 |                END-IF
+   44 >            END-PERFORM
+   45 | 
+   46 |            PERFORM UNTIL WS-EOF-TRANSACTION = 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_35/task_func_35.cbl: in paragraph 'PROCESS-MASTER-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_35/task_func_35.cbl:60: error: 'transac' is not defined
+   58 |                        master-account-no < transaction-account-no
+   59 |                READ task_func35_inp2 AT END MOVE 1 TO WS-EOF-TRANSACTION..
+   60 >                IF WS-EOF-TRANSACTION = 0 AND master-account-no = transact..
+   61 |                    ADD transaction-amount TO master-amount
+   62 |                    MOVE master-account-no TO updated-account-no
+
+2025-05-20 22:20:20.464 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.464 | ERROR    | __main__:compile:227 - Compilation failed for task_func_35
+2025-05-20 22:20:20.464 | INFO     | __main__:compile:156 - Processing program 35/46: task_func_36
+2025-05-20 22:20:20.464 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.464 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.465 | INFO     | __main__:compile:190 - compiling task_func_36
+2025-05-20 22:20:20.486 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:21: error: syntax error, unexpected SUM
+   19 |            05  NUMBER-COUNT PIC 9(3) VALUE 0.
+   20 |        01  WS-VARIABLES.
+   21 >            05  SUM PIC 9(10) VALUE 0.
+   22 |            05  MEAN PIC 9(10)V99.
+   23 |            05  MEDIAN PIC 9(10).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:38: error: syntax error, unexpected SUM
+   36 |                IF EOF-FLAG = 0 THEN
+   37 |                    MOVE INPUT-RECORD TO TEMP
+   38 >                    ADD TEMP TO SUM
+   39 |                    ADD 1 TO NUMBER-COUNT
+   40 |                    MOVE TEMP TO NUMBER-ENTRY(NUMBER-COUNT)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:43: error: syntax error, unexpected SUM
+   41 |                END-IF
+   42 |            END-PERFORM.
+   43 >            COMPUTE MEAN = SUM / NUMBER-COUNT.
+   44 |            SORT NUMBER-TABLE ON ASCENDING KEY SORT-KEY
+   45 |                INPUT PROCEDURE IS SORT-INPUT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:44: error: 'NUMBER-TABLE' has no OCCURS clause
+   42 |            END-PERFORM.
+   43 |            COMPUTE MEAN = SUM / NUMBER-COUNT.
+   44 >            SORT NUMBER-TABLE ON ASCENDING KEY SORT-KEY
+   45 |                INPUT PROCEDURE IS SORT-INPUT
+   46 |                OUTPUT PROCEDURE IS SORT-OUTPUT.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:47: error: syntax error, unexpected Identifier
+   45 |                INPUT PROCEDURE IS SORT-INPUT
+   46 |                OUTPUT PROCEDURE IS SORT-OUTPUT.
+   47 >            IF NUMBER-COUNT IS EVEN THEN
+   48 |                COMPUTE MEDIAN = (NUMBER-ENTRY(NUMBER-COUNT/2) + NUMBER-EN..
+   49 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:48: error: 'NUMBER-E' is not defined
+   46 |                OUTPUT PROCEDURE IS SORT-OUTPUT.
+   47 |            IF NUMBER-COUNT IS EVEN THEN
+   48 >                COMPUTE MEDIAN = (NUMBER-ENTRY(NUMBER-COUNT/2) + NUMBER-EN..
+   49 |            ELSE
+   50 |                COMPUTE MEDIAN = NUMBER-ENTRY(NUMBER-COUNT/2 + 1)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:49: error: syntax error, unexpected ELSE, expecting ) or - or +
+   47 |            IF NUMBER-COUNT IS EVEN THEN
+   48 |                COMPUTE MEDIAN = (NUMBER-ENTRY(NUMBER-COUNT/2) + NUMBER-EN..
+   49 >            ELSE
+   50 |                COMPUTE MEDIAN = NUMBER-ENTRY(NUMBER-COUNT/2 + 1)
+   51 |            END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:47: error: IF without imperative statement
+   45 |                INPUT PROCEDURE IS SORT-INPUT
+   46 |                OUTPUT PROCEDURE IS SORT-OUTPUT.
+   47 >            IF NUMBER-COUNT IS EVEN THEN
+   48 |                COMPUTE MEDIAN = (NUMBER-ENTRY(NUMBER-COUNT/2) + NUMBER-EN..
+   49 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:53: error: invalid MOVE statement
+   51 |            END-IF.
+   52 |            MOVE "Mean: " TO OUTPUT-RECORD
+   53 >            MOVE MEAN TO OUTPUT-RECORD(7:10)
+   54 |            WRITE OUTPUT-RECORD.
+   55 |            MOVE "Median: " TO OUTPUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl: in section 'SORT-INPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:64: error: 'SORT-WORK-AREA' is not a file name
+   62 |            MOVE NUMBER-ENTRY(NUMBER-COUNT) TO SORT-KEY
+   63 |            MOVE NUMBER-ENTRY(NUMBER-COUNT) TO SORT-DATA
+   64 >            RETURN SORT-WORK-AREA.
+   65 | 
+   66 |        SORT-OUTPUT SECTION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:64: error: syntax error, unexpected ., expecting AT END or END or NOT AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl: in section 'SORT-OUTPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:68: error: 'SORT-WORK-AREA' is not a file name
+   66 |        SORT-OUTPUT SECTION.
+   67 |            MOVE SORT-DATA TO NUMBER-ENTRY(NUMBER-COUNT)
+   68 >            RETURN SORT-WORK-AREA.
+   69 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_36/task_func_36.cbl:68: error: syntax error, unexpected ., expecting AT END or END or NOT AT END
+
+2025-05-20 22:20:20.486 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.486 | ERROR    | __main__:compile:227 - Compilation failed for task_func_36
+2025-05-20 22:20:20.487 | INFO     | __main__:compile:156 - Processing program 36/46: task_func_37
+2025-05-20 22:20:20.487 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.487 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.487 | INFO     | __main__:compile:190 - compiling task_func_37
+2025-05-20 22:20:20.508 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_37/task_func_37.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_37/task_func_37.cbl:9: error: must be an SD filename
+    7 |            SELECT TASK-FUNC37-INP ASSIGN TO "task_func37_inp"
+    8 |                ORGANIZATION IS LINE SEQUENTIAL.
+    9 >            SELECT SORT-FILE ASSIGN TO "sort-file"
+   10 |                ORGANIZATION IS LINE SEQUENTIAL.
+   11 |            SELECT TASK-FUNC37-OUT ASSIGN TO "task_func37_out"
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_37/task_func_37.cbl: in paragraph 'INPUT-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_37/task_func_37.cbl:71: error: RELEASE not allowed on this record item
+   69 |                        MOVE QUANTITY-IN TO QUANTITY-SORT
+   70 |                        MOVE DEPARTMENT-IN TO DEPARTMENT-SORT
+   71 >                        RELEASE SORT-RECORD
+   72 |                    END-IF
+   73 |                END-READ
+
+2025-05-20 22:20:20.508 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.508 | ERROR    | __main__:compile:227 - Compilation failed for task_func_37
+2025-05-20 22:20:20.508 | INFO     | __main__:compile:156 - Processing program 37/46: task_func_38
+2025-05-20 22:20:20.508 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.508 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.509 | INFO     | __main__:compile:190 - compiling task_func_38
+2025-05-20 22:20:20.530 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_38/task_func_38.cbl: in paragraph 'CHECK-DUPLICATES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_38/task_func_38.cbl:101: error: 'I' is not defined
+   99 | 
+  100 |        CHECK-DUPLICATES.
+  101 >            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 1000
+  102 |                IF DUP-TRANS-NO-ENTRY(I) = TRANS-NO-WS THEN
+  103 |                    ADD 1 TO DUP-COUNT-ENTRY(I)
+
+2025-05-20 22:20:20.530 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.530 | ERROR    | __main__:compile:227 - Compilation failed for task_func_38
+2025-05-20 22:20:20.530 | INFO     | __main__:compile:156 - Processing program 38/46: task_func_39
+2025-05-20 22:20:20.531 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.531 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.531 | INFO     | __main__:compile:190 - compiling task_func_39
+2025-05-20 22:20:20.553 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_39/task_func_39.cbl:40: error: continuation character expected
+   38 | 
+   39 |            WRITE ERROR-REPORT-RECORD FROM "Employee Name,Error Message,In..
+   40 >            WRITE ERROR-REPORT-RECORD FROM "------------------------------..
+   41 | 
+   42 |            PERFORM UNTIL WS-EOF-FLAG = 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_39/task_func_39.cbl:42: error: continuation character expected
+   40 |            WRITE ERROR-REPORT-RECORD FROM "------------------------------..
+   41 | 
+   42 >            PERFORM UNTIL WS-EOF-FLAG = 1
+   43 |                READ TASK-FUNC39-INP1 AT END MOVE 1 TO WS-EOF-FLAG END-REA..
+   44 |                IF WS-EOF-FLAG = 0 THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_39/task_func_39.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_39/task_func_39.cbl:39: error: syntax error, unexpected -
+   37 |            OPEN OUTPUT TASK-FUNC39-OUT1
+   38 | 
+   39 >            WRITE ERROR-REPORT-RECORD FROM "Employee Name,Error Message,In..
+   40 |            WRITE ERROR-REPORT-RECORD FROM "------------------------------..
+   41 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_39/task_func_39.cbl:42: error: 'END-RE' is not defined
+   40 |            WRITE ERROR-REPORT-RECORD FROM "------------------------------..
+   41 | 
+   42 >            PERFORM UNTIL WS-EOF-FLAG = 1
+   43 |                READ TASK-FUNC39-INP1 AT END MOVE 1 TO WS-EOF-FLAG END-REA..
+   44 |                IF WS-EOF-FLAG = 0 THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_39/task_func_39.cbl: in paragraph 'WRITE-ERROR-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_39/task_func_39.cbl:93: error: length of 'ERROR-REPORT-RECORD' out of bounds: 70
+   91 | 
+   92 |        WRITE-ERROR-RECORD.
+   93 >            MOVE EMPLOYEE-NAME TO ERROR-REPORT-RECORD(1:20)
+   94 |            MOVE WS-ERROR-MESSAGE TO ERROR-REPORT-RECORD(21:70)
+   95 |            MOVE WS-INVALID-VALUE TO ERROR-REPORT-RECORD(71:80)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_39/task_func_39.cbl:94: error: length of 'ERROR-REPORT-RECORD' out of bounds: 80
+   92 |        WRITE-ERROR-RECORD.
+   93 |            MOVE EMPLOYEE-NAME TO ERROR-REPORT-RECORD(1:20)
+   94 >            MOVE WS-ERROR-MESSAGE TO ERROR-REPORT-RECORD(21:70)
+   95 |            MOVE WS-INVALID-VALUE TO ERROR-REPORT-RECORD(71:80)
+   96 |            WRITE ERROR-REPORT-RECORD.
+
+2025-05-20 22:20:20.553 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.553 | ERROR    | __main__:compile:227 - Compilation failed for task_func_39
+2025-05-20 22:20:20.553 | INFO     | __main__:compile:156 - Processing program 39/46: task_func_40
+2025-05-20 22:20:20.553 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.553 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.554 | INFO     | __main__:compile:190 - compiling task_func_40
+2025-05-20 22:20:20.576 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl: in paragraph 'OPEN-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl:45: error: 'TASK-FUNC_40-OUT' is not defined
+   43 | 
+   44 |        OPEN-FILES.
+   45 >            OPEN OUTPUT TASK-FUNC_40-OUT.
+   46 | 
+   47 |        CALCULATE-DATE-RANGE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl:45: error: 'TASK-FUNC_40-OUT' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl: in paragraph 'CALCULATE-DATE-RANGE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl:51: error: syntax error, unexpected Literal
+   49 |                (WS-END-YEAR - WS-START-YEAR) * 365 +
+   50 |                (WS-END-MONTH - WS-START-MONTH) * 30 +
+   51 >                (WS-END-DAY - WS-START-DAY) +1.
+   52 | 
+   53 |        GENERATE-DATES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl: in paragraph 'GENERATE-DATES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl:57: error: syntax error, unexpected COMPUTE
+   55 |                CALL "RANDOM" USING WS-SEED, WS-RANDOM-NUMBER
+   56 |                COMPUTE WS-RANDOM-NUMBER = FUNCTION MOD(WS-RANDOM-NUMBER,..
+   57 >                COMPUTE WS-RANDOM-DATE = WS-START-DATE + WS-RANDOM-NUMBER..
+   58 |                PERFORM FORMAT-DATE
+   59 |                WRITE OUT-RECORD FROM WS-FORMATTED-DATE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl:57: error: 'WS-START-DATE' is not numeric
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl:59: error: 'WS-FORMATTED-DATE' is not defined
+   57 |                COMPUTE WS-RANDOM-DATE = WS-START-DATE + WS-RANDOM-NUMBER..
+   58 |                PERFORM FORMAT-DATE
+   59 >                WRITE OUT-RECORD FROM WS-FORMATTED-DATE
+   60 |            END-PERFORM.
+   61 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl: in paragraph 'CLOSE-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl:70: error: 'TASK-FUNC_40-OUT' is not a file name
+   68 | 
+   69 |        CLOSE-FILES.
+   70 >            CLOSE TASK-FUNC_40-OUT.
+   71 | 
+   72 |        01 WS-FORMATTED-DATE PIC X(10).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl:72: error: syntax error, unexpected Identifier, expecting SECTION or .
+   70 |            CLOSE TASK-FUNC_40-OUT.
+   71 | 
+   72 >        01 WS-FORMATTED-DATE PIC X(10).
+   73 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_40/task_func_40.cbl:72: note: unknown statement '01'
+
+2025-05-20 22:20:20.576 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.576 | ERROR    | __main__:compile:227 - Compilation failed for task_func_40
+2025-05-20 22:20:20.577 | INFO     | __main__:compile:156 - Processing program 40/46: task_func_43
+2025-05-20 22:20:20.577 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.577 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.578 | INFO     | __main__:compile:190 - compiling task_func_43
+2025-05-20 22:20:20.599 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_43/task_func_43.cbl: in paragraph 'CHECK-PRIME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_43/task_func_43.cbl:52: error: invalid expression: unfinished expression
+   50 |                MOVE 0 TO WS-IS-PRIME
+   51 |            ELSE
+   52 >                PERFORM VARYING WS-I FROM 2 BY 1 UNTIL WS-I > WS-NUMBER /..
+   53 |                    IF FUNCTION MOD(WS-NUMBER, WS-I) = 0 THEN
+   54 |                        MOVE 0 TO WS-IS-PRIME
+
+2025-05-20 22:20:20.599 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.599 | ERROR    | __main__:compile:227 - Compilation failed for task_func_43
+2025-05-20 22:20:20.599 | INFO     | __main__:compile:156 - Processing program 41/46: task_func_44
+2025-05-20 22:20:20.600 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.600 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.600 | INFO     | __main__:compile:190 - compiling task_func_44
+2025-05-20 22:20:20.623 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:36: error: continuation character expected
+   34 |        01  WS-EOF-FLAG PIC 9 VALUE 0.
+   35 |        01  WS-PUNCTUATION PIC X(10) VALUE ",.;:!?"."
+   36 >        01  WS-TITLE PIC X(100).
+   37 |        01  WS-CONTENT PIC X(1000).
+   38 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:70: error: continuation character expected
+   68 |                WRITE LOG-RECORD FROM "Keywords not found in title. Skippi..
+   69 | 
+   70 >        REMOVE-PUNCTUATION.
+   71 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > LENGTH OF WS-CONTENT
+   72 |                IF WS-CONTENT(I:1) IS IN WS-PUNCTUATION THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:35: error: PROCEDURE DIVISION header missing
+   33 |        01  WS-TABLE-INDEX PIC 9(4) VALUE 1.
+   34 |        01  WS-EOF-FLAG PIC 9 VALUE 0.
+   35 >        01  WS-PUNCTUATION PIC X(10) VALUE ",.;:!?"."
+   36 |        01  WS-TITLE PIC X(100).
+   37 |        01  WS-CONTENT PIC X(1000).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:35: error: syntax error, unexpected Literal
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:35: error: syntax error, unexpected Literal
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:37: error: syntax error, unexpected Identifier, expecting SECTION or .
+   35 |        01  WS-PUNCTUATION PIC X(10) VALUE ",.;:!?"."
+   36 |        01  WS-TITLE PIC X(100).
+   37 >        01  WS-CONTENT PIC X(1000).
+   38 | 
+   39 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:35: note: unknown statement 'Skipp'
+   33 |        01  WS-TABLE-INDEX PIC 9(4) VALUE 1.
+   34 |        01  WS-EOF-FLAG PIC 9 VALUE 0.
+   35 >        01  WS-PUNCTUATION PIC X(10) VALUE ",.;:!?"."
+   36 |        01  WS-TITLE PIC X(100).
+   37 |        01  WS-CONTENT PIC X(1000).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:38: error: 'I' is not defined
+   36 |        01  WS-TITLE PIC X(100).
+   37 |        01  WS-CONTENT PIC X(1000).
+   38 > 
+   39 | 
+   40 |        PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:38: error: 'WS-CONTENT' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:39: error: syntax error, unexpected IN
+   37 |        01  WS-CONTENT PIC X(1000).
+   38 | 
+   39 > 
+   40 |        PROCEDURE DIVISION.
+   41 |        MAIN-PARAGRAPH.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:39: error: IF without imperative statement
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl: in paragraph 'COUNT-WORD-FREQUENCY':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:46: error: 'WS-POINTER' is not defined
+   44 |            PERFORM PROCESS-ARTICLE.
+   45 |            PERFORM CLOSE-FILES.
+   46 >            STOP RUN.
+   47 | 
+   48 |        OPEN-FILES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:47: error: 'WS-WORD-COUNT' is not defined
+   45 |            PERFORM CLOSE-FILES.
+   46 |            STOP RUN.
+   47 > 
+   48 |        OPEN-FILES.
+   49 |            OPEN INPUT ARTICLE-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:48: error: syntax error, unexpected UNTIL
+   46 |            STOP RUN.
+   47 | 
+   48 >        OPEN-FILES.
+   49 |            OPEN INPUT ARTICLE-FILE
+   50 |            OPEN OUTPUT OUTPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:45: error: PERFORM statement not terminated by END-PERFORM
+   43 |            PERFORM READ-ARTICLE.
+   44 |            PERFORM PROCESS-ARTICLE.
+   45 >            PERFORM CLOSE-FILES.
+   46 |            STOP RUN.
+   47 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl: in paragraph 'FIND-WORD-AND-INCREMENT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:54: error: 'J' is not defined
+   52 |            WRITE LOG-RECORD FROM "Program started."
+   53 | 
+   54 >        READ-ARTICLE.
+   55 |            READ ARTICLE-FILE
+   56 |                AT END MOVE 1 TO WS-EOF-FLAG
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl: in paragraph 'CLOSE-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_44/task_func_44.cbl:76: warning: optional period used [-Wdialect]
+   74 |                END-IF
+   75 |            END-PERFORM.
+   76 > 
+   77 |        COUNT-WORD-FREQUENCY.
+   78 |            PERFORM UNSTRING WS-CONTENT DELIMITED BY SPACE INTO WS-WORD
+
+2025-05-20 22:20:20.623 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.624 | ERROR    | __main__:compile:227 - Compilation failed for task_func_44
+2025-05-20 22:20:20.624 | INFO     | __main__:compile:156 - Processing program 42/46: task_func_45
+2025-05-20 22:20:20.624 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.624 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.625 | INFO     | __main__:compile:190 - compiling task_func_45
+2025-05-20 22:20:20.647 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_45/task_func_45.cbl:36: error: continuation character expected
+   34 |            05  LOCAL-SECOND    PIC 9(2).
+   35 |        01  WEATHER-CONDITIONS PIC X(7) VALUES ("Sunny", "Cloudy", "Rainy"..
+   36 >        01  WEATHER-CONDITION PIC X(7).
+   37 |        01  WS-INDEX           PIC 9(2) VALUE 1.
+   38 |        01  WS-RANDOM-NUMBER  PIC 9(2).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_45/task_func_45.cbl:25: error: syntax error, unexpected comma delimiter
+   23 |        01  CITY-TABLE.
+   24 |            05  CITY-NAME      PIC X(10) OCCURS 5 VALUES
+   25 >                ("New York", "London", "Beijing", "Tokyo", "Sydney").
+   26 |            05  UTC-OFFSET     PIC S9(4) OCCURS 5 VALUES
+   27 |                (-5, 0, 8, 9, 10).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_45/task_func_45.cbl:27: error: syntax error, unexpected comma delimiter
+   25 |                ("New York", "London", "Beijing", "Tokyo", "Sydney").
+   26 |            05  UTC-OFFSET     PIC S9(4) OCCURS 5 VALUES
+   27 >                (-5, 0, 8, 9, 10).
+   28 |        01  LOCAL-DATETIME.
+   29 |            05  LOCAL-YEAR      PIC 9(4).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_45/task_func_45.cbl:35: error: syntax error, unexpected comma delimiter
+   33 |            05  LOCAL-MINUTE    PIC 9(2).
+   34 |            05  LOCAL-SECOND    PIC 9(2).
+   35 >        01  WEATHER-CONDITIONS PIC X(7) VALUES ("Sunny", "Cloudy", "Rainy"..
+   36 |        01  WEATHER-CONDITION PIC X(7).
+   37 |        01  WS-INDEX           PIC 9(2) VALUE 1.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_45/task_func_45.cbl:35: error: invalid literal: ' USING WS-RANDOM-NUMBER. ...'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_45/task_func_45.cbl:35: note: missing terminating " character
+
+2025-05-20 22:20:20.647 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.647 | ERROR    | __main__:compile:227 - Compilation failed for task_func_45
+2025-05-20 22:20:20.648 | INFO     | __main__:compile:156 - Processing program 43/46: task_func_47
+2025-05-20 22:20:20.648 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.648 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.648 | INFO     | __main__:compile:190 - compiling task_func_47
+2025-05-20 22:20:20.669 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_47/task_func_47.cbl: in paragraph 'CONVERT-NAME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_47/task_func_47.cbl:40: error: syntax error, unexpected MOVE
+   38 |        CONVERT-NAME.
+   39 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > LENGTH O..
+   40 >                MOVE WS-NAME(WS-INDEX:1) TO WS-CHAR
+   41 |                IF WS-CHAR = 'ä' THEN MOVE 'a' TO WS-NAME(WS-INDEX:1)
+   42 |                ELSE IF WS-CHAR = 'ö' THEN MOVE 'o' TO WS-NAME(WS-INDEX:1..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_47/task_func_47.cbl:43: error: syntax error, unexpected ELSE
+   41 |                IF WS-CHAR = 'ä' THEN MOVE 'a' TO WS-NAME(WS-INDEX:1)
+   42 |                ELSE IF WS-CHAR = 'ö' THEN MOVE 'o' TO WS-NAME(WS-INDEX:1..
+   43 >                ELSE IF WS-CHAR = 'Ö' THEN MOVE 'O' TO WS-NAME(WS-INDEX:1..
+   44 |                ELSE IF WS-CHAR = 'æ' THEN MOVE 'ae' TO WS-NAME(WS-INDEX:..
+   45 |                ELSE IF WS-CHAR NOT ALPHABETIC AND WS-CHAR NOT = SPACE THE..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_47/task_func_47.cbl:44: error: syntax error, unexpected ELSE
+   42 |                ELSE IF WS-CHAR = 'ö' THEN MOVE 'o' TO WS-NAME(WS-INDEX:1..
+   43 |                ELSE IF WS-CHAR = 'Ö' THEN MOVE 'O' TO WS-NAME(WS-INDEX:1..
+   44 >                ELSE IF WS-CHAR = 'æ' THEN MOVE 'ae' TO WS-NAME(WS-INDEX:..
+   45 |                ELSE IF WS-CHAR NOT ALPHABETIC AND WS-CHAR NOT = SPACE THE..
+   46 |                END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_47/task_func_47.cbl:45: error: syntax error, unexpected ELSE
+   43 |                ELSE IF WS-CHAR = 'Ö' THEN MOVE 'O' TO WS-NAME(WS-INDEX:1..
+   44 |                ELSE IF WS-CHAR = 'æ' THEN MOVE 'ae' TO WS-NAME(WS-INDEX:..
+   45 >                ELSE IF WS-CHAR NOT ALPHABETIC AND WS-CHAR NOT = SPACE THE..
+   46 |                END-IF
+   47 |            END-PERFORM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_47/task_func_47.cbl:45: warning: 'TH' is not defined [-Wignored-error]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_47/task_func_47.cbl:45: warning: invalid expression: unfinished expression [-Wignored-error]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_47/task_func_47.cbl:46: error: syntax error, unexpected END-IF
+   44 |                ELSE IF WS-CHAR = 'æ' THEN MOVE 'ae' TO WS-NAME(WS-INDEX:..
+   45 |                ELSE IF WS-CHAR NOT ALPHABETIC AND WS-CHAR NOT = SPACE THE..
+   46 >                END-IF
+   47 |            END-PERFORM.
+   48 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_47/task_func_47.cbl:45: error: IF without imperative statement
+   43 |                ELSE IF WS-CHAR = 'Ö' THEN MOVE 'O' TO WS-NAME(WS-INDEX:1..
+   44 |                ELSE IF WS-CHAR = 'æ' THEN MOVE 'ae' TO WS-NAME(WS-INDEX:..
+   45 >                ELSE IF WS-CHAR NOT ALPHABETIC AND WS-CHAR NOT = SPACE THE..
+   46 |                END-IF
+   47 |            END-PERFORM.
+
+2025-05-20 22:20:20.670 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.670 | ERROR    | __main__:compile:227 - Compilation failed for task_func_47
+2025-05-20 22:20:20.670 | INFO     | __main__:compile:156 - Processing program 44/46: task_func_48
+2025-05-20 22:20:20.670 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.670 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.670 | INFO     | __main__:compile:190 - compiling task_func_48
+2025-05-20 22:20:20.692 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:70: error: continuation character expected
+   68 |                WS-SUBJECT-NAME(5) & " " & WS-SUBJECT-NAME(6) & " " &
+   69 |                WS-SUBJECT-NAME(7) & " " & WS-SUBJECT-NAME(8) & " Average"
+   70 >            WRITE REPORT-RECORD FROM SPACES.
+   71 | 
+   72 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:19: error: duplicate OCCURS clause
+   17 |            05  WS-STUDENT-GRADES.
+   18 |                10  WS-SUBJECT-GRADE PIC 99 OCCURS 8 TIMES
+   19 >                                       OCCURS 100 TIMES.
+   20 |            05  WS-STUDENT-AVERAGE PIC 99V99 OCCURS 100 TIMES.
+   21 |        01  WS-SUBJECT-AVERAGES PIC 99V99 OCCURS 8 TIMES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:28: error: syntax error, unexpected comma delimiter
+   26 |        01  WS-SUBJECT-NAMES.
+   27 |            05  WS-SUBJECT-NAME PIC X(15) OCCURS 8 VALUES
+   28 >                ("Mathematics", "Science", "English", "History",
+   29 |                 "Geography", "Art", "Music", "Physical Education").
+   30 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:35: error: syntax error, unexpected Identifier
+   33 |        MAIN-PARAGRAPH.
+   34 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > 100
+   35 >                MOVE "Student " & WS-INDEX TO WS-STUDENT-NAME(WS-INDEX)
+   36 |                PERFORM VARYING WS-SUBJECT-INDEX FROM 1 BY 1
+   37 |                    UNTIL WS-SUBJECT-INDEX > 8
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:38: error: syntax error, unexpected *, expecting TO
+   36 |                PERFORM VARYING WS-SUBJECT-INDEX FROM 1 BY 1
+   37 |                    UNTIL WS-SUBJECT-INDEX > 8
+   38 >                        MOVE FUNCTION RANDOM() * 100 + 1 TO
+   39 |                            WS-SUBJECT-GRADE(WS-SUBJECT-INDEX, WS-INDEX)
+   40 |                    END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:42: error: syntax error, unexpected ALL
+   40 |                    END-PERFORM
+   41 |                COMPUTE WS-STUDENT-AVERAGE(WS-INDEX) =
+   42 >                    FUNCTION SUM(WS-SUBJECT-GRADE(ALL, WS-INDEX)) / 8
+   43 |                ADD FUNCTION SUM(WS-SUBJECT-GRADE(ALL, WS-INDEX)) TO
+   44 |                    WS-GRAND-TOTAL
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:43: error: syntax error, unexpected ALL
+   41 |                COMPUTE WS-STUDENT-AVERAGE(WS-INDEX) =
+   42 |                    FUNCTION SUM(WS-SUBJECT-GRADE(ALL, WS-INDEX)) / 8
+   43 >                ADD FUNCTION SUM(WS-SUBJECT-GRADE(ALL, WS-INDEX)) TO
+   44 |                    WS-GRAND-TOTAL
+   45 |            END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:36: error: PERFORM statement not terminated by END-PERFORM
+   34 |            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > 100
+   35 |                MOVE "Student " & WS-INDEX TO WS-STUDENT-NAME(WS-INDEX)
+   36 >                PERFORM VARYING WS-SUBJECT-INDEX FROM 1 BY 1
+   37 |                    UNTIL WS-SUBJECT-INDEX > 8
+   38 |                        MOVE FUNCTION RANDOM() * 100 + 1 TO
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:34: error: PERFORM statement not terminated by END-PERFORM
+   32 |        PROCEDURE DIVISION.
+   33 |        MAIN-PARAGRAPH.
+   34 >            PERFORM VARYING WS-INDEX FROM 1 BY 1 UNTIL WS-INDEX > 100
+   35 |                MOVE "Student " & WS-INDEX TO WS-STUDENT-NAME(WS-INDEX)
+   36 |                PERFORM VARYING WS-SUBJECT-INDEX FROM 1 BY 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl: in paragraph 'WRITE-HEADER':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:66: error: syntax error, unexpected &
+   64 |            WRITE REPORT-RECORD FROM SPACES
+   65 |            WRITE REPORT-RECORD FROM
+   66 >                WS-SUBJECT-NAME(1) & " " & WS-SUBJECT-NAME(2) & " " &
+   67 |                WS-SUBJECT-NAME(3) & " " & WS-SUBJECT-NAME(4) & " " &
+   68 |                WS-SUBJECT-NAME(5) & " " & WS-SUBJECT-NAME(6) & " " &
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:69: error: invalid literal: '  ...'
+   67 |                WS-SUBJECT-NAME(3) & " " & WS-SUBJECT-NAME(4) & " " &
+   68 |                WS-SUBJECT-NAME(5) & " " & WS-SUBJECT-NAME(6) & " " &
+   69 >                WS-SUBJECT-NAME(7) & " " & WS-SUBJECT-NAME(8) & " Average"
+   70 |            WRITE REPORT-RECORD FROM SPACES.
+   71 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_48/task_func_48.cbl:69: note: missing terminating " character
+
+2025-05-20 22:20:20.692 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.692 | ERROR    | __main__:compile:227 - Compilation failed for task_func_48
+2025-05-20 22:20:20.692 | INFO     | __main__:compile:156 - Processing program 45/46: task_func_49
+2025-05-20 22:20:20.692 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.692 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.693 | INFO     | __main__:compile:190 - compiling task_func_49
+2025-05-20 22:20:20.713 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_49/task_func_49.cbl:29: warning: value size exceeds data size [-Wothers]
+   27 |            05  AVERAGE-WEIGHT PIC 99V99.
+   28 |        01  COUNTER PIC 999 VALUE 0.
+   29 >        01  CSV-HEADER PIC X(20) VALUE "Name,Age,Height,Weight".
+   30 |        01  WS-RECORD PIC X(255).
+   31 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_49/task_func_49.cbl:29: note: value size is 22 [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_49/task_func_49.cbl: in paragraph 'WRITE-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_49/task_func_49.cbl:62: error: syntax error, unexpected DELIMITED, expecting INTO
+   60 |                   "," DELIMITED BY SIZE
+   61 |                   RANDOM-WEIGHT DELIMITED BY SIZE
+   62 >                   DELIMITED BY SIZE INTO WS-RECORD
+   63 |            WRITE OUTPUT-RECORD FROM WS-RECORD
+   64 |            ADD RANDOM-AGE TO TOTAL-AGE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_49/task_func_49.cbl: in paragraph 'WRITE-AVERAGES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_49/task_func_49.cbl:85: error: syntax error, unexpected DELIMITED, expecting INTO
+   83 |                   "," DELIMITED BY SIZE
+   84 |                   RANDOM-WEIGHT DELIMITED BY SIZE
+   85 >                   DELIMITED BY SIZE INTO WS-RECORD
+   86 |            WRITE OUTPUT-RECORD FROM WS-RECORD.
+   87 | 
+
+2025-05-20 22:20:20.713 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.714 | ERROR    | __main__:compile:227 - Compilation failed for task_func_49
+2025-05-20 22:20:20.714 | INFO     | __main__:compile:156 - Processing program 46/46: task_func_55
+2025-05-20 22:20:20.714 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:20.714 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:20.714 | INFO     | __main__:compile:190 - compiling task_func_55
+2025-05-20 22:20:20.736 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl: in paragraph 'MAIN-PARAGRAPH':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl:41: error: 'EOF-FLAG' is not defined
+   39 |        MAIN-PARAGRAPH.
+   40 |            PERFORM OPEN-FILES.
+   41 >            PERFORM READ-DATA UNTIL EOF-FLAG = 1.
+   42 |            PERFORM CLOSE-FILES.
+   43 |            STOP RUN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl: in paragraph 'CALCULATE-STATISTICS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl:65: error: syntax error, unexpected END-IF
+   63 |                PERFORM CALCULATE-VARIANCE.
+   64 |                COMPUTE WS-STD-DEV = FUNCTION SQRT(WS-VARIANCE).
+   65 >            END-IF.
+   66 | 
+   67 |        CALCULATE-VARIANCE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl: in paragraph 'CALCULATE-VARIANCE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl:70: error: 'ORIGINAL-DATA-RECOR' is not defined
+   68 |            READ ORIGINAL-DATA AT END MOVE 1 TO EOF-FLAG.
+   69 |            IF EOF-FLAG = 0 THEN
+   70 >                COMPUTE WS-VARIANCE = WS-VARIANCE + ((ORIGINAL-DATA-RECORD..
+   71 |                PERFORM CALCULATE-VARIANCE
+   72 |            END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl:71: error: syntax error, unexpected PERFORM, expecting ) or - or +
+   69 |            IF EOF-FLAG = 0 THEN
+   70 |                COMPUTE WS-VARIANCE = WS-VARIANCE + ((ORIGINAL-DATA-RECORD..
+   71 >                PERFORM CALCULATE-VARIANCE
+   72 |            END-IF.
+   73 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl: in paragraph 'IDENTIFY-OUTLIERS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl:75: error: 'WS-ST' is not defined
+   73 | 
+   74 |        IDENTIFY-OUTLIERS.
+   75 >            COMPUTE WS-Z-SCORE = (ORIGINAL-DATA-RECORD - WS-MEAN) / WS-STD..
+   76 |            IF WS-Z-SCORE > WS-THRESHOLD OR WS-Z-SCORE < -WS-THRESHOLD THE..
+   77 |                PERFORM WRITE-OUTLIER-INDEX
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl:76: error: 'TH' is not defined
+   74 |        IDENTIFY-OUTLIERS.
+   75 |            COMPUTE WS-Z-SCORE = (ORIGINAL-DATA-RECORD - WS-MEAN) / WS-STD..
+   76 >            IF WS-Z-SCORE > WS-THRESHOLD OR WS-Z-SCORE < -WS-THRESHOLD THE..
+   77 |                PERFORM WRITE-OUTLIER-INDEX
+   78 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl:76: error: invalid expression: unfinished expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl: in paragraph 'CLOSE-FILES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl:97: error: syntax error, unexpected PICTURE, expecting SECTION or .
+   95 |            CLOSE OUTLIER-INDICES.
+   96 | 
+   97 >        EOF-FLAG PIC 9 VALUE 0.
+   98 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_55/task_func_55.cbl:97: note: unknown statement 'EOF-FLAG'
+
+2025-05-20 22:20:20.737 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:20.737 | ERROR    | __main__:compile:227 - Compilation failed for task_func_55
+2025-05-20 22:20:20.738 | SUCCESS  | __main__:compile:268 - Compilation completed
+2025-05-20 22:20:20.738 | INFO     | __main__:compile:269 - Total programs compiled: 2 
+Total programs executed: 2 
+Total results matched: 0.29
+2025-05-20 22:20:20.738 | INFO     | __main__:compile:285 - final_results directory path: /home/projadmin/CobolEval/FrameWork/final_results/instruct
+2025-05-20 22:20:20.751 | INFO     | __main__:compile:290 - Results saved to final_results/instruct/gemini-1.5-flash_instruct_final_results.csv
+
+
+--- STDOUT OUTPUT ---
+
+Starting compilation for model: gemini-1.5-flash, mode: instruct
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_08/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/gemini-1.5-flash/instruct/task_func_26/task_func26_inp
+Finished processing model: gemini-1.5-flash, mode: instruct
+Results summary: 46 programs processed
+Compiled: 2 - Executed: 2 - Match: 0.29
+2025-05-20 22:20:20.752 | SUCCESS  | __main__:<module>:384 - Completed processing model: gemini-1.5-flash, mode: instruct
+2025-05-20 22:20:20.752 | INFO     | __main__:<module>:385 - All logs saved to /home/projadmin/CobolEval/FrameWork/logs/gemini-1.5-flash_instruct.txt

@@ -1,0 +1,4346 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.201 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "DATA DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 6,
+        "level": "error",
+        "message": "missing file description for FILE MATCH-DATA-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 8,
+        "level": "error",
+        "message": "missing file description for FILE TEMP-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "missing file description for FILE UPDATED-MATCH-DATA-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "WRITE subject does not refer to a record name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "WRITE subject does not refer to a record name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "syntax error, unexpected TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "WRITE subject does not refer to a record name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "WRITE subject does not refer to a record name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_01/task_func_01.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected TO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.178",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.224 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_02/task_func_02.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_02/task_func_02.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "syntax error, unexpected AT END"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.202",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.248 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_03/task_func_03.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_03/task_func_03.cbl",
+        "line": 91,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.225",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.270 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 81,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 's'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected AT, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'the'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected END, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_04/task_func_04.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.248",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": true,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.377 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_05/task_func_05.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      }
+    ],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:20:53.270",
+    "execution": {
+      "task_id": "task_func_05",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_05/task_func_05.cbl:1: note: free format detected",
+          "timestamp": "2025-05-20 22:20:53.377"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:20:53.270"
+    }
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.406 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 92,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'y'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected SPACE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_07/task_func_07.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.384",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.429 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_08/task_func_08.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_08/task_func_08.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_08/task_func_08.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_08/task_func_08.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_08/task_func_08.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_08/task_func_08.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_08/task_func_08.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_08/task_func_08.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected TO"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.407",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.454 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_09/task_func_09.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_09/task_func_09.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "missing FOR phrase before CHARACTERS/ALL/LEADING/TRAILING phrase"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_09/task_func_09.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "data name expected before LEADING"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_09/task_func_09.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "syntax error, unexpected FOR"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.430",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.476 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 62,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'implementer'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_10/task_func_10.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.454",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.499 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 72,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'd'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_11/task_func_11.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.477",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.522 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 86,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 't'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected INPUT, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected DATA"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_12/task_func_12.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.500",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.546 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 71,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'requirements'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_13/task_func_13.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.523",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.569 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_14/task_func_14.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_14/task_func_14.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "syntax error, unexpected DATE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_14/task_func_14.cbl",
+        "line": 16,
+        "level": "error",
+        "message": "syntax error, unexpected DATE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_14/task_func_14.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "'INPUT-DATE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_14/task_func_14.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "'OUTPUT-DATE' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.547",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.593 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 74,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'requirements'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_15/task_func_15.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.570",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.617 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 56,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'requirements'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_16/task_func_16.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.593",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.639 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 91,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'e'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_17/task_func_17.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.617",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.661 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_18/task_func_18.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_18/task_func_18.cbl",
+        "line": 66,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_18/task_func_18.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_18/task_func_18.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_18/task_func_18.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected OUTPUT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_18/task_func_18.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_18/task_func_18.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.640",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.685 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 6,
+        "level": "error",
+        "message": "missing file description for FILE INPUT-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 6,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 6,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "syntax error, unexpected SELECT"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 8,
+        "level": "error",
+        "message": "syntax error, unexpected DATA"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "syntax error, unexpected FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "syntax error, unexpected FD"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 11,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 11,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 12,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 13,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 13,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 14,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 14,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "syntax error, unexpected FD"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 16,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 16,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "syntax error, unexpected WORKING-STORAGE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 18,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 19,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 19,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 20,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 21,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 21,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 22,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 22,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 23,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 23,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 24,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 24,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 25,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 25,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 26,
+        "level": "note",
+        "message": "unknown statement '01'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 27,
+        "level": "error",
+        "message": "syntax error, unexpected PROCEDURE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "'EMPLOYEE-RECORD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "'FILE-EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "'EMPLOYEE-SALARY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "'TOTAL-SALARY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "'I' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "'SALARY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "syntax error, unexpected /, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "'SORTED-SALARY-ARRAY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "'SORTED-SALARY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "'MEDIAN-SALARY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "'J' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "'TEMP-VAR' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "'MEAN-SALARY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "'STANDARD-DEVIATION' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "FUNCTION 'SQRT' has invalid argument"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "'OUTPUT-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "'OUTPUT-FILE' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "'OUTPUT-RECORD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_19/task_func_19.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'OUTPUT-FILE' is not a file name"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.661",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.709 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid indicator 's' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 5,
+        "level": "error",
+        "message": "invalid indicator 'F' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 6,
+        "level": "error",
+        "message": "invalid indicator 'M' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 8,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 11,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 14,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 16,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 23,
+        "level": "error",
+        "message": "invalid indicator 'P' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 24,
+        "level": "error",
+        "message": "invalid indicator 'P' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "invalid indicator 'G' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 29,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "invalid indicator 'A' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "invalid indicator 'C' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "invalid indicator 'A' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "invalid indicator 'R' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "invalid indicator 'S' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "invalid indicator 'M' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "invalid indicator 'A' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "invalid indicator 'A' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "invalid indicator 'V' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "invalid indicator 'V' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "invalid indicator 'A' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 82,
+        "level": "error",
+        "message": "invalid indicator 'S' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 83,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected VALID"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 18,
+        "level": "note",
+        "message": "unknown statement 'CUSTOMER-NAME'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 19,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 19,
+        "level": "note",
+        "message": "unknown statement 'CUSTOMER-AGE'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 20,
+        "level": "note",
+        "message": "unknown statement 'ANNUAL-SALARY'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 21,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 21,
+        "level": "note",
+        "message": "unknown statement 'CREDIT-SCORE'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 25,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 25,
+        "level": "note",
+        "message": "unknown statement 'CUSTOMER-NAME'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 26,
+        "level": "note",
+        "message": "unknown statement 'MAX-LOAN-AMOUNT'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "syntax error, unexpected UNTIL"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "'WS-AGE-FACTOR' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "'WS-CREDIT-SCORE-FACTOR' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_20/task_func_20.cbl",
+        "line": 84,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.686",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.732 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_21/task_func_21.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_21/task_func_21.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected DAY"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.710",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.756 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 94,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'constraints'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_22/task_func_22.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.733",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.780 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 90,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'the'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_23/task_func_23.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.757",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.803 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_24/task_func_24.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_24/task_func_24.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "DATA DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_24/task_func_24.cbl",
+        "line": 6,
+        "level": "error",
+        "message": "missing file description for FILE File1"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_24/task_func_24.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "missing file description for FILE File2"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_24/task_func_24.cbl",
+        "line": 8,
+        "level": "error",
+        "message": "missing file description for FILE OutputFile"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_24/task_func_24.cbl",
+        "line": 24,
+        "level": "error",
+        "message": "'WS-COUNT1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_24/task_func_24.cbl",
+        "line": 24,
+        "level": "error",
+        "message": "'WS-COUNT2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_24/task_func_24.cbl",
+        "line": 25,
+        "level": "error",
+        "message": "'OUTREC' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.780",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.830 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid indicator 's' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 5,
+        "level": "error",
+        "message": "invalid indicator 'F' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 6,
+        "level": "error",
+        "message": "invalid indicator 'M' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 8,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 11,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 13,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 16,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "invalid indicator 'l' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "invalid indicator 'l' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 23,
+        "level": "error",
+        "message": "invalid indicator 'u' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 24,
+        "level": "error",
+        "message": "invalid indicator 'u' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "invalid indicator 'p' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 27,
+        "level": "error",
+        "message": "invalid indicator 'p' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 29,
+        "level": "error",
+        "message": "invalid indicator 'G' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "invalid indicator 'u' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 39,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "invalid indicator 'A' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "invalid indicator 'A' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "invalid indicator 'R' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "invalid indicator 'M' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 83,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'steps'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 19,
+        "level": "error",
+        "message": "invalid system-name 'Age'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 19,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "invalid system-name 'Salary'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 21,
+        "level": "error",
+        "message": "invalid system-name 'Experience'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 21,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "invalid system-name 'ValueCount'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "invalid system-name 'ValuesOccurs'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "invalid system-name 'I'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "syntax error, unexpected level-number"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "invalid system-name 'SumValue'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "invalid system-name 'MeanValue'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "invalid system-name 'MinValue'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "invalid system-name 'MaxValue'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "invalid system-name 'END-OF-FILE'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "invalid system-name 'EOF'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "syntax error, unexpected TO, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "syntax error, unexpected TRUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "invalid system-name 'ColumnName'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "invalid system-name 'Age'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "invalid system-name 'Salary'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "invalid system-name 'Experience'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "invalid system-name 'EmployeeFile'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "syntax error, unexpected END-EVALUATE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "invalid system-name 'ValueCount'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "invalid system-name 'SumValue'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "syntax error, unexpected =, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "syntax error, unexpected +, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "invalid system-name 'MinValue'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "syntax error, unexpected VALUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "invalid system-name 'MaxValue'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "invalid system-name 'EmployeeFile'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected RECORD, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected INTO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "invalid system-name 'EmployeeRecord'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected SET"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "invalid system-name 'EOF'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_25/task_func_25.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected TRUE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.804",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.853 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 18,
+        "level": "error",
+        "message": "syntax error, unexpected CONDITION"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "syntax error, unexpected AT END"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "syntax error, unexpected TRUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "'END-OF-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "'FIRST-RECORD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "'DIFFERENT-DEPARTMENT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "syntax error, unexpected AT END"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "syntax error, unexpected TRUE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "'HEADING-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'TOTAL-SALES-AMOUNT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'SUMMARY-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'DETAIL-LINE-SALESPERSON-ID' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "'DETAIL-LINE-SALES-AMOUNT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'DETAIL-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "'H1-PAGE-NUMBER' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "'HEADING-LINE-1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "'HEADING-LINE-2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "'HEADING-LINE-3' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_26/task_func_26.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "'PREVIOUS-DEPARTMENT' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.831",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.875 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_27/task_func_27.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_27/task_func_27.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "length of 'REPORT-LINE' out of bounds: 16"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.853",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.898 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_28/task_func_28.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_28/task_func_28.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "'WS-EOF' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_28/task_func_28.cbl",
+        "line": 56,
+        "level": "error",
+        "message": "'I' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_28/task_func_28.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "'OUT-REC' cannot be subscripted"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_28/task_func_28.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected PERFORM, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_28/task_func_28.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "redefinition of 'INITIALIZE-RTN'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.875",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.920 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_29/task_func_29.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_29/task_func_29.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "'END-OF-FILE' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.898",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.941 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 34,
+        "level": "warning",
+        "message": "ignoring unknown directive: 'PROCESS INPUT' [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 49,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'd'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected -, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'frequency'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected :"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_30/task_func_30.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.920",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.963 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_31/task_func_31.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_31/task_func_31.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "'TOTAL-TEMPERATURE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_31/task_func_31.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "'RECORD-COUNT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_31/task_func_31.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "'I' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.942",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:53.984 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_32/task_func_32.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_32/task_func_32.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "'TOTAL-SPEED' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_32/task_func_32.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "'TOTAL-COUNT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_32/task_func_32.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected COUNT"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.963",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.005 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_33/task_func_33.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_33/task_func_33.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "'HEADER-RECORD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_33/task_func_33.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_33/task_func_33.cbl",
+        "line": 67,
+        "level": "note",
+        "message": "unknown statement '05'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:53.984",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.027 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_34/task_func_34.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_34/task_func_34.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "group item 'SUBTOTAL' cannot have PICTURE clause"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_34/task_func_34.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'SUBTOTAL' is not a numeric or numeric-edited name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_34/task_func_34.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "'SUBTOTAL' is not numeric"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_34/task_func_34.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'SUBTOTAL' is not numeric"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.006",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.050 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid indicator 's' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 5,
+        "level": "error",
+        "message": "invalid indicator 'F' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 6,
+        "level": "error",
+        "message": "invalid indicator 'M' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 8,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 10,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 11,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 12,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 13,
+        "level": "error",
+        "message": "invalid indicator 'L' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "invalid indicator 'I' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 16,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 17,
+        "level": "error",
+        "message": "invalid indicator 'P' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 21,
+        "level": "error",
+        "message": "invalid indicator 'P' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 25,
+        "level": "error",
+        "message": "invalid indicator 'T' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "invalid indicator 'G' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 38,
+        "level": "error",
+        "message": "invalid indicator 'E' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "invalid indicator 'R' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 42,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 44,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "invalid indicator 'O' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 48,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "invalid indicator 'R' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "invalid indicator 'N' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 69,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "invalid indicator 'U' at column 7"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected ORDER"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 19,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 19,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 20,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 20,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 23,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 23,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 24,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 24,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 27,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 27,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 28,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 28,
+        "level": "note",
+        "message": "unknown statement '05'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 31,
+        "level": "note",
+        "message": "unknown statement 'END-OF-INP-FILE-1'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 32,
+        "level": "error",
+        "message": "syntax error, unexpected PICTURE, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 32,
+        "level": "note",
+        "message": "unknown statement 'END-OF-INP-FILE-2'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "'INP-FILE-1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "'INP-FILE-1' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "'INPUT-REC-1' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "'END-OF-INP-FILE-1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "'INP-FILE-2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "'INP-FILE-2' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "'INPUT-REC-2' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "'END-OF-INP-FILE-2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'ACCOUNT-NO-1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'ACCOUNT-NO-2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'AMOUNT-1' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'AMOUNT-2' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'AMOUNT-OUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "'INPUT-REC-1' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'INPUT-REC-2' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'INPUT-REC-1' is not a field"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_35/task_func_35.cbl",
+        "line": 70,
+        "level": "warning",
+        "message": "optional period used [-Wdialect]"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.027",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.071 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 77,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'description'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_36/task_func_36.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.050",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.092 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 76,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'ssary'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER, expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_37/task_func_37.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.072",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.116 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "syntax error, unexpected *"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "'variables' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "syntax error, unexpected *"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 40,
+        "level": "error",
+        "message": "syntax error, unexpected AND, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "syntax error, unexpected *"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 46,
+        "level": "error",
+        "message": "syntax error, unexpected AND, expecting Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "'NO-MORE-RECORDS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "syntax error, unexpected *"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'files' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'files' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "syntax error, unexpected AND"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'results' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_38/task_func_38.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "syntax error, unexpected *"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.093",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.139 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "syntax error, unexpected ADDRESS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 35,
+        "level": "error",
+        "message": "syntax error, unexpected HEADING"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "invalid expression: boolean expected with logical operator"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "'ERROR-RECORD-NAME' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "syntax error, unexpected =, expecting ENTRY or PROGRAM or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "'ERROR-RECORD-ADDRESS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "IF without imperative statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 58,
+        "level": "error",
+        "message": "'ERROR-RECORD-TRANS-CODE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'ERROR-RECORD-ANNUAL-SALARY' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "syntax error, unexpected IN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'ERROR-RECORD-MARITAL-STATUS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "IF without imperative statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "'ERROR-RECORD-JOB-LEVEL' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "syntax error, unexpected IN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 70,
+        "level": "error",
+        "message": "'ERROR-RECORD-DEPARTMENT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "IF without imperative statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected HEADING"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_39/task_func_39.cbl",
+        "line": 75,
+        "level": "note",
+        "message": "unknown statement '05'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.117",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.161 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_40/task_func_40.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_40/task_func_40.cbl",
+        "line": 49,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_40/task_func_40.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_40/task_func_40.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_40/task_func_40.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_40/task_func_40.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_40/task_func_40.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.140",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.183 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 80,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'lity'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_43/task_func_43.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.162",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.205 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 7,
+        "level": "error",
+        "message": "missing file description for FILE INPUT-ARTICLE-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 8,
+        "level": "error",
+        "message": "missing file description for FILE OUTPUT-FREQUENCY-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 9,
+        "level": "error",
+        "message": "missing file description for FILE LOG-FILE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "incomplete expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected CONTAINS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "IF without imperative statement"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting INTO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting INTO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting INTO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting INTO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_44/task_func_44.cbl",
+        "line": 73,
+        "level": "error",
+        "message": "'OUTPUT-RECORD' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.183",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.227 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_45/task_func_45.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_45/task_func_45.cbl",
+        "line": 15,
+        "level": "error",
+        "message": "syntax error, unexpected DAY"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_45/task_func_45.cbl",
+        "line": 51,
+        "level": "error",
+        "message": "syntax error, unexpected DAY"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_45/task_func_45.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "syntax error, unexpected DAY"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_45/task_func_45.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected DAY"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_45/task_func_45.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "syntax error, unexpected DAY"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_45/task_func_45.cbl",
+        "line": 83,
+        "level": "error",
+        "message": "syntax error, unexpected DAY"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.206",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.248 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_47/task_func_47.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_47/task_func_47.cbl",
+        "line": 33,
+        "level": "error",
+        "message": "syntax error, unexpected BY, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_47/task_func_47.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "'NON' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_47/task_func_47.cbl",
+        "line": 34,
+        "level": "error",
+        "message": "syntax error, unexpected ALPHANUMERIC, expecting BY"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.228",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.270 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 16,
+        "level": "warning",
+        "message": "value size exceeds data size [-Wothers]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 26,
+        "level": "error",
+        "message": "'I' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 27,
+        "level": "error",
+        "message": "condition-name not allowed here: 'SUBJECT-NAMES'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 30,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 31,
+        "level": "error",
+        "message": "'J' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 36,
+        "level": "error",
+        "message": "'INITIALIZE-DATA-X' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "'CALCULATE-AVERAGES-X' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "'REPORT-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 52,
+        "level": "error",
+        "message": "'REPORT-FILE' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "'REPORT-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "'HEADING-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "'STUDENT-NAME-OUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "'SUBJECT-GRADE-OUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'AVERAGE-GRADE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "syntax error, unexpected ALL"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "'AVERAGE-GRADE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "'AVERAGE-GRADE-OUT' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'DETAIL-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "'FOOTER-LINE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'REPORT-FILE' is not a file name"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'WRITE-REPORT-X' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "syntax error, unexpected FILLER, expecting SECTION or ."
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_48/task_func_48.cbl",
+        "line": 69,
+        "level": "note",
+        "message": "unknown statement '05'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.249",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.291 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 53,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'conventions'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting CRT or Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_49/task_func_49.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.271",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:54.312 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 81,
+        "level": "warning",
+        "message": "line not terminated by a newline [-Wmissing-newline]"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "PROGRAM-ID header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "ENVIRONMENT DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "CONFIGURATION SECTION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "SPECIAL-NAMES header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 1,
+        "level": "error",
+        "message": "invalid system-name 'r'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "PROCEDURE DIVISION header missing"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 3,
+        "level": "error",
+        "message": "syntax error, unexpected CODE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/XMAiNframe-instruct-7b/instruct/task_func_55/task_func_55.cbl",
+        "line": 4,
+        "level": "error",
+        "message": "invalid symbol '|' - skipping word"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:54.291",
+    "execution": {}
+  }
+]

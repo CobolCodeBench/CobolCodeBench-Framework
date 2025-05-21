@@ -1,0 +1,1226 @@
+2025-05-20 22:19:46.776 | INFO     | __main__:<module>:352 - Starting processing for model: claude-3-5-sonnet-20241022, mode: complete
+2025-05-20 22:19:46.778 | INFO     | __main__:__init__:34 - Loaded ./data/Completion_Set.json successfully
+2025-05-20 22:19:46.786 | INFO     | __main__:__init__:41 - Data frame read successfully
+2025-05-20 22:19:46.786 | INFO     | __main__:compile:150 - Processing 46 programs
+2025-05-20 22:19:46.786 | INFO     | __main__:compile:156 - Processing program 1/46: task_func_01
+2025-05-20 22:19:46.787 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.787 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.787 | INFO     | __main__:compile:190 - compiling task_func_01
+2025-05-20 22:19:46.910 | SUCCESS  | __main__:compile:206 - task_func_01 is successfully compiled
+2025-05-20 22:19:46.916 | SUCCESS  | __main__:compile:216 - task_func_01 is successfully executed
+2025-05-20 22:19:46.917 | INFO     | __main__:compile:156 - Processing program 2/46: task_func_02
+2025-05-20 22:19:46.917 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.917 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.917 | INFO     | __main__:compile:190 - compiling task_func_02
+2025-05-20 22:19:47.023 | SUCCESS  | __main__:compile:206 - task_func_02 is successfully compiled
+2025-05-20 22:19:47.029 | SUCCESS  | __main__:compile:216 - task_func_02 is successfully executed
+2025-05-20 22:19:47.030 | INFO     | __main__:compile:156 - Processing program 3/46: task_func_03
+2025-05-20 22:19:47.030 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:47.030 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:47.030 | INFO     | __main__:compile:190 - compiling task_func_03
+2025-05-20 22:19:47.151 | SUCCESS  | __main__:compile:206 - task_func_03 is successfully compiled
+2025-05-20 22:19:47.157 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE-2 ('task_func03_out2')
+libcob: warning: implicit CLOSE of OUTPUT-FILE-2 ('task_func03_out2')
+libcob: warning: implicit CLOSE of OUTPUT-FILE-1 ('task_func03_out1')
+libcob: warning: implicit CLOSE of INPUT-FILE ('task_func03_inp')
+
+2025-05-20 22:19:47.158 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:47.158 | ERROR    | __main__:compile:221 - Execution failed for task_func_03
+2025-05-20 22:19:47.158 | INFO     | __main__:compile:156 - Processing program 4/46: task_func_04
+2025-05-20 22:19:47.159 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:47.159 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:47.159 | INFO     | __main__:compile:190 - compiling task_func_04
+2025-05-20 22:19:47.275 | SUCCESS  | __main__:compile:206 - task_func_04 is successfully compiled
+2025-05-20 22:19:47.282 | SUCCESS  | __main__:compile:216 - task_func_04 is successfully executed
+2025-05-20 22:19:47.283 | INFO     | __main__:compile:156 - Processing program 5/46: task_func_05
+2025-05-20 22:19:47.283 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:47.283 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:47.283 | INFO     | __main__:compile:190 - compiling task_func_05
+2025-05-20 22:19:47.394 | SUCCESS  | __main__:compile:206 - task_func_05 is successfully compiled
+2025-05-20 22:19:47.400 | SUCCESS  | __main__:compile:216 - task_func_05 is successfully executed
+2025-05-20 22:19:47.400 | INFO     | __main__:compile:156 - Processing program 6/46: task_func_07
+2025-05-20 22:19:47.401 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:47.401 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:47.401 | INFO     | __main__:compile:190 - compiling task_func_07
+2025-05-20 22:19:47.544 | SUCCESS  | __main__:compile:206 - task_func_07 is successfully compiled
+2025-05-20 22:19:47.549 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('task_func07_out')
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('task_func07_out')
+libcob: warning: implicit CLOSE of EMP-INPUT ('task_func_07_inp2')
+libcob: warning: implicit CLOSE of TASK-INPUT ('task_func_07_inp1')
+
+2025-05-20 22:19:47.550 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:47.550 | ERROR    | __main__:compile:221 - Execution failed for task_func_07
+2025-05-20 22:19:47.550 | INFO     | __main__:compile:156 - Processing program 7/46: task_func_08
+2025-05-20 22:19:47.550 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:47.550 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:47.550 | INFO     | __main__:compile:190 - compiling task_func_08
+2025-05-20 22:19:47.660 | SUCCESS  | __main__:compile:206 - task_func_08 is successfully compiled
+2025-05-20 22:19:47.666 | SUCCESS  | __main__:compile:216 - task_func_08 is successfully executed
+2025-05-20 22:19:47.666 | INFO     | __main__:compile:156 - Processing program 8/46: task_func_09
+2025-05-20 22:19:47.667 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:47.667 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:47.667 | INFO     | __main__:compile:190 - compiling task_func_09
+2025-05-20 22:19:47.786 | SUCCESS  | __main__:compile:206 - task_func_09 is successfully compiled
+2025-05-20 22:19:52.792 | ERROR    | __main__:compile:223 - Execution error for task_func_09: Command './task_func_09' timed out after 5 seconds
+2025-05-20 22:19:52.792 | INFO     | __main__:compile:156 - Processing program 9/46: task_func_10
+2025-05-20 22:19:52.792 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:52.792 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:52.793 | INFO     | __main__:compile:190 - compiling task_func_10
+2025-05-20 22:19:52.815 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:47: error: invalid indicator 'E' at column 7
+   45 | 
+   46 | 
+   47 > 01 WS-EOF             PIC A VALUE 'N'.
+   48 | 01 WS-VALID-COUNTRY  PIC X VALUE 'N'.
+   49 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:48: error: invalid indicator 'V' at column 7
+   46 | 
+   47 | 01 WS-EOF             PIC A VALUE 'N'.
+   48 > 01 WS-VALID-COUNTRY  PIC X VALUE 'N'.
+   49 | 
+   50 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:50: error: invalid indicator 'U' at column 7
+   48 | 01 WS-VALID-COUNTRY  PIC X VALUE 'N'.
+   49 | 
+   50 > PROCEDURE DIVISION.
+   51 |     OPEN INPUT INPUT-FILE
+   52 |          OUTPUT OUTPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:51: error: invalid indicator 'E' at column 7
+   49 | 
+   50 | PROCEDURE DIVISION.
+   51 >     OPEN INPUT INPUT-FILE
+   52 |          OUTPUT OUTPUT-FILE.
+   53 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:54: error: invalid indicator 'R' at column 7
+   52 |          OUTPUT OUTPUT-FILE.
+   53 | 
+   54 >     PERFORM UNTIL WS-EOF = 'Y'
+   55 |         READ INPUT-FILE
+   56 |             AT END
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:74: error: invalid indicator 'O' at column 7
+   72 |     END-PERFORM.
+   73 | 
+   74 >     CLOSE INPUT-FILE
+   75 |           OUTPUT-FILE.
+   76 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:77: error: invalid indicator 'O' at column 7
+   75 |           OUTPUT-FILE.
+   76 | 
+   77 >     STOP RUN.
+   78 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:52: error: PROCEDURE DIVISION header missing
+   50 | PROCEDURE DIVISION.
+   51 |     OPEN INPUT INPUT-FILE
+   52 >          OUTPUT OUTPUT-FILE.
+   53 | 
+   54 |     PERFORM UNTIL WS-EOF = 'Y'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:52: error: syntax error, unexpected OUTPUT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:57: error: 'WS-EOF' is not defined
+   55 |         READ INPUT-FILE
+   56 |             AT END
+   57 >                 MOVE 'Y' TO WS-EOF
+   58 |             NOT AT END
+   59 |                 MOVE 'N' TO WS-VALID-COUNTRY
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:59: error: 'WS-VALID-COUNTRY' is not defined
+   57 |                 MOVE 'Y' TO WS-EOF
+   58 |             NOT AT END
+   59 >                 MOVE 'N' TO WS-VALID-COUNTRY
+   60 |                 IF COUNTRY-NAME = 'India' OR
+   61 |                    COUNTRY-NAME = 'China' OR
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_10/task_func_10.cbl:75: error: syntax error, unexpected Identifier
+   73 | 
+   74 |     CLOSE INPUT-FILE
+   75 >           OUTPUT-FILE.
+   76 | 
+   77 |     STOP RUN.
+
+2025-05-20 22:19:52.815 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:52.815 | ERROR    | __main__:compile:227 - Compilation failed for task_func_10
+2025-05-20 22:19:52.816 | INFO     | __main__:compile:156 - Processing program 10/46: task_func_11
+2025-05-20 22:19:52.816 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:52.816 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:52.816 | INFO     | __main__:compile:190 - compiling task_func_11
+2025-05-20 22:19:52.931 | SUCCESS  | __main__:compile:206 - task_func_11 is successfully compiled
+2025-05-20 22:19:52.936 | SUCCESS  | __main__:compile:216 - task_func_11 is successfully executed
+2025-05-20 22:19:52.937 | INFO     | __main__:compile:156 - Processing program 11/46: task_func_12
+2025-05-20 22:19:52.937 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:52.937 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:52.937 | INFO     | __main__:compile:190 - compiling task_func_12
+2025-05-20 22:19:52.959 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:53: warning: continuation of COBOL words used [-Wdialect]
+   51 | 
+   52 | 
+   53 > 01  WS-EOF-FLAG         PIC X VALUE 'N'.
+   54 |     88 EOF              VALUE 'Y'.
+   55 | 01  WS-TOTAL-COST      PIC 9(06).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:55: warning: continuation of COBOL words used [-Wdialect]
+   53 | 01  WS-EOF-FLAG         PIC X VALUE 'N'.
+   54 |     88 EOF              VALUE 'Y'.
+   55 > 01  WS-TOTAL-COST      PIC 9(06).
+   56 | 01  WS-TAX-RATE        PIC V99 VALUE .10.
+   57 | 01  WS-TAX-AMOUNT      PIC 9(06).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:56: warning: continuation of COBOL words used [-Wdialect]
+   54 |     88 EOF              VALUE 'Y'.
+   55 | 01  WS-TOTAL-COST      PIC 9(06).
+   56 > 01  WS-TAX-RATE        PIC V99 VALUE .10.
+   57 | 01  WS-TAX-AMOUNT      PIC 9(06).
+   58 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:57: warning: continuation of COBOL words used [-Wdialect]
+   55 | 01  WS-TOTAL-COST      PIC 9(06).
+   56 | 01  WS-TAX-RATE        PIC V99 VALUE .10.
+   57 > 01  WS-TAX-AMOUNT      PIC 9(06).
+   58 | 
+   59 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:59: error: invalid indicator 'U' at column 7
+   57 | 01  WS-TAX-AMOUNT      PIC 9(06).
+   58 | 
+   59 > PROCEDURE DIVISION.
+   60 | MAIN-PROCEDURE.
+   61 |     SORT SORT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:60: error: invalid indicator 'R' at column 7
+   58 | 
+   59 | PROCEDURE DIVISION.
+   60 > MAIN-PROCEDURE.
+   61 |     SORT SORT-FILE
+   62 |         ON ASCENDING KEY SORT-NAME
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:61: error: invalid indicator 'R' at column 7
+   59 | PROCEDURE DIVISION.
+   60 | MAIN-PROCEDURE.
+   61 >     SORT SORT-FILE
+   62 |         ON ASCENDING KEY SORT-NAME
+   63 |         USING INPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:66: error: invalid indicator 'E' at column 7
+   64 |         GIVING INPUT-FILE.
+   65 | 
+   66 >     OPEN INPUT INPUT-FILE
+   67 |          OUTPUT OUTPUT-FILE.
+   68 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:69: error: invalid indicator 'R' at column 7
+   67 |          OUTPUT OUTPUT-FILE.
+   68 | 
+   69 >     PERFORM UNTIL EOF
+   70 |         READ INPUT-FILE
+   71 |             AT END SET EOF TO TRUE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:76: error: invalid indicator 'O' at column 7
+   74 |     END-PERFORM.
+   75 | 
+   76 >     CLOSE INPUT-FILE
+   77 |           OUTPUT-FILE.
+   78 |     STOP RUN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:78: error: invalid indicator 'O' at column 7
+   76 |     CLOSE INPUT-FILE
+   77 |           OUTPUT-FILE.
+   78 >     STOP RUN.
+   79 | 
+   80 | PROCESS-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:80: error: invalid indicator 'S' at column 7
+   78 |     STOP RUN.
+   79 | 
+   80 > PROCESS-RECORD.
+   81 |     COMPUTE WS-TAX-AMOUNT = IN-SURGERY-COST * WS-TAX-RATE.
+   82 |     COMPUTE WS-TOTAL-COST = IN-SURGERY-COST + WS-TAX-AMOUNT.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:81: error: invalid indicator 'M' at column 7
+   79 | 
+   80 | PROCESS-RECORD.
+   81 >     COMPUTE WS-TAX-AMOUNT = IN-SURGERY-COST * WS-TAX-RATE.
+   82 |     COMPUTE WS-TOTAL-COST = IN-SURGERY-COST + WS-TAX-AMOUNT.
+   83 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:82: error: invalid indicator 'M' at column 7
+   80 | PROCESS-RECORD.
+   81 |     COMPUTE WS-TAX-AMOUNT = IN-SURGERY-COST * WS-TAX-RATE.
+   82 >     COMPUTE WS-TOTAL-COST = IN-SURGERY-COST + WS-TAX-AMOUNT.
+   83 | 
+   84 |     MOVE IN-NAME TO OUT-NAME.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:84: error: invalid indicator 'V' at column 7
+   82 |     COMPUTE WS-TOTAL-COST = IN-SURGERY-COST + WS-TAX-AMOUNT.
+   83 | 
+   84 >     MOVE IN-NAME TO OUT-NAME.
+   85 |     MOVE IN-AGE TO OUT-AGE.
+   86 |     MOVE WS-TOTAL-COST TO OUT-TOTAL-COST.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:85: error: invalid indicator 'V' at column 7
+   83 | 
+   84 |     MOVE IN-NAME TO OUT-NAME.
+   85 >     MOVE IN-AGE TO OUT-AGE.
+   86 |     MOVE WS-TOTAL-COST TO OUT-TOTAL-COST.
+   87 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:86: error: invalid indicator 'V' at column 7
+   84 |     MOVE IN-NAME TO OUT-NAME.
+   85 |     MOVE IN-AGE TO OUT-AGE.
+   86 >     MOVE WS-TOTAL-COST TO OUT-TOTAL-COST.
+   87 | 
+   88 |     WRITE OUTPUT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:88: error: invalid indicator 'I' at column 7
+   86 |     MOVE WS-TOTAL-COST TO OUT-TOTAL-COST.
+   87 | 
+   88 >     WRITE OUTPUT-RECORD.
+   89 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:49: error: PROCEDURE DIVISION header missing
+   47 |       * after the last statement.
+   48 |       * Area A and Area B constraints and indentation must be strictly fo..
+   49 >        WORKING-STORAGE SECTION.
+   50 | 
+   51 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:49: error: syntax error, unexpected Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: syntax error, unexpected VALUE, expecting SECTION or .
+   52 | 
+   53 | 01  WS-EOF-FLAG         PIC X VALUE 'N'.
+   54 >     88 EOF              VALUE 'Y'.
+   55 | 01  WS-TOTAL-COST      PIC 9(06).
+   56 | 01  WS-TAX-RATE        PIC V99 VALUE .10.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: note: unknown statement 'EOF'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: invalid PICTURE character 'T'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: invalid PICTURE character 'R'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: invalid PICTURE character 'E'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: A or X cannot follow .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: a leading +/- sign cannot follow .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: a leading +/- sign cannot follow 9
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: a leading +/- sign cannot follow A or X
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: A or X cannot follow a leading +/- sign
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: E cannot follow A or X
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: syntax error, unexpected PICTURE, expecting SECTION or .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: note: unknown statement 'TOTAL-COST'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: error: syntax error, unexpected PICTURE, expecting SECTION or .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:54: note: unknown statement 'TAX-AMOUNT'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:62: error: syntax error, unexpected ON
+   60 | MAIN-PROCEDURE.
+   61 |     SORT SORT-FILE
+   62 >         ON ASCENDING KEY SORT-NAME
+   63 |         USING INPUT-FILE
+   64 |         GIVING INPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:67: error: syntax error, unexpected OUTPUT
+   65 | 
+   66 |     OPEN INPUT INPUT-FILE
+   67 >          OUTPUT OUTPUT-FILE.
+   68 | 
+   69 |     PERFORM UNTIL EOF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:71: error: 'EOF' is not defined
+   69 |     PERFORM UNTIL EOF
+   70 |         READ INPUT-FILE
+   71 >             AT END SET EOF TO TRUE
+   72 |             NOT AT END PERFORM PROCESS-RECORD
+   73 |         END-READ
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:77: error: syntax error, unexpected Identifier
+   75 | 
+   76 |     CLOSE INPUT-FILE
+   77 >           OUTPUT-FILE.
+   78 |     STOP RUN.
+   79 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_12/task_func_12.cbl:72: error: 'PROCESS-RECORD' is not defined
+   70 |         READ INPUT-FILE
+   71 |             AT END SET EOF TO TRUE
+   72 >             NOT AT END PERFORM PROCESS-RECORD
+   73 |         END-READ
+   74 |     END-PERFORM.
+
+2025-05-20 22:19:52.959 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:52.959 | ERROR    | __main__:compile:227 - Compilation failed for task_func_12
+2025-05-20 22:19:52.960 | INFO     | __main__:compile:156 - Processing program 12/46: task_func_13
+2025-05-20 22:19:52.960 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:52.960 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:52.960 | INFO     | __main__:compile:190 - compiling task_func_13
+2025-05-20 22:19:53.069 | SUCCESS  | __main__:compile:206 - task_func_13 is successfully compiled
+2025-05-20 22:19:53.075 | SUCCESS  | __main__:compile:216 - task_func_13 is successfully executed
+2025-05-20 22:19:53.076 | INFO     | __main__:compile:156 - Processing program 13/46: task_func_14
+2025-05-20 22:19:53.076 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.076 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.076 | INFO     | __main__:compile:190 - compiling task_func_14
+2025-05-20 22:19:53.201 | SUCCESS  | __main__:compile:206 - task_func_14 is successfully compiled
+2025-05-20 22:19:53.207 | SUCCESS  | __main__:compile:216 - task_func_14 is successfully executed
+2025-05-20 22:19:53.207 | INFO     | __main__:compile:156 - Processing program 14/46: task_func_15
+2025-05-20 22:19:53.208 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.208 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.208 | INFO     | __main__:compile:190 - compiling task_func_15
+2025-05-20 22:19:53.346 | SUCCESS  | __main__:compile:206 - task_func_15 is successfully compiled
+2025-05-20 22:19:53.359 | SUCCESS  | __main__:compile:216 - task_func_15 is successfully executed
+2025-05-20 22:19:53.363 | INFO     | __main__:compile:156 - Processing program 15/46: task_func_16
+2025-05-20 22:19:53.363 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.363 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.363 | INFO     | __main__:compile:190 - compiling task_func_16
+2025-05-20 22:19:53.384 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_16/task_func_16.cbl:61: error: FUNCTION 'SECONDS-BETWEEN' unknown
+   59 |                        ADD 1 TO WS-TIMESTAMP-COUNT
+   60 |                        COMPUTE WS-TEMP-DIFF =
+   61 >                            FUNCTION SECONDS-BETWEEN(
+   62 |                                WS-CURR-TIMESTAMP, WS-PREV-TIMESTAMP)
+   63 |                        ADD WS-TEMP-DIFF TO WS-TOTAL-DIFF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_16/task_func_16.cbl:73: error: invalid MOVE statement
+   71 |            END-IF.
+   72 | 
+   73 >            MOVE WS-AVG-DIFF TO OUTPUT-RECORD.
+   74 |            WRITE OUTPUT-RECORD.
+   75 | 
+
+2025-05-20 22:19:53.384 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:53.384 | ERROR    | __main__:compile:227 - Compilation failed for task_func_16
+2025-05-20 22:19:53.385 | INFO     | __main__:compile:156 - Processing program 16/46: task_func_17
+2025-05-20 22:19:53.385 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.385 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.385 | INFO     | __main__:compile:190 - compiling task_func_17
+2025-05-20 22:19:53.514 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_17/task_func_17.cbl: in paragraph 'FORMAT-NUMBER':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_17/task_func_17.cbl:73: warning: alphanumeric literal has zero length; a SPACE will be assumed [-Wothers]
+   71 | 
+   72 |            IF WS-PHONE-NUM NOT = SPACES
+   73 >                INSPECT WS-PHONE-NUM REPLACING ALL '-' BY ''
+   74 |                INSPECT WS-PHONE-NUM REPLACING ALL '(' BY ''
+   75 |                INSPECT WS-PHONE-NUM REPLACING ALL ')' BY ''
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_17/task_func_17.cbl:74: warning: alphanumeric literal has zero length; a SPACE will be assumed [-Wothers]
+   72 |            IF WS-PHONE-NUM NOT = SPACES
+   73 |                INSPECT WS-PHONE-NUM REPLACING ALL '-' BY ''
+   74 >                INSPECT WS-PHONE-NUM REPLACING ALL '(' BY ''
+   75 |                INSPECT WS-PHONE-NUM REPLACING ALL ')' BY ''
+   76 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_17/task_func_17.cbl:75: warning: alphanumeric literal has zero length; a SPACE will be assumed [-Wothers]
+   73 |                INSPECT WS-PHONE-NUM REPLACING ALL '-' BY ''
+   74 |                INSPECT WS-PHONE-NUM REPLACING ALL '(' BY ''
+   75 >                INSPECT WS-PHONE-NUM REPLACING ALL ')' BY ''
+   76 | 
+   77 |                STRING WS-COUNTRY-CODE
+
+2025-05-20 22:19:53.515 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:19:53.515 | SUCCESS  | __main__:compile:206 - task_func_17 is successfully compiled
+2025-05-20 22:19:53.520 | SUCCESS  | __main__:compile:216 - task_func_17 is successfully executed
+2025-05-20 22:19:53.521 | INFO     | __main__:compile:156 - Processing program 17/46: task_func_18
+2025-05-20 22:19:53.521 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.521 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.521 | INFO     | __main__:compile:190 - compiling task_func_18
+2025-05-20 22:19:53.636 | SUCCESS  | __main__:compile:206 - task_func_18 is successfully compiled
+2025-05-20 22:19:53.643 | SUCCESS  | __main__:compile:216 - task_func_18 is successfully executed
+2025-05-20 22:19:53.644 | INFO     | __main__:compile:156 - Processing program 18/46: task_func_19
+2025-05-20 22:19:53.644 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.644 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.644 | INFO     | __main__:compile:190 - compiling task_func_19
+2025-05-20 22:19:53.777 | SUCCESS  | __main__:compile:206 - task_func_19 is successfully compiled
+2025-05-20 22:19:53.784 | SUCCESS  | __main__:compile:216 - task_func_19 is successfully executed
+2025-05-20 22:19:53.784 | INFO     | __main__:compile:156 - Processing program 19/46: task_func_20
+2025-05-20 22:19:53.785 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.785 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.785 | INFO     | __main__:compile:190 - compiling task_func_20
+2025-05-20 22:19:53.807 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_20/task_func_20.cbl: in paragraph 'CALCULATE-LOAN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_20/task_func_20.cbl:70: error: 'WS-LOAN-MULTIPL' is not defined
+   68 |               IN-CUST-SALARY >= WS-MIN-SALARY AND
+   69 |               IN-CREDIT-SCORE >= WS-MIN-CREDIT-SCORE
+   70 >                COMPUTE WS-LOAN-AMOUNT = IN-CUST-SALARY * WS-LOAN-MULTIPLI..
+   71 |                MOVE IN-CUST-NAME TO OUT-CUST-NAME
+   72 |                MOVE WS-LOAN-AMOUNT TO OUT-LOAN-AMOUNT
+
+2025-05-20 22:19:53.807 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:53.807 | ERROR    | __main__:compile:227 - Compilation failed for task_func_20
+2025-05-20 22:19:53.808 | INFO     | __main__:compile:156 - Processing program 20/46: task_func_21
+2025-05-20 22:19:53.808 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.808 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.808 | INFO     | __main__:compile:190 - compiling task_func_21
+2025-05-20 22:19:53.830 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_21/task_func_21.cbl:75: error: syntax error, unexpected MOVE
+   73 |                        COMPUTE WS-RAND-NUM = FUNCTION RANDOM(WS-SEED) * 9..
+   74 | 
+   75 >                        MOVE PRODUCT-LIST(WS-PROD-INDEX)
+   76 |                            TO PRODUCT-NAME
+   77 |                        MOVE EPOCH-TIME TO SALE-DATE
+
+2025-05-20 22:19:53.831 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:53.831 | ERROR    | __main__:compile:227 - Compilation failed for task_func_21
+2025-05-20 22:19:53.831 | INFO     | __main__:compile:156 - Processing program 21/46: task_func_22
+2025-05-20 22:19:53.831 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.831 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.831 | INFO     | __main__:compile:190 - compiling task_func_22
+2025-05-20 22:19:53.940 | SUCCESS  | __main__:compile:206 - task_func_22 is successfully compiled
+2025-05-20 22:19:53.948 | SUCCESS  | __main__:compile:216 - task_func_22 is successfully executed
+2025-05-20 22:19:53.949 | INFO     | __main__:compile:156 - Processing program 22/46: task_func_23
+2025-05-20 22:19:53.949 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.949 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.950 | INFO     | __main__:compile:190 - compiling task_func_23
+2025-05-20 22:19:53.972 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_23/task_func_23.cbl: in paragraph '200-PROCESS-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_23/task_func_23.cbl:103: error: FUNCTION 'DAY-OF-MONTH' unknown
+  101 |                        MOVE 12 TO WS-MONTH
+  102 |                    END-IF
+  103 >                    MOVE FUNCTION DAY-OF-MONTH(WS-YEAR WS-MONTH)
+  104 |                        TO WS-DAY
+  105 |                END-IF
+
+2025-05-20 22:19:53.972 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:53.972 | ERROR    | __main__:compile:227 - Compilation failed for task_func_23
+2025-05-20 22:19:53.972 | INFO     | __main__:compile:156 - Processing program 23/46: task_func_24
+2025-05-20 22:19:53.972 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:53.972 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:53.973 | INFO     | __main__:compile:190 - compiling task_func_24
+2025-05-20 22:19:54.103 | SUCCESS  | __main__:compile:206 - task_func_24 is successfully compiled
+2025-05-20 22:19:54.110 | SUCCESS  | __main__:compile:216 - task_func_24 is successfully executed
+2025-05-20 22:19:54.111 | INFO     | __main__:compile:156 - Processing program 24/46: task_func_25
+2025-05-20 22:19:54.111 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:54.111 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:54.111 | INFO     | __main__:compile:190 - compiling task_func_25
+2025-05-20 22:19:54.228 | SUCCESS  | __main__:compile:206 - task_func_25 is successfully compiled
+2025-05-20 22:19:54.233 | SUCCESS  | __main__:compile:216 - task_func_25 is successfully executed
+2025-05-20 22:19:54.234 | INFO     | __main__:compile:156 - Processing program 25/46: task_func_26
+2025-05-20 22:19:54.234 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:54.234 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:54.234 | INFO     | __main__:compile:190 - compiling task_func_26
+2025-05-20 22:19:54.258 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:42: error: invalid indicator 'F' at column 7
+   40 | 
+   41 | 
+   42 > 01 WS-FILE-STATUS.
+   43 |    05 WS-FS1                 PIC X(02).
+   44 |    05 WS-FS2                 PIC X(02).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:43: error: invalid indicator 'W' at column 7
+   41 | 
+   42 | 01 WS-FILE-STATUS.
+   43 >    05 WS-FS1                 PIC X(02).
+   44 |    05 WS-FS2                 PIC X(02).
+   45 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:44: error: invalid indicator 'W' at column 7
+   42 | 01 WS-FILE-STATUS.
+   43 |    05 WS-FS1                 PIC X(02).
+   44 >    05 WS-FS2                 PIC X(02).
+   45 | 
+   46 | 01 WS-SWITCHES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:46: error: invalid indicator 'S' at column 7
+   44 |    05 WS-FS2                 PIC X(02).
+   45 | 
+   46 > 01 WS-SWITCHES.
+   47 |    05 WS-EOF-SW             PIC X VALUE 'N'.
+   48 |       88 WS-EOF             VALUE 'Y'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:47: error: invalid indicator 'W' at column 7
+   45 | 
+   46 | 01 WS-SWITCHES.
+   47 >    05 WS-EOF-SW             PIC X VALUE 'N'.
+   48 |       88 WS-EOF             VALUE 'Y'.
+   49 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:48: error: invalid indicator '8' at column 7
+   46 | 01 WS-SWITCHES.
+   47 |    05 WS-EOF-SW             PIC X VALUE 'N'.
+   48 >       88 WS-EOF             VALUE 'Y'.
+   49 | 
+   50 | 01 WS-WORK-AREAS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:50: error: invalid indicator 'W' at column 7
+   48 |       88 WS-EOF             VALUE 'Y'.
+   49 | 
+   50 > 01 WS-WORK-AREAS.
+   51 |    05 WS-CURR-DEPT          PIC 99 VALUE 0.
+   52 |    05 WS-DEPT-TOTAL         PIC 9(08)V99 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:51: error: invalid indicator 'W' at column 7
+   49 | 
+   50 | 01 WS-WORK-AREAS.
+   51 >    05 WS-CURR-DEPT          PIC 99 VALUE 0.
+   52 |    05 WS-DEPT-TOTAL         PIC 9(08)V99 VALUE 0.
+   53 |    05 WS-GRAND-TOTAL        PIC 9(08)V99 VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:52: error: invalid indicator 'W' at column 7
+   50 | 01 WS-WORK-AREAS.
+   51 |    05 WS-CURR-DEPT          PIC 99 VALUE 0.
+   52 >    05 WS-DEPT-TOTAL         PIC 9(08)V99 VALUE 0.
+   53 |    05 WS-GRAND-TOTAL        PIC 9(08)V99 VALUE 0.
+   54 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:53: error: invalid indicator 'W' at column 7
+   51 |    05 WS-CURR-DEPT          PIC 99 VALUE 0.
+   52 |    05 WS-DEPT-TOTAL         PIC 9(08)V99 VALUE 0.
+   53 >    05 WS-GRAND-TOTAL        PIC 9(08)V99 VALUE 0.
+   54 | 
+   55 | 01 WS-HEADING1.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:55: error: invalid indicator 'H' at column 7
+   53 |    05 WS-GRAND-TOTAL        PIC 9(08)V99 VALUE 0.
+   54 | 
+   55 > 01 WS-HEADING1.
+   56 |    05 FILLER               PIC X(20) VALUE 'MONTHLY SALES REPORT'.
+   57 |    05 FILLER               PIC X(112) VALUE SPACES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:56: error: invalid indicator 'F' at column 7
+   54 | 
+   55 | 01 WS-HEADING1.
+   56 >    05 FILLER               PIC X(20) VALUE 'MONTHLY SALES REPORT'.
+   57 |    05 FILLER               PIC X(112) VALUE SPACES.
+   58 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:57: error: invalid indicator 'F' at column 7
+   55 | 01 WS-HEADING1.
+   56 |    05 FILLER               PIC X(20) VALUE 'MONTHLY SALES REPORT'.
+   57 >    05 FILLER               PIC X(112) VALUE SPACES.
+   58 | 
+   59 | 01 WS-HEADING2.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:59: error: invalid indicator 'H' at column 7
+   57 |    05 FILLER               PIC X(112) VALUE SPACES.
+   58 | 
+   59 > 01 WS-HEADING2.
+   60 |    05 FILLER               PIC X(10) VALUE 'DEPT NO'.
+   61 |    05 FILLER               PIC X(12) VALUE 'SALES ID'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:60: error: invalid indicator 'F' at column 7
+   58 | 
+   59 | 01 WS-HEADING2.
+   60 >    05 FILLER               PIC X(10) VALUE 'DEPT NO'.
+   61 |    05 FILLER               PIC X(12) VALUE 'SALES ID'.
+   62 |    05 FILLER               PIC X(15) VALUE 'SALES AMOUNT'.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:61: error: invalid indicator 'F' at column 7
+   59 | 01 WS-HEADING2.
+   60 |    05 FILLER               PIC X(10) VALUE 'DEPT NO'.
+   61 >    05 FILLER               PIC X(12) VALUE 'SALES ID'.
+   62 |    05 FILLER               PIC X(15) VALUE 'SALES AMOUNT'.
+   63 |    05 FILLER               PIC X(95) VALUE SPACES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:62: error: invalid indicator 'F' at column 7
+   60 |    05 FILLER               PIC X(10) VALUE 'DEPT NO'.
+   61 |    05 FILLER               PIC X(12) VALUE 'SALES ID'.
+   62 >    05 FILLER               PIC X(15) VALUE 'SALES AMOUNT'.
+   63 |    05 FILLER               PIC X(95) VALUE SPACES.
+   64 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:63: error: invalid indicator 'F' at column 7
+   61 |    05 FILLER               PIC X(12) VALUE 'SALES ID'.
+   62 |    05 FILLER               PIC X(15) VALUE 'SALES AMOUNT'.
+   63 >    05 FILLER               PIC X(95) VALUE SPACES.
+   64 | 
+   65 | 01 WS-DETAIL-LINE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:66: error: invalid indicator 'W' at column 7
+   64 | 
+   65 | 01 WS-DETAIL-LINE.
+   66 >    05 WS-DL-DEPT           PIC Z9.
+   67 |    05 FILLER               PIC X(8) VALUE SPACES.
+   68 |    05 WS-DL-SALES-ID       PIC 9999.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:67: error: invalid indicator 'F' at column 7
+   65 | 01 WS-DETAIL-LINE.
+   66 |    05 WS-DL-DEPT           PIC Z9.
+   67 >    05 FILLER               PIC X(8) VALUE SPACES.
+   68 |    05 WS-DL-SALES-ID       PIC 9999.
+   69 |    05 FILLER               PIC X(8) VALUE SPACES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:68: error: invalid indicator 'W' at column 7
+   66 |    05 WS-DL-DEPT           PIC Z9.
+   67 |    05 FILLER               PIC X(8) VALUE SPACES.
+   68 >    05 WS-DL-SALES-ID       PIC 9999.
+   69 |    05 FILLER               PIC X(8) VALUE SPACES.
+   70 |    05 WS-DL-SALES-AMT      PIC ZZ,ZZZ,ZZ9.99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:69: error: invalid indicator 'F' at column 7
+   67 |    05 FILLER               PIC X(8) VALUE SPACES.
+   68 |    05 WS-DL-SALES-ID       PIC 9999.
+   69 >    05 FILLER               PIC X(8) VALUE SPACES.
+   70 |    05 WS-DL-SALES-AMT      PIC ZZ,ZZZ,ZZ9.99.
+   71 |    05 FILLER               PIC X(95) VALUE SPACES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:70: error: invalid indicator 'W' at column 7
+   68 |    05 WS-DL-SALES-ID       PIC 9999.
+   69 |    05 FILLER               PIC X(8) VALUE SPACES.
+   70 >    05 WS-DL-SALES-AMT      PIC ZZ,ZZZ,ZZ9.99.
+   71 |    05 FILLER               PIC X(95) VALUE SPACES.
+   72 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:71: error: invalid indicator 'F' at column 7
+   69 |    05 FILLER               PIC X(8) VALUE SPACES.
+   70 |    05 WS-DL-SALES-AMT      PIC ZZ,ZZZ,ZZ9.99.
+   71 >    05 FILLER               PIC X(95) VALUE SPACES.
+   72 | 
+   73 | 01 WS-DEPT-TOTAL-LINE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:74: error: invalid indicator 'F' at column 7
+   72 | 
+   73 | 01 WS-DEPT-TOTAL-LINE.
+   74 >    05 FILLER               PIC X(20) VALUE 'DEPARTMENT TOTAL:'.
+   75 |    05 WS-DTL-TOTAL         PIC ZZ,ZZZ,ZZ9.99.
+   76 |    05 FILLER               PIC X(91) VALUE SPACES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:75: error: invalid indicator 'W' at column 7
+   73 | 01 WS-DEPT-TOTAL-LINE.
+   74 |    05 FILLER               PIC X(20) VALUE 'DEPARTMENT TOTAL:'.
+   75 >    05 WS-DTL-TOTAL         PIC ZZ,ZZZ,ZZ9.99.
+   76 |    05 FILLER               PIC X(91) VALUE SPACES.
+   77 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:76: error: invalid indicator 'F' at column 7
+   74 |    05 FILLER               PIC X(20) VALUE 'DEPARTMENT TOTAL:'.
+   75 |    05 WS-DTL-TOTAL         PIC ZZ,ZZZ,ZZ9.99.
+   76 >    05 FILLER               PIC X(91) VALUE SPACES.
+   77 | 
+   78 | 01 WS-GRAND-TOTAL-LINE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:78: error: invalid indicator 'G' at column 7
+   76 |    05 FILLER               PIC X(91) VALUE SPACES.
+   77 | 
+   78 > 01 WS-GRAND-TOTAL-LINE.
+   79 |    05 FILLER               PIC X(20) VALUE 'GRAND TOTAL:'.
+   80 |    05 WS-GTL-TOTAL         PIC ZZ,ZZZ,ZZ9.99.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:79: error: invalid indicator 'F' at column 7
+   77 | 
+   78 | 01 WS-GRAND-TOTAL-LINE.
+   79 >    05 FILLER               PIC X(20) VALUE 'GRAND TOTAL:'.
+   80 |    05 WS-GTL-TOTAL         PIC ZZ,ZZZ,ZZ9.99.
+   81 |    05 FILLER               PIC X(91) VALUE SPACES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:80: error: invalid indicator 'W' at column 7
+   78 | 01 WS-GRAND-TOTAL-LINE.
+   79 |    05 FILLER               PIC X(20) VALUE 'GRAND TOTAL:'.
+   80 >    05 WS-GTL-TOTAL         PIC ZZ,ZZZ,ZZ9.99.
+   81 |    05 FILLER               PIC X(91) VALUE SPACES.
+   82 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:81: error: invalid indicator 'F' at column 7
+   79 |    05 FILLER               PIC X(20) VALUE 'GRAND TOTAL:'.
+   80 |    05 WS-GTL-TOTAL         PIC ZZ,ZZZ,ZZ9.99.
+   81 >    05 FILLER               PIC X(91) VALUE SPACES.
+   82 | 
+   83 | PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:83: error: invalid indicator 'U' at column 7
+   81 |    05 FILLER               PIC X(91) VALUE SPACES.
+   82 | 
+   83 > PROCEDURE DIVISION.
+   84 | MAIN-PROGRAM.
+   85 |     PERFORM INITIALIZATION
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:84: error: invalid indicator 'R' at column 7
+   82 | 
+   83 | PROCEDURE DIVISION.
+   84 > MAIN-PROGRAM.
+   85 |     PERFORM INITIALIZATION
+   86 |     PERFORM PROCESS-RECORDS UNTIL WS-EOF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:85: error: invalid indicator 'R' at column 7
+   83 | PROCEDURE DIVISION.
+   84 | MAIN-PROGRAM.
+   85 >     PERFORM INITIALIZATION
+   86 |     PERFORM PROCESS-RECORDS UNTIL WS-EOF
+   87 |     PERFORM WRAP-UP
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:86: error: invalid indicator 'R' at column 7
+   84 | MAIN-PROGRAM.
+   85 |     PERFORM INITIALIZATION
+   86 >     PERFORM PROCESS-RECORDS UNTIL WS-EOF
+   87 |     PERFORM WRAP-UP
+   88 |     STOP RUN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:87: error: invalid indicator 'R' at column 7
+   85 |     PERFORM INITIALIZATION
+   86 |     PERFORM PROCESS-RECORDS UNTIL WS-EOF
+   87 >     PERFORM WRAP-UP
+   88 |     STOP RUN.
+   89 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:88: error: invalid indicator 'O' at column 7
+   86 |     PERFORM PROCESS-RECORDS UNTIL WS-EOF
+   87 |     PERFORM WRAP-UP
+   88 >     STOP RUN.
+   89 | 
+   90 | INITIALIZATION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:90: error: invalid indicator 'L' at column 7
+   88 |     STOP RUN.
+   89 | 
+   90 > INITIALIZATION.
+   91 |     OPEN INPUT INPUT-FILE
+   92 |          OUTPUT OUTPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:91: error: invalid indicator 'E' at column 7
+   89 | 
+   90 | INITIALIZATION.
+   91 >     OPEN INPUT INPUT-FILE
+   92 |          OUTPUT OUTPUT-FILE
+   93 |     WRITE OUTPUT-RECORD FROM WS-HEADING1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:93: error: invalid indicator 'I' at column 7
+   91 |     OPEN INPUT INPUT-FILE
+   92 |          OUTPUT OUTPUT-FILE
+   93 >     WRITE OUTPUT-RECORD FROM WS-HEADING1
+   94 |     WRITE OUTPUT-RECORD FROM WS-HEADING2
+   95 |     READ INPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:94: error: invalid indicator 'I' at column 7
+   92 |          OUTPUT OUTPUT-FILE
+   93 |     WRITE OUTPUT-RECORD FROM WS-HEADING1
+   94 >     WRITE OUTPUT-RECORD FROM WS-HEADING2
+   95 |     READ INPUT-FILE
+   96 |        AT END MOVE 'Y' TO WS-EOF-SW
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:95: error: invalid indicator 'A' at column 7
+   93 |     WRITE OUTPUT-RECORD FROM WS-HEADING1
+   94 |     WRITE OUTPUT-RECORD FROM WS-HEADING2
+   95 >     READ INPUT-FILE
+   96 |        AT END MOVE 'Y' TO WS-EOF-SW
+   97 |     END-READ
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:102: error: invalid indicator 'S' at column 7
+  100 |     END-IF.
+  101 | 
+  102 > PROCESS-RECORDS.
+  103 |     PERFORM PROCESS-DEPT UNTIL WS-EOF OR
+  104 |            IN-DEPT-NO NOT = WS-CURR-DEPT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:103: error: invalid indicator 'R' at column 7
+  101 | 
+  102 | PROCESS-RECORDS.
+  103 >     PERFORM PROCESS-DEPT UNTIL WS-EOF OR
+  104 |            IN-DEPT-NO NOT = WS-CURR-DEPT
+  105 |     IF NOT WS-EOF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:111: error: invalid indicator 'S' at column 7
+  109 |     END-IF.
+  110 | 
+  111 > PROCESS-DEPT.
+  112 |     MOVE IN-DEPT-NO TO WS-DL-DEPT
+  113 |     MOVE IN-SALES-ID TO WS-DL-SALES-ID
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:112: error: invalid indicator 'V' at column 7
+  110 | 
+  111 | PROCESS-DEPT.
+  112 >     MOVE IN-DEPT-NO TO WS-DL-DEPT
+  113 |     MOVE IN-SALES-ID TO WS-DL-SALES-ID
+  114 |     MOVE IN-SALES-AMT TO WS-DL-SALES-AMT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:113: error: invalid indicator 'V' at column 7
+  111 | PROCESS-DEPT.
+  112 |     MOVE IN-DEPT-NO TO WS-DL-DEPT
+  113 >     MOVE IN-SALES-ID TO WS-DL-SALES-ID
+  114 |     MOVE IN-SALES-AMT TO WS-DL-SALES-AMT
+  115 |     WRITE OUTPUT-RECORD FROM WS-DETAIL-LINE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:114: error: invalid indicator 'V' at column 7
+  112 |     MOVE IN-DEPT-NO TO WS-DL-DEPT
+  113 |     MOVE IN-SALES-ID TO WS-DL-SALES-ID
+  114 >     MOVE IN-SALES-AMT TO WS-DL-SALES-AMT
+  115 |     WRITE OUTPUT-RECORD FROM WS-DETAIL-LINE
+  116 |     ADD IN-SALES-AMT TO WS-DEPT-TOTAL
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:115: error: invalid indicator 'I' at column 7
+  113 |     MOVE IN-SALES-ID TO WS-DL-SALES-ID
+  114 |     MOVE IN-SALES-AMT TO WS-DL-SALES-AMT
+  115 >     WRITE OUTPUT-RECORD FROM WS-DETAIL-LINE
+  116 |     ADD IN-SALES-AMT TO WS-DEPT-TOTAL
+  117 |     ADD IN-SALES-AMT TO WS-GRAND-TOTAL
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:118: error: invalid indicator 'A' at column 7
+  116 |     ADD IN-SALES-AMT TO WS-DEPT-TOTAL
+  117 |     ADD IN-SALES-AMT TO WS-GRAND-TOTAL
+  118 >     READ INPUT-FILE
+  119 |        AT END MOVE 'Y' TO WS-EOF-SW
+  120 |     END-READ.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:123: error: invalid indicator 'V' at column 7
+  121 | 
+  122 | PRINT-DEPT-TOTAL.
+  123 >     MOVE WS-DEPT-TOTAL TO WS-DTL-TOTAL
+  124 |     WRITE OUTPUT-RECORD FROM WS-DEPT-TOTAL-LINE.
+  125 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:124: error: invalid indicator 'I' at column 7
+  122 | PRINT-DEPT-TOTAL.
+  123 |     MOVE WS-DEPT-TOTAL TO WS-DTL-TOTAL
+  124 >     WRITE OUTPUT-RECORD FROM WS-DEPT-TOTAL-LINE.
+  125 | 
+  126 | WRAP-UP.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:126: error: invalid indicator 'P' at column 7
+  124 |     WRITE OUTPUT-RECORD FROM WS-DEPT-TOTAL-LINE.
+  125 | 
+  126 > WRAP-UP.
+  127 |     IF WS-CURR-DEPT > 0
+  128 |        PERFORM PRINT-DEPT-TOTAL
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:130: error: invalid indicator 'V' at column 7
+  128 |        PERFORM PRINT-DEPT-TOTAL
+  129 |     END-IF
+  130 >     MOVE WS-GRAND-TOTAL TO WS-GTL-TOTAL
+  131 |     WRITE OUTPUT-RECORD FROM WS-GRAND-TOTAL-LINE
+  132 |     CLOSE INPUT-FILE OUTPUT-FILE.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:131: error: invalid indicator 'I' at column 7
+  129 |     END-IF
+  130 |     MOVE WS-GRAND-TOTAL TO WS-GTL-TOTAL
+  131 >     WRITE OUTPUT-RECORD FROM WS-GRAND-TOTAL-LINE
+  132 |     CLOSE INPUT-FILE OUTPUT-FILE.
+  133 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:132: error: invalid indicator 'O' at column 7
+  130 |     MOVE WS-GRAND-TOTAL TO WS-GTL-TOTAL
+  131 |     WRITE OUTPUT-RECORD FROM WS-GRAND-TOTAL-LINE
+  132 >     CLOSE INPUT-FILE OUTPUT-FILE.
+  133 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:10: error: 'WS-FS1' is not defined
+    8 |                ASSIGN TO 'task_func26_inp'
+    9 |                ORGANIZATION IS LINE SEQUENTIAL
+   10 >                FILE STATUS IS WS-FS1.
+   11 |            SELECT OUTPUT-FILE
+   12 |                ASSIGN TO 'task_func26_out'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:14: error: 'WS-FS2' is not defined
+   12 |                ASSIGN TO 'task_func26_out'
+   13 |                ORGANIZATION IS LINE SEQUENTIAL
+   14 >                FILE STATUS IS WS-FS2.
+   15 | 
+   16 |        DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:92: error: PROCEDURE DIVISION header missing
+   90 | INITIALIZATION.
+   91 |     OPEN INPUT INPUT-FILE
+   92 >          OUTPUT OUTPUT-FILE
+   93 |     WRITE OUTPUT-RECORD FROM WS-HEADING1
+   94 |     WRITE OUTPUT-RECORD FROM WS-HEADING2
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:92: error: syntax error, unexpected OUTPUT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:96: error: 'WS-EOF-SW' is not defined
+   94 |     WRITE OUTPUT-RECORD FROM WS-HEADING2
+   95 |     READ INPUT-FILE
+   96 >        AT END MOVE 'Y' TO WS-EOF-SW
+   97 |     END-READ
+   98 |     IF NOT WS-EOF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:98: error: syntax error, unexpected NOT
+   96 |        AT END MOVE 'Y' TO WS-EOF-SW
+   97 |     END-READ
+   98 >     IF NOT WS-EOF
+   99 |        MOVE IN-DEPT-NO TO WS-CURR-DEPT
+  100 |     END-IF.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:99: error: 'WS-CURR-DEPT' is not defined
+   97 |     END-READ
+   98 |     IF NOT WS-EOF
+   99 >        MOVE IN-DEPT-NO TO WS-CURR-DEPT
+  100 |     END-IF.
+  101 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:104: error: syntax error, unexpected NOT
+  102 | PROCESS-RECORDS.
+  103 |     PERFORM PROCESS-DEPT UNTIL WS-EOF OR
+  104 >            IN-DEPT-NO NOT = WS-CURR-DEPT
+  105 |     IF NOT WS-EOF
+  106 |        PERFORM PRINT-DEPT-TOTAL
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:108: error: 'WS-DEPT-TOTAL' is not defined
+  106 |        PERFORM PRINT-DEPT-TOTAL
+  107 |        MOVE IN-DEPT-NO TO WS-CURR-DEPT
+  108 >        MOVE 0 TO WS-DEPT-TOTAL
+  109 |     END-IF.
+  110 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:119: error: syntax error, unexpected AT END
+  117 |     ADD IN-SALES-AMT TO WS-GRAND-TOTAL
+  118 |     READ INPUT-FILE
+  119 >        AT END MOVE 'Y' TO WS-EOF-SW
+  120 |     END-READ.
+  121 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:127: error: syntax error, unexpected >
+  125 | 
+  126 | WRAP-UP.
+  127 >     IF WS-CURR-DEPT > 0
+  128 |        PERFORM PRINT-DEPT-TOTAL
+  129 |     END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:133: warning: optional period used [-Wdialect]
+  131 |     WRITE OUTPUT-RECORD FROM WS-GRAND-TOTAL-LINE
+  132 |     CLOSE INPUT-FILE OUTPUT-FILE.
+  133 > <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_26/task_func_26.cbl:106: error: 'PRINT-DEPT-TOTAL' is not defined
+  104 |            IN-DEPT-NO NOT = WS-CURR-DEPT
+  105 |     IF NOT WS-EOF
+  106 >        PERFORM PRINT-DEPT-TOTAL
+  107 |        MOVE IN-DEPT-NO TO WS-CURR-DEPT
+  108 |        MOVE 0 TO WS-DEPT-TOTAL
+
+2025-05-20 22:19:54.258 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:54.258 | ERROR    | __main__:compile:227 - Compilation failed for task_func_26
+2025-05-20 22:19:54.259 | INFO     | __main__:compile:156 - Processing program 26/46: task_func_27
+2025-05-20 22:19:54.259 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:54.259 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:54.259 | INFO     | __main__:compile:190 - compiling task_func_27
+2025-05-20 22:19:54.375 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_27/task_func_27.cbl:54: warning: value size exceeds data size [-Wothers]
+   52 | 
+   53 |        01 WS-HEADING1.
+   54 >           05 FILLER           PIC X(20) VALUE 'COMPOUND INTEREST FOR'.
+   55 |           05 FILLER           PIC X(60) VALUE SPACES.
+   56 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_27/task_func_27.cbl:54: note: value size is 21 [-Wothers]
+
+2025-05-20 22:19:54.375 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:19:54.375 | SUCCESS  | __main__:compile:206 - task_func_27 is successfully compiled
+2025-05-20 22:19:59.897 | ERROR    | __main__:compile:223 - Execution error for task_func_27: Command './task_func_27' timed out after 5 seconds
+2025-05-20 22:19:59.898 | INFO     | __main__:compile:156 - Processing program 27/46: task_func_28
+2025-05-20 22:19:59.898 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:59.898 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:59.899 | INFO     | __main__:compile:190 - compiling task_func_28
+2025-05-20 22:20:00.062 | SUCCESS  | __main__:compile:206 - task_func_28 is successfully compiled
+2025-05-20 22:20:00.069 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('task_func28_out')
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('task_func28_out')
+libcob: warning: implicit CLOSE of INPUT-FILE ('task_func28_inp')
+
+2025-05-20 22:20:00.069 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:00.069 | ERROR    | __main__:compile:221 - Execution failed for task_func_28
+2025-05-20 22:20:00.070 | INFO     | __main__:compile:156 - Processing program 28/46: task_func_29
+2025-05-20 22:20:00.070 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:00.070 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:00.070 | INFO     | __main__:compile:190 - compiling task_func_29
+2025-05-20 22:20:00.093 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_29/task_func_29.cbl: in paragraph 'INIT-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_29/task_func_29.cbl:66: error: 'AGE-COUNT' requires one subscript
+   64 |            OPEN INPUT INPUT-FILE
+   65 |            OPEN OUTPUT OUTPUT-FILE
+   66 >            INITIALIZE AGE-COUNT
+   67 |            READ INPUT-FILE
+   68 |                AT END MOVE 'Y' TO EOF-FLAG
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_29/task_func_29.cbl: in paragraph 'PROCESS-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_29/task_func_29.cbl:97: error: 'AGE-COUNT' requires one subscript
+   95 |                        MOVE 'N' TO WS-DUP-FLAG
+   96 |                        MOVE PERSON-NAME TO WS-PREV-NAME
+   97 >                        INITIALIZE AGE-COUNT
+   98 |                        COMPUTE WS-AGE = FUNCTION INTEGER(PERSON-AGE)
+   99 |                        IF WS-AGE < 0
+
+2025-05-20 22:20:00.093 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:00.093 | ERROR    | __main__:compile:227 - Compilation failed for task_func_29
+2025-05-20 22:20:00.093 | INFO     | __main__:compile:156 - Processing program 29/46: task_func_30
+2025-05-20 22:20:00.093 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:00.094 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:00.094 | INFO     | __main__:compile:190 - compiling task_func_30
+2025-05-20 22:20:00.116 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_30/task_func_30.cbl: in paragraph 'SORT-WORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_30/task_func_30.cbl:110: error: syntax error, unexpected +, expecting UNTIL
+  108 |            PERFORM VARYING WS-I FROM 1 BY 1
+  109 |                    UNTIL WS-I > WS-WORD-COUNT - 1
+  110 >                PERFORM VARYING WS-J FROM WS-I + 1 BY 1
+  111 |                        UNTIL WS-J > WS-WORD-COUNT
+  112 |                    IF WS-COUNT(WS-I) < WS-COUNT(WS-J)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_30/task_func_30.cbl:121: error: syntax error, unexpected END-PERFORM
+  119 |                    END-IF
+  120 |                END-PERFORM
+  121 >            END-PERFORM.
+  122 | 
+  123 |        WRITE-OUTPUT.
+
+2025-05-20 22:20:00.117 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:00.117 | ERROR    | __main__:compile:227 - Compilation failed for task_func_30
+2025-05-20 22:20:00.117 | INFO     | __main__:compile:156 - Processing program 30/46: task_func_31
+2025-05-20 22:20:00.117 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:00.117 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:00.118 | INFO     | __main__:compile:190 - compiling task_func_31
+2025-05-20 22:20:00.267 | SUCCESS  | __main__:compile:206 - task_func_31 is successfully compiled
+2025-05-20 22:20:00.274 | SUCCESS  | __main__:compile:216 - task_func_31 is successfully executed
+2025-05-20 22:20:00.274 | INFO     | __main__:compile:156 - Processing program 31/46: task_func_32
+2025-05-20 22:20:00.274 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:00.275 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:00.275 | INFO     | __main__:compile:190 - compiling task_func_32
+2025-05-20 22:20:00.418 | SUCCESS  | __main__:compile:206 - task_func_32 is successfully compiled
+2025-05-20 22:20:00.424 | SUCCESS  | __main__:compile:216 - task_func_32 is successfully executed
+2025-05-20 22:20:00.424 | INFO     | __main__:compile:156 - Processing program 32/46: task_func_33
+2025-05-20 22:20:00.425 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:00.425 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:00.425 | INFO     | __main__:compile:190 - compiling task_func_33
+2025-05-20 22:20:00.539 | SUCCESS  | __main__:compile:206 - task_func_33 is successfully compiled
+2025-05-20 22:20:00.545 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('weather-merged_txt' => weather-merged.txt)
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('weather-merged.txt')
+libcob: warning: implicit CLOSE of INPUT-FILE-2 ('weather2.txt')
+libcob: warning: implicit CLOSE of INPUT-FILE-1 ('weather1.txt')
+
+2025-05-20 22:20:00.545 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:00.545 | ERROR    | __main__:compile:221 - Execution failed for task_func_33
+2025-05-20 22:20:00.546 | INFO     | __main__:compile:156 - Processing program 33/46: task_func_34
+2025-05-20 22:20:00.546 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:00.546 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:00.546 | INFO     | __main__:compile:190 - compiling task_func_34
+2025-05-20 22:20:00.672 | SUCCESS  | __main__:compile:206 - task_func_34 is successfully compiled
+2025-05-20 22:20:00.678 | WARNING  | utils:cmd:35 - Err: libcob: error: file already open (status = 41) for file CUSTOMER-FILE ('task_func34_inp2')
+libcob: warning: implicit CLOSE of BILL-FILE ('task_func34_out1')
+libcob: warning: implicit CLOSE of CUSTOMER-FILE ('task_func34_inp2')
+
+2025-05-20 22:20:00.678 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:00.678 | ERROR    | __main__:compile:221 - Execution failed for task_func_34
+2025-05-20 22:20:00.679 | INFO     | __main__:compile:156 - Processing program 34/46: task_func_35
+2025-05-20 22:20:00.679 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:00.679 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:00.679 | INFO     | __main__:compile:190 - compiling task_func_35
+2025-05-20 22:20:00.802 | SUCCESS  | __main__:compile:206 - task_func_35 is successfully compiled
+2025-05-20 22:20:00.809 | WARNING  | utils:cmd:35 - Err: libcob: error: READ after unsuccessful READ/START (status = 46) for file OLD-MASTER ('task_func35_inp1')
+libcob: warning: implicit CLOSE of NEW-MASTER ('task_func35_out')
+libcob: warning: implicit CLOSE of TRANS-FILE ('task_func35_inp2')
+libcob: warning: implicit CLOSE of OLD-MASTER ('task_func35_inp1')
+
+2025-05-20 22:20:00.809 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:00.809 | ERROR    | __main__:compile:221 - Execution failed for task_func_35
+2025-05-20 22:20:00.809 | INFO     | __main__:compile:156 - Processing program 35/46: task_func_36
+2025-05-20 22:20:00.809 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:00.809 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:00.810 | INFO     | __main__:compile:190 - compiling task_func_36
+2025-05-20 22:20:00.971 | SUCCESS  | __main__:compile:206 - task_func_36 is successfully compiled
+2025-05-20 22:20:00.977 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('output_txt' => output.txt)
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('output.txt')
+libcob: warning: implicit CLOSE of INPUT-FILE ('input.txt')
+
+2025-05-20 22:20:00.977 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:00.977 | ERROR    | __main__:compile:221 - Execution failed for task_func_36
+2025-05-20 22:20:00.978 | INFO     | __main__:compile:156 - Processing program 36/46: task_func_37
+2025-05-20 22:20:00.978 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:00.978 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:00.978 | INFO     | __main__:compile:190 - compiling task_func_37
+2025-05-20 22:20:01.120 | SUCCESS  | __main__:compile:206 - task_func_37 is successfully compiled
+2025-05-20 22:20:01.127 | SUCCESS  | __main__:compile:216 - task_func_37 is successfully executed
+2025-05-20 22:20:01.128 | INFO     | __main__:compile:156 - Processing program 37/46: task_func_38
+2025-05-20 22:20:01.128 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.128 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.128 | INFO     | __main__:compile:190 - compiling task_func_38
+2025-05-20 22:20:01.274 | SUCCESS  | __main__:compile:206 - task_func_38 is successfully compiled
+2025-05-20 22:20:01.281 | WARNING  | utils:cmd:35 - Err: libcob: error: WRITE not allowed, file not open for output (status = 48) for file OUTPUT-FILE1 ('task_func38_out1')
+
+2025-05-20 22:20:01.281 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.281 | ERROR    | __main__:compile:221 - Execution failed for task_func_38
+2025-05-20 22:20:01.282 | INFO     | __main__:compile:156 - Processing program 38/46: task_func_39
+2025-05-20 22:20:01.282 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.282 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.282 | INFO     | __main__:compile:190 - compiling task_func_39
+2025-05-20 22:20:01.428 | SUCCESS  | __main__:compile:206 - task_func_39 is successfully compiled
+2025-05-20 22:20:01.436 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file ERROR-FILE ('task_func39_out1')
+libcob: warning: implicit CLOSE of ERROR-FILE ('task_func39_out1')
+libcob: warning: implicit CLOSE of INPUT-FILE ('task_func39_inp1')
+
+2025-05-20 22:20:01.437 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.437 | ERROR    | __main__:compile:221 - Execution failed for task_func_39
+2025-05-20 22:20:01.437 | INFO     | __main__:compile:156 - Processing program 39/46: task_func_40
+2025-05-20 22:20:01.437 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.437 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.438 | INFO     | __main__:compile:190 - compiling task_func_40
+2025-05-20 22:20:01.460 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_40/task_func_40.cbl: in paragraph '100-INITIALIZE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_40/task_func_40.cbl:68: error: FUNCTION 'INTEGER-OF-DATE' has invalid argument
+   66 |            MOVE '20231231' TO WS-END-DATE
+   67 |            COMPUTE WS-START-INTEGER =
+   68 >                FUNCTION INTEGER-OF-DATE(WS-START-DATE)
+   69 |            COMPUTE WS-END-INTEGER =
+   70 |                FUNCTION INTEGER-OF-DATE(WS-END-DATE)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_40/task_func_40.cbl:70: error: FUNCTION 'INTEGER-OF-DATE' has invalid argument
+   68 |                FUNCTION INTEGER-OF-DATE(WS-START-DATE)
+   69 |            COMPUTE WS-END-INTEGER =
+   70 >                FUNCTION INTEGER-OF-DATE(WS-END-DATE)
+   71 |            COMPUTE WS-RANGE = WS-END-INTEGER - WS-START-INTEGER + 1
+   72 |            MOVE WS-SEED TO RANDOM.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_40/task_func_40.cbl:72: error: syntax error, unexpected RANDOM
+   70 |                FUNCTION INTEGER-OF-DATE(WS-END-DATE)
+   71 |            COMPUTE WS-RANGE = WS-END-INTEGER - WS-START-INTEGER + 1
+   72 >            MOVE WS-SEED TO RANDOM.
+   73 | 
+   74 |        200-GENERATE-RANDOM-DATE.
+
+2025-05-20 22:20:01.461 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.461 | ERROR    | __main__:compile:227 - Compilation failed for task_func_40
+2025-05-20 22:20:01.461 | INFO     | __main__:compile:156 - Processing program 40/46: task_func_43
+2025-05-20 22:20:01.461 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.461 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.462 | INFO     | __main__:compile:190 - compiling task_func_43
+2025-05-20 22:20:01.600 | SUCCESS  | __main__:compile:206 - task_func_43 is successfully compiled
+2025-05-20 22:20:01.607 | SUCCESS  | __main__:compile:216 - task_func_43 is successfully executed
+2025-05-20 22:20:01.608 | INFO     | __main__:compile:156 - Processing program 41/46: task_func_44
+2025-05-20 22:20:01.608 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.608 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.609 | INFO     | __main__:compile:190 - compiling task_func_44
+2025-05-20 22:20:01.633 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_44/task_func_44.cbl: in paragraph 'ANALYZE-ARTICLE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_44/task_func_44.cbl:92: error: incomplete expression
+   90 |                'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+   91 | 
+   92 >            IF WS-UPPER-TITLE CONTAINS 'LIKE' OR 'WHAT'
+   93 |                MOVE ARTICLE-CONTENT TO WS-TEMP
+   94 |                PERFORM COUNT-WORDS
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_44/task_func_44.cbl:92: error: syntax error, unexpected CONTAINS
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_44/task_func_44.cbl:92: error: IF without imperative statement
+
+2025-05-20 22:20:01.633 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.633 | ERROR    | __main__:compile:227 - Compilation failed for task_func_44
+2025-05-20 22:20:01.634 | INFO     | __main__:compile:156 - Processing program 42/46: task_func_45
+2025-05-20 22:20:01.634 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.634 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.634 | INFO     | __main__:compile:190 - compiling task_func_45
+2025-05-20 22:20:01.658 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_45/task_func_45.cbl: in paragraph '210-PROCESS-DATETIME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_45/task_func_45.cbl:113: error: 'WS-IDX' is not defined
+  111 |            MOVE INP-SECOND TO WS-SECOND
+  112 | 
+  113 >            PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX > 5
+  114 |                COMPUTE WS-LOCAL-HOUR = WS-HOUR + WS-UTC-OFFSET(WS-IDX)
+  115 |                IF WS-LOCAL-HOUR > 23
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_45/task_func_45.cbl:114: error: 'WS-LOCAL-HOUR' is not defined
+  112 | 
+  113 |            PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX > 5
+  114 >                COMPUTE WS-LOCAL-HOUR = WS-HOUR + WS-UTC-OFFSET(WS-IDX)
+  115 |                IF WS-LOCAL-HOUR > 23
+  116 |                    SUBTRACT 24 FROM WS-LOCAL-HOUR
+
+2025-05-20 22:20:01.658 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.658 | ERROR    | __main__:compile:227 - Compilation failed for task_func_45
+2025-05-20 22:20:01.659 | INFO     | __main__:compile:156 - Processing program 43/46: task_func_47
+2025-05-20 22:20:01.659 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.659 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.659 | INFO     | __main__:compile:190 - compiling task_func_47
+2025-05-20 22:20:01.682 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_47/task_func_47.cbl: in paragraph 'MAIN-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_47/task_func_47.cbl:57: error: syntax error, unexpected WHEN, expecting ) or - or +
+   55 |                                WHEN 'á' WHEN 'à' WHEN 'â' WHEN 'ã'
+   56 |                                    MOVE 'a' TO WS-TEMP-NAME(WS-COUNTER:1)
+   57 >                                WHEN 'é' WHEN 'è' WHEN 'ê'
+   58 |                                    MOVE 'e' TO WS-TEMP-NAME(WS-COUNTER:1)
+   59 |                                WHEN 'í' WHEN 'ì' WHEN 'î'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_47/task_func_47.cbl:59: error: syntax error, unexpected WHEN, expecting ) or - or +
+   57 |                                WHEN 'é' WHEN 'è' WHEN 'ê'
+   58 |                                    MOVE 'e' TO WS-TEMP-NAME(WS-COUNTER:1)
+   59 >                                WHEN 'í' WHEN 'ì' WHEN 'î'
+   60 |                                    MOVE 'i' TO WS-TEMP-NAME(WS-COUNTER:1)
+   61 |                                WHEN 'ó' WHEN 'ò' WHEN 'ô' WHEN 'õ'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_47/task_func_47.cbl:61: error: syntax error, unexpected WHEN, expecting ) or - or +
+   59 |                                WHEN 'í' WHEN 'ì' WHEN 'î'
+   60 |                                    MOVE 'i' TO WS-TEMP-NAME(WS-COUNTER:1)
+   61 >                                WHEN 'ó' WHEN 'ò' WHEN 'ô' WHEN 'õ'
+   62 |                                    MOVE 'o' TO WS-TEMP-NAME(WS-COUNTER:1)
+   63 |                                WHEN 'ú' WHEN 'ù' WHEN 'û'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_47/task_func_47.cbl:63: error: syntax error, unexpected WHEN, expecting ) or - or +
+   61 |                                WHEN 'ó' WHEN 'ò' WHEN 'ô' WHEN 'õ'
+   62 |                                    MOVE 'o' TO WS-TEMP-NAME(WS-COUNTER:1)
+   63 >                                WHEN 'ú' WHEN 'ù' WHEN 'û'
+   64 |                                    MOVE 'u' TO WS-TEMP-NAME(WS-COUNTER:1)
+   65 |                                WHEN 'ñ'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_47/task_func_47.cbl:65: error: syntax error, unexpected WHEN, expecting ) or - or +
+   63 |                                WHEN 'ú' WHEN 'ù' WHEN 'û'
+   64 |                                    MOVE 'u' TO WS-TEMP-NAME(WS-COUNTER:1)
+   65 >                                WHEN 'ñ'
+   66 |                                    MOVE 'n' TO WS-TEMP-NAME(WS-COUNTER:1)
+   67 |                                WHEN 'ç'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_47/task_func_47.cbl:67: error: syntax error, unexpected WHEN, expecting ) or - or +
+   65 |                                WHEN 'ñ'
+   66 |                                    MOVE 'n' TO WS-TEMP-NAME(WS-COUNTER:1)
+   67 >                                WHEN 'ç'
+   68 |                                    MOVE 'c' TO WS-TEMP-NAME(WS-COUNTER:1)
+   69 |                            END-EVALUATE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_47/task_func_47.cbl:69: error: syntax error, unexpected END-EVALUATE, expecting ) or - or +
+   67 |                                WHEN 'ç'
+   68 |                                    MOVE 'c' TO WS-TEMP-NAME(WS-COUNTER:1)
+   69 >                            END-EVALUATE
+   70 |                        END-PERFORM
+   71 |                        MOVE WS-TEMP-NAME TO CONVERTED-NAME
+
+2025-05-20 22:20:01.682 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.683 | ERROR    | __main__:compile:227 - Compilation failed for task_func_47
+2025-05-20 22:20:01.683 | INFO     | __main__:compile:156 - Processing program 44/46: task_func_48
+2025-05-20 22:20:01.683 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.683 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.684 | INFO     | __main__:compile:190 - compiling task_func_48
+2025-05-20 22:20:01.707 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_48/task_func_48.cbl: in paragraph 'PRINT-REPORT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_48/task_func_48.cbl:123: error: 'SIZ' is not defined
+  121 |                           WS-SUBJECT(WS-J) DELIMITED BY SIZE
+  122 |                           ": " DELIMITED BY SIZE
+  123 >                           WS-SUBJECT-GRADES(WS-I, WS-J) DELIMITED BY SIZE
+  124 |                           INTO WS-OUTPUT-LINE
+  125 |                    WRITE OUTPUT-RECORD FROM WS-OUTPUT-LINE
+
+2025-05-20 22:20:01.707 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.707 | ERROR    | __main__:compile:227 - Compilation failed for task_func_48
+2025-05-20 22:20:01.707 | INFO     | __main__:compile:156 - Processing program 45/46: task_func_49
+2025-05-20 22:20:01.707 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.708 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.708 | INFO     | __main__:compile:190 - compiling task_func_49
+2025-05-20 22:20:01.731 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_49/task_func_49.cbl: in paragraph 'GENERATE-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_49/task_func_49.cbl:77: error: 'OUT-AGE' is not numeric
+   75 |            COMPUTE WS-RANDOM = FUNCTION RANDOM * 5 + 1
+   76 |            MOVE WS-NAME-ENTRY(WS-RANDOM) TO OUT-NAME
+   77 >            ADD OUT-AGE TO WS-TOTAL-AGE
+   78 |            ADD OUT-HEIGHT TO WS-TOTAL-HEIGHT
+   79 |            ADD OUT-WEIGHT TO WS-TOTAL-WEIGHT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_49/task_func_49.cbl:78: error: 'OUT-HEIGHT' is not numeric
+   76 |            MOVE WS-NAME-ENTRY(WS-RANDOM) TO OUT-NAME
+   77 |            ADD OUT-AGE TO WS-TOTAL-AGE
+   78 >            ADD OUT-HEIGHT TO WS-TOTAL-HEIGHT
+   79 |            ADD OUT-WEIGHT TO WS-TOTAL-WEIGHT
+   80 |            WRITE OUTPUT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_49/task_func_49.cbl:79: error: 'OUT-WEIGHT' is not numeric
+   77 |            ADD OUT-AGE TO WS-TOTAL-AGE
+   78 |            ADD OUT-HEIGHT TO WS-TOTAL-HEIGHT
+   79 >            ADD OUT-WEIGHT TO WS-TOTAL-WEIGHT
+   80 |            WRITE OUTPUT-RECORD.
+   81 | 
+
+2025-05-20 22:20:01.731 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.731 | ERROR    | __main__:compile:227 - Compilation failed for task_func_49
+2025-05-20 22:20:01.732 | INFO     | __main__:compile:156 - Processing program 46/46: task_func_55
+2025-05-20 22:20:01.732 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.732 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.732 | INFO     | __main__:compile:190 - compiling task_func_55
+2025-05-20 22:20:01.755 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_55/task_func_55.cbl:72: error: 'SQRT' is not defined
+   70 | 
+   71 |            COMPUTE WS-STD-DEV =
+   72 >                SQRT((WS-SQUARED-SUM / WS-COUNT) - (WS-MEAN * WS-MEAN))
+   73 | 
+   74 |            PERFORM VARYING WS-COUNT FROM 1 BY 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_55/task_func_55.cbl:78: error: 'ABS' is not defined
+   76 |                COMPUTE WS-Z-SCORE =
+   77 |                    (WS-VALUE(WS-COUNT) - WS-MEAN) / WS-STD-DEV
+   78 >                IF ABS(WS-Z-SCORE) <= WS-THRESHOLD
+   79 |                    MOVE WS-VALUE(WS-COUNT) TO CLEAN-VALUE
+   80 |                    WRITE CLEAN-RECORD
+
+2025-05-20 22:20:01.755 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.755 | ERROR    | __main__:compile:227 - Compilation failed for task_func_55
+2025-05-20 22:20:01.756 | SUCCESS  | __main__:compile:268 - Compilation completed
+2025-05-20 22:20:01.756 | INFO     | __main__:compile:269 - Total programs compiled: 30 
+Total programs executed: 19 
+Total results matched: 5.94
+2025-05-20 22:20:01.756 | INFO     | __main__:compile:285 - final_results directory path: /home/projadmin/CobolEval/FrameWork/final_results/complete
+2025-05-20 22:20:01.773 | INFO     | __main__:compile:290 - Results saved to final_results/complete/claude-3-5-sonnet-20241022_complete_final_results.csv
+
+
+--- STDOUT OUTPUT ---
+
+Starting compilation for model: claude-3-5-sonnet-20241022, mode: complete
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_01/match_data.ps*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_01/temp.ps*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_02/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_03/task_func03_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_04/input.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_04/error.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_05/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_07/task_func_07_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_07/task_func_07_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_08/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_09/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_11/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_13/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_14/task_func14_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_15/task_func15_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_15/task_func15_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_17/input.ps
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_18/task_func18_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_19/M3input.ps
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_22/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_24/task_func24_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_24/task_func24_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_25/task_func25_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_25/task_func25_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_27/task_func27_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_28/task_func28_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_31/weather-input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_32/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_33/weather1.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_33/weather2.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_34/task_func34_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_34/task_func34_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_35/task_func35_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_35/task_func35_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_36/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_37/task_func37_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_38/task_func38_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_38/task_func38_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_39/task_func39_inp1
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/complete/task_func_43/input.txt
+Finished processing model: claude-3-5-sonnet-20241022, mode: complete
+Results summary: 46 programs processed
+Compiled: 30 - Executed: 19 - Match: 5.94
+2025-05-20 22:20:01.774 | SUCCESS  | __main__:<module>:384 - Completed processing model: claude-3-5-sonnet-20241022, mode: complete
+2025-05-20 22:20:01.775 | INFO     | __main__:<module>:385 - All logs saved to /home/projadmin/CobolEval/FrameWork/logs/claude-3-5-sonnet-20241022_complete.txt

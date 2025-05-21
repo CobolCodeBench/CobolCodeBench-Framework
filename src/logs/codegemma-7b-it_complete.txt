@@ -1,0 +1,1212 @@
+2025-05-20 22:20:14.490 | INFO     | __main__:<module>:352 - Starting processing for model: codegemma-7b-it, mode: complete
+2025-05-20 22:20:14.492 | INFO     | __main__:__init__:34 - Loaded ./data/Completion_Set.json successfully
+2025-05-20 22:20:14.499 | INFO     | __main__:__init__:41 - Data frame read successfully
+2025-05-20 22:20:14.500 | INFO     | __main__:compile:150 - Processing 46 programs
+2025-05-20 22:20:14.500 | INFO     | __main__:compile:156 - Processing program 1/46: task_func_01
+2025-05-20 22:20:14.500 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.500 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.500 | INFO     | __main__:compile:190 - compiling task_func_01
+2025-05-20 22:20:14.521 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_01/task_func_01.cbl:51: warning: line not terminated by a newline [-Wmissing-newline]
+   49 |        WORKING-STORAGE SECTION.
+   50 | 
+   51 >        **Declare variables as per problem description.**<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_01/task_func_01.cbl:51: error: PROCEDURE DIVISION header missing
+   49 |        WORKING-STORAGE SECTION.
+   50 | 
+   51 >        **Declare variables as per problem description.**<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_01/task_func_01.cbl:51: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_01/task_func_01.cbl:51: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.522 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.522 | ERROR    | __main__:compile:227 - Compilation failed for task_func_01
+2025-05-20 22:20:14.522 | INFO     | __main__:compile:156 - Processing program 2/46: task_func_02
+2025-05-20 22:20:14.522 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.522 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.522 | INFO     | __main__:compile:190 - compiling task_func_02
+2025-05-20 22:20:14.544 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl:38: error: invalid indicator 'U' at column 7
+   36 |        **Declare variables here:**
+   37 | 
+   38 > PROCEDURE division..
+   39 | 
+   40 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl:41: warning: line not terminated by a newline [-Wmissing-newline]
+   39 | 
+   40 | 
+   41 >         OPEN Input File (fileid = "Input") 	// Open both Files as per the..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl:36: error: PROCEDURE DIVISION header missing
+   34 |        WORKING-STORAGE SECTION.
+   35 | 
+   36 >        **Declare variables here:**
+   37 | 
+   38 | PROCEDURE division..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl:36: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl:41: error: syntax error, unexpected FILE, expecting Identifier
+   39 | 
+   40 | 
+   41 >         OPEN Input File (fileid = "Input") 	// Open both Files as per the..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_02/task_func_02.cbl:41: error: syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT
+
+2025-05-20 22:20:14.544 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.544 | ERROR    | __main__:compile:227 - Compilation failed for task_func_02
+2025-05-20 22:20:14.544 | INFO     | __main__:compile:156 - Processing program 3/46: task_func_03
+2025-05-20 22:20:14.544 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.544 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.545 | INFO     | __main__:compile:190 - compiling task_func_03
+2025-05-20 22:20:14.568 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_03/task_func_03.cbl:44: warning: line not terminated by a newline [-Wmissing-newline]
+   42 | 
+   43 | 
+   44 >    PROCEDURE division..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_03/task_func_03.cbl:44: error: invalid indicator 'C' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_03/task_func_03.cbl:41: error: PROCEDURE DIVISION header missing
+   39 |        WORKING-STORAGE SECTION.
+   40 | 
+   41 >        **Working storage area (WS) is where you can store temporary varia..
+   42 | 
+   43 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_03/task_func_03.cbl:41: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.569 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.569 | ERROR    | __main__:compile:227 - Compilation failed for task_func_03
+2025-05-20 22:20:14.569 | INFO     | __main__:compile:156 - Processing program 4/46: task_func_04
+2025-05-20 22:20:14.569 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.569 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.570 | INFO     | __main__:compile:190 - compiling task_func_04
+2025-05-20 22:20:14.591 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl:47: error: invalid indicator 'U' at column 7
+   45 |        72 EXTENSIONS PIC XX VALUE HEX('FF').
+   46 | 
+   47 > PROCEDURE DIVISON
+   48 | 
+   49 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl:50: warning: line not terminated by a newline [-Wmissing-newline]
+   48 | 
+   49 | 
+   50 > MAIN PROGRAM<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl:50: error: invalid indicator 'R' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl:45: error: PROCEDURE DIVISION header missing
+   43 |        WORKING-STORAGE SECTION.
+   44 | 
+   45 >        72 EXTENSIONS PIC XX VALUE HEX('FF').
+   46 | 
+   47 | PROCEDURE DIVISON
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_04/task_func_04.cbl:45: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:14.591 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.591 | ERROR    | __main__:compile:227 - Compilation failed for task_func_04
+2025-05-20 22:20:14.592 | INFO     | __main__:compile:156 - Processing program 5/46: task_func_05
+2025-05-20 22:20:14.592 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.592 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.592 | INFO     | __main__:compile:190 - compiling task_func_05
+2025-05-20 22:20:14.617 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_05/task_func_05.cbl:38: error: invalid indicator 'N' at column 7
+   36 |        PROCEDURE DIVISON
+   37 | 
+   38 >    MAIN PROGRAM
+   39 | 
+   40 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_05/task_func_05.cbl:41: warning: line not terminated by a newline [-Wmissing-newline]
+   39 | 
+   40 | 
+   41 >     OPEN Input File (Input Status) For Sequential Access With Pending Rec..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_05/task_func_05.cbl:41: error: invalid indicator 'E' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_05/task_func_05.cbl:36: error: syntax error, unexpected Identifier, expecting DIVISION
+   34 |        WORKING-STORAGE SECTION.
+   35 | 
+   36 >        PROCEDURE DIVISON
+   37 | 
+   38 |    MAIN PROGRAM
+
+2025-05-20 22:20:14.617 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.617 | ERROR    | __main__:compile:227 - Compilation failed for task_func_05
+2025-05-20 22:20:14.618 | INFO     | __main__:compile:156 - Processing program 6/46: task_func_07
+2025-05-20 22:20:14.618 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.618 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.618 | INFO     | __main__:compile:190 - compiling task_func_07
+2025-05-20 22:20:14.640 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:44: error: invalid indicator 'C' at column 7
+   42 |        **Declare variables as per requirements.**
+   43 | 
+   44 >    PROCEDURE DIVISON (MAIN PROGRAM - MAINLINE PROCESSING):
+   45 | 
+   46 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:47: warning: line not terminated by a newline [-Wmissing-newline]
+   45 | 
+   46 | 
+   47 >         OPEN INPUT task inputfile "input" FOR sequential access using key..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:42: error: PROCEDURE DIVISION header missing
+   40 |        WORKING-STORAGE SECTION.
+   41 | 
+   42 >        **Declare variables as per requirements.**
+   43 | 
+   44 |    PROCEDURE DIVISON (MAIN PROGRAM - MAINLINE PROCESSING):
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:42: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:42: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:47: error: 'task' is not defined
+   45 | 
+   46 | 
+   47 >         OPEN INPUT task inputfile "input" FOR sequential access using key..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:47: error: 'task' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:47: error: 'inputfile' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:47: error: 'inputfile' is not a file name
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_07/task_func_07.cbl:47: error: syntax error, unexpected Literal
+
+2025-05-20 22:20:14.640 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.640 | ERROR    | __main__:compile:227 - Compilation failed for task_func_07
+2025-05-20 22:20:14.641 | INFO     | __main__:compile:156 - Processing program 7/46: task_func_08
+2025-05-20 22:20:14.641 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.641 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.641 | INFO     | __main__:compile:190 - compiling task_func_08
+2025-05-20 22:20:14.663 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_08/task_func_08.cbl:37: error: invalid indicator 'R' at column 7
+   35 |        **Complete this section by adding variables needed.**
+   36 | 
+   37 >      PROCEDURE DIVISON
+   38 | 
+   39 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_08/task_func_08.cbl:40: warning: line not terminated by a newline [-Wmissing-newline]
+   38 | 
+   39 | 
+   40 >         MAIN PROGRAM                                        PERMIT NONE<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_08/task_func_08.cbl:35: error: PROCEDURE DIVISION header missing
+   33 |        WORKING-STORAGE SECTION.
+   34 | 
+   35 >        **Complete this section by adding variables needed.**
+   36 | 
+   37 |      PROCEDURE DIVISON
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_08/task_func_08.cbl:35: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_08/task_func_08.cbl:35: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.663 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.663 | ERROR    | __main__:compile:227 - Compilation failed for task_func_08
+2025-05-20 22:20:14.663 | INFO     | __main__:compile:156 - Processing program 8/46: task_func_09
+2025-05-20 22:20:14.664 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.664 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.664 | INFO     | __main__:compile:190 - compiling task_func_09
+2025-05-20 22:20:14.686 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_09/task_func_09.cbl:45: warning: line not terminated by a newline [-Wmissing-newline]
+   43 |        **Complete this section.**
+   44 | 
+   45 >    PROCEDURE division..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_09/task_func_09.cbl:45: error: invalid indicator 'C' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_09/task_func_09.cbl:43: error: PROCEDURE DIVISION header missing
+   41 |        WORKING-STORAGE SECTION.
+   42 | 
+   43 >        **Complete this section.**
+   44 | 
+   45 |    PROCEDURE division..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_09/task_func_09.cbl:43: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_09/task_func_09.cbl:43: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.686 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.686 | ERROR    | __main__:compile:227 - Compilation failed for task_func_09
+2025-05-20 22:20:14.686 | INFO     | __main__:compile:156 - Processing program 9/46: task_func_10
+2025-05-20 22:20:14.687 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.687 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.687 | INFO     | __main__:compile:190 - compiling task_func_10
+2025-05-20 22:20:14.712 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_10/task_func_10.cbl:46: error: invalid indicator 'C' at column 7
+   44 |        **Define variables here.**
+   45 | 
+   46 >    PROCEDURE DIVISON  Division that holds all procedure statements (subpr..
+   47 | 
+   48 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_10/task_func_10.cbl:49: warning: line not terminated by a newline [-Wmissing-newline]
+   47 | 
+   48 | 
+   49 >         MAIN PROGRAM Procedure division which calls other procedures from..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_10/task_func_10.cbl:44: error: PROCEDURE DIVISION header missing
+   42 |        WORKING-STORAGE SECTION.
+   43 | 
+   44 >        **Define variables here.**
+   45 | 
+   46 |    PROCEDURE DIVISON  Division that holds all procedure statements (subpr..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_10/task_func_10.cbl:44: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_10/task_func_10.cbl:44: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.712 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.712 | ERROR    | __main__:compile:227 - Compilation failed for task_func_10
+2025-05-20 22:20:14.713 | INFO     | __main__:compile:156 - Processing program 10/46: task_func_11
+2025-05-20 22:20:14.713 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.713 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.713 | INFO     | __main__:compile:190 - compiling task_func_11
+2025-05-20 22:20:14.735 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_11/task_func_11.cbl:40: error: invalid indicator 'N' at column 7
+   38 |        PROCEDURE division
+   39 | 
+   40 >    MAIN PROGRAM
+   41 | 
+   42 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_11/task_func_11.cbl:43: warning: line not terminated by a newline [-Wmissing-newline]
+   41 | 
+   42 | 
+   43 >     OPEN Input "Input File" (file status)<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_11/task_func_11.cbl:43: error: invalid indicator 'E' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_11/task_func_11.cbl:44: warning: optional period used [-Wdialect]
+   42 | 
+   43 |     OPEN Input "Input File" (file status)<EOF>
+
+2025-05-20 22:20:14.735 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.735 | ERROR    | __main__:compile:227 - Compilation failed for task_func_11
+2025-05-20 22:20:14.735 | INFO     | __main__:compile:156 - Processing program 11/46: task_func_12
+2025-05-20 22:20:14.735 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.735 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.736 | INFO     | __main__:compile:190 - compiling task_func_12
+2025-05-20 22:20:14.757 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_12/task_func_12.cbl:52: warning: line not terminated by a newline [-Wmissing-newline]
+   50 |        **Declare variables here.**
+   51 | 
+   52 >     PROCEDURE division (main section of this cobol source.).<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_12/task_func_12.cbl:52: error: invalid indicator 'O' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_12/task_func_12.cbl:50: error: PROCEDURE DIVISION header missing
+   48 |        WORKING-STORAGE SECTION.
+   49 | 
+   50 >        **Declare variables here.**
+   51 | 
+   52 |     PROCEDURE division (main section of this cobol source.).<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_12/task_func_12.cbl:50: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_12/task_func_12.cbl:50: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.757 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.757 | ERROR    | __main__:compile:227 - Compilation failed for task_func_12
+2025-05-20 22:20:14.757 | INFO     | __main__:compile:156 - Processing program 12/46: task_func_13
+2025-05-20 22:20:14.757 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.757 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.758 | INFO     | __main__:compile:190 - compiling task_func_13
+2025-05-20 22:20:14.779 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_13/task_func_13.cbl:41: warning: line not terminated by a newline [-Wmissing-newline]
+   39 |        72   CUSTOMER_LENGTH PIC S9 (3) VARYING SIGN ZEROS FIRST VALUE ZER..
+   40 | 
+   41 > PROCEDURE DIVISON<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_13/task_func_13.cbl:41: error: invalid indicator 'U' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_13/task_func_13.cbl:39: error: PROCEDURE DIVISION header missing
+   37 |        WORKING-STORAGE SECTION.
+   38 | 
+   39 >        72   CUSTOMER_LENGTH PIC S9 (3) VARYING SIGN ZEROS FIRST VALUE ZER..
+   40 | 
+   41 | PROCEDURE DIVISON<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_13/task_func_13.cbl:39: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:14.779 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.779 | ERROR    | __main__:compile:227 - Compilation failed for task_func_13
+2025-05-20 22:20:14.780 | INFO     | __main__:compile:156 - Processing program 13/46: task_func_14
+2025-05-20 22:20:14.780 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.780 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.780 | INFO     | __main__:compile:190 - compiling task_func_14
+2025-05-20 22:20:14.803 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl:40: error: invalid indicator 'C' at column 7
+   38 |        **Define variables as necessary.**
+   39 | 
+   40 >    PROCEDURE division..
+   41 | 
+   42 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl:43: warning: line not terminated by a newline [-Wmissing-newline]
+   41 | 
+   42 | 
+   43 >     MAIN PROGRAM...<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl:43: error: invalid indicator 'I' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl:10: error: 'WS-INPUT-STATUS' is not defined
+    8 |                ASSIGN TO 'task_func14_inp'
+    9 |                ORGANIZATION IS LINE SEQUENTIAL
+   10 >                FILE STATUS IS WS-INPUT-STATUS.
+   11 |            SELECT OUTPUT-FILE
+   12 |                ASSIGN TO 'task_func14_out'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl:14: error: 'WS-OUTPUT-STATUS' is not defined
+   12 |                ASSIGN TO 'task_func14_out'
+   13 |                ORGANIZATION IS LINE SEQUENTIAL
+   14 >                FILE STATUS IS WS-OUTPUT-STATUS.
+   15 | 
+   16 |        DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl:38: error: PROCEDURE DIVISION header missing
+   36 |        WORKING-STORAGE SECTION.
+   37 | 
+   38 >        **Define variables as necessary.**
+   39 | 
+   40 |    PROCEDURE division..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl:38: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_14/task_func_14.cbl:38: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.803 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.803 | ERROR    | __main__:compile:227 - Compilation failed for task_func_14
+2025-05-20 22:20:14.804 | INFO     | __main__:compile:156 - Processing program 14/46: task_func_15
+2025-05-20 22:20:14.804 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.804 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.804 | INFO     | __main__:compile:190 - compiling task_func_15
+2025-05-20 22:20:14.827 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_15/task_func_15.cbl:41: warning: line not terminated by a newline [-Wmissing-newline]
+   39 |        PROCEDURE division
+   40 | 
+   41 >    MAIN PROGRAM<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_15/task_func_15.cbl:41: error: invalid indicator 'N' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_15/task_func_15.cbl:42: warning: optional period used [-Wdialect]
+   40 | 
+   41 |    MAIN PROGRAM<EOF>
+
+2025-05-20 22:20:14.827 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.827 | ERROR    | __main__:compile:227 - Compilation failed for task_func_15
+2025-05-20 22:20:14.828 | INFO     | __main__:compile:156 - Processing program 15/46: task_func_16
+2025-05-20 22:20:14.828 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.828 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.829 | INFO     | __main__:compile:190 - compiling task_func_16
+2025-05-20 22:20:14.851 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_16/task_func_16.cbl:32: warning: line not terminated by a newline [-Wmissing-newline]
+   30 |        78 CONVERTEDTIMEZONE VALUE PICTURE S9 (3) VARYING SIGN WITH COMP Z..
+   31 | 
+   32 > PROCEDURE division  ;<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_16/task_func_16.cbl:32: error: invalid indicator 'U' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_16/task_func_16.cbl:30: error: syntax error, unexpected PICTURE
+   28 |        WORKING-STORAGE SECTION.
+   29 | 
+   30 >        78 CONVERTEDTIMEZONE VALUE PICTURE S9 (3) VARYING SIGN WITH COMP Z..
+   31 | 
+   32 | PROCEDURE division  ;<EOF>
+
+2025-05-20 22:20:14.851 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.852 | ERROR    | __main__:compile:227 - Compilation failed for task_func_16
+2025-05-20 22:20:14.852 | INFO     | __main__:compile:156 - Processing program 16/46: task_func_17
+2025-05-20 22:20:14.852 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.852 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.853 | INFO     | __main__:compile:190 - compiling task_func_17
+2025-05-20 22:20:14.874 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_17/task_func_17.cbl:37: warning: line not terminated by a newline [-Wmissing-newline]
+   35 | 
+   36 | 
+   37 > ```cobol copybook cobjextn/phonextract     endcopy<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_17/task_func_17.cbl:37: error: invalid indicator 'o' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_17/task_func_17.cbl:32: error: PROCEDURE DIVISION header missing
+   30 |        WORKING-STORAGE SECTION.
+   31 | 
+   32 >        72   PHONE_NUM PIC S9 (3) VARYING FROM 546 THRU    ASDFG
+   33 | 
+   34 |         PROCEDURE division is as follows -
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_17/task_func_17.cbl:32: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:14.874 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.874 | ERROR    | __main__:compile:227 - Compilation failed for task_func_17
+2025-05-20 22:20:14.875 | INFO     | __main__:compile:156 - Processing program 17/46: task_func_18
+2025-05-20 22:20:14.875 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.875 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.875 | INFO     | __main__:compile:190 - compiling task_func_18
+2025-05-20 22:20:14.896 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl:43: error: invalid indicator 'C' at column 7
+   41 |        **Define variables as per requirement.**
+   42 | 
+   43 >    PROCEDURE division is where you write your main logic of how this appl..
+   44 | 
+   45 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl:46: warning: line not terminated by a newline [-Wmissing-newline]
+   44 | 
+   45 | 
+   46 >     procedure divide MAIN PROGRAM (REGION SIZE = HLLSEGSIZE);<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl:46: error: invalid indicator 'o' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl:41: error: PROCEDURE DIVISION header missing
+   39 |        WORKING-STORAGE SECTION.
+   40 | 
+   41 >        **Define variables as per requirement.**
+   42 | 
+   43 |    PROCEDURE division is where you write your main logic of how this appl..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl:41: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_18/task_func_18.cbl:41: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.896 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.896 | ERROR    | __main__:compile:227 - Compilation failed for task_func_18
+2025-05-20 22:20:14.896 | INFO     | __main__:compile:156 - Processing program 18/46: task_func_19
+2025-05-20 22:20:14.896 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.896 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.897 | INFO     | __main__:compile:190 - compiling task_func_19
+2025-05-20 22:20:14.917 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl:35: error: invalid indicator 'e' at column 7
+   33 |        **Declare variables for storing total salary sum (TOTAL_SUM), coun..
+   34 | 
+   35 >      median position indicator MEDIANPOS .
+   36 | 
+   37 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl:38: warning: line not terminated by a newline [-Wmissing-newline]
+   36 | 
+   37 | 
+   38 > PROCEDURE DIVISON<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl:38: error: invalid indicator 'U' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl:33: error: PROCEDURE DIVISION header missing
+   31 |        WORKING-STORAGE SECTION.
+   32 | 
+   33 >        **Declare variables for storing total salary sum (TOTAL_SUM), coun..
+   34 | 
+   35 |      median position indicator MEDIANPOS .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_19/task_func_19.cbl:33: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.917 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.917 | ERROR    | __main__:compile:227 - Compilation failed for task_func_19
+2025-05-20 22:20:14.918 | INFO     | __main__:compile:156 - Processing program 19/46: task_func_20
+2025-05-20 22:20:14.918 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.918 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.918 | INFO     | __main__:compile:190 - compiling task_func_20
+2025-05-20 22:20:14.939 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_20/task_func_20.cbl:39: warning: line not terminated by a newline [-Wmissing-newline]
+   37 |        **Define variables as per below:**
+   38 | 
+   39 >    	  WS_MAXIMUNM            EQU    48 * (POWER('A', WS - AGE)) / POWER (..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_20/task_func_20.cbl:37: error: PROCEDURE DIVISION header missing
+   35 |        WORKING-STORAGE SECTION.
+   36 | 
+   37 >        **Define variables as per below:**
+   38 | 
+   39 |    	  WS_MAXIMUNM            EQU    48 * (POWER('A', WS - AGE)) / POWER (..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_20/task_func_20.cbl:37: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.939 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.939 | ERROR    | __main__:compile:227 - Compilation failed for task_func_20
+2025-05-20 22:20:14.940 | INFO     | __main__:compile:156 - Processing program 20/46: task_func_21
+2025-05-20 22:20:14.940 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.940 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.940 | INFO     | __main__:compile:190 - compiling task_func_21
+2025-05-20 22:20:14.961 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_21/task_func_21.cbl:37: warning: line not terminated by a newline [-Wmissing-newline]
+   35 |        **Complete this section by adding variables as needed.**
+   36 | 
+   37 >     PROCEDURE division..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_21/task_func_21.cbl:37: error: invalid indicator 'O' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_21/task_func_21.cbl:35: error: PROCEDURE DIVISION header missing
+   33 |        WORKING-STORAGE SECTION.
+   34 | 
+   35 >        **Complete this section by adding variables as needed.**
+   36 | 
+   37 |     PROCEDURE division..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_21/task_func_21.cbl:35: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_21/task_func_21.cbl:35: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.961 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.961 | ERROR    | __main__:compile:227 - Compilation failed for task_func_21
+2025-05-20 22:20:14.962 | INFO     | __main__:compile:156 - Processing program 21/46: task_func_22
+2025-05-20 22:20:14.962 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.962 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.962 | INFO     | __main__:compile:190 - compiling task_func_22
+2025-05-20 22:20:14.983 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_22/task_func_22.cbl:47: warning: line not terminated by a newline [-Wmissing-newline]
+   45 |        **Declare variables as per requirements.**
+   46 | 
+   47 >    PROCEDURE DIVISON<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_22/task_func_22.cbl:47: error: invalid indicator 'C' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_22/task_func_22.cbl:45: error: PROCEDURE DIVISION header missing
+   43 |        WORKING-STORAGE SECTION.
+   44 | 
+   45 >        **Declare variables as per requirements.**
+   46 | 
+   47 |    PROCEDURE DIVISON<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_22/task_func_22.cbl:45: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_22/task_func_22.cbl:45: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:14.983 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:14.983 | ERROR    | __main__:compile:227 - Compilation failed for task_func_22
+2025-05-20 22:20:14.983 | INFO     | __main__:compile:156 - Processing program 22/46: task_func_23
+2025-05-20 22:20:14.983 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:14.983 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:14.984 | INFO     | __main__:compile:190 - compiling task_func_23
+2025-05-20 22:20:15.005 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl:46: warning: line not terminated by a newline [-Wmissing-newline]
+   44 | 
+   45 | 
+   46 >     PROCEDURE DIVISON<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl:46: error: invalid indicator 'O' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl:9: error: 'WS-FS1' is not defined
+    7 |            SELECT INPUT-FILE ASSIGN TO 'task_func23_inp'
+    8 |                ORGANIZATION IS LINE SEQUENTIAL
+    9 >                FILE STATUS IS WS-FS1.
+   10 |            SELECT OUTPUT-FILE ASSIGN TO 'task_func23_out'
+   11 |                ORGANIZATION IS LINE SEQUENTIAL
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl:12: error: 'WS-FS2' is not defined
+   10 |            SELECT OUTPUT-FILE ASSIGN TO 'task_func23_out'
+   11 |                ORGANIZATION IS LINE SEQUENTIAL
+   12 >                FILE STATUS IS WS-FS2.
+   13 | 
+   14 |        DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl:41: error: PROCEDURE DIVISION header missing
+   39 |        WORKING-STORAGE SECTION.
+   40 | 
+   41 >        **WS VARIABLES:**
+   42 | 
+   43 |         •	WRKSTCKNO   IS A PIC SXX (two digits representing each compan..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl:41: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_23/task_func_23.cbl:43: error: A or X cannot follow S
+   41 |        **WS VARIABLES:**
+   42 | 
+   43 >         •	WRKSTCKNO   IS A PIC SXX (two digits representing each compan..
+   44 | 
+   45 | 
+
+2025-05-20 22:20:15.005 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.005 | ERROR    | __main__:compile:227 - Compilation failed for task_func_23
+2025-05-20 22:20:15.005 | INFO     | __main__:compile:156 - Processing program 23/46: task_func_24
+2025-05-20 22:20:15.005 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.005 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.006 | INFO     | __main__:compile:190 - compiling task_func_24
+2025-05-20 22:20:15.026 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:64: warning: line not terminated by a newline [-Wmissing-newline]
+   62 | 
+   63 | 
+   64 >              			CICSDSNAME              COMP C                   VALUE SP..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:9: error: 'WS-FILE1-STATUS' is not defined
+    7 |            SELECT FILE1 ASSIGN TO 'task_func24_inp1'
+    8 |                ORGANIZATION IS LINE SEQUENTIAL
+    9 >                FILE STATUS IS WS-FILE1-STATUS.
+   10 | 
+   11 |            SELECT FILE2 ASSIGN TO 'task_func24_inp2'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:13: error: 'WS-FILE2-STATUS' is not defined
+   11 |            SELECT FILE2 ASSIGN TO 'task_func24_inp2'
+   12 |                ORGANIZATION IS LINE SEQUENTIAL
+   13 >                FILE STATUS IS WS-FILE2-STATUS.
+   14 | 
+   15 |            SELECT REPORT-FILE ASSIGN TO 'task_func24_out'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:17: error: 'WS-REPORT-STATUS' is not defined
+   15 |            SELECT REPORT-FILE ASSIGN TO 'task_func24_out'
+   16 |                ORGANIZATION IS LINE SEQUENTIAL
+   17 >                FILE STATUS IS WS-REPORT-STATUS.
+   18 | 
+   19 |        DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:42: error: PROCEDURE DIVISION header missing
+   40 |        WORKING-STORAGE SECTION.
+   41 | 
+   42 >        **WS VARIABLES FOR PROCESSING THE FIRST INPUT (CSV) File:**
+   43 | 
+   44 |         78 WSFUNCTEXT     S PIC S9VNNN VALUE 36 DECIMAL SIGN ZEROS RIGHT..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:42: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:44: warning: handling of USAGE NATIONAL is unfinished; implementation is likely to be changed [-Wunfinished]
+   42 |        **WS VARIABLES FOR PROCESSING THE FIRST INPUT (CSV) File:**
+   43 | 
+   44 >         78 WSFUNCTEXT     S PIC S9VNNN VALUE 36 DECIMAL SIGN ZEROS RIGHT..
+   45 | 
+   46 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:44: error: N cannot follow 9
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:44: error: N cannot follow S
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:44: error: N cannot follow V
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:47: error: syntax error, unexpected INTO, expecting Identifier
+   45 | 
+   46 | 
+   47 >          -- Working storage variables to store data read into work area d..
+   48 | 
+   49 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:56: error: syntax error, unexpected exponentiation operator
+   54 | 
+   55 | 
+   56 >             		 **String variable holding one complete record as it was fo..
+   57 | 
+   58 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:56: error: 'variable' cannot be used here
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:56: error: 'holding' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:56: error: 'one' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:56: error: 'complete' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_24/task_func_24.cbl:56: error: syntax error, unexpected RECORD, expecting INTO
+
+2025-05-20 22:20:15.027 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.027 | ERROR    | __main__:compile:227 - Compilation failed for task_func_24
+2025-05-20 22:20:15.027 | INFO     | __main__:compile:156 - Processing program 24/46: task_func_25
+2025-05-20 22:20:15.027 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.027 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.027 | INFO     | __main__:compile:190 - compiling task_func_25
+2025-05-20 22:20:15.049 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl:59: warning: line not terminated by a newline [-Wmissing-newline]
+   57 | 
+   58 | 
+   59 >    PROCEDURE DIVISON<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl:59: error: invalid indicator 'C' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl:9: error: 'WS-FS1' is not defined
+    7 |            SELECT COLUMN-FILE ASSIGN TO 'task_func25_inp1'
+    8 |            ORGANIZATION IS LINE SEQUENTIAL
+    9 >            FILE STATUS IS WS-FS1.
+   10 | 
+   11 |            SELECT EMPLOYEE-FILE ASSIGN TO 'task_func25_inp2'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl:13: error: 'WS-FS2' is not defined
+   11 |            SELECT EMPLOYEE-FILE ASSIGN TO 'task_func25_inp2'
+   12 |            ORGANIZATION IS LINE SEQUENTIAL
+   13 >            FILE STATUS IS WS-FS2.
+   14 | 
+   15 |            SELECT OUTPUT-FILE ASSIGN TO 'task_func25_out'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl:17: error: 'WS-FS3' is not defined
+   15 |            SELECT OUTPUT-FILE ASSIGN TO 'task_func25_out'
+   16 |            ORGANIZATION IS LINE SEQUENTIAL
+   17 >            FILE STATUS IS WS-FS3.
+   18 | 
+   19 |        DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl:56: error: PROCEDURE DIVISION header missing
+   54 |        WORKING-STORAGE SECTION.
+   55 | 
+   56 >        **Define all working storage areas here.**
+   57 | 
+   58 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl:56: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_25/task_func_25.cbl:56: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.049 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.049 | ERROR    | __main__:compile:227 - Compilation failed for task_func_25
+2025-05-20 22:20:15.049 | INFO     | __main__:compile:156 - Processing program 25/46: task_func_26
+2025-05-20 22:20:15.049 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.050 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.050 | INFO     | __main__:compile:190 - compiling task_func_26
+2025-05-20 22:20:15.071 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl:83: warning: line not terminated by a newline [-Wmissing-newline]
+   81 | 
+   82 | 
+   83 > 								DC TOTALSAL                        COMPILED COMPUTATIONAL PIC NNN..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl:10: error: 'WS-FS1' is not defined
+    8 |                ASSIGN TO 'task_func26_inp'
+    9 |                ORGANIZATION IS LINE SEQUENTIAL
+   10 >                FILE STATUS IS WS-FS1.
+   11 |            SELECT OUTPUT-FILE
+   12 |                ASSIGN TO 'task_func26_out'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl:14: error: 'WS-FS2' is not defined
+   12 |                ASSIGN TO 'task_func26_out'
+   13 |                ORGANIZATION IS LINE SEQUENTIAL
+   14 >                FILE STATUS IS WS-FS2.
+   15 | 
+   16 |        DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl:39: error: PROCEDURE DIVISION header missing
+   37 |        WORKING-STORAGE SECTION.
+   38 | 
+   39 >        **WS VARIABLES:**
+   40 | 
+   41 |    	  SS TOTAL             COMP    S     VALUE ZERO              // Total..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl:39: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_26/task_func_26.cbl:48: error: A or X cannot follow S
+   46 | 
+   47 | 
+   48 > 			DS DPT                PICTURE SXX                 /* Current Dept No *..
+   49 | 
+   50 | 
+
+2025-05-20 22:20:15.071 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.071 | ERROR    | __main__:compile:227 - Compilation failed for task_func_26
+2025-05-20 22:20:15.072 | INFO     | __main__:compile:156 - Processing program 26/46: task_func_27
+2025-05-20 22:20:15.072 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.072 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.072 | INFO     | __main__:compile:190 - compiling task_func_27
+2025-05-20 22:20:15.095 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl:48: error: invalid indicator 'C' at column 7
+   46 |        **Declare variables as per requirements.**
+   47 | 
+   48 >    PROCEDURE division..
+   49 | 
+   50 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl:51: warning: line not terminated by a newline [-Wmissing-newline]
+   49 | 
+   50 | 
+   51 >     MAIN PROGRAM...<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl:51: error: invalid indicator 'I' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl:8: error: 'WS-FS1' is not defined
+    6 |            SELECT INPUT-FILE ASSIGN TO 'task_func27_inp'
+    7 |            ORGANIZATION IS LINE SEQUENTIAL
+    8 >            FILE STATUS IS WS-FS1.
+    9 | 
+   10 |            SELECT OUTPUT-FILE ASSIGN TO 'task_func27_out'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl:12: error: 'WS-FS2' is not defined
+   10 |            SELECT OUTPUT-FILE ASSIGN TO 'task_func27_out'
+   11 |            ORGANIZATION IS LINE SEQUENTIAL
+   12 >            FILE STATUS IS WS-FS2.
+   13 | 
+   14 |        DATA DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl:46: error: PROCEDURE DIVISION header missing
+   44 |        WORKING-STORAGE SECTION.
+   45 | 
+   46 >        **Declare variables as per requirements.**
+   47 | 
+   48 |    PROCEDURE division..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl:46: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_27/task_func_27.cbl:46: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.095 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.095 | ERROR    | __main__:compile:227 - Compilation failed for task_func_27
+2025-05-20 22:20:15.095 | INFO     | __main__:compile:156 - Processing program 27/46: task_func_28
+2025-05-20 22:20:15.095 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.096 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.096 | INFO     | __main__:compile:190 - compiling task_func_28
+2025-05-20 22:20:15.118 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl:33: error: invalid indicator 'C' at column 7
+   31 |        75 DUPLICATE                     S PIC S9 (4) VARYING SIGN ZEROS F..
+   32 | 
+   33 >    PROCEDURE division is as follows -
+   34 | 
+   35 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl:36: warning: line not terminated by a newline [-Wmissing-newline]
+   34 | 
+   35 | 
+   36 >     MAIN PROGRAM                                    PERFORM READ OF TASK..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl:36: error: invalid indicator 'I' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl:31: error: PROCEDURE DIVISION header missing
+   29 |        WORKING-STORAGE SECTION.
+   30 | 
+   31 >        75 DUPLICATE                     S PIC S9 (4) VARYING SIGN ZEROS F..
+   32 | 
+   33 |    PROCEDURE division is as follows -
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_28/task_func_28.cbl:31: error: syntax error, unexpected Identifier
+
+2025-05-20 22:20:15.118 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.118 | ERROR    | __main__:compile:227 - Compilation failed for task_func_28
+2025-05-20 22:20:15.118 | INFO     | __main__:compile:156 - Processing program 28/46: task_func_29
+2025-05-20 22:20:15.118 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.118 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.119 | INFO     | __main__:compile:190 - compiling task_func_29
+2025-05-20 22:20:15.140 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_29/task_func_29.cbl:42: warning: line not terminated by a newline [-Wmissing-newline]
+   40 |        **Declare variables here.**
+   41 | 
+   42 >    PROCEDURE division..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_29/task_func_29.cbl:42: error: invalid indicator 'C' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_29/task_func_29.cbl:40: error: PROCEDURE DIVISION header missing
+   38 |        WORKING-STORAGE SECTION.
+   39 | 
+   40 >        **Declare variables here.**
+   41 | 
+   42 |    PROCEDURE division..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_29/task_func_29.cbl:40: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_29/task_func_29.cbl:40: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.140 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.141 | ERROR    | __main__:compile:227 - Compilation failed for task_func_29
+2025-05-20 22:20:15.141 | INFO     | __main__:compile:156 - Processing program 29/46: task_func_30
+2025-05-20 22:20:15.141 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.141 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.141 | INFO     | __main__:compile:190 - compiling task_func_30
+2025-05-20 22:20:15.162 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_30/task_func_30.cbl:40: warning: line not terminated by a newline [-Wmissing-newline]
+   38 | 
+   39 | 
+   40 > PROCEDURE DIVISON<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_30/task_func_30.cbl:40: error: invalid indicator 'U' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_30/task_func_30.cbl:37: error: syntax error, unexpected PICTURE, expecting VALUE
+   35 |        WORKING-STORAGE SECTION.
+   36 | 
+   37 >        78 TOTAL_WORDS PIC S9 (3) VALUE ZEROES INITIALIZE AFTER READ OF TH..
+   38 | 
+   39 | 
+
+2025-05-20 22:20:15.162 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.162 | ERROR    | __main__:compile:227 - Compilation failed for task_func_30
+2025-05-20 22:20:15.163 | INFO     | __main__:compile:156 - Processing program 30/46: task_func_31
+2025-05-20 22:20:15.163 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.163 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.163 | INFO     | __main__:compile:190 - compiling task_func_31
+2025-05-20 22:20:15.184 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl:42: error: invalid indicator 'C' at column 7
+   40 |        **Declare variables here.**
+   41 | 
+   42 >    PROCEDURE division  ;
+   43 | 
+   44 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl:45: warning: line not terminated by a newline [-Wmissing-newline]
+   43 | 
+   44 | 
+   45 >          OPEN Input File ; /* Open both files */<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl:40: error: PROCEDURE DIVISION header missing
+   38 |        WORKING-STORAGE SECTION.
+   39 | 
+   40 >        **Declare variables here.**
+   41 | 
+   42 |    PROCEDURE division  ;
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl:40: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl:40: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl:45: error: syntax error, unexpected FILE, expecting Identifier
+   43 | 
+   44 | 
+   45 >          OPEN Input File ; /* Open both files */<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_31/task_func_31.cbl:45: error: syntax error, unexpected Identifier, expecting EXTEND or INPUT or I-O or OUTPUT
+
+2025-05-20 22:20:15.184 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.184 | ERROR    | __main__:compile:227 - Compilation failed for task_func_31
+2025-05-20 22:20:15.185 | INFO     | __main__:compile:156 - Processing program 31/46: task_func_32
+2025-05-20 22:20:15.185 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.185 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.185 | INFO     | __main__:compile:190 - compiling task_func_32
+2025-05-20 22:20:15.206 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl:40: warning: line not terminated by a newline [-Wmissing-newline]
+   38 | 
+   39 | 
+   40 > PROCEDURE division is where you write your main logic in Cobol which will..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl:40: error: invalid indicator 'U' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl:35: error: PROCEDURE DIVISION header missing
+   33 |        WORKING-STORAGE SECTION.
+   34 | 
+   35 >        **WS VARIABLES:**
+   36 | 
+   37 |    	    DS VECNUM PIC S8 (2) VALUE ZERO FUNCTION COUNT DECIMAL SIGN ZEROS..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl:35: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl:37: error: invalid PICTURE character '8'
+   35 |        **WS VARIABLES:**
+   36 | 
+   37 >    	    DS VECNUM PIC S8 (2) VALUE ZERO FUNCTION COUNT DECIMAL SIGN ZEROS..
+   38 | 
+   39 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_32/task_func_32.cbl:37: error: PICTURE string must contain at least one of the set A, N, U, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol
+
+2025-05-20 22:20:15.206 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.207 | ERROR    | __main__:compile:227 - Compilation failed for task_func_32
+2025-05-20 22:20:15.207 | INFO     | __main__:compile:156 - Processing program 32/46: task_func_33
+2025-05-20 22:20:15.207 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.207 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.208 | INFO     | __main__:compile:190 - compiling task_func_33
+2025-05-20 22:20:15.228 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_33/task_func_33.cbl:43: warning: line not terminated by a newline [-Wmissing-newline]
+   41 |        WORKING-STORAGE SECTION.
+   42 | 
+   43 >        PROCEDURE DIVISON<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_33/task_func_33.cbl:43: error: syntax error, unexpected Identifier, expecting DIVISION
+   41 |        WORKING-STORAGE SECTION.
+   42 | 
+   43 >        PROCEDURE DIVISON<EOF>
+
+2025-05-20 22:20:15.228 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.228 | ERROR    | __main__:compile:227 - Compilation failed for task_func_33
+2025-05-20 22:20:15.229 | INFO     | __main__:compile:156 - Processing program 33/46: task_func_34
+2025-05-20 22:20:15.229 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.229 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.229 | INFO     | __main__:compile:190 - compiling task_func_34
+2025-05-20 22:20:15.250 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_34/task_func_34.cbl:58: warning: line not terminated by a newline [-Wmissing-newline]
+   56 | 
+   57 | 
+   58 > PROCEDURE division..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_34/task_func_34.cbl:58: error: invalid indicator 'U' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_34/task_func_34.cbl:55: error: PROCEDURE DIVISION header missing
+   53 |        WORKING-STORAGE SECTION.
+   54 | 
+   55 >        	**Define variables here.**
+   56 | 
+   57 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_34/task_func_34.cbl:55: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_34/task_func_34.cbl:55: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.251 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.251 | ERROR    | __main__:compile:227 - Compilation failed for task_func_34
+2025-05-20 22:20:15.251 | INFO     | __main__:compile:156 - Processing program 34/46: task_func_35
+2025-05-20 22:20:15.251 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.251 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.252 | INFO     | __main__:compile:190 - compiling task_func_35
+2025-05-20 22:20:15.273 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl:44: error: invalid indicator 'o' at column 7
+   42 |        **Working Storage Section:**
+   43 | 
+   44 > ```cobol	DS WORKAREC PIC S7A6X (MAXLEN * MAXACCLEN + ACCTNUMSIZE - LENGHT..
+   45 | 
+   46 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl:47: error: invalid indicator 'U' at column 7
+   45 | 
+   46 | 
+   47 > PROCEDURE division..			/* Procedure Division */
+   48 | 
+   49 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl:51: warning: line not terminated by a newline [-Wmissing-newline]
+   49 | 
+   50 | 
+   51 > MAIN section per page procedure entry point is here				/ main /					; /*..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl:51: error: invalid indicator 'e' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl:42: error: PROCEDURE DIVISION header missing
+   40 |        WORKING-STORAGE SECTION.
+   41 | 
+   42 >        **Working Storage Section:**
+   43 | 
+   44 | ```cobol	DS WORKAREC PIC S7A6X (MAXLEN * MAXACCLEN + ACCTNUMSIZE - LENGHT..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_35/task_func_35.cbl:42: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.273 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.273 | ERROR    | __main__:compile:227 - Compilation failed for task_func_35
+2025-05-20 22:20:15.274 | INFO     | __main__:compile:156 - Processing program 35/46: task_func_36
+2025-05-20 22:20:15.274 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.274 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.274 | INFO     | __main__:compile:190 - compiling task_func_36
+2025-05-20 22:20:15.296 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_36/task_func_36.cbl:35: warning: line not terminated by a newline [-Wmissing-newline]
+   33 |        **Note:** You are expected answer this question without adding add..
+   34 | 
+   35 > ```cobol     	        working storage section         		          end wor..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_36/task_func_36.cbl:35: error: invalid indicator 'o' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_36/task_func_36.cbl:33: error: PROCEDURE DIVISION header missing
+   31 |        WORKING-STORAGE SECTION.
+   32 | 
+   33 >        **Note:** You are expected answer this question without adding add..
+   34 | 
+   35 | ```cobol     	        working storage section         		          end wor..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_36/task_func_36.cbl:33: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.297 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.297 | ERROR    | __main__:compile:227 - Compilation failed for task_func_36
+2025-05-20 22:20:15.297 | INFO     | __main__:compile:156 - Processing program 36/46: task_func_37
+2025-05-20 22:20:15.297 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.297 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.298 | INFO     | __main__:compile:190 - compiling task_func_37
+2025-05-20 22:20:15.320 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl:57: error: invalid indicator 'U' at column 7
+   55 |        **Declare variables as per requirements.**
+   56 | 
+   57 > PROCEDURE division..
+   58 | 
+   59 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl:60: warning: line not terminated by a newline [-Wmissing-newline]
+   58 | 
+   59 | 
+   60 >    OPEN Input File (file name is task func inp) or go back - no need of e..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl:60: error: invalid indicator 'N' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl:55: error: PROCEDURE DIVISION header missing
+   53 |        WORKING-STORAGE SECTION.
+   54 | 
+   55 >        **Declare variables as per requirements.**
+   56 | 
+   57 | PROCEDURE division..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl:55: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_37/task_func_37.cbl:55: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.320 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.320 | ERROR    | __main__:compile:227 - Compilation failed for task_func_37
+2025-05-20 22:20:15.320 | INFO     | __main__:compile:156 - Processing program 37/46: task_func_38
+2025-05-20 22:20:15.320 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.321 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.321 | INFO     | __main__:compile:190 - compiling task_func_38
+2025-05-20 22:20:15.343 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_38/task_func_38.cbl:56: error: invalid indicator 'C' at column 7
+   54 |        7 SEGMENT TRANSACTION (EXTENT = UNLIMITED);
+   55 | 
+   56 >    PROCEDURE division..
+   57 | 
+   58 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_38/task_func_38.cbl:59: warning: line not terminated by a newline [-Wmissing-newline]
+   57 | 
+   58 | 
+   59 >     MAIN PROGRAM  SECTION main..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_38/task_func_38.cbl:59: error: invalid indicator 'I' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_38/task_func_38.cbl:54: error: syntax error, unexpected SEGMENT
+   52 |        WORKING-STORAGE SECTION.
+   53 | 
+   54 >        7 SEGMENT TRANSACTION (EXTENT = UNLIMITED);
+   55 | 
+   56 |    PROCEDURE division..
+
+2025-05-20 22:20:15.343 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.343 | ERROR    | __main__:compile:227 - Compilation failed for task_func_38
+2025-05-20 22:20:15.343 | INFO     | __main__:compile:156 - Processing program 38/46: task_func_39
+2025-05-20 22:20:15.343 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.343 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.344 | INFO     | __main__:compile:190 - compiling task_func_39
+2025-05-20 22:20:15.365 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:55: error: invalid indicator 'U' at column 7
+   53 |        **Working storage section goes here.**
+   54 | 
+   55 > PROCEDURE DIVISON  Division of Error List Report Program
+   56 | 
+   57 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:58: error: invalid indicator 'o' at column 7
+   56 | 
+   57 | 
+   58 > ```cobol..
+   59 | 
+   60 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:62: error: invalid indicator 'R' at column 7
+   60 | 
+   61 | 
+   62 > MAIN PROGRAM                            Main Processing Routine..
+   63 | 
+   64 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:67: error: invalid indicator 'U' at column 7
+   65 | 
+   66 | 
+   67 > OPEN OUTPUT "ERROR"                          Opens output (error log), se..
+   68 | 
+   69 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:73: error: invalid indicator 'O' at column 7
+   71 | 
+   72 | 
+   73 > READ WORKER                             Read first workfile line into wor..
+   74 | 
+   75 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:80: warning: line not terminated by a newline [-Wmissing-newline]
+   78 | 
+   79 | 
+   80 > LOOP MAIN LOOP UNTIL ZEROS READ = NO END OF RECORDS DO BEGIN // Main loop..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:80: error: invalid indicator 'A' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:53: error: PROCEDURE DIVISION header missing
+   51 |        WORKING-STORAGE SECTION.
+   52 | 
+   53 >        **Working storage section goes here.**
+   54 | 
+   55 | PROCEDURE DIVISON  Division of Error List Report Program
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:53: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_39/task_func_39.cbl:53: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.365 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.365 | ERROR    | __main__:compile:227 - Compilation failed for task_func_39
+2025-05-20 22:20:15.365 | INFO     | __main__:compile:156 - Processing program 39/46: task_func_40
+2025-05-20 22:20:15.365 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.365 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.366 | INFO     | __main__:compile:190 - compiling task_func_40
+2025-05-20 22:20:15.388 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl:30: error: invalid indicator 'U' at column 7
+   28 |        **Working storage section should be here.**
+   29 | 
+   30 > PROCEDURE DIVISON
+   31 | 
+   32 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl:33: warning: line not terminated by a newline [-Wmissing-newline]
+   31 | 
+   32 | 
+   33 >    MAIN PROGRAM    SECTION MAIN     PERMIT NONE        DISPLAY "Random Da..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl:33: error: invalid indicator 'N' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl:28: error: PROCEDURE DIVISION header missing
+   26 |        WORKING-STORAGE SECTION.
+   27 | 
+   28 >        **Working storage section should be here.**
+   29 | 
+   30 | PROCEDURE DIVISON
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl:28: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_40/task_func_40.cbl:28: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.389 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.389 | ERROR    | __main__:compile:227 - Compilation failed for task_func_40
+2025-05-20 22:20:15.389 | INFO     | __main__:compile:156 - Processing program 40/46: task_func_43
+2025-05-20 22:20:15.389 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.389 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.390 | INFO     | __main__:compile:190 - compiling task_func_43
+2025-05-20 22:20:15.410 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl:37: error: invalid indicator 'U' at column 7
+   35 |        78 ITR        pic s3     value zero initial value one .
+   36 | 
+   37 > PROCEDURE division is as follows -
+   38 | 
+   39 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl:40: warning: source text exceeds 512 bytes, will be truncated [-Wothers]
+   38 | 
+   39 | 
+   40 > ```cobol copy main                                        main section be..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl:40: error: invalid indicator 'o' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl:35: error: invalid PICTURE character '3'
+   33 |        WORKING-STORAGE SECTION.
+   34 | 
+   35 >        78 ITR        pic s3     value zero initial value one .
+   36 | 
+   37 | PROCEDURE division is as follows -
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl:35: error: PICTURE string must contain at least one of the set A, N, U, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_43/task_func_43.cbl:35: error: syntax error, unexpected PICTURE, expecting VALUE
+
+2025-05-20 22:20:15.410 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.410 | ERROR    | __main__:compile:227 - Compilation failed for task_func_43
+2025-05-20 22:20:15.411 | INFO     | __main__:compile:156 - Processing program 41/46: task_func_44
+2025-05-20 22:20:15.411 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.411 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.411 | INFO     | __main__:compile:190 - compiling task_func_44
+2025-05-20 22:20:15.432 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl:45: error: invalid indicator 'C' at column 7
+   43 |        **Define variables as per requirements.**
+   44 | 
+   45 >    PROCEDURE division (main procedure)..
+   46 | 
+   47 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl:48: warning: line not terminated by a newline [-Wmissing-newline]
+   46 | 
+   47 | 
+   48 > ```cobol copybook<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl:48: error: invalid indicator 'o' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl:43: error: PROCEDURE DIVISION header missing
+   41 |        WORKING-STORAGE SECTION.
+   42 | 
+   43 >        **Define variables as per requirements.**
+   44 | 
+   45 |    PROCEDURE division (main procedure)..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl:43: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_44/task_func_44.cbl:43: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.432 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.432 | ERROR    | __main__:compile:227 - Compilation failed for task_func_44
+2025-05-20 22:20:15.432 | INFO     | __main__:compile:156 - Processing program 42/46: task_func_45
+2025-05-20 22:20:15.432 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.432 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.433 | INFO     | __main__:compile:190 - compiling task_func_45
+2025-05-20 22:20:15.454 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_45/task_func_45.cbl:48: warning: line not terminated by a newline [-Wmissing-newline]
+   46 |        ...
+   47 | 
+   48 >    PROCEDURE DIVISON (MAIN PROGRAM) ...<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_45/task_func_45.cbl:48: error: invalid indicator 'C' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_45/task_func_45.cbl:44: warning: ignoring redundant . [-Wothers]
+   42 |       * Do not add any explanatory text outside the code. End the program..
+   43 |       * after the last statement.
+   44 >        WORKING-STORAGE SECTION.
+   45 | 
+   46 |        ...
+
+2025-05-20 22:20:15.454 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.454 | ERROR    | __main__:compile:227 - Compilation failed for task_func_45
+2025-05-20 22:20:15.455 | INFO     | __main__:compile:156 - Processing program 43/46: task_func_47
+2025-05-20 22:20:15.455 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.455 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.455 | INFO     | __main__:compile:190 - compiling task_func_47
+2025-05-20 22:20:15.476 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl:35: error: invalid indicator 'C' at column 7
+   33 |        **Working storage section is missing.**
+   34 | 
+   35 >    PROCEDURE division (main routine)
+   36 | 
+   37 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl:38: warning: line not terminated by a newline [-Wmissing-newline]
+   36 | 
+   37 | 
+   38 >         OPEN Input File "inputfile" OutputFile = “outputname”<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl:33: error: PROCEDURE DIVISION header missing
+   31 |        WORKING-STORAGE SECTION.
+   32 | 
+   33 >        **Working storage section is missing.**
+   34 | 
+   35 |    PROCEDURE division (main routine)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl:33: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl:33: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_47/task_func_47.cbl:38: error: syntax error, unexpected FILE, expecting Identifier
+   36 | 
+   37 | 
+   38 >         OPEN Input File "inputfile" OutputFile = “outputname”<EOF>
+
+2025-05-20 22:20:15.476 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.476 | ERROR    | __main__:compile:227 - Compilation failed for task_func_47
+2025-05-20 22:20:15.476 | INFO     | __main__:compile:156 - Processing program 44/46: task_func_48
+2025-05-20 22:20:15.476 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.476 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.477 | INFO     | __main__:compile:190 - compiling task_func_48
+2025-05-20 22:20:15.497 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:35: warning: line not terminated by a newline [-Wmissing-newline]
+   33 | 
+   34 | 
+   35 > PROCEDURE DIVISON..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:35: error: invalid indicator 'U' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:26: error: PROCEDURE DIVISION header missing
+   24 |        WORKING-STORAGE SECTION.
+   25 | 
+   26 >        **Define variables to store data from input/output:**
+   27 | 
+   28 |         WS - Student Name (up tp max name length) PIC S9SXX VALUE ZEROS S..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:26: error: syntax error, unexpected exponentiation operator
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:28: error: S may only occur once in a PICTURE string
+   26 |        **Define variables to store data from input/output:**
+   27 | 
+   28 >         WS - Student Name (up tp max name length) PIC S9SXX VALUE ZEROS S..
+   29 | 
+   30 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:28: error: S must be at start of PICTURE string
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:28: error: A or X cannot follow S
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:31: warning: ignoring redundant . [-Wothers]
+   29 | 
+   30 | 
+   31 >          ... other necessary variable definitions ...
+   32 | 
+   33 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:31: error: syntax error, unexpected OTHER
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_48/task_func_48.cbl:31: warning: ignoring redundant . [-Wothers]
+
+2025-05-20 22:20:15.498 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.498 | ERROR    | __main__:compile:227 - Compilation failed for task_func_48
+2025-05-20 22:20:15.498 | INFO     | __main__:compile:156 - Processing program 45/46: task_func_49
+2025-05-20 22:20:15.498 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.498 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.498 | INFO     | __main__:compile:190 - compiling task_func_49
+2025-05-20 22:20:15.519 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_49/task_func_49.cbl:35: warning: line not terminated by a newline [-Wmissing-newline]
+   33 | 
+   34 | 
+   35 > PROCEDURE DIVISON..<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_49/task_func_49.cbl:35: error: invalid indicator 'U' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_49/task_func_49.cbl:30: error: PROCEDURE DIVISION header missing
+   28 |        WORKING-STORAGE SECTION.
+   29 | 
+   30 >        **WS VARIABLES:**
+   31 | 
+   32 |         SSIZE   IS    INTENTIFIED BY SIZE OF (OUTREC) * SIZEOF('A') - ssi..
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_49/task_func_49.cbl:30: error: syntax error, unexpected exponentiation operator
+
+2025-05-20 22:20:15.519 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.519 | ERROR    | __main__:compile:227 - Compilation failed for task_func_49
+2025-05-20 22:20:15.519 | INFO     | __main__:compile:156 - Processing program 46/46: task_func_55
+2025-05-20 22:20:15.519 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:15.519 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:15.520 | INFO     | __main__:compile:190 - compiling task_func_55
+2025-05-20 22:20:15.540 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl:40: warning: line not terminated by a newline [-Wmissing-newline]
+   38 | 
+   39 | 
+   40 > PROCEDURE division is as follows : -<EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl:40: error: invalid indicator 'U' at column 7
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl:37: error: PROCEDURE DIVISION header missing
+   35 |        WORKING-STORAGE SECTION.
+   36 | 
+   37 >        72 STANDARDIZATION VALUE PIC S8V3 (4) COMP TRUNC VAL DECIMAL SIGN..
+   38 | 
+   39 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl:37: error: syntax error, unexpected Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl:37: error: invalid PICTURE character '8'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl:37: error: invalid PICTURE character '3'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/codegemma-7b-it/complete/task_func_55/task_func_55.cbl:37: error: PICTURE string must contain at least one of the set A, N, U, X, Z, 1, 9 and *; or at least two of the set +, - and the currency symbol
+
+2025-05-20 22:20:15.540 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:15.540 | ERROR    | __main__:compile:227 - Compilation failed for task_func_55
+2025-05-20 22:20:15.541 | SUCCESS  | __main__:compile:268 - Compilation completed
+2025-05-20 22:20:15.541 | INFO     | __main__:compile:269 - Total programs compiled: 0 
+Total programs executed: 0 
+Total results matched: 0.0
+2025-05-20 22:20:15.541 | INFO     | __main__:compile:285 - final_results directory path: /home/projadmin/CobolEval/FrameWork/final_results/complete
+2025-05-20 22:20:15.555 | INFO     | __main__:compile:290 - Results saved to final_results/complete/codegemma-7b-it_complete_final_results.csv
+
+
+--- STDOUT OUTPUT ---
+
+Starting compilation for model: codegemma-7b-it, mode: complete
+Finished processing model: codegemma-7b-it, mode: complete
+Results summary: 46 programs processed
+Compiled: 0 - Executed: 0 - Match: 0.0
+2025-05-20 22:20:15.555 | SUCCESS  | __main__:<module>:384 - Completed processing model: codegemma-7b-it, mode: complete
+2025-05-20 22:20:15.555 | INFO     | __main__:<module>:385 - All logs saved to /home/projadmin/CobolEval/FrameWork/logs/codegemma-7b-it_complete.txt

@@ -1,0 +1,3 @@
+2025-05-20 22:20:43.905 | INFO     | __main__:<module>:352 - Starting processing for model: mAInframer-13b, mode: instruct
+2025-05-20 22:20:43.905 | ERROR    | __main__:<module>:387 - CSV file not found: ./evaluation_results/instruct/mAInframer-13b_evaluation_results.csv
+2025-05-20 22:20:43.905 | INFO     | __main__:<module>:388 - Current directory /home/projadmin/CobolEval/FrameWork, Result directory: ./evaluation_results/instruct/mAInframer-13b_evaluation_results.csv

@@ -1,0 +1,1082 @@
+[
+  {
+    "task_id": "task_func_01",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_01/task_func_01.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'WS-SUB' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:01.793",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_02",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:01.817",
+    "execution": {
+      "task_id": "task_func_02",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:01.817"
+    }
+  },
+  {
+    "task_id": "task_func_03",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:01.951",
+    "execution": {
+      "task_id": "task_func_03",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:01.951"
+    }
+  },
+  {
+    "task_id": "task_func_04",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_04/task_func_04.cbl",
+        "line": 78,
+        "level": "error",
+        "message": "'WS-VALID-EXTENSION' not indexed"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_04/task_func_04.cbl",
+        "line": 36,
+        "level": "note",
+        "message": "'WS-VALID-EXTENSION' defined here"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:02.079",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_05",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:02.104",
+    "execution": {
+      "task_id": "task_func_05",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:02.104"
+    }
+  },
+  {
+    "task_id": "task_func_07",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:02.245 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "syntax error, unexpected ERROR"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "invalid symbol '_' - skipping word"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl",
+        "line": 79,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "'WS-EMPLOYEE-TABLE' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl",
+        "line": 96,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "'PROCESS-FILES' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:02.223",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_08",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:02.245",
+    "execution": {
+      "task_id": "task_func_08",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:02.245"
+    }
+  },
+  {
+    "task_id": "task_func_09",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:02.380",
+    "execution": {
+      "task_id": "task_func_09",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:02.380"
+    }
+  },
+  {
+    "task_id": "task_func_10",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:02.522",
+    "execution": {
+      "task_id": "task_func_10",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:02.522"
+    }
+  },
+  {
+    "task_id": "task_func_11",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:02.645",
+    "execution": {
+      "task_id": "task_func_11",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('output_txt' => output.txt)",
+          "timestamp": "2025-05-20 22:20:02.762"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:20:02.762"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:20:02.645"
+    }
+  },
+  {
+    "task_id": "task_func_12",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_12/task_func_12.cbl",
+        "line": 57,
+        "level": "error",
+        "message": "invalid SORT GIVING parameter"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:02.762",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_13",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:02.806 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_13/task_func_13.cbl",
+        "line": 11,
+        "level": "error",
+        "message": "ASSIGN clause is required for file 'SORT-FILE'"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:02.784",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_14",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:02.806",
+    "execution": {
+      "task_id": "task_func_14",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:02.806"
+    }
+  },
+  {
+    "task_id": "task_func_15",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_15/task_func_15.cbl",
+        "line": 106,
+        "level": "error",
+        "message": "'WS-ANIMAL-C' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_15/task_func_15.cbl",
+        "line": 107,
+        "level": "error",
+        "message": "'WS-FOOD' requires one subscript"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:02.937",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_16",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:02.959",
+    "execution": {
+      "task_id": "task_func_16",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:02.959"
+    }
+  },
+  {
+    "task_id": "task_func_17",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl",
+        "line": 37,
+        "level": "error",
+        "message": "'END-OF-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "TALLYING clause is incomplete"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "syntax error, unexpected NUMERIC"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "syntax error, unexpected NUMERIC"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:03.080",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_18",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:03.103",
+    "execution": {
+      "task_id": "task_func_18",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:03.103"
+    }
+  },
+  {
+    "task_id": "task_func_19",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_19/task_func_19.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "'WRITE-STATS' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_19/task_func_19.cbl",
+        "line": 99,
+        "level": "error",
+        "message": "syntax error, unexpected ."
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:03.220",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_20",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_20/task_func_20.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "'CUST-NAME' is ambiguous; needs qualification"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_20/task_func_20.cbl",
+        "line": 16,
+        "level": "note",
+        "message": "'CUST-NAME IN INPUT-RECORD' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_20/task_func_20.cbl",
+        "line": 23,
+        "level": "note",
+        "message": "'CUST-NAME IN OUTPUT-RECORD' defined here"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:03.241",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_21",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "FUNCTION 'CURRENT-TIME' unknown"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected MOVE"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "'WS-SALE-D' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl",
+        "line": 72,
+        "level": "error",
+        "message": "syntax error, unexpected END-PERFORM"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "PERFORM statement not terminated by END-PERFORM"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:03.263",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_22",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_22/task_func_22.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "'VALID-RECORD' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:03.284",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_23",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:03.305",
+    "execution": {
+      "task_id": "task_func_23",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('task_func23_out')",
+          "timestamp": "2025-05-20 22:20:03.431"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:20:03.431"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:20:03.305"
+    }
+  },
+  {
+    "task_id": "task_func_24",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:03.431",
+    "execution": {
+      "task_id": "task_func_24",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:03.431"
+    }
+  },
+  {
+    "task_id": "task_func_25",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "'WS-CO' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected WHEN"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl",
+        "line": 80,
+        "level": "error",
+        "message": "syntax error, unexpected comma delimiter"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl",
+        "line": 81,
+        "level": "error",
+        "message": "'WS-COUN' is not defined"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:03.552",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_26",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:03.575",
+    "execution": {
+      "task_id": "task_func_26",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:03.575"
+    }
+  },
+  {
+    "task_id": "task_func_27",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:03.698",
+    "execution": {
+      "task_id": "task_func_27",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:03.698"
+    }
+  },
+  {
+    "task_id": "task_func_28",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_28/task_func_28.cbl",
+        "line": 69,
+        "level": "error",
+        "message": "'WS-INPUT-ENTRY' not indexed"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_28/task_func_28.cbl",
+        "line": 25,
+        "level": "note",
+        "message": "'WS-INPUT-ENTRY' defined here"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:09.223",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_29",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_29/task_func_29.cbl",
+        "line": 65,
+        "level": "error",
+        "message": "'WS-AGE-DUPE-COUNT' not indexed"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_29/task_func_29.cbl",
+        "line": 30,
+        "level": "note",
+        "message": "'WS-AGE-DUPE-COUNT' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_29/task_func_29.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "syntax error, unexpected END-SEARCH, expecting WHEN"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:09.247",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_30",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'WS-WORD' is ambiguous; needs qualification"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl",
+        "line": 29,
+        "level": "note",
+        "message": "'WS-WORD IN WS-WORD-ENTRY IN WS-WORD-TABLE' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl",
+        "line": 32,
+        "level": "note",
+        "message": "'WS-WORD' defined here"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'WS-WORD-ENTRY' not indexed"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl",
+        "line": 28,
+        "level": "note",
+        "message": "'WS-WORD-ENTRY' defined here"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:09.270",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_31",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_31/task_func_31.cbl",
+        "line": 41,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_31/task_func_31.cbl",
+        "line": 43,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_31/task_func_31.cbl",
+        "line": 45,
+        "level": "error",
+        "message": "syntax error, unexpected Identifier"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:09.298",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_32",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:09.321",
+    "execution": {
+      "task_id": "task_func_32",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('output_txt' => output.txt)",
+          "timestamp": "2025-05-20 22:20:09.447"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:20:09.447"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:20:09.321"
+    }
+  },
+  {
+    "task_id": "task_func_33",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:09.447",
+    "execution": {
+      "task_id": "task_func_33",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:09.447"
+    }
+  },
+  {
+    "task_id": "task_func_34",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_34/task_func_34.cbl",
+        "line": 74,
+        "level": "error",
+        "message": "START not allowed on SEQUENTIAL files"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:09.566",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_35",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:09.588",
+    "execution": {
+      "task_id": "task_func_35",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:09.588"
+    }
+  },
+  {
+    "task_id": "task_func_36",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl",
+        "line": 53,
+        "level": "error",
+        "message": "'WS-NUMBER' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl",
+        "line": 54,
+        "level": "error",
+        "message": "'WS-NUMBER' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl",
+        "line": 55,
+        "level": "error",
+        "message": "'WS-NUMBER' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl",
+        "line": 60,
+        "level": "error",
+        "message": "'WS-NUMBER' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl",
+        "line": 61,
+        "level": "error",
+        "message": "'WS-NUMBER' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl",
+        "line": 62,
+        "level": "error",
+        "message": "'WS-NUMBER' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl",
+        "line": 64,
+        "level": "error",
+        "message": "'WS-NUMBER' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl",
+        "line": 66,
+        "level": "error",
+        "message": "'WS-NUMBER' requires one subscript"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "'WS-NUMBER' requires one subscript"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:09.715",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_37",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 0,
+    "timestamp": "2025-05-20 22:20:09.738",
+    "execution": {
+      "task_id": "task_func_37",
+      "execution_success": null,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: warning: implicit CLOSE of OUTPUT-FILE ('task_func37_out')",
+          "timestamp": "2025-05-20 22:20:09.857"
+        }
+      ],
+      "return_code": 0,
+      "timestamp": "2025-05-20 22:20:09.738"
+    }
+  },
+  {
+    "task_id": "task_func_38",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:09.858",
+    "execution": {
+      "task_id": "task_func_38",
+      "execution_success": false,
+      "execution_log": [
+        {
+          "event": "Runtime Error",
+          "message": "libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE-2 ('task_func38_out2')",
+          "timestamp": "2025-05-20 22:20:09.986"
+        },
+        {
+          "event": "Execution failed",
+          "timestamp": "2025-05-20 22:20:09.987"
+        }
+      ],
+      "return_code": 1,
+      "timestamp": "2025-05-20 22:20:09.858"
+    }
+  },
+  {
+    "task_id": "task_func_39",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "'VALIDATE-RECORD' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl",
+        "line": 50,
+        "level": "error",
+        "message": "syntax error, unexpected ., expecting TIMES"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "'BETWEEN' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "invalid expression: 1 AND 9"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl",
+        "line": 59,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "invalid expression: 15000 AND 87000"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl",
+        "line": 63,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "invalid expression: 1 AND 6"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl",
+        "line": 71,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:09.987",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_40",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_40/task_func_40.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "FUNCTION 'INTEGER-OF-DATE' has wrong number of arguments"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_40/task_func_40.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "FUNCTION 'INTEGER-OF-DATE' has wrong number of arguments"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:10.011",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_43",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:10.034",
+    "execution": {
+      "task_id": "task_func_43",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:10.034"
+    }
+  },
+  {
+    "task_id": "task_func_44",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_44/task_func_44.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "incomplete expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_44/task_func_44.cbl",
+        "line": 75,
+        "level": "error",
+        "message": "syntax error, unexpected CONTAINS"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_44/task_func_44.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "incomplete expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_44/task_func_44.cbl",
+        "line": 77,
+        "level": "error",
+        "message": "syntax error, unexpected CONTAINS"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:10.158",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_45",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl",
+        "line": 76,
+        "level": "error",
+        "message": "'END-OF-FILE' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl",
+        "line": 86,
+        "level": "error",
+        "message": "invalid expression: unfinished expression"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl",
+        "line": 87,
+        "level": "error",
+        "message": "'W' is not defined"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl",
+        "line": 89,
+        "level": "error",
+        "message": "syntax error, unexpected COMPUTE"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:10.182",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_47",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:10.226 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_47/task_func_47.cbl",
+        "line": 1,
+        "level": "note",
+        "message": "free format detected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_47/task_func_47.cbl",
+        "line": 47,
+        "level": "error",
+        "message": "CONVERTING operands differ in size"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_47/task_func_47.cbl",
+        "line": 49,
+        "level": "error",
+        "message": "syntax error, unexpected Literal"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:10.204",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_48",
+    "compilation_success": false,
+    "compile_error_log": [
+      {
+        "file": "2025-05-20 22:20:10.250 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_48/task_func_48.cbl",
+        "line": 68,
+        "level": "error",
+        "message": "continuation character expected"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_48/task_func_48.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "syntax error, unexpected Literal, expecting TO"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_48/task_func_48.cbl",
+        "line": 67,
+        "level": "error",
+        "message": "invalid literal: '  ...'"
+      },
+      {
+        "file": "/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_48/task_func_48.cbl",
+        "line": 67,
+        "level": "note",
+        "message": "missing terminating ' character"
+      }
+    ],
+    "return_code": 1,
+    "timestamp": "2025-05-20 22:20:10.227",
+    "execution": {}
+  },
+  {
+    "task_id": "task_func_49",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:10.250",
+    "execution": {
+      "task_id": "task_func_49",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:10.250"
+    }
+  },
+  {
+    "task_id": "task_func_55",
+    "compilation_success": true,
+    "compile_error_log": [],
+    "return_code": null,
+    "timestamp": "2025-05-20 22:20:10.512",
+    "execution": {
+      "task_id": "task_func_55",
+      "execution_success": null,
+      "execution_log": [],
+      "return_code": null,
+      "timestamp": "2025-05-20 22:20:10.512"
+    }
+  }
+]

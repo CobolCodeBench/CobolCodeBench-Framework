@@ -25,7 +25,7 @@ def delete_file(file_path: str) -> None:
     """Delete the file at the given path if it exists."""
     if file_exists(file_path):
         os.remove(file_path)
-        
+
 def json_to_csv(json_file_path, csv_file_path):
     try:
         # Read the JSON file

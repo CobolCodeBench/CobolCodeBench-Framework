@@ -1,0 +1,635 @@
+2025-05-20 22:19:37.591 | INFO     | __main__:<module>:352 - Starting processing for model: claude-3-5-sonnet-20241022, mode: instruct
+2025-05-20 22:19:37.594 | INFO     | __main__:__init__:34 - Loaded ./data/Instruction_Set.json successfully
+2025-05-20 22:19:37.602 | INFO     | __main__:__init__:41 - Data frame read successfully
+2025-05-20 22:19:37.602 | INFO     | __main__:compile:150 - Processing 46 programs
+2025-05-20 22:19:37.603 | INFO     | __main__:compile:156 - Processing program 1/46: task_func_01
+2025-05-20 22:19:37.603 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:37.603 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:37.603 | INFO     | __main__:compile:190 - compiling task_func_01
+2025-05-20 22:19:37.626 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_01/task_func_01.cbl: in paragraph 'UPDATE-RECORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_01/task_func_01.cbl:107: error: 'WS-IDX' is not defined
+  105 |            MOVE IN-PENALTIES TO OUT-PENALTIES
+  106 | 
+  107 >            PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX > 5
+  108 |                IF IN-TEAM = TEAM-NAME(WS-IDX)
+  109 |                    ADD GOAL-VALUE(WS-IDX) TO OUT-GOALS
+
+2025-05-20 22:19:37.626 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:37.626 | ERROR    | __main__:compile:227 - Compilation failed for task_func_01
+2025-05-20 22:19:37.626 | INFO     | __main__:compile:156 - Processing program 2/46: task_func_02
+2025-05-20 22:19:37.626 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:37.627 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:37.627 | INFO     | __main__:compile:190 - compiling task_func_02
+2025-05-20 22:19:37.648 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl:28: error: continuation character expected
+   26 |        01 WS-MOVED-COUNT     PIC 9(4) VALUE 0.
+   27 |        01 WS-PATTERN         PIC X(50) VALUE '[A-Za-z0-9]+\.(txt|doc|docx..
+   28 >        01 WS-MATCH-FLAG      PIC X VALUE 'N'.
+   29 | 
+   30 |        PROCEDURE DIVISION.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl:27: warning: handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]
+   25 |        01 WS-EOF             PIC X VALUE 'N'.
+   26 |        01 WS-MOVED-COUNT     PIC 9(4) VALUE 0.
+   27 >        01 WS-PATTERN         PIC X(50) VALUE '[A-Za-z0-9]+\.(txt|doc|docx..
+   28 |        01 WS-MATCH-FLAG      PIC X VALUE 'N'.
+   29 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl:27: error: syntax error, unexpected Identifier
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl:27: warning: handling of national literal is unfinished; implementation is likely to be changed [-Wunfinished]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl:27: error: invalid literal: ' TO WS-MATCH-FLAG ...'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_02/task_func_02.cbl:27: note: missing terminating ' character
+
+2025-05-20 22:19:37.648 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:37.648 | ERROR    | __main__:compile:227 - Compilation failed for task_func_02
+2025-05-20 22:19:37.648 | INFO     | __main__:compile:156 - Processing program 3/46: task_func_03
+2025-05-20 22:19:37.648 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:37.648 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:37.649 | INFO     | __main__:compile:190 - compiling task_func_03
+2025-05-20 22:19:37.776 | SUCCESS  | __main__:compile:206 - task_func_03 is successfully compiled
+2025-05-20 22:19:37.782 | WARNING  | utils:cmd:35 - Err: libcob: error: file does not exist (status = 35) for file INPUT-FILE ('Task_func03_inp')
+
+2025-05-20 22:19:37.782 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:37.782 | ERROR    | __main__:compile:221 - Execution failed for task_func_03
+2025-05-20 22:19:37.782 | INFO     | __main__:compile:156 - Processing program 4/46: task_func_04
+2025-05-20 22:19:37.782 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:37.782 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:37.783 | INFO     | __main__:compile:190 - compiling task_func_04
+2025-05-20 22:19:37.899 | SUCCESS  | __main__:compile:206 - task_func_04 is successfully compiled
+2025-05-20 22:19:37.905 | SUCCESS  | __main__:compile:216 - task_func_04 is successfully executed
+2025-05-20 22:19:37.906 | INFO     | __main__:compile:156 - Processing program 5/46: task_func_05
+2025-05-20 22:19:37.906 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:37.906 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:37.906 | INFO     | __main__:compile:190 - compiling task_func_05
+2025-05-20 22:19:38.029 | SUCCESS  | __main__:compile:206 - task_func_05 is successfully compiled
+2025-05-20 22:19:38.034 | SUCCESS  | __main__:compile:216 - task_func_05 is successfully executed
+2025-05-20 22:19:38.035 | INFO     | __main__:compile:156 - Processing program 6/46: task_func_07
+2025-05-20 22:19:38.035 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.035 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.035 | INFO     | __main__:compile:190 - compiling task_func_07
+2025-05-20 22:19:38.056 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_07/task_func_07.cbl: in paragraph 'ASSIGN-TASKS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_07/task_func_07.cbl:102: error: 'WS-IDX' is not defined
+  100 | 
+  101 |        ASSIGN-TASKS.
+  102 >            PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX > WS-N-TASKS
+  103 |               COMPUTE WS-RANDOM = FUNCTION RANDOM(WS-SEED) * 5 + 1
+  104 |               MOVE WS-TASK-DESC(WS-IDX) TO WS-OUT-TASK
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_07/task_func_07.cbl:103: error: 'WS-RANDOM' is not defined
+  101 |        ASSIGN-TASKS.
+  102 |            PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX > WS-N-TASKS
+  103 >               COMPUTE WS-RANDOM = FUNCTION RANDOM(WS-SEED) * 5 + 1
+  104 |               MOVE WS-TASK-DESC(WS-IDX) TO WS-OUT-TASK
+  105 |               INSPECT WS-OUT-TASK REPLACING ALL SPACES BY '_'
+
+2025-05-20 22:19:38.056 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:38.056 | ERROR    | __main__:compile:227 - Compilation failed for task_func_07
+2025-05-20 22:19:38.057 | INFO     | __main__:compile:156 - Processing program 7/46: task_func_08
+2025-05-20 22:19:38.057 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.057 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.057 | INFO     | __main__:compile:190 - compiling task_func_08
+2025-05-20 22:19:38.167 | SUCCESS  | __main__:compile:206 - task_func_08 is successfully compiled
+2025-05-20 22:19:38.172 | SUCCESS  | __main__:compile:216 - task_func_08 is successfully executed
+2025-05-20 22:19:38.173 | INFO     | __main__:compile:156 - Processing program 8/46: task_func_09
+2025-05-20 22:19:38.173 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.173 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.173 | INFO     | __main__:compile:190 - compiling task_func_09
+2025-05-20 22:19:38.298 | SUCCESS  | __main__:compile:206 - task_func_09 is successfully compiled
+2025-05-20 22:19:38.305 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('output_txt' => output.txt)
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('output.txt')
+libcob: warning: implicit CLOSE of INPUT-FILE ('input.txt')
+
+2025-05-20 22:19:38.305 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:38.305 | ERROR    | __main__:compile:221 - Execution failed for task_func_09
+2025-05-20 22:19:38.305 | INFO     | __main__:compile:156 - Processing program 9/46: task_func_10
+2025-05-20 22:19:38.305 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.305 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.306 | INFO     | __main__:compile:190 - compiling task_func_10
+2025-05-20 22:19:38.424 | SUCCESS  | __main__:compile:206 - task_func_10 is successfully compiled
+2025-05-20 22:19:38.431 | SUCCESS  | __main__:compile:216 - task_func_10 is successfully executed
+2025-05-20 22:19:38.431 | INFO     | __main__:compile:156 - Processing program 10/46: task_func_11
+2025-05-20 22:19:38.431 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.431 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.432 | INFO     | __main__:compile:190 - compiling task_func_11
+2025-05-20 22:19:38.454 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_11/task_func_11.cbl: in paragraph 'CHECK-CONDITIONS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_11/task_func_11.cbl:72: error: syntax error, unexpected CONTAINS
+   70 |            *> Check if it's a file (has extension)
+   71 |            IF WS-FILE-NAME(1:1) NOT = SPACE AND
+   72 >               WS-FILE-NAME CONTAINS '.'
+   73 |                MOVE 'Y' TO WS-IS-FILE
+   74 |            END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_11/task_func_11.cbl:71: error: IF without imperative statement
+   69 | 
+   70 |            *> Check if it's a file (has extension)
+   71 >            IF WS-FILE-NAME(1:1) NOT = SPACE AND
+   72 |               WS-FILE-NAME CONTAINS '.'
+   73 |                MOVE 'Y' TO WS-IS-FILE
+
+2025-05-20 22:19:38.455 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:38.455 | ERROR    | __main__:compile:227 - Compilation failed for task_func_11
+2025-05-20 22:19:38.455 | INFO     | __main__:compile:156 - Processing program 11/46: task_func_12
+2025-05-20 22:19:38.455 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.455 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.455 | INFO     | __main__:compile:190 - compiling task_func_12
+2025-05-20 22:19:38.573 | SUCCESS  | __main__:compile:206 - task_func_12 is successfully compiled
+2025-05-20 22:19:38.578 | WARNING  | utils:cmd:35 - Err: libcob: error: READ/START not allowed, file not open for input (status = 47) for file INPUT-FILE ('input_dat' => input.dat)
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('output.dat')
+
+2025-05-20 22:19:38.579 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:38.579 | ERROR    | __main__:compile:221 - Execution failed for task_func_12
+2025-05-20 22:19:38.579 | INFO     | __main__:compile:156 - Processing program 12/46: task_func_13
+2025-05-20 22:19:38.579 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.579 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.579 | INFO     | __main__:compile:190 - compiling task_func_13
+2025-05-20 22:19:38.600 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_13/task_func_13.cbl: in paragraph 'INPUT-VALIDATION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_13/task_func_13.cbl:56: error: 'WS-VALID-FLAG' is not numeric
+   54 | 
+   55 |            INSPECT CUSTOMER-NAME
+   56 >                TALLYING WS-VALID-FLAG FOR ALL
+   57 |                "0123456789!@#$%^&*()_+-=[]{}|;:,.<>?/"
+   58 |            IF WS-VALID-FLAG > 0
+
+2025-05-20 22:19:38.600 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:38.600 | ERROR    | __main__:compile:227 - Compilation failed for task_func_13
+2025-05-20 22:19:38.601 | INFO     | __main__:compile:156 - Processing program 13/46: task_func_14
+2025-05-20 22:19:38.601 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.601 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.601 | INFO     | __main__:compile:190 - compiling task_func_14
+2025-05-20 22:19:38.623 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_14/task_func_14.cbl: in paragraph 'SORT-AND-OUTPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_14/task_func_14.cbl:100: error: 'WS-J' is not defined
+   98 |            PERFORM VARYING WS-IDX FROM 1 BY 1
+   99 |                    UNTIL WS-IDX > WS-MATCH-COUNT - 1
+  100 >                PERFORM VARYING WS-J FROM WS-IDX BY 1
+  101 |                        UNTIL WS-J > WS-MATCH-COUNT
+  102 |                    IF WS-DT-VALUE(WS-J) <
+
+2025-05-20 22:19:38.623 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:38.623 | ERROR    | __main__:compile:227 - Compilation failed for task_func_14
+2025-05-20 22:19:38.624 | INFO     | __main__:compile:156 - Processing program 14/46: task_func_15
+2025-05-20 22:19:38.624 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.624 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.624 | INFO     | __main__:compile:190 - compiling task_func_15
+2025-05-20 22:19:38.758 | SUCCESS  | __main__:compile:206 - task_func_15 is successfully compiled
+2025-05-20 22:19:38.765 | SUCCESS  | __main__:compile:216 - task_func_15 is successfully executed
+2025-05-20 22:19:38.766 | INFO     | __main__:compile:156 - Processing program 15/46: task_func_16
+2025-05-20 22:19:38.766 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.766 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.767 | INFO     | __main__:compile:190 - compiling task_func_16
+2025-05-20 22:19:38.788 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_16/task_func_16.cbl: in paragraph 'CALC-AVG-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_16/task_func_16.cbl:79: error: FUNCTION 'SECONDS-BETWEEN' unknown
+   77 |                       TO WS-CURR-TIMESTAMP
+   78 |                  COMPUTE WS-TIME-DIFF = FUNCTION
+   79 >                     SECONDS-BETWEEN(WS-CURR-TIMESTAMP,
+   80 |                                   WS-PREV-TIMESTAMP,
+   81 |                                   WS-TIMEZONE)
+
+2025-05-20 22:19:38.788 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:38.788 | ERROR    | __main__:compile:227 - Compilation failed for task_func_16
+2025-05-20 22:19:38.789 | INFO     | __main__:compile:156 - Processing program 16/46: task_func_17
+2025-05-20 22:19:38.789 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.789 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.790 | INFO     | __main__:compile:190 - compiling task_func_17
+2025-05-20 22:19:38.899 | SUCCESS  | __main__:compile:206 - task_func_17 is successfully compiled
+2025-05-20 22:19:38.904 | SUCCESS  | __main__:compile:216 - task_func_17 is successfully executed
+2025-05-20 22:19:38.905 | INFO     | __main__:compile:156 - Processing program 17/46: task_func_18
+2025-05-20 22:19:38.905 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:38.905 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:38.906 | INFO     | __main__:compile:190 - compiling task_func_18
+2025-05-20 22:19:39.020 | SUCCESS  | __main__:compile:206 - task_func_18 is successfully compiled
+2025-05-20 22:19:39.026 | SUCCESS  | __main__:compile:216 - task_func_18 is successfully executed
+2025-05-20 22:19:39.027 | INFO     | __main__:compile:156 - Processing program 18/46: task_func_19
+2025-05-20 22:19:39.027 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:39.027 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:39.028 | INFO     | __main__:compile:190 - compiling task_func_19
+2025-05-20 22:19:39.159 | SUCCESS  | __main__:compile:206 - task_func_19 is successfully compiled
+2025-05-20 22:19:39.164 | WARNING  | utils:cmd:35 - Err: libcob: error: file does not exist (status = 35) for file INPUT-FILE ('input_dat' => input.dat)
+
+2025-05-20 22:19:39.165 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:39.165 | ERROR    | __main__:compile:221 - Execution failed for task_func_19
+2025-05-20 22:19:39.165 | INFO     | __main__:compile:156 - Processing program 19/46: task_func_20
+2025-05-20 22:19:39.165 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:39.165 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:39.165 | INFO     | __main__:compile:190 - compiling task_func_20
+2025-05-20 22:19:39.283 | SUCCESS  | __main__:compile:206 - task_func_20 is successfully compiled
+2025-05-20 22:19:39.288 | WARNING  | utils:cmd:35 - Err: libcob: error: file does not exist (status = 35) for file CUSTOMER-FILE ('customer_dat' => customer.dat)
+
+2025-05-20 22:19:39.289 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:39.289 | ERROR    | __main__:compile:221 - Execution failed for task_func_20
+2025-05-20 22:19:39.289 | INFO     | __main__:compile:156 - Processing program 20/46: task_func_21
+2025-05-20 22:19:39.289 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:39.289 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:39.289 | INFO     | __main__:compile:190 - compiling task_func_21
+2025-05-20 22:19:39.314 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_21/task_func_21.cbl: in paragraph 'INITIALIZATION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_21/task_func_21.cbl:73: error: syntax error, unexpected intrinsic function name
+   71 |            END-IF
+   72 | 
+   73 >            COMPUTE FUNCTION RANDOM(RANDOM-SEED)
+   74 | 
+   75 |            MOVE 'Product1' TO PRODUCT-LIST(1)
+
+2025-05-20 22:19:39.314 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:39.314 | ERROR    | __main__:compile:227 - Compilation failed for task_func_21
+2025-05-20 22:19:39.315 | INFO     | __main__:compile:156 - Processing program 21/46: task_func_22
+2025-05-20 22:19:39.315 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:39.315 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:39.315 | INFO     | __main__:compile:190 - compiling task_func_22
+2025-05-20 22:19:39.441 | SUCCESS  | __main__:compile:206 - task_func_22 is successfully compiled
+2025-05-20 22:19:39.448 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE1 ('output1_txt' => output1.txt)
+libcob: warning: implicit CLOSE of OUTPUT-FILE2 ('output2.txt')
+libcob: warning: implicit CLOSE of OUTPUT-FILE1 ('output1.txt')
+libcob: warning: implicit CLOSE of INPUT-FILE ('input.txt')
+
+2025-05-20 22:19:39.448 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:39.449 | ERROR    | __main__:compile:221 - Execution failed for task_func_22
+2025-05-20 22:19:39.449 | INFO     | __main__:compile:156 - Processing program 22/46: task_func_23
+2025-05-20 22:19:39.449 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:39.449 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:39.449 | INFO     | __main__:compile:190 - compiling task_func_23
+2025-05-20 22:19:39.573 | SUCCESS  | __main__:compile:206 - task_func_23 is successfully compiled
+2025-05-20 22:19:39.579 | SUCCESS  | __main__:compile:216 - task_func_23 is successfully executed
+2025-05-20 22:19:39.579 | INFO     | __main__:compile:156 - Processing program 23/46: task_func_24
+2025-05-20 22:19:39.579 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:39.580 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:39.580 | INFO     | __main__:compile:190 - compiling task_func_24
+2025-05-20 22:19:39.709 | SUCCESS  | __main__:compile:206 - task_func_24 is successfully compiled
+2025-05-20 22:19:39.716 | SUCCESS  | __main__:compile:216 - task_func_24 is successfully executed
+2025-05-20 22:19:39.716 | INFO     | __main__:compile:156 - Processing program 24/46: task_func_25
+2025-05-20 22:19:39.716 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:39.716 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:39.717 | INFO     | __main__:compile:190 - compiling task_func_25
+2025-05-20 22:19:39.837 | SUCCESS  | __main__:compile:206 - task_func_25 is successfully compiled
+2025-05-20 22:19:39.843 | SUCCESS  | __main__:compile:216 - task_func_25 is successfully executed
+2025-05-20 22:19:39.844 | INFO     | __main__:compile:156 - Processing program 25/46: task_func_26
+2025-05-20 22:19:39.844 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:39.844 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:39.844 | INFO     | __main__:compile:190 - compiling task_func_26
+2025-05-20 22:19:39.988 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_26/task_func_26.cbl:33: warning: value size exceeds data size [-Wothers]
+   31 |           05 FILLER             PIC X(49) VALUE SPACES.
+   32 |           05 FILLER             PIC X(20)
+   33 >              VALUE 'MONTHLY STATUS REPORT'.
+   34 |           05 FILLER             PIC X(09) VALUE SPACES.
+   35 |           05 PAGE-NO            PIC 9(02) VALUE 1.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_26/task_func_26.cbl:33: note: value size is 21 [-Wothers]
+
+2025-05-20 22:19:39.988 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:19:39.988 | SUCCESS  | __main__:compile:206 - task_func_26 is successfully compiled
+2025-05-20 22:19:39.995 | SUCCESS  | __main__:compile:216 - task_func_26 is successfully executed
+2025-05-20 22:19:39.995 | INFO     | __main__:compile:156 - Processing program 26/46: task_func_27
+2025-05-20 22:19:39.996 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:39.996 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:39.996 | INFO     | __main__:compile:190 - compiling task_func_27
+2025-05-20 22:19:40.136 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func_27.cbl:49: warning: value size exceeds data size [-Wothers]
+   47 |        01 WS-DETAIL3.
+   48 |           05 FILLER          PIC X(10) VALUE SPACES.
+   49 >           05 FILLER          PIC X(10) VALUE 'PRINCIPAL $'.
+   50 |           05 WS-PRIN         PIC ZZ,ZZ9.
+   51 |           05 FILLER          PIC X(50) VALUE SPACES.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func_27.cbl:49: note: value size is 11 [-Wothers]
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func_27.cbl:71: warning: value size exceeds data size [-Wothers]
+   69 |           05 FILLER          PIC X(11) VALUE 'NEW BALANCE'.
+   70 |           05 FILLER          PIC X(9) VALUE SPACES.
+   71 >           05 FILLER          PIC X(15) VALUE 'ACCRUED INTEREST'.
+   72 |           05 FILLER          PIC X(5) VALUE SPACES.
+   73 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func_27.cbl:71: note: value size is 16 [-Wothers]
+
+2025-05-20 22:19:40.137 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:19:40.137 | SUCCESS  | __main__:compile:206 - task_func_27 is successfully compiled
+2025-05-20 22:19:45.144 | ERROR    | __main__:compile:223 - Execution error for task_func_27: Command './task_func_27' timed out after 5 seconds
+2025-05-20 22:19:45.144 | INFO     | __main__:compile:156 - Processing program 27/46: task_func_28
+2025-05-20 22:19:45.145 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.145 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.145 | INFO     | __main__:compile:190 - compiling task_func_28
+2025-05-20 22:19:45.267 | SUCCESS  | __main__:compile:206 - task_func_28 is successfully compiled
+2025-05-20 22:19:45.274 | WARNING  | utils:cmd:35 - Err: libcob: error: file does not exist (status = 35) for file INPUT-FILE ('sample_data_csv' => sample_data.csv)
+
+2025-05-20 22:19:45.274 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:45.274 | ERROR    | __main__:compile:221 - Execution failed for task_func_28
+2025-05-20 22:19:45.275 | INFO     | __main__:compile:156 - Processing program 28/46: task_func_29
+2025-05-20 22:19:45.275 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.275 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.275 | INFO     | __main__:compile:190 - compiling task_func_29
+2025-05-20 22:19:45.298 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_29/task_func_29.cbl: in paragraph 'FIND-DUPLICATES-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_29/task_func_29.cbl:81: error: 'WS-IDX' is not defined
+   79 | 
+   80 |        FIND-DUPLICATES-PARA.
+   81 >            PERFORM VARYING WS-IDX FROM 1 BY 1
+   82 |                UNTIL WS-IDX > WS-REC-COUNT
+   83 |                PERFORM VARYING WS-IDX2 FROM WS-IDX BY 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_29/task_func_29.cbl:83: error: 'WS-IDX2' is not defined
+   81 |            PERFORM VARYING WS-IDX FROM 1 BY 1
+   82 |                UNTIL WS-IDX > WS-REC-COUNT
+   83 >                PERFORM VARYING WS-IDX2 FROM WS-IDX BY 1
+   84 |                    UNTIL WS-IDX2 > WS-REC-COUNT
+   85 |                    IF WS-TBL-NAME(WS-IDX) = WS-TBL-NAME(WS-IDX2)
+
+2025-05-20 22:19:45.298 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:45.299 | ERROR    | __main__:compile:227 - Compilation failed for task_func_29
+2025-05-20 22:19:45.299 | INFO     | __main__:compile:156 - Processing program 29/46: task_func_30
+2025-05-20 22:19:45.299 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.299 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.299 | INFO     | __main__:compile:190 - compiling task_func_30
+2025-05-20 22:19:45.323 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_30/task_func_30.cbl: in paragraph 'SORT-FREQUENCIES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_30/task_func_30.cbl:112: error: syntax error, unexpected MOVE
+  110 |                        MOVE WS-WORD(WS-IDX2) TO WS-WORD(WS-IDX)
+  111 |                        MOVE WS-FREQUENCY(WS-IDX2) TO WS-FREQUENCY(WS-IDX)
+  112 >                        MOVE WS-TEMP-WORD TO WS-WORD(WS-IDX2)
+  113 |                        MOVE WS-TEMP-FREQ TO WS-FREQUENCY(WS-IDX2)
+  114 |                    END-IF
+
+2025-05-20 22:19:45.323 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:45.323 | ERROR    | __main__:compile:227 - Compilation failed for task_func_30
+2025-05-20 22:19:45.323 | INFO     | __main__:compile:156 - Processing program 30/46: task_func_31
+2025-05-20 22:19:45.323 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.323 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.324 | INFO     | __main__:compile:190 - compiling task_func_31
+2025-05-20 22:19:45.455 | SUCCESS  | __main__:compile:206 - task_func_31 is successfully compiled
+2025-05-20 22:19:45.461 | WARNING  | utils:cmd:35 - Err: libcob: error: file does not exist (status = 35) for file INPUT-FILE ('input_txt' => input.txt)
+
+2025-05-20 22:19:45.461 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:45.461 | ERROR    | __main__:compile:221 - Execution failed for task_func_31
+2025-05-20 22:19:45.461 | INFO     | __main__:compile:156 - Processing program 31/46: task_func_32
+2025-05-20 22:19:45.461 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.461 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.462 | INFO     | __main__:compile:190 - compiling task_func_32
+2025-05-20 22:19:45.581 | SUCCESS  | __main__:compile:206 - task_func_32 is successfully compiled
+2025-05-20 22:19:45.586 | WARNING  | utils:cmd:35 - Err: libcob: error: READ/START not allowed, file not open for input (status = 47) for file INPUT-FILE ('VEHICLE-IN_DAT' => VEHICLE-IN.DAT)
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('VEHICLE-OUT.DAT')
+
+2025-05-20 22:19:45.586 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:45.586 | ERROR    | __main__:compile:221 - Execution failed for task_func_32
+2025-05-20 22:19:45.587 | INFO     | __main__:compile:156 - Processing program 32/46: task_func_33
+2025-05-20 22:19:45.587 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.587 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.587 | INFO     | __main__:compile:190 - compiling task_func_33
+2025-05-20 22:19:45.700 | SUCCESS  | __main__:compile:206 - task_func_33 is successfully compiled
+2025-05-20 22:19:45.705 | SUCCESS  | __main__:compile:216 - task_func_33 is successfully executed
+2025-05-20 22:19:45.705 | INFO     | __main__:compile:156 - Processing program 33/46: task_func_34
+2025-05-20 22:19:45.705 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.706 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.706 | INFO     | __main__:compile:190 - compiling task_func_34
+2025-05-20 22:19:45.727 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_34/task_func_34.cbl:32: error: syntax error, unexpected ADDRESS
+   30 |           05 QTY PIC 999.
+   31 |           05 FILLER PIC X.
+   32 >           05 ADDRESS PIC X(20).
+   33 |           05 FILLER PIC X.
+   34 |           05 CUST-ZIP PIC X(5).
+
+2025-05-20 22:19:45.727 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:45.727 | ERROR    | __main__:compile:227 - Compilation failed for task_func_34
+2025-05-20 22:19:45.727 | INFO     | __main__:compile:156 - Processing program 34/46: task_func_35
+2025-05-20 22:19:45.727 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.727 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.728 | INFO     | __main__:compile:190 - compiling task_func_35
+2025-05-20 22:19:45.841 | SUCCESS  | __main__:compile:206 - task_func_35 is successfully compiled
+2025-05-20 22:19:45.846 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file NEW-MASTER ('task_func35_out')
+libcob: warning: implicit CLOSE of NEW-MASTER ('task_func35_out')
+libcob: warning: implicit CLOSE of TRANS-FILE ('task_func35_inp2')
+libcob: warning: implicit CLOSE of OLD-MASTER ('task_func35_inp1')
+
+2025-05-20 22:19:45.846 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:45.846 | ERROR    | __main__:compile:221 - Execution failed for task_func_35
+2025-05-20 22:19:45.847 | INFO     | __main__:compile:156 - Processing program 35/46: task_func_36
+2025-05-20 22:19:45.847 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.847 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.847 | INFO     | __main__:compile:190 - compiling task_func_36
+2025-05-20 22:19:45.963 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_36/task_func_36.cbl:39: warning: OCCURS DEPENDING ON without TO phrase used [-Wdialect]
+   37 |            05 NUMBER-ARRAY OCCURS 1000 TIMES
+   38 |               DEPENDING ON NUMBER-COUNT
+   39 >               INDEXED BY I J.
+   40 |               10 NUMBER-ELEMENT PIC 9(5).
+   41 | 
+
+2025-05-20 22:19:45.964 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:19:45.964 | SUCCESS  | __main__:compile:206 - task_func_36 is successfully compiled
+2025-05-20 22:19:45.969 | SUCCESS  | __main__:compile:216 - task_func_36 is successfully executed
+2025-05-20 22:19:45.970 | INFO     | __main__:compile:156 - Processing program 36/46: task_func_37
+2025-05-20 22:19:45.970 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.970 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.970 | INFO     | __main__:compile:190 - compiling task_func_37
+2025-05-20 22:19:45.990 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_37/task_func_37.cbl: in paragraph 'MAIN-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_37/task_func_37.cbl:44: error: file SORT requires GIVING or OUTPUT PROCEDURE
+   42 |            SORT WORK-FILE ON ASCENDING KEY WORK-DEPT
+   43 |                 USING INPUT-FILE
+   44 >                 INPUT PROCEDURE IS INPUT-PROC
+   45 |                 GIVING OUTPUT-FILE.
+   46 |            STOP RUN.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_37/task_func_37.cbl:44: error: syntax error, unexpected INPUT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_37/task_func_37.cbl: in section 'INPUT-PROC':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_37/task_func_37.cbl: in paragraph 'INPUT-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_37/task_func_37.cbl:60: error: syntax error, unexpected FILLER
+   58 |                            MOVE PART-NO-IN TO WORK-PART
+   59 |                            MOVE QTY-IN TO WORK-QTY
+   60 >                            MOVE FILLER TO WORK-FILL
+   61 |                            RELEASE WORK-REC
+   62 |                        END-IF
+
+2025-05-20 22:19:45.991 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:45.991 | ERROR    | __main__:compile:227 - Compilation failed for task_func_37
+2025-05-20 22:19:45.991 | INFO     | __main__:compile:156 - Processing program 37/46: task_func_38
+2025-05-20 22:19:45.991 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:45.991 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:45.991 | INFO     | __main__:compile:190 - compiling task_func_38
+2025-05-20 22:19:46.012 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_38/task_func_38.cbl: in paragraph 'MAIN-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_38/task_func_38.cbl:64: error: syntax error, unexpected OUTPUT
+   62 |                USING INPUT-FILE1, INPUT-FILE2
+   63 |                GIVING MERGE-FILE
+   64 >                OUTPUT PROCEDURE IS OUTPUT-PROC.
+   65 | 
+   66 |            STOP RUN.
+
+2025-05-20 22:19:46.012 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:46.012 | ERROR    | __main__:compile:227 - Compilation failed for task_func_38
+2025-05-20 22:19:46.012 | INFO     | __main__:compile:156 - Processing program 38/46: task_func_39
+2025-05-20 22:19:46.012 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.013 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.013 | INFO     | __main__:compile:190 - compiling task_func_39
+2025-05-20 22:19:46.120 | SUCCESS  | __main__:compile:206 - task_func_39 is successfully compiled
+2025-05-20 22:19:46.125 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file ERROR-FILE ('task_func39_out1')
+libcob: warning: implicit CLOSE of ERROR-FILE ('task_func39_out1')
+libcob: warning: implicit CLOSE of INPUT-FILE ('task_func39_inp1')
+
+2025-05-20 22:19:46.125 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:46.125 | ERROR    | __main__:compile:221 - Execution failed for task_func_39
+2025-05-20 22:19:46.126 | INFO     | __main__:compile:156 - Processing program 39/46: task_func_40
+2025-05-20 22:19:46.126 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.126 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.126 | INFO     | __main__:compile:190 - compiling task_func_40
+2025-05-20 22:19:46.147 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_40/task_func_40.cbl: in paragraph 'INITIALIZATION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_40/task_func_40.cbl:48: error: 'WS-START' is not defined
+   46 | 
+   47 |        INITIALIZATION.
+   48 >            COMPUTE WS-START-INTEGER = FUNCTION INTEGER-OF-DATE(WS-START-D..
+   49 |            COMPUTE WS-END-INTEGER = FUNCTION INTEGER-OF-DATE(WS-END-DATE)
+   50 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_40/task_func_40.cbl:49: error: syntax error, unexpected COMPUTE
+   47 |        INITIALIZATION.
+   48 |            COMPUTE WS-START-INTEGER = FUNCTION INTEGER-OF-DATE(WS-START-D..
+   49 >            COMPUTE WS-END-INTEGER = FUNCTION INTEGER-OF-DATE(WS-END-DATE)
+   50 | 
+   51 |            IF WS-START-INTEGER > WS-END-INTEGER
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_40/task_func_40.cbl:51: error: syntax error, unexpected IF
+   49 |            COMPUTE WS-END-INTEGER = FUNCTION INTEGER-OF-DATE(WS-END-DATE)
+   50 | 
+   51 >            IF WS-START-INTEGER > WS-END-INTEGER
+   52 |                DISPLAY "Error: Start date is after end date"
+   53 |                STOP RUN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_40/task_func_40.cbl:57: error: syntax error, unexpected intrinsic function name
+   55 | 
+   56 |            COMPUTE WS-RANGE = WS-END-INTEGER - WS-START-INTEGER + 1
+   57 >            MOVE WS-SEED TO FUNCTION RANDOM
+   58 | 
+   59 |            OPEN OUTPUT OUTPUT-FILE.
+
+2025-05-20 22:19:46.147 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:46.147 | ERROR    | __main__:compile:227 - Compilation failed for task_func_40
+2025-05-20 22:19:46.147 | INFO     | __main__:compile:156 - Processing program 40/46: task_func_43
+2025-05-20 22:19:46.147 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.147 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.147 | INFO     | __main__:compile:190 - compiling task_func_43
+2025-05-20 22:19:46.258 | SUCCESS  | __main__:compile:206 - task_func_43 is successfully compiled
+2025-05-20 22:19:46.264 | SUCCESS  | __main__:compile:216 - task_func_43 is successfully executed
+2025-05-20 22:19:46.264 | INFO     | __main__:compile:156 - Processing program 41/46: task_func_44
+2025-05-20 22:19:46.264 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.264 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.264 | INFO     | __main__:compile:190 - compiling task_func_44
+2025-05-20 22:19:46.382 | SUCCESS  | __main__:compile:206 - task_func_44 is successfully compiled
+2025-05-20 22:19:46.387 | WARNING  | utils:cmd:35 - Err: libcob: warning: implicit CLOSE of OUTPUT-FILE ('OUTPUT.PS')
+
+2025-05-20 22:19:46.388 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:19:46.388 | SUCCESS  | __main__:compile:216 - task_func_44 is successfully executed
+2025-05-20 22:19:46.388 | INFO     | __main__:compile:156 - Processing program 42/46: task_func_45
+2025-05-20 22:19:46.388 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.388 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.388 | INFO     | __main__:compile:190 - compiling task_func_45
+2025-05-20 22:19:46.507 | SUCCESS  | __main__:compile:206 - task_func_45 is successfully compiled
+2025-05-20 22:19:46.512 | WARNING  | utils:cmd:35 - Err: libcob: error: file does not exist (status = 35) for file INPUT-FILE ('input_txt' => input.txt)
+
+2025-05-20 22:19:46.512 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:46.512 | ERROR    | __main__:compile:221 - Execution failed for task_func_45
+2025-05-20 22:19:46.513 | INFO     | __main__:compile:156 - Processing program 43/46: task_func_47
+2025-05-20 22:19:46.513 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.513 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.514 | INFO     | __main__:compile:190 - compiling task_func_47
+2025-05-20 22:19:46.534 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_47/task_func_47.cbl: in paragraph 'CONVERT-NAME-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_47/task_func_47.cbl:72: error: syntax error, unexpected SPACE, expecting ZERO
+   70 |                    WHEN OTHER
+   71 |                        IF WS-CURRENT-CHAR IS NOT ALPHABETIC AND
+   72 >                           WS-CURRENT-CHAR IS NOT SPACE
+   73 |                            MOVE SPACE TO WS-TEMP-NAME(WS-CHAR-INDEX:1)
+   74 |                        END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_47/task_func_47.cbl:71: error: IF without imperative statement
+   69 |                    WHEN 'ü' MOVE 'u' TO WS-TEMP-NAME(WS-CHAR-INDEX:1)
+   70 |                    WHEN OTHER
+   71 >                        IF WS-CURRENT-CHAR IS NOT ALPHABETIC AND
+   72 |                           WS-CURRENT-CHAR IS NOT SPACE
+   73 |                            MOVE SPACE TO WS-TEMP-NAME(WS-CHAR-INDEX:1)
+
+2025-05-20 22:19:46.534 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:46.535 | ERROR    | __main__:compile:227 - Compilation failed for task_func_47
+2025-05-20 22:19:46.535 | INFO     | __main__:compile:156 - Processing program 44/46: task_func_48
+2025-05-20 22:19:46.535 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.535 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.536 | INFO     | __main__:compile:190 - compiling task_func_48
+2025-05-20 22:19:46.557 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_48/task_func_48.cbl: in paragraph 'GENERATE-GRADES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_48/task_func_48.cbl:59: error: 'WS-NUM-SUBJ' is not defined
+   57 |        GENERATE-GRADES.
+   58 |            PERFORM VARYING WS-I FROM 1 BY 1 UNTIL WS-I > WS-NUM-STUDENTS
+   59 >                PERFORM VARYING WS-J FROM 1 BY 1 UNTIL WS-J > WS-NUM-SUBJE..
+   60 |                    COMPUTE WS-GRADE(WS-I, WS-J) = FUNCTION RANDOM * 100
+   61 |                END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_48/task_func_48.cbl: in paragraph 'CALCULATE-AVERAGES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_48/task_func_48.cbl:75: error: 'WS-NUM-STUD' is not defined
+   73 |            PERFORM VARYING WS-J FROM 1 BY 1 UNTIL WS-J > WS-NUM-SUBJECTS
+   74 |                MOVE 0 TO WS-TOTAL
+   75 >                PERFORM VARYING WS-I FROM 1 BY 1 UNTIL WS-I > WS-NUM-STUDE..
+   76 |                    ADD WS-GRADE(WS-I, WS-J) TO WS-TOTAL
+   77 |                END-PERFORM
+
+2025-05-20 22:19:46.557 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:46.557 | ERROR    | __main__:compile:227 - Compilation failed for task_func_48
+2025-05-20 22:19:46.558 | INFO     | __main__:compile:156 - Processing program 45/46: task_func_49
+2025-05-20 22:19:46.558 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.558 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.558 | INFO     | __main__:compile:190 - compiling task_func_49
+2025-05-20 22:19:46.679 | SUCCESS  | __main__:compile:206 - task_func_49 is successfully compiled
+2025-05-20 22:19:46.725 | SUCCESS  | __main__:compile:216 - task_func_49 is successfully executed
+2025-05-20 22:19:46.726 | INFO     | __main__:compile:156 - Processing program 46/46: task_func_55
+2025-05-20 22:19:46.726 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:19:46.726 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:19:46.727 | INFO     | __main__:compile:190 - compiling task_func_55
+2025-05-20 22:19:46.749 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl: in paragraph 'CALCULATE-STATS-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl:89: error: 'WS-RECORD-CO' is not defined
+   87 |            END-PERFORM
+   88 | 
+   89 >            COMPUTE WS-STD-DEV = FUNCTION SQRT(WS-VARIANCE / WS-RECORD-COU..
+   90 | 
+   91 |        DETECT-OUTLIERS-PARA.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl:91: error: 'DETECT-OUTLIERS-PARA' is not defined
+   89 |            COMPUTE WS-STD-DEV = FUNCTION SQRT(WS-VARIANCE / WS-RECORD-COU..
+   90 | 
+   91 >        DETECT-OUTLIERS-PARA.
+   92 |            PERFORM VARYING WS-RECORD-COUNT FROM 1 BY 1
+   93 |                UNTIL WS-RECORD-COUNT > WS-RECORD-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl:91: error: syntax error, unexpected .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl:96: error: 'ABS' is not defined
+   94 |                COMPUTE WS-Z-SCORE =
+   95 |                    (WS-VALUE(WS-RECORD-COUNT) - WS-MEAN) / WS-STD-DEV
+   96 >                IF ABS(WS-Z-SCORE) > WS-THRESHOLD
+   97 |                    MOVE 'Y' TO WS-IS-OUTLIER(WS-RECORD-COUNT)
+   98 |                    ADD 1 TO WS-OUTLIER-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl: in paragraph 'WRITE-RESULTS-PARA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl:105: error: invalid MOVE statement
+  103 |            PERFORM VARYING WS-RECORD-COUNT FROM 1 BY 1
+  104 |                UNTIL WS-RECORD-COUNT > WS-RECORD-COUNT
+  105 >                MOVE WS-VALUE(WS-RECORD-COUNT) TO OUTPUT-RECORD
+  106 |                WRITE OUTPUT-RECORD
+  107 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl:109: error: invalid MOVE statement
+  107 | 
+  108 |                IF WS-IS-OUTLIER(WS-RECORD-COUNT) = 'Y'
+  109 >                    MOVE WS-VALUE(WS-RECORD-COUNT) TO OUTLIER-RECORD
+  110 |                    WRITE OUTLIER-RECORD
+  111 |                ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_55/task_func_55.cbl:112: error: invalid MOVE statement
+  110 |                    WRITE OUTLIER-RECORD
+  111 |                ELSE
+  112 >                    MOVE WS-VALUE(WS-RECORD-COUNT) TO CLEAN-RECORD
+  113 |                    WRITE CLEAN-RECORD
+  114 |                END-IF
+
+2025-05-20 22:19:46.749 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:19:46.749 | ERROR    | __main__:compile:227 - Compilation failed for task_func_55
+2025-05-20 22:19:46.751 | SUCCESS  | __main__:compile:268 - Compilation completed
+2025-05-20 22:19:46.751 | INFO     | __main__:compile:269 - Total programs compiled: 29 
+Total programs executed: 16 
+Total results matched: 3.84
+2025-05-20 22:19:46.751 | INFO     | __main__:compile:285 - final_results directory path: /home/projadmin/CobolEval/FrameWork/final_results/instruct
+2025-05-20 22:19:46.769 | INFO     | __main__:compile:290 - Results saved to final_results/instruct/claude-3-5-sonnet-20241022_instruct_final_results.csv
+
+
+--- STDOUT OUTPUT ---
+
+Starting compilation for model: claude-3-5-sonnet-20241022, mode: instruct
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_03/task_func03_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_04/input.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_04/error.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_05/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_08/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_09/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_10/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_12/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_15/task_func15_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_15/task_func15_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_17/input.ps
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_18/task_func18_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_19/M3input.ps
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_20/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_22/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_23/task_func23_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_24/task_func24_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_24/task_func24_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_25/task_func25_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_25/task_func25_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_26/task_func26_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_27/task_func27_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_28/task_func28_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_31/weather-input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_32/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_33/weather1.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_33/weather2.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_35/task_func35_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_35/task_func35_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_36/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_39/task_func39_inp1
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_43/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_44/article.ps*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_44/temp.ps*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-5-sonnet-20241022/instruct/task_func_45/task_func45_inp
+Finished processing model: claude-3-5-sonnet-20241022, mode: instruct
+Results summary: 46 programs processed
+Compiled: 29 - Executed: 16 - Match: 3.84
+2025-05-20 22:19:46.769 | SUCCESS  | __main__:<module>:384 - Completed processing model: claude-3-5-sonnet-20241022, mode: instruct
+2025-05-20 22:19:46.770 | INFO     | __main__:<module>:385 - All logs saved to /home/projadmin/CobolEval/FrameWork/logs/claude-3-5-sonnet-20241022_instruct.txt

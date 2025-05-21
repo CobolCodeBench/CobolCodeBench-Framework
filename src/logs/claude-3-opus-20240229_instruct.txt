@@ -1,0 +1,834 @@
+2025-05-20 22:20:01.781 | INFO     | __main__:<module>:352 - Starting processing for model: claude-3-opus-20240229, mode: instruct
+2025-05-20 22:20:01.784 | INFO     | __main__:__init__:34 - Loaded ./data/Instruction_Set.json successfully
+2025-05-20 22:20:01.792 | INFO     | __main__:__init__:41 - Data frame read successfully
+2025-05-20 22:20:01.792 | INFO     | __main__:compile:150 - Processing 46 programs
+2025-05-20 22:20:01.793 | INFO     | __main__:compile:156 - Processing program 1/46: task_func_01
+2025-05-20 22:20:01.793 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.793 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.794 | INFO     | __main__:compile:190 - compiling task_func_01
+2025-05-20 22:20:01.817 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_01/task_func_01.cbl: in paragraph 'UPDATE-MATCH-REC':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_01/task_func_01.cbl:81: error: 'WS-SUB' is not defined
+   79 | 
+   80 |        UPDATE-MATCH-REC.
+   81 >            PERFORM VARYING WS-SUB FROM 1 BY 1 UNTIL WS-SUB > 10
+   82 |                IF TEAM-NAME = WS-GOAL-TEAM(WS-SUB)
+   83 |                    ADD WS-GOAL-AMT(WS-SUB) TO GOALS
+
+2025-05-20 22:20:01.817 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:01.817 | ERROR    | __main__:compile:227 - Compilation failed for task_func_01
+2025-05-20 22:20:01.817 | INFO     | __main__:compile:156 - Processing program 2/46: task_func_02
+2025-05-20 22:20:01.818 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.818 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.818 | INFO     | __main__:compile:190 - compiling task_func_02
+2025-05-20 22:20:01.944 | SUCCESS  | __main__:compile:206 - task_func_02 is successfully compiled
+2025-05-20 22:20:01.950 | SUCCESS  | __main__:compile:216 - task_func_02 is successfully executed
+2025-05-20 22:20:01.951 | INFO     | __main__:compile:156 - Processing program 3/46: task_func_03
+2025-05-20 22:20:01.951 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:01.951 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:01.951 | INFO     | __main__:compile:190 - compiling task_func_03
+2025-05-20 22:20:02.072 | SUCCESS  | __main__:compile:206 - task_func_03 is successfully compiled
+2025-05-20 22:20:02.078 | SUCCESS  | __main__:compile:216 - task_func_03 is successfully executed
+2025-05-20 22:20:02.079 | INFO     | __main__:compile:156 - Processing program 4/46: task_func_04
+2025-05-20 22:20:02.079 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.079 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.080 | INFO     | __main__:compile:190 - compiling task_func_04
+2025-05-20 22:20:02.103 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_04/task_func_04.cbl: in paragraph 'CHECK-EXTENSION':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_04/task_func_04.cbl:78: error: 'WS-VALID-EXTENSION' not indexed
+   76 |        CHECK-EXTENSION.
+   77 |            SET WS-VALID-FLAG TO 'N'
+   78 >            SEARCH ALL WS-VALID-EXTENSION
+   79 |                AT END CONTINUE
+   80 |                WHEN WS-FILENAME-EXTENSION = WS-VALID-EXTENSION(1)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_04/task_func_04.cbl:36: note: 'WS-VALID-EXTENSION' defined here
+   34 |            05 FILLER PIC X(5) VALUE '.xlsx'.
+   35 |        01  WS-VALID-EXTENSIONS-TABLE REDEFINES WS-VALID-EXTENSIONS.
+   36 >            05 WS-VALID-EXTENSION PIC X(5) OCCURS 3 TIMES.
+   37 |        01  WS-FILENAME-EXTENSION PIC X(5).
+   38 |        01  WS-VALID-FLAG PIC X.
+
+2025-05-20 22:20:02.104 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:02.104 | ERROR    | __main__:compile:227 - Compilation failed for task_func_04
+2025-05-20 22:20:02.104 | INFO     | __main__:compile:156 - Processing program 5/46: task_func_05
+2025-05-20 22:20:02.104 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.104 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.105 | INFO     | __main__:compile:190 - compiling task_func_05
+2025-05-20 22:20:02.215 | SUCCESS  | __main__:compile:206 - task_func_05 is successfully compiled
+2025-05-20 22:20:02.223 | SUCCESS  | __main__:compile:216 - task_func_05 is successfully executed
+2025-05-20 22:20:02.223 | INFO     | __main__:compile:156 - Processing program 6/46: task_func_07
+2025-05-20 22:20:02.223 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.223 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.224 | INFO     | __main__:compile:190 - compiling task_func_07
+2025-05-20 22:20:02.245 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl:75: error: continuation character expected
+   73 |            WRITE OUTPUT-RECORD FROM
+   74 |                'TASK                                                  EMP..
+   75 >            END-WRITE
+   76 |            .
+   77 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl: in paragraph 'INIT-PROGRAM':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl:74: error: syntax error, unexpected ERROR
+   72 |            MOVE WS-DAY TO WS-FORMATTED-DATE(9:2)
+   73 |            WRITE OUTPUT-RECORD FROM
+   74 >                'TASK                                                  EMP..
+   75 |            END-WRITE
+   76 |            .
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl:74: error: invalid symbol '_' - skipping word
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl:79: error: syntax error, unexpected END-PERFORM
+   77 | 
+   78 |        PROCESS-FILES.
+   79 >            PERFORM READ-EMPLOYEES
+   80 |            PERFORM VARYING WS-TASK-IDX FROM 1 BY 1
+   81 |                UNTIL WS-TASK-IDX > WS-TASK-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl: in paragraph 'READ-EMPLOYEES':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl:86: error: 'WS-EMPLOYEE-TABLE' requires one subscript
+   84 |                        DISPLAY 'ERROR: Not enough tasks in file'
+   85 |                        PERFORM CLEANUP
+   86 >                        GOBACK
+   87 |                END-READ
+   88 |                MOVE FUNCTION RANDOM(1) TO WS-RANDOM-NUM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl:96: error: syntax error, unexpected END-PERFORM
+   94 |                MOVE WS-FORMATTED-DATE TO DUE-DATE-OUT
+   95 |                WRITE OUTPUT-RECORD
+   96 >            END-PERFORM
+   97 |            .
+   98 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl:89: error: PERFORM statement not terminated by END-PERFORM
+   87 |                END-READ
+   88 |                MOVE FUNCTION RANDOM(1) TO WS-RANDOM-NUM
+   89 >                COMPUTE WS-EMPLOYEE-IDX = FUNCTION MOD(WS-RANDOM-NUM, WS-E..
+   90 |                MOVE TASK-DESC TO WS-FORMATTED-TASK
+   91 |                INSPECT WS-FORMATTED-TASK REPLACING ALL ' ' BY '_'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_07/task_func_07.cbl:57: error: 'PROCESS-FILES' is not defined
+   55 |        MAIN-PROCEDURE.
+   56 |            PERFORM INIT-PROGRAM
+   57 >            PERFORM PROCESS-FILES
+   58 |            PERFORM CLEANUP
+   59 |            GOBACK
+
+2025-05-20 22:20:02.245 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:02.245 | ERROR    | __main__:compile:227 - Compilation failed for task_func_07
+2025-05-20 22:20:02.245 | INFO     | __main__:compile:156 - Processing program 7/46: task_func_08
+2025-05-20 22:20:02.246 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.246 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.246 | INFO     | __main__:compile:190 - compiling task_func_08
+2025-05-20 22:20:02.373 | SUCCESS  | __main__:compile:206 - task_func_08 is successfully compiled
+2025-05-20 22:20:02.380 | SUCCESS  | __main__:compile:216 - task_func_08 is successfully executed
+2025-05-20 22:20:02.380 | INFO     | __main__:compile:156 - Processing program 8/46: task_func_09
+2025-05-20 22:20:02.380 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.380 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.381 | INFO     | __main__:compile:190 - compiling task_func_09
+2025-05-20 22:20:02.516 | SUCCESS  | __main__:compile:206 - task_func_09 is successfully compiled
+2025-05-20 22:20:02.522 | SUCCESS  | __main__:compile:216 - task_func_09 is successfully executed
+2025-05-20 22:20:02.522 | INFO     | __main__:compile:156 - Processing program 9/46: task_func_10
+2025-05-20 22:20:02.522 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.522 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.523 | INFO     | __main__:compile:190 - compiling task_func_10
+2025-05-20 22:20:02.639 | SUCCESS  | __main__:compile:206 - task_func_10 is successfully compiled
+2025-05-20 22:20:02.645 | SUCCESS  | __main__:compile:216 - task_func_10 is successfully executed
+2025-05-20 22:20:02.645 | INFO     | __main__:compile:156 - Processing program 10/46: task_func_11
+2025-05-20 22:20:02.645 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.646 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.646 | INFO     | __main__:compile:190 - compiling task_func_11
+2025-05-20 22:20:02.756 | SUCCESS  | __main__:compile:206 - task_func_11 is successfully compiled
+2025-05-20 22:20:02.762 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('output_txt' => output.txt)
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('output.txt')
+libcob: warning: implicit CLOSE of INPUT-FILE ('input.txt')
+
+2025-05-20 22:20:02.762 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:02.762 | ERROR    | __main__:compile:221 - Execution failed for task_func_11
+2025-05-20 22:20:02.762 | INFO     | __main__:compile:156 - Processing program 11/46: task_func_12
+2025-05-20 22:20:02.762 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.762 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.763 | INFO     | __main__:compile:190 - compiling task_func_12
+2025-05-20 22:20:02.783 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_12/task_func_12.cbl: in paragraph 'SORT-INPUT-FILE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_12/task_func_12.cbl:57: error: invalid SORT GIVING parameter
+   55 |            .
+   56 |        SORT-INPUT-FILE.
+   57 >            SORT SORT-FILE
+   58 |                ASCENDING KEY SORT-PATIENT-NAME
+   59 |                USING INPUT-FILE
+
+2025-05-20 22:20:02.783 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:02.784 | ERROR    | __main__:compile:227 - Compilation failed for task_func_12
+2025-05-20 22:20:02.784 | INFO     | __main__:compile:156 - Processing program 12/46: task_func_13
+2025-05-20 22:20:02.784 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.784 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.784 | INFO     | __main__:compile:190 - compiling task_func_13
+2025-05-20 22:20:02.806 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_13/task_func_13.cbl:11: error: ASSIGN clause is required for file 'SORT-FILE'
+    9 |            SELECT OUTPUT-FILE ASSIGN TO 'output.txt'
+   10 |                ORGANIZATION IS LINE SEQUENTIAL.
+   11 >            SELECT SORT-FILE.
+   12 |       *
+   13 |        DATA DIVISION.
+
+2025-05-20 22:20:02.806 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:02.806 | ERROR    | __main__:compile:227 - Compilation failed for task_func_13
+2025-05-20 22:20:02.806 | INFO     | __main__:compile:156 - Processing program 13/46: task_func_14
+2025-05-20 22:20:02.806 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.806 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.807 | INFO     | __main__:compile:190 - compiling task_func_14
+2025-05-20 22:20:02.930 | SUCCESS  | __main__:compile:206 - task_func_14 is successfully compiled
+2025-05-20 22:20:02.936 | SUCCESS  | __main__:compile:216 - task_func_14 is successfully executed
+2025-05-20 22:20:02.937 | INFO     | __main__:compile:156 - Processing program 14/46: task_func_15
+2025-05-20 22:20:02.937 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.937 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.937 | INFO     | __main__:compile:190 - compiling task_func_15
+2025-05-20 22:20:02.958 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_15/task_func_15.cbl: in paragraph 'GEN-ANIMAL-FOOD-COMBOS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_15/task_func_15.cbl:106: error: 'WS-ANIMAL-C' is not defined
+  104 |            END-IF
+  105 |            OPEN OUTPUT COMBO-FILE
+  106 >            PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX > WS-ANIMAL-CN..
+  107 |                PERFORM VARYING WS-JDX FROM 1 BY 1 UNTIL WS-JDX > WS-FOOD-..
+  108 |                    MOVE SPACES TO WS-COMBO
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_15/task_func_15.cbl:107: error: 'WS-FOOD' requires one subscript
+  105 |            OPEN OUTPUT COMBO-FILE
+  106 |            PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX > WS-ANIMAL-CN..
+  107 >                PERFORM VARYING WS-JDX FROM 1 BY 1 UNTIL WS-JDX > WS-FOOD-..
+  108 |                    MOVE SPACES TO WS-COMBO
+  109 |                    STRING WS-ANIMAL(WS-IDX) DELIMITED BY SPACE
+
+2025-05-20 22:20:02.959 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:02.959 | ERROR    | __main__:compile:227 - Compilation failed for task_func_15
+2025-05-20 22:20:02.959 | INFO     | __main__:compile:156 - Processing program 15/46: task_func_16
+2025-05-20 22:20:02.959 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:02.959 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:02.960 | INFO     | __main__:compile:190 - compiling task_func_16
+2025-05-20 22:20:03.073 | SUCCESS  | __main__:compile:206 - task_func_16 is successfully compiled
+2025-05-20 22:20:03.079 | SUCCESS  | __main__:compile:216 - task_func_16 is successfully executed
+2025-05-20 22:20:03.080 | INFO     | __main__:compile:156 - Processing program 16/46: task_func_17
+2025-05-20 22:20:03.080 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.080 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.081 | INFO     | __main__:compile:190 - compiling task_func_17
+2025-05-20 22:20:03.102 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl:37: error: 'END-OF-FILE' is not defined
+   35 |                 OUTPUT OUTPUT-FILE
+   36 | 
+   37 >            PERFORM PROCESS-RECORDS UNTIL END-OF-FILE
+   38 | 
+   39 |            CLOSE INPUT-FILE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl: in paragraph 'EXTRACT-PHONE-NUMBER':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl:60: error: TALLYING clause is incomplete
+   58 |            MOVE SPACES TO WS-PHONE-NUMBER
+   59 |            INSPECT INPUT-RECORD TALLYING WS-PHONE-COUNT FOR ALL
+   60 >                NUMERIC
+   61 |            IF WS-PHONE-COUNT IS EQUAL TO 10
+   62 |                UNSTRING INPUT-RECORD DELIMITED BY NUMERIC
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl:60: error: syntax error, unexpected NUMERIC
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_17/task_func_17.cbl:62: error: syntax error, unexpected NUMERIC
+   60 |                NUMERIC
+   61 |            IF WS-PHONE-COUNT IS EQUAL TO 10
+   62 >                UNSTRING INPUT-RECORD DELIMITED BY NUMERIC
+   63 |                    INTO WS-PHONE-NUMBER
+   64 |            END-IF.
+
+2025-05-20 22:20:03.103 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:03.103 | ERROR    | __main__:compile:227 - Compilation failed for task_func_17
+2025-05-20 22:20:03.103 | INFO     | __main__:compile:156 - Processing program 17/46: task_func_18
+2025-05-20 22:20:03.103 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.103 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.104 | INFO     | __main__:compile:190 - compiling task_func_18
+2025-05-20 22:20:03.213 | SUCCESS  | __main__:compile:206 - task_func_18 is successfully compiled
+2025-05-20 22:20:03.219 | SUCCESS  | __main__:compile:216 - task_func_18 is successfully executed
+2025-05-20 22:20:03.220 | INFO     | __main__:compile:156 - Processing program 18/46: task_func_19
+2025-05-20 22:20:03.220 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.220 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.220 | INFO     | __main__:compile:190 - compiling task_func_19
+2025-05-20 22:20:03.241 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_19/task_func_19.cbl: in paragraph 'CALCULATE-STD-DEV':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_19/task_func_19.cbl:99: error: 'WRITE-STATS' is not defined
+   97 |            COMPUTE WS-SALARY-STD-DEV ROUNDED = FUNCTION SQRT(WS-VARIANCE)
+   98 |       *
+   99 >        WRITE-STATS.
+  100 |            MOVE SPACES TO OUTPUT-RECORD
+  101 |            STRING 'Mean Salary: ' DELIMITED BY SIZE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_19/task_func_19.cbl:99: error: syntax error, unexpected .
+
+2025-05-20 22:20:03.241 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:03.241 | ERROR    | __main__:compile:227 - Compilation failed for task_func_19
+2025-05-20 22:20:03.241 | INFO     | __main__:compile:156 - Processing program 19/46: task_func_20
+2025-05-20 22:20:03.241 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.241 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.242 | INFO     | __main__:compile:190 - compiling task_func_20
+2025-05-20 22:20:03.262 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_20/task_func_20.cbl: in paragraph 'WRITE-OUTPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_20/task_func_20.cbl:72: error: 'CUST-NAME' is ambiguous; needs qualification
+   70 | 
+   71 |        WRITE-OUTPUT.
+   72 >            MOVE CUST-NAME TO OUTPUT-RECORD
+   73 |            MOVE WS-LOAN TO LOAN-AMOUNT
+   74 |            WRITE OUTPUT-RECORD.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_20/task_func_20.cbl:16: note: 'CUST-NAME IN INPUT-RECORD' defined here
+   14 |        FD  INPUT-FILE.
+   15 |        01  INPUT-RECORD.
+   16 >            05 CUST-NAME      PIC X(30).
+   17 |            05 CUST-AGE       PIC 9(02).
+   18 |            05 CUST-SALARY    PIC 9(06).
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_20/task_func_20.cbl:23: note: 'CUST-NAME IN OUTPUT-RECORD' defined here
+   21 |        FD  OUTPUT-FILE.
+   22 |        01  OUTPUT-RECORD.
+   23 >            05 CUST-NAME      PIC X(30).
+   24 |            05 FILLER         PIC X(02) VALUE SPACES.
+   25 |            05 LOAN-AMOUNT    PIC 9(07).
+
+2025-05-20 22:20:03.262 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:03.262 | ERROR    | __main__:compile:227 - Compilation failed for task_func_20
+2025-05-20 22:20:03.263 | INFO     | __main__:compile:156 - Processing program 20/46: task_func_21
+2025-05-20 22:20:03.263 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.263 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.263 | INFO     | __main__:compile:190 - compiling task_func_21
+2025-05-20 22:20:03.284 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl: in paragraph 'VALIDATE-INPUT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl:55: error: FUNCTION 'CURRENT-TIME' unknown
+   53 |        VALIDATE-INPUT.
+   54 |            MOVE FUNCTION CURRENT-DATE TO WS-CURRENT-DATE
+   55 >            MOVE FUNCTION CURRENT-TIME TO WS-CURRENT-TIME
+   56 | 
+   57 |            IF INPUT-EPOCH-TS > FUNCTION INTEGER-OF-DATE(WS-CURRENT-DATE)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl: in paragraph 'GENERATE-SALES-DATA':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl:67: error: syntax error, unexpected MOVE
+   65 |            PERFORM VARYING WS-SALE-QTY FROM 1 BY 1 UNTIL WS-SALE-QTY > 20
+   66 |                COMPUTE WS-SALE-QTY = FUNCTION RANDOM(INPUT-SEED) * 40 + 1..
+   67 >                MOVE INPUT-PRODUCT TO SALE-PRODUCT
+   68 |                MOVE WS-SALE-DATE TO SALE-DATE
+   69 |                MOVE WS-SALE-QTY TO SALE-QTY
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl:71: error: 'WS-SALE-D' is not defined
+   69 |                MOVE WS-SALE-QTY TO SALE-QTY
+   70 |                WRITE SALES-RECORD
+   71 >                COMPUTE WS-SALE-DATE = FUNCTION INTEGER-OF-DATE(WS-SALE-DA..
+   72 |            END-PERFORM.
+   73 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl:72: error: syntax error, unexpected END-PERFORM
+   70 |                WRITE SALES-RECORD
+   71 |                COMPUTE WS-SALE-DATE = FUNCTION INTEGER-OF-DATE(WS-SALE-DA..
+   72 >            END-PERFORM.
+   73 | <EOF>
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_21/task_func_21.cbl:65: error: PERFORM statement not terminated by END-PERFORM
+   63 |            MOVE INPUT-EPOCH-TS TO WS-SALE-DATE
+   64 | 
+   65 >            PERFORM VARYING WS-SALE-QTY FROM 1 BY 1 UNTIL WS-SALE-QTY > 20
+   66 |                COMPUTE WS-SALE-QTY = FUNCTION RANDOM(INPUT-SEED) * 40 + 1..
+   67 |                MOVE INPUT-PRODUCT TO SALE-PRODUCT
+
+2025-05-20 22:20:03.284 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:03.284 | ERROR    | __main__:compile:227 - Compilation failed for task_func_21
+2025-05-20 22:20:03.284 | INFO     | __main__:compile:156 - Processing program 21/46: task_func_22
+2025-05-20 22:20:03.284 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.284 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.285 | INFO     | __main__:compile:190 - compiling task_func_22
+2025-05-20 22:20:03.305 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_22/task_func_22.cbl: in paragraph 'PROCESS-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_22/task_func_22.cbl:69: error: 'VALID-RECORD' is not defined
+   67 |        PROCESS-RECORDS.
+   68 |            PERFORM VALIDATE-RECORD
+   69 >            IF VALID-RECORD
+   70 |                PERFORM UPDATE-MAX-MARKS
+   71 |                PERFORM UPDATE-MAX-HEIGHT
+
+2025-05-20 22:20:03.305 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:03.305 | ERROR    | __main__:compile:227 - Compilation failed for task_func_22
+2025-05-20 22:20:03.305 | INFO     | __main__:compile:156 - Processing program 22/46: task_func_23
+2025-05-20 22:20:03.305 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.305 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.306 | INFO     | __main__:compile:190 - compiling task_func_23
+2025-05-20 22:20:03.424 | SUCCESS  | __main__:compile:206 - task_func_23 is successfully compiled
+2025-05-20 22:20:03.431 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('task_func23_out')
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('task_func23_out')
+libcob: warning: implicit CLOSE of INPUT-FILE ('task_func23_inp')
+
+2025-05-20 22:20:03.431 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:03.431 | ERROR    | __main__:compile:221 - Execution failed for task_func_23
+2025-05-20 22:20:03.431 | INFO     | __main__:compile:156 - Processing program 23/46: task_func_24
+2025-05-20 22:20:03.431 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.431 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.432 | INFO     | __main__:compile:190 - compiling task_func_24
+2025-05-20 22:20:03.546 | SUCCESS  | __main__:compile:206 - task_func_24 is successfully compiled
+2025-05-20 22:20:03.552 | SUCCESS  | __main__:compile:216 - task_func_24 is successfully executed
+2025-05-20 22:20:03.552 | INFO     | __main__:compile:156 - Processing program 24/46: task_func_25
+2025-05-20 22:20:03.552 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.552 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.553 | INFO     | __main__:compile:190 - compiling task_func_25
+2025-05-20 22:20:03.574 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl: in paragraph 'PROCESS-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl:65: error: syntax error, unexpected WHEN
+   63 |                    EVALUATE WS-COLUMN-NAME
+   64 |                        WHEN 'Age'       MOVE AGE-IN TO WS-VALUE(WS-COUNT)
+   65 >                        WHEN 'Salary'    MOVE SALARY-IN TO WS-VALUE(WS-COU..
+   66 |                        WHEN 'Experience' MOVE EXPERIENCE-IN TO WS-VALUE(W..
+   67 |                        WHEN OTHER       MOVE 'Y' TO WS-EOF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl:65: error: 'WS-CO' is not defined
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl:66: error: syntax error, unexpected WHEN
+   64 |                        WHEN 'Age'       MOVE AGE-IN TO WS-VALUE(WS-COUNT)
+   65 |                        WHEN 'Salary'    MOVE SALARY-IN TO WS-VALUE(WS-COU..
+   66 >                        WHEN 'Experience' MOVE EXPERIENCE-IN TO WS-VALUE(W..
+   67 |                        WHEN OTHER       MOVE 'Y' TO WS-EOF
+   68 |                    END-EVALUATE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl:67: error: syntax error, unexpected WHEN
+   65 |                        WHEN 'Salary'    MOVE SALARY-IN TO WS-VALUE(WS-COU..
+   66 |                        WHEN 'Experience' MOVE EXPERIENCE-IN TO WS-VALUE(W..
+   67 >                        WHEN OTHER       MOVE 'Y' TO WS-EOF
+   68 |                    END-EVALUATE
+   69 |                    IF WS-EOF = 'N'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl: in paragraph 'CALC-STATS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl:80: error: syntax error, unexpected comma delimiter
+   78 |                MOVE 'Y' TO WS-EOF
+   79 |            ELSE
+   80 >                MOVE WS-VALUE(1) TO WS-SUM, WS-MIN, WS-MAX
+   81 |                PERFORM VARYING WS-IDX FROM 2 BY 1 UNTIL WS-IDX > WS-COUNT
+   82 |                    ADD WS-VALUE(WS-IDX) TO WS-SUM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_25/task_func_25.cbl:81: error: 'WS-COUN' is not defined
+   79 |            ELSE
+   80 |                MOVE WS-VALUE(1) TO WS-SUM, WS-MIN, WS-MAX
+   81 >                PERFORM VARYING WS-IDX FROM 2 BY 1 UNTIL WS-IDX > WS-COUNT
+   82 |                    ADD WS-VALUE(WS-IDX) TO WS-SUM
+   83 |                    IF WS-VALUE(WS-IDX) < WS-MIN
+
+2025-05-20 22:20:03.574 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:03.574 | ERROR    | __main__:compile:227 - Compilation failed for task_func_25
+2025-05-20 22:20:03.575 | INFO     | __main__:compile:156 - Processing program 25/46: task_func_26
+2025-05-20 22:20:03.575 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.575 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.575 | INFO     | __main__:compile:190 - compiling task_func_26
+2025-05-20 22:20:03.691 | SUCCESS  | __main__:compile:206 - task_func_26 is successfully compiled
+2025-05-20 22:20:03.697 | SUCCESS  | __main__:compile:216 - task_func_26 is successfully executed
+2025-05-20 22:20:03.698 | INFO     | __main__:compile:156 - Processing program 26/46: task_func_27
+2025-05-20 22:20:03.698 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:03.698 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:03.698 | INFO     | __main__:compile:190 - compiling task_func_27
+2025-05-20 22:20:03.825 | SUCCESS  | __main__:compile:206 - task_func_27 is successfully compiled
+2025-05-20 22:20:09.223 | ERROR    | __main__:compile:223 - Execution error for task_func_27: Command './task_func_27' timed out after 5 seconds
+2025-05-20 22:20:09.223 | INFO     | __main__:compile:156 - Processing program 27/46: task_func_28
+2025-05-20 22:20:09.223 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.223 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.224 | INFO     | __main__:compile:190 - compiling task_func_28
+2025-05-20 22:20:09.246 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_28/task_func_28.cbl: in paragraph 'CHECK-DUPLICATE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_28/task_func_28.cbl:69: error: 'WS-INPUT-ENTRY' not indexed
+   67 |        CHECK-DUPLICATE.
+   68 |            SET WS-TABLE-INDEX TO 1
+   69 >            SEARCH WS-INPUT-ENTRY
+   70 |                AT END PERFORM ADD-NEW-RECORD
+   71 |                WHEN WS-INPUT-DATA(WS-TABLE-INDEX) = INPUT-RECORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_28/task_func_28.cbl:25: note: 'WS-INPUT-ENTRY' defined here
+   23 |        WORKING-STORAGE SECTION.
+   24 |        01  WS-INPUT-TABLE.
+   25 >            05  WS-INPUT-ENTRY OCCURS 100 TIMES.
+   26 |                10  WS-INPUT-DATA   PIC X(80).
+   27 |                10  WS-INPUT-COUNT  PIC 9(4) VALUE 1.
+
+2025-05-20 22:20:09.246 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:09.246 | ERROR    | __main__:compile:227 - Compilation failed for task_func_28
+2025-05-20 22:20:09.247 | INFO     | __main__:compile:156 - Processing program 28/46: task_func_29
+2025-05-20 22:20:09.247 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.247 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.247 | INFO     | __main__:compile:190 - compiling task_func_29
+2025-05-20 22:20:09.269 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_29/task_func_29.cbl: in paragraph 'PROCESS-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_29/task_func_29.cbl:65: error: 'WS-AGE-DUPE-COUNT' not indexed
+   63 | 
+   64 |                IF IN-AGE IS POSITIVE THEN
+   65 >                    SEARCH ALL WS-AGE-DUPE-COUNT
+   66 |                        AT END ADD 1 TO WS-AGE-DUPE-COUNT(IN-AGE)
+   67 |                                ADD 1 TO WS-DUPE-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_29/task_func_29.cbl:30: note: 'WS-AGE-DUPE-COUNT' defined here
+   28 |            05 WS-WRITE-COUNT      PIC 9(5) VALUE ZERO.
+   29 |            05 WS-DUPE-COUNT       PIC 9(5) VALUE ZERO.
+   30 >            05 WS-AGE-DUPE-COUNT   PIC 9(5) OCCURS 121 TIMES.
+   31 |       *
+   32 |        01  WS-FLAGS.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_29/task_func_29.cbl:68: error: syntax error, unexpected END-SEARCH, expecting WHEN
+   66 |                        AT END ADD 1 TO WS-AGE-DUPE-COUNT(IN-AGE)
+   67 |                                ADD 1 TO WS-DUPE-COUNT
+   68 >                    END-SEARCH
+   69 |                END-IF
+   70 |            END-IF
+
+2025-05-20 22:20:09.269 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:09.269 | ERROR    | __main__:compile:227 - Compilation failed for task_func_29
+2025-05-20 22:20:09.270 | INFO     | __main__:compile:156 - Processing program 29/46: task_func_30
+2025-05-20 22:20:09.270 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.270 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.270 | INFO     | __main__:compile:190 - compiling task_func_30
+2025-05-20 22:20:09.297 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl: in paragraph 'PARSE-WORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl:59: error: 'WS-WORD' is ambiguous; needs qualification
+   57 |        PARSE-WORDS.
+   58 |            UNSTRING INPUT-LINE DELIMITED BY SPACE
+   59 >                INTO WS-WORD
+   60 |                WITH POINTER WS-INDEX
+   61 |            END-UNSTRING
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl:29: note: 'WS-WORD IN WS-WORD-ENTRY IN WS-WORD-TABLE' defined here
+   27 |        01  WS-WORD-TABLE.
+   28 |            05  WS-WORD-ENTRY OCCURS 1000 TIMES.
+   29 >                10  WS-WORD        PIC X(30).
+   30 |                10  WS-FREQUENCY   PIC 9(5) VALUE 0.
+   31 |        01  WS-WORD-COUNT          PIC 9(4) VALUE 0.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl:32: note: 'WS-WORD' defined here
+   30 |                10  WS-FREQUENCY   PIC 9(5) VALUE 0.
+   31 |        01  WS-WORD-COUNT          PIC 9(4) VALUE 0.
+   32 >        01  WS-WORD                PIC X(30).
+   33 |        01  WS-INDEX               PIC 9(4).
+   34 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl: in paragraph 'COUNT-WORD':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl:66: error: 'WS-WORD-ENTRY' not indexed
+   64 |        COUNT-WORD.
+   65 |            SET WS-INDEX TO 1
+   66 >            SEARCH WS-WORD-ENTRY
+   67 |                AT END PERFORM ADD-NEW-WORD
+   68 |                WHEN WS-WORD(WS-INDEX) = WS-WORD
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_30/task_func_30.cbl:28: note: 'WS-WORD-ENTRY' defined here
+   26 |        01  WS-INPUT-EOF           PIC X VALUE 'N'.
+   27 |        01  WS-WORD-TABLE.
+   28 >            05  WS-WORD-ENTRY OCCURS 1000 TIMES.
+   29 |                10  WS-WORD        PIC X(30).
+   30 |                10  WS-FREQUENCY   PIC 9(5) VALUE 0.
+
+2025-05-20 22:20:09.297 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:09.298 | ERROR    | __main__:compile:227 - Compilation failed for task_func_30
+2025-05-20 22:20:09.298 | INFO     | __main__:compile:156 - Processing program 30/46: task_func_31
+2025-05-20 22:20:09.298 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.298 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.298 | INFO     | __main__:compile:190 - compiling task_func_31
+2025-05-20 22:20:09.320 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_31/task_func_31.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_31/task_func_31.cbl:41: error: syntax error, unexpected Identifier
+   39 | 
+   40 |            WRITE WEATHER-OUTPUT-RECORD FROM
+   41 >                'Maximum Temperature: ' & WS-MAX-TEMP
+   42 |            WRITE WEATHER-OUTPUT-RECORD FROM
+   43 |                'Minimum Temperature: ' & WS-MIN-TEMP
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_31/task_func_31.cbl:43: error: syntax error, unexpected Identifier
+   41 |                'Maximum Temperature: ' & WS-MAX-TEMP
+   42 |            WRITE WEATHER-OUTPUT-RECORD FROM
+   43 >                'Minimum Temperature: ' & WS-MIN-TEMP
+   44 |            WRITE WEATHER-OUTPUT-RECORD FROM
+   45 |                'Average Temperature: ' & WS-AVG-TEMP
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_31/task_func_31.cbl:45: error: syntax error, unexpected Identifier
+   43 |                'Minimum Temperature: ' & WS-MIN-TEMP
+   44 |            WRITE WEATHER-OUTPUT-RECORD FROM
+   45 >                'Average Temperature: ' & WS-AVG-TEMP
+   46 | 
+   47 |            CLOSE WEATHER-INPUT-FILE
+
+2025-05-20 22:20:09.321 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:09.321 | ERROR    | __main__:compile:227 - Compilation failed for task_func_31
+2025-05-20 22:20:09.321 | INFO     | __main__:compile:156 - Processing program 31/46: task_func_32
+2025-05-20 22:20:09.321 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.321 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.322 | INFO     | __main__:compile:190 - compiling task_func_32
+2025-05-20 22:20:09.441 | SUCCESS  | __main__:compile:206 - task_func_32 is successfully compiled
+2025-05-20 22:20:09.447 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE ('output_txt' => output.txt)
+libcob: warning: implicit CLOSE of OUTPUT-FILE ('output.txt')
+libcob: warning: implicit CLOSE of INPUT-FILE ('input.txt')
+
+2025-05-20 22:20:09.447 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:09.447 | ERROR    | __main__:compile:221 - Execution failed for task_func_32
+2025-05-20 22:20:09.447 | INFO     | __main__:compile:156 - Processing program 32/46: task_func_33
+2025-05-20 22:20:09.447 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.447 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.448 | INFO     | __main__:compile:190 - compiling task_func_33
+2025-05-20 22:20:09.560 | SUCCESS  | __main__:compile:206 - task_func_33 is successfully compiled
+2025-05-20 22:20:09.565 | SUCCESS  | __main__:compile:216 - task_func_33 is successfully executed
+2025-05-20 22:20:09.566 | INFO     | __main__:compile:156 - Processing program 33/46: task_func_34
+2025-05-20 22:20:09.566 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.566 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.566 | INFO     | __main__:compile:190 - compiling task_func_34
+2025-05-20 22:20:09.587 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_34/task_func_34.cbl: in paragraph '0300-FIND-TAX-RATE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_34/task_func_34.cbl:74: error: START not allowed on SEQUENTIAL files
+   72 | 
+   73 |            MOVE CUST-ZIP-CODE TO TAX-ZIP-CODE
+   74 >            START SALES-TAX-FILE KEY IS EQUAL TAX-ZIP-CODE
+   75 |                INVALID KEY DISPLAY 'INVALID ZIP CODE'
+   76 |            END-START
+
+2025-05-20 22:20:09.587 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:09.588 | ERROR    | __main__:compile:227 - Compilation failed for task_func_34
+2025-05-20 22:20:09.588 | INFO     | __main__:compile:156 - Processing program 34/46: task_func_35
+2025-05-20 22:20:09.588 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.588 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.588 | INFO     | __main__:compile:190 - compiling task_func_35
+2025-05-20 22:20:09.707 | SUCCESS  | __main__:compile:206 - task_func_35 is successfully compiled
+2025-05-20 22:20:09.714 | SUCCESS  | __main__:compile:216 - task_func_35 is successfully executed
+2025-05-20 22:20:09.715 | INFO     | __main__:compile:156 - Processing program 35/46: task_func_36
+2025-05-20 22:20:09.715 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.715 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.715 | INFO     | __main__:compile:190 - compiling task_func_36
+2025-05-20 22:20:09.737 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl: in paragraph 'CALCULATE-MEAN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl:53: error: 'WS-NUMBER' requires one subscript
+   51 | 
+   52 |        CALCULATE-MEAN.
+   53 >            PERFORM VARYING WS-NUMBER FROM 1 BY 1
+   54 |                UNTIL WS-NUMBER > WS-NUMBER-COUNT
+   55 |                ADD WS-NUMBER(WS-NUMBER) TO WS-SUM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl:54: error: 'WS-NUMBER' requires one subscript
+   52 |        CALCULATE-MEAN.
+   53 |            PERFORM VARYING WS-NUMBER FROM 1 BY 1
+   54 >                UNTIL WS-NUMBER > WS-NUMBER-COUNT
+   55 |                ADD WS-NUMBER(WS-NUMBER) TO WS-SUM
+   56 |            END-PERFORM
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl:55: error: 'WS-NUMBER' requires one subscript
+   53 |            PERFORM VARYING WS-NUMBER FROM 1 BY 1
+   54 |                UNTIL WS-NUMBER > WS-NUMBER-COUNT
+   55 >                ADD WS-NUMBER(WS-NUMBER) TO WS-SUM
+   56 |            END-PERFORM
+   57 |            COMPUTE WS-MEAN = WS-SUM / WS-NUMBER-COUNT.
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl: in paragraph 'CALCULATE-MEDIAN':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl:60: error: 'WS-NUMBER' requires one subscript
+   58 | 
+   59 |        CALCULATE-MEDIAN.
+   60 >            PERFORM VARYING WS-NUMBER FROM 1 BY 1
+   61 |                UNTIL WS-NUMBER > WS-NUMBER-COUNT - 1
+   62 |                PERFORM VARYING WS-TEMP FROM WS-NUMBER BY 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl:61: error: 'WS-NUMBER' requires one subscript
+   59 |        CALCULATE-MEDIAN.
+   60 |            PERFORM VARYING WS-NUMBER FROM 1 BY 1
+   61 >                UNTIL WS-NUMBER > WS-NUMBER-COUNT - 1
+   62 |                PERFORM VARYING WS-TEMP FROM WS-NUMBER BY 1
+   63 |                    UNTIL WS-TEMP > WS-NUMBER-COUNT
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl:62: error: 'WS-NUMBER' requires one subscript
+   60 |            PERFORM VARYING WS-NUMBER FROM 1 BY 1
+   61 |                UNTIL WS-NUMBER > WS-NUMBER-COUNT - 1
+   62 >                PERFORM VARYING WS-TEMP FROM WS-NUMBER BY 1
+   63 |                    UNTIL WS-TEMP > WS-NUMBER-COUNT
+   64 |                    IF WS-NUMBER(WS-TEMP) < WS-NUMBER(WS-NUMBER)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl:64: error: 'WS-NUMBER' requires one subscript
+   62 |                PERFORM VARYING WS-TEMP FROM WS-NUMBER BY 1
+   63 |                    UNTIL WS-TEMP > WS-NUMBER-COUNT
+   64 >                    IF WS-NUMBER(WS-TEMP) < WS-NUMBER(WS-NUMBER)
+   65 |                        MOVE WS-NUMBER(WS-TEMP) TO WS-MEDIAN
+   66 |                        MOVE WS-NUMBER(WS-NUMBER) TO WS-NUMBER(WS-TEMP)
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl:66: error: 'WS-NUMBER' requires one subscript
+   64 |                    IF WS-NUMBER(WS-TEMP) < WS-NUMBER(WS-NUMBER)
+   65 |                        MOVE WS-NUMBER(WS-TEMP) TO WS-MEDIAN
+   66 >                        MOVE WS-NUMBER(WS-NUMBER) TO WS-NUMBER(WS-TEMP)
+   67 |                        MOVE WS-MEDIAN TO WS-NUMBER(WS-NUMBER)
+   68 |                    END-IF
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_36/task_func_36.cbl:67: error: 'WS-NUMBER' requires one subscript
+   65 |                        MOVE WS-NUMBER(WS-TEMP) TO WS-MEDIAN
+   66 |                        MOVE WS-NUMBER(WS-NUMBER) TO WS-NUMBER(WS-TEMP)
+   67 >                        MOVE WS-MEDIAN TO WS-NUMBER(WS-NUMBER)
+   68 |                    END-IF
+   69 |                END-PERFORM
+
+2025-05-20 22:20:09.737 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:09.737 | ERROR    | __main__:compile:227 - Compilation failed for task_func_36
+2025-05-20 22:20:09.738 | INFO     | __main__:compile:156 - Processing program 36/46: task_func_37
+2025-05-20 22:20:09.738 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.738 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.738 | INFO     | __main__:compile:190 - compiling task_func_37
+2025-05-20 22:20:09.852 | SUCCESS  | __main__:compile:206 - task_func_37 is successfully compiled
+2025-05-20 22:20:09.857 | WARNING  | utils:cmd:35 - Err: libcob: warning: implicit CLOSE of OUTPUT-FILE ('task_func37_out')
+
+2025-05-20 22:20:09.858 | WARNING  | utils:cmd:36 - Return code: 0
+2025-05-20 22:20:09.858 | SUCCESS  | __main__:compile:216 - task_func_37 is successfully executed
+2025-05-20 22:20:09.858 | INFO     | __main__:compile:156 - Processing program 37/46: task_func_38
+2025-05-20 22:20:09.858 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.858 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.859 | INFO     | __main__:compile:190 - compiling task_func_38
+2025-05-20 22:20:09.980 | SUCCESS  | __main__:compile:206 - task_func_38 is successfully compiled
+2025-05-20 22:20:09.986 | WARNING  | utils:cmd:35 - Err: libcob: error: invalid data in LINE SEQUENTIAL file (status = 71) for file OUTPUT-FILE-2 ('task_func38_out2')
+libcob: warning: implicit CLOSE of OUTPUT-FILE-2 ('task_func38_out2')
+libcob: warning: implicit CLOSE of OUTPUT-FILE-1 ('task_func38_out1')
+libcob: warning: implicit CLOSE of INPUT-FILE-2 ('task_func38_inp2')
+libcob: warning: implicit CLOSE of INPUT-FILE-1 ('task_func38_inp1')
+
+2025-05-20 22:20:09.987 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:09.987 | ERROR    | __main__:compile:221 - Execution failed for task_func_38
+2025-05-20 22:20:09.987 | INFO     | __main__:compile:156 - Processing program 38/46: task_func_39
+2025-05-20 22:20:09.987 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:09.987 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:09.988 | INFO     | __main__:compile:190 - compiling task_func_39
+2025-05-20 22:20:10.010 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl: in paragraph 'PROCESS-RECORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl:50: error: 'VALIDATE-RECORD' is not defined
+   48 |            PERFORM VALIDATE-RECORD
+   49 | 
+   50 >        VALIDATE-RECORD.
+   51 |            IF EMP-NAME = SPACES
+   52 |                MOVE 'EMPLOYEE NAME IS BLANK' TO WS-ERROR-MESSAGE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl:50: error: syntax error, unexpected ., expecting TIMES
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl:59: error: 'BETWEEN' is not defined
+   57 |                MOVE EMP-ADDRESS TO WS-INVALID-VALUE
+   58 |                PERFORM WRITE-ERROR-RECORD
+   59 >            ELSE IF TRANS-CODE NOT BETWEEN 1 AND 9
+   60 |                MOVE 'INVALID TRANSACTION CODE' TO WS-ERROR-MESSAGE
+   61 |                MOVE TRANS-CODE TO WS-INVALID-VALUE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl:59: error: invalid expression: 1 AND 9
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl:59: error: invalid expression: unfinished expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl:63: error: invalid expression: 15000 AND 87000
+   61 |                MOVE TRANS-CODE TO WS-INVALID-VALUE
+   62 |                PERFORM WRITE-ERROR-RECORD
+   63 >            ELSE IF ANNUAL-SALARY NOT BETWEEN 15000 AND 87000
+   64 |                MOVE 'INVALID ANNUAL SALARY' TO WS-ERROR-MESSAGE
+   65 |                MOVE ANNUAL-SALARY TO WS-INVALID-VALUE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl:63: error: invalid expression: unfinished expression
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl:71: error: invalid expression: 1 AND 6
+   69 |                MOVE MARITAL-STATUS TO WS-INVALID-VALUE
+   70 |                PERFORM WRITE-ERROR-RECORD
+   71 >            ELSE IF JOB-LEVEL NOT BETWEEN 1 AND 6
+   72 |                MOVE 'INVALID JOB LEVEL' TO WS-ERROR-MESSAGE
+   73 |                MOVE JOB-LEVEL TO WS-INVALID-VALUE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_39/task_func_39.cbl:71: error: invalid expression: unfinished expression
+
+2025-05-20 22:20:10.010 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:10.010 | ERROR    | __main__:compile:227 - Compilation failed for task_func_39
+2025-05-20 22:20:10.011 | INFO     | __main__:compile:156 - Processing program 39/46: task_func_40
+2025-05-20 22:20:10.011 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:10.011 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:10.011 | INFO     | __main__:compile:190 - compiling task_func_40
+2025-05-20 22:20:10.033 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_40/task_func_40.cbl: in paragraph 'INIT-PROGRAM':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_40/task_func_40.cbl:47: error: FUNCTION 'INTEGER-OF-DATE' has wrong number of arguments
+   45 |        INIT-PROGRAM.
+   46 |            OPEN OUTPUT OUTPUT-FILE
+   47 >            COMPUTE WS-START-DATE-INT = FUNCTION INTEGER-OF-DATE(
+   48 |                WS-START-YEAR WS-START-MONTH WS-START-DAY)
+   49 |            COMPUTE WS-END-DATE-INT = FUNCTION INTEGER-OF-DATE(
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_40/task_func_40.cbl:49: error: FUNCTION 'INTEGER-OF-DATE' has wrong number of arguments
+   47 |            COMPUTE WS-START-DATE-INT = FUNCTION INTEGER-OF-DATE(
+   48 |                WS-START-YEAR WS-START-MONTH WS-START-DAY)
+   49 >            COMPUTE WS-END-DATE-INT = FUNCTION INTEGER-OF-DATE(
+   50 |                WS-END-YEAR WS-END-MONTH WS-END-DAY)
+   51 |            COMPUTE WS-DATE-RANGE = WS-END-DATE-INT - WS-START-DATE-INT
+
+2025-05-20 22:20:10.033 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:10.033 | ERROR    | __main__:compile:227 - Compilation failed for task_func_40
+2025-05-20 22:20:10.034 | INFO     | __main__:compile:156 - Processing program 40/46: task_func_43
+2025-05-20 22:20:10.034 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:10.034 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:10.034 | INFO     | __main__:compile:190 - compiling task_func_43
+2025-05-20 22:20:10.151 | SUCCESS  | __main__:compile:206 - task_func_43 is successfully compiled
+2025-05-20 22:20:10.157 | SUCCESS  | __main__:compile:216 - task_func_43 is successfully executed
+2025-05-20 22:20:10.158 | INFO     | __main__:compile:156 - Processing program 41/46: task_func_44
+2025-05-20 22:20:10.158 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:10.158 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:10.159 | INFO     | __main__:compile:190 - compiling task_func_44
+2025-05-20 22:20:10.181 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_44/task_func_44.cbl: in paragraph 'CHECK-KEYWORDS':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_44/task_func_44.cbl:75: error: incomplete expression
+   73 |       *
+   74 |        CHECK-KEYWORDS.
+   75 >            IF WS-ARTICLE-TITLE CONTAINS 'FINANCE' THEN
+   76 |                MOVE 'FINANCE' TO WS-KEYWORD
+   77 |            ELSE IF WS-ARTICLE-TITLE CONTAINS 'TECHNOLOGY' THEN
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_44/task_func_44.cbl:75: error: syntax error, unexpected CONTAINS
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_44/task_func_44.cbl:77: error: incomplete expression
+   75 |            IF WS-ARTICLE-TITLE CONTAINS 'FINANCE' THEN
+   76 |                MOVE 'FINANCE' TO WS-KEYWORD
+   77 >            ELSE IF WS-ARTICLE-TITLE CONTAINS 'TECHNOLOGY' THEN
+   78 |                MOVE 'TECHNOLOGY' TO WS-KEYWORD
+   79 |            ELSE
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_44/task_func_44.cbl:77: error: syntax error, unexpected CONTAINS
+
+2025-05-20 22:20:10.181 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:10.182 | ERROR    | __main__:compile:227 - Compilation failed for task_func_44
+2025-05-20 22:20:10.182 | INFO     | __main__:compile:156 - Processing program 42/46: task_func_45
+2025-05-20 22:20:10.182 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:10.182 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:10.182 | INFO     | __main__:compile:190 - compiling task_func_45
+2025-05-20 22:20:10.204 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl: in paragraph 'MAIN-PROCEDURE':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl:76: error: 'END-OF-FILE' is not defined
+   74 | 
+   75 |            READ INPUT-FILE
+   76 >                AT END SET END-OF-FILE TO TRUE
+   77 |            END-READ
+   78 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl: in paragraph 'GENERATE-REPORT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl:86: error: invalid expression: unfinished expression
+   84 | 
+   85 |        GENERATE-REPORT.
+   86 >            PERFORM VARYING WS-SUBSCRIPT FROM 1 BY 1 UNTIL WS-SUBSCRIPT >..
+   87 |                COMPUTE WS-LOCAL-DATETIME = IN-UTC-DATETIME + WS-OFFSET(WS..
+   88 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl:87: error: 'W' is not defined
+   85 |        GENERATE-REPORT.
+   86 |            PERFORM VARYING WS-SUBSCRIPT FROM 1 BY 1 UNTIL WS-SUBSCRIPT >..
+   87 >                COMPUTE WS-LOCAL-DATETIME = IN-UTC-DATETIME + WS-OFFSET(WS..
+   88 | 
+   89 |                COMPUTE WS-RANDOM-NUM = FUNCTION RANDOM() * 5 + 1
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_45/task_func_45.cbl:89: error: syntax error, unexpected COMPUTE
+   87 |                COMPUTE WS-LOCAL-DATETIME = IN-UTC-DATETIME + WS-OFFSET(WS..
+   88 | 
+   89 >                COMPUTE WS-RANDOM-NUM = FUNCTION RANDOM() * 5 + 1
+   90 |                MOVE WS-WEATHER-ENTRY(WS-RANDOM-NUM) TO OUT-WEATHER
+   91 | 
+
+2025-05-20 22:20:10.204 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:10.204 | ERROR    | __main__:compile:227 - Compilation failed for task_func_45
+2025-05-20 22:20:10.204 | INFO     | __main__:compile:156 - Processing program 43/46: task_func_47
+2025-05-20 22:20:10.205 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:10.205 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:10.205 | INFO     | __main__:compile:190 - compiling task_func_47
+2025-05-20 22:20:10.226 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_47/task_func_47.cbl:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. CONVERT-NAMES.
+    3 | 
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_47/task_func_47.cbl: in paragraph 'CONVERT-NAME':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_47/task_func_47.cbl:47: error: CONVERTING operands differ in size
+   45 | CONVERT-NAME.
+   46 |     MOVE SPACES TO WS-OUTPUT-NAME
+   47 >     INSPECT WS-INPUT-NAME CONVERTING
+   48 |         "äåâàáãăāąǎǟǡ" TO "aaaaaaaaaaa"
+   49 |         "ÄÅÂÀÁÃĂĀĄǍǞǠ" TO "AAAAAAAAAAA"
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_47/task_func_47.cbl:49: error: syntax error, unexpected Literal
+   47 |     INSPECT WS-INPUT-NAME CONVERTING
+   48 |         "äåâàáãăāąǎǟǡ" TO "aaaaaaaaaaa"
+   49 >         "ÄÅÂÀÁÃĂĀĄǍǞǠ" TO "AAAAAAAAAAA"
+   50 |         "çćĉċč" TO "ccccc"
+   51 |         "ÇĆĈĊČ" TO "CCCCC"
+
+2025-05-20 22:20:10.226 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:10.226 | ERROR    | __main__:compile:227 - Compilation failed for task_func_47
+2025-05-20 22:20:10.227 | INFO     | __main__:compile:156 - Processing program 44/46: task_func_48
+2025-05-20 22:20:10.227 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:10.227 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:10.227 | INFO     | __main__:compile:190 - compiling task_func_48
+2025-05-20 22:20:10.250 | WARNING  | utils:cmd:35 - Err: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_48/task_func_48.cbl:68: error: continuation character expected
+   66 |        PRINT-REPORT.
+   67 |            MOVE 'Subject1 Subject2 Subject3 Subject4 Subject5 Subject6 Su..
+   68 >            WRITE PRINT-REC AFTER ADVANCING 1 LINE
+   69 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 100
+   70 |                MOVE STUDENT-RECORD(I) TO STUDENT-DATA
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_48/task_func_48.cbl: in paragraph 'PRINT-REPORT':
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_48/task_func_48.cbl:67: error: syntax error, unexpected Literal, expecting TO
+   65 | 
+   66 |        PRINT-REPORT.
+   67 >            MOVE 'Subject1 Subject2 Subject3 Subject4 Subject5 Subject6 Su..
+   68 |            WRITE PRINT-REC AFTER ADVANCING 1 LINE
+   69 |            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 100
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_48/task_func_48.cbl:67: error: invalid literal: '  ...'
+/home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_48/task_func_48.cbl:67: note: missing terminating ' character
+
+2025-05-20 22:20:10.250 | WARNING  | utils:cmd:36 - Return code: 1
+2025-05-20 22:20:10.250 | ERROR    | __main__:compile:227 - Compilation failed for task_func_48
+2025-05-20 22:20:10.250 | INFO     | __main__:compile:156 - Processing program 45/46: task_func_49
+2025-05-20 22:20:10.250 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:10.250 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:10.251 | INFO     | __main__:compile:190 - compiling task_func_49
+2025-05-20 22:20:10.375 | SUCCESS  | __main__:compile:206 - task_func_49 is successfully compiled
+2025-05-20 22:20:10.511 | SUCCESS  | __main__:compile:216 - task_func_49 is successfully executed
+2025-05-20 22:20:10.512 | INFO     | __main__:compile:156 - Processing program 46/46: task_func_55
+2025-05-20 22:20:10.512 | INFO     | __main__:compile:165 - Code Similarity score started
+2025-05-20 22:20:10.512 | INFO     | __main__:compile:177 - Compilation started
+2025-05-20 22:20:10.512 | INFO     | __main__:compile:190 - compiling task_func_55
+2025-05-20 22:20:10.636 | SUCCESS  | __main__:compile:206 - task_func_55 is successfully compiled
+2025-05-20 22:20:10.642 | SUCCESS  | __main__:compile:216 - task_func_55 is successfully executed
+2025-05-20 22:20:10.643 | SUCCESS  | __main__:compile:268 - Compilation completed
+2025-05-20 22:20:10.643 | INFO     | __main__:compile:269 - Total programs compiled: 22 
+Total programs executed: 17 
+Total results matched: 3.01
+2025-05-20 22:20:10.643 | INFO     | __main__:compile:285 - final_results directory path: /home/projadmin/CobolEval/FrameWork/final_results/instruct
+2025-05-20 22:20:10.657 | INFO     | __main__:compile:290 - Results saved to final_results/instruct/claude-3-opus-20240229_instruct_final_results.csv
+
+
+--- STDOUT OUTPUT ---
+
+Starting compilation for model: claude-3-opus-20240229, mode: instruct
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_02/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_03/task_func03_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_05/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_08/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_09/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_10/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_11/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_14/task_func14_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_16/task_func16_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_18/task_func18_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_23/task_func23_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_24/task_func24_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_24/task_func24_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_26/task_func26_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_27/task_func27_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_32/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_33/weather1.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_33/weather2.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_35/task_func35_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_35/task_func35_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_37/task_func37_inp
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_38/task_func38_inp1*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_38/task_func38_inp2*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_43/input.txt
+*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_55/original_data.txt*Input File Path: /home/projadmin/CobolEval/FrameWork/evaluation/preds/claude-3-opus-20240229/instruct/task_func_55/outlier_indices.txtFinished processing model: claude-3-opus-20240229, mode: instruct
+Results summary: 46 programs processed
+Compiled: 22 - Executed: 17 - Match: 3.01
+2025-05-20 22:20:10.658 | SUCCESS  | __main__:<module>:384 - Completed processing model: claude-3-opus-20240229, mode: instruct
+2025-05-20 22:20:10.658 | INFO     | __main__:<module>:385 - All logs saved to /home/projadmin/CobolEval/FrameWork/logs/claude-3-opus-20240229_instruct.txt
