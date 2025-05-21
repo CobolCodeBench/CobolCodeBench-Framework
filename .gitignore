@@ -1,3 +1,6 @@
 .env
 pyvenv
 __pycache__/
+preds/
+logs/
+config/

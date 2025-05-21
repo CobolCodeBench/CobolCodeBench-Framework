@@ -26,40 +26,38 @@ def parse_arguments():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser(description="COBOL Code Generation using LLMs")
     parser.add_argument(
-        "--model", 
-        type=str, 
+        "--model",
+        type=str,
         default="gpt-35-turbo",
-        choices=["gpt-35-turbo", "gpt-4o", "claude-sonnet", "claude-opus",
-                 "gemini-pro", "Llama-3.1-8B-instruct"],
         help="Model to use for generation"
     )
     parser.add_argument(
-        "--mode", 
-        type=str, 
+        "--mode",
+        type=str,
         default="Complete",
         choices=["Complete", "Instruct"],
         help="Generation mode: Complete or Instruct"
     )
     parser.add_argument(
-        "--method", 
-        type=str, 
-        default="openai",
-        choices=["openai", "hf-instruct", "hf-complete", "hf-api"],
+        "--method",
+        type=str,
+        default="chat-api",
+        choices=["chat-api", "hf-instruct", "hf-complete", "hf-api"],
         help="Method for code generation"
     )
     parser.add_argument(
-        "--samples", 
-        type=int, 
+        "--samples",
+        type=int,
         default=1,
         help="Number of samples per task"
     )
     parser.add_argument(
-        "--generation-only", 
+        "--generation-only",
         action="store_true",
         help="Only run generation, skip evaluation"
     )
     parser.add_argument(
-        "--export", 
+        "--export",
         action="store_true",
         help="Export results as zip file"
     )
@@ -67,23 +65,23 @@ def parse_arguments():
 
 
 def main():
+    """
+    Main function to run the code generation and evaluation process.
+    """
     setup_logger()
     args = parse_arguments()
-    
+
     # Configure model
     try:
         model = models.Model(
-            name=args.model, 
-            tokenizer=args.model, 
+            name=args.model,
+            tokenizer=args.model,
             samples_per_task=args.samples
         )
-        
         logger.info(f"Starting code generation with {args.model} model in {args.mode} mode")
-        
         # Choose the model type for code generation
         method = args.method
         mode = args.mode
-        
         if method == "chat-api":
             runner = OpenAIChat(model, mode)
         elif method == "hf-instruct":
@@ -97,10 +95,8 @@ def main():
             return
         # Run code generation
         success = runner.eval()
-        
         if success:
             logger.success(f"Code generation completed for {args.model}")
-            
             # Run evaluation if not in generation-only mode
             if not args.generation_only:
                 logger.info("Running evaluation script...")
@@ -112,9 +108,6 @@ def main():
                 os.makedirs("config", exist_ok=True)
                 with open("config/last_run.json", "w") as f:
                     json.dump(eval_config, f)
-                    
-                # Here we could import and run evaluation, but keeping it separate is better
-                # Just inform the user about the next step
                 logger.info("Generation complete. Run 'python evaluate.py' to evaluate the results.")
             else:
                 logger.info("Generation-only mode - skipping evaluation")

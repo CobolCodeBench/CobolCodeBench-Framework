@@ -1,9 +1,9 @@
 import json
 import os
+import pandas as pd
 from loguru import logger
 from src.utils import json_to_csv, Model, execute_command, cleanup_dylib
 from src.evaluator.score_evaluator import ScoreEvaluator
-import pandas as pd
 class LLMGenerator:
     def __init__(self, model: Model, prompt_type):
         self.model = model
@@ -17,10 +17,10 @@ class LLMGenerator:
         os.makedirs(self.errors_path, exist_ok=True)
 
         if self.prompt_type == "Instruct":
-          with open("Instruction_Set.json", "r") as f:
+          with open("src/data/Instruction_Set.json", "r") as f:
               self.evals = json.load(f)
         else:
-          with open("Completion_Set.json", "r") as f:
+          with open("src/data/Completion_Set.json", "r") as f:
               self.evals = json.load(f)
 
         self.total = 0
@@ -31,7 +31,7 @@ class LLMGenerator:
         """
         Generate code for each evaluation in the set and save the results.
         """
-        for e in self.evals: #45 benchmark problems
+        for e in self.evals: #46 benchmark problems
             for k in range(self.model.samples_per_task): # samples=5
                 try:
                     program = self.solve(e, k) #Fetch cobol code as response from the model for the prompt given and return
@@ -48,7 +48,7 @@ class LLMGenerator:
 
                     with open(path, "w+") as f:
                         f.write(program)
-                        logger.info(f"program written successfully")
+                        logger.info("Program written successfully")
 
                     compiles = execute_command(f"cobc -fformat=variable {path}")
 
@@ -60,7 +60,7 @@ class LLMGenerator:
 
                         with  open(error_path,'w+') as file:
                             file.write(str(errors))
-                            logger.info(f"errors written to a file successfully")
+                            logger.info("Errors written to a file successfully")
                     self.total += 1
                 except Exception as e:
                     logger.error(e)

@@ -1,4 +1,5 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
 from loguru import logger
 from src.utils import Model
 from . import LLMGenerator
@@ -15,22 +16,40 @@ def hf_complete(prompt, model, tokenizer, max_length=8000, eos_token=None):
     Returns:
         str: The generated text.
     """
-    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
-    outputs = model.generate(**inputs, max_length=max_length, eos_token_id=tokenizer.eos_token_id)
-    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+    inputs = tokenizer.encode(prompt, return_tensors="pt", add_special_tokens=True).to("cuda")
+    outputs = model.generate(inputs, max_new_tokens=max_length, do_sample=False, temperature=0.3, repetition_penalty=1.1)
+    text_output = tokenizer.decode(outputs[0], skip_special_tokens=False)
+    try:
+      eos_token = tokenizer.eos_token if eos_token is None else eos_token
+      print(eos_token)
+      if eos_token and text_output.endswith(eos_token):
+          text_output = text_output[: -len(eos_token)]
+      if text_output.startswith(tokenizer.bos_token):
+          text_output = text_output[len(tokenizer.bos_token):]
+    finally:
+      if eos_token in text_output:
+         text_output = text_output.split(eos_token)[0]
+      return text_output
 class HuggingfaceComplete(LLMGenerator):
     """Completes WORKING-STORAGE then PROCEDURE DIVISION with local Huggingface model"""
 
     def __init__(self, model: Model, prompt_type):
         super().__init__(model, prompt_type)
-        self.hf_model = AutoModelForCausalLM.from_pretrained(model.name, device_map="auto")
+        self.hf_model = AutoModelForCausalLM.from_pretrained(model.name, device_map="auto", torch_dtype=torch.bfloat16)
         if model.tokenizer:
             self.hf_tokenizer = AutoTokenizer.from_pretrained(model.tokenizer)
         else:
             self.hf_tokenizer = AutoTokenizer.from_pretrained(model.name)
 
     def combine_prompt_and_solution(self, prompt, solution):
-        """Combine the prompt and solution into a single program."""
+        """
+        Construct the final program by combining the prompt and solution.
+        Args:
+            prompt (str): The input prompt for the model.
+            sol (str): The generated solution from the model.
+        Returns:
+            str: The final program.
+        """
         combined_program = f"{prompt}\n{solution}"
         return combined_program
 
