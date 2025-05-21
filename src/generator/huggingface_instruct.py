@@ -2,7 +2,7 @@ from loguru import logger
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 from src.utils import extract_code_block, Model
-from . import LLMGenerator
+from .llm_generator import LLMGenerator
 
 #@memory.cache
 def hf_instruct(prompt, model, tokenizer, max_length=8000, eos_token=None) -> str:
@@ -17,7 +17,7 @@ def hf_instruct(prompt, model, tokenizer, max_length=8000, eos_token=None) -> st
     Returns:
         str: The generated text.
     """
-    inputs = tokenizer.encode(prompt, return_tensors="pt", add_special_tokens=True).to("cuda")
+    inputs = tokenizer.encode(prompt, return_tensors="pt", add_special_tokens=True)
     outputs = model.generate(inputs, max_new_tokens=max_length, use_cache=True, do_sample=False, repetition_penalty=1.1)
     text_output = tokenizer.decode(outputs[0], skip_special_tokens=False)[len(prompt):]
     try:

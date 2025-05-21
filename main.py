@@ -8,20 +8,6 @@ from src.generator.huggingface_complete import HuggingfaceComplete
 from src.generator.huggingface_api import HuggingfaceAPIInferenceGenerator
 from src.utils import models
 
-def setup_logger():
-    """Configure logger settings"""
-    # Make sure logs directory exists
-    os.makedirs("logs", exist_ok=True)
-
-    logger.remove()
-    logger.add(
-        "logs/generation_{time}.log",
-        rotation="100 MB",
-        level="INFO",
-        format="{time} {level} {message}"
-    )
-    logger.add(lambda msg: print(msg), level="INFO")
-
 def parse_arguments():
     """Parse command line arguments"""
     parser = argparse.ArgumentParser(description="COBOL Code Generation using LLMs")
@@ -68,7 +54,6 @@ def main():
     """
     Main function to run the code generation and evaluation process.
     """
-    setup_logger()
     args = parse_arguments()
 
     # Configure model

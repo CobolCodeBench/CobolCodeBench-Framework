@@ -2,7 +2,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 from loguru import logger
 from src.utils import Model
-from . import LLMGenerator
+from .llm_generator import LLMGenerator
 
 def hf_complete(prompt, model, tokenizer, max_length=8000, eos_token=None):
     """
@@ -16,20 +16,16 @@ def hf_complete(prompt, model, tokenizer, max_length=8000, eos_token=None):
     Returns:
         str: The generated text.
     """
-    inputs = tokenizer.encode(prompt, return_tensors="pt", add_special_tokens=True).to("cuda")
-    outputs = model.generate(inputs, max_new_tokens=max_length, do_sample=False, temperature=0.3, repetition_penalty=1.1)
+    inputs = tokenizer.encode(prompt, return_tensors="pt", add_special_tokens=True)
+    outputs = model.generate(inputs, max_new_tokens=max_length, do_sample=False, repetition_penalty=1.1)
     text_output = tokenizer.decode(outputs[0], skip_special_tokens=False)
-    try:
-      eos_token = tokenizer.eos_token if eos_token is None else eos_token
-      print(eos_token)
-      if eos_token and text_output.endswith(eos_token):
-          text_output = text_output[: -len(eos_token)]
-      if text_output.startswith(tokenizer.bos_token):
-          text_output = text_output[len(tokenizer.bos_token):]
-    finally:
-      if eos_token in text_output:
-         text_output = text_output.split(eos_token)[0]
-      return text_output
+    eos_token = tokenizer.eos_token if eos_token is None else eos_token
+    if text_output.startswith(tokenizer.bos_token):
+      text_output = text_output[len(tokenizer.bos_token):]
+    if eos_token in text_output:
+      text_output = text_output.split(eos_token)[0]
+    return text_output
+
 class HuggingfaceComplete(LLMGenerator):
     """Completes WORKING-STORAGE then PROCEDURE DIVISION with local Huggingface model"""
 

@@ -3,6 +3,7 @@ import os
 from transformers import AutoTokenizer
 from huggingface_hub import InferenceClient
 from dotenv import load_dotenv
+import json
 from src.utils import extract_code_block, Model
 from . import LLMGenerator
 
@@ -22,29 +23,34 @@ def huggingface_api_inference(prompt, model):
     load_dotenv()
 
     # Get API key from environment variables
-    config = os.getenv("HUGGINGFACE_API",default=None)
-    if config is None:
-        logger.error("HUGGINGFACE_API not found in environment variables")
-        raise ValueError("API key is missing. Please set HUGGINGFACE_API in your .env file")
+    provider = os.getenv("HUGGINGFACE_API_PROVIDER",default="nebius")
+    api_key = os.getenv("HUGGINGFACE_API_KEY",default=None)
+    try:
+        if api_key is None:
+            logger.error("HUGGINGFACE_API not found in environment variables")
+            raise ValueError("API key is missing. Please set HUGGINGFACE_API in your .env file")
 
-    client = InferenceClient(
-        provider=config["API_PROVIDER"],
-        api_key=config["API_KEY"],
-    )
-    messages = [
-        {
-          "role": "user",
-          "content": prompt},
-    ]
+        client = InferenceClient(
+            provider=provider,
+            api_key=api_key,
+        )
+        messages = [
+            {
+                "role": "user",
+                "content": prompt},
+        ]
 
-    output = client.chat.completions.create(
-        model=model.name,
-        messages=messages,
-        temperature=config["TEMPERATURE"],
-        max_tokens=config["MAX_TOKENS"],
-        top_p=config["TOP_P"],
-    )
-    return output.choices[0].message.content
+        output = client.chat.completions.create(
+            model=model.name,
+            messages=messages,
+            temperature=0,
+            max_tokens=8000,
+            top_p=0.95,
+        )
+        return output.choices[0].message.content
+    except Exception as e:
+        logger.error(f"Error during Hugging Face API inference: {e}")
+        return ""
 
 class HuggingfaceAPIInferenceGenerator(LLMGenerator):
     """
